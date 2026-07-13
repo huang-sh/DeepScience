@@ -1,0 +1,318 @@
+Species	Symbol	Ensembl	Family	Entrez_ID
+Caenorhabditis_elegans	act-2	WBGene00000064	Actin	179534
+Caenorhabditis_elegans	air-2	WBGene00000099	Others	172268
+Caenorhabditis_elegans	alg-1	WBGene00000105	Others	181504
+Caenorhabditis_elegans	aly-3	WBGene00000122	Others	178157
+Caenorhabditis_elegans	ama-1	WBGene00000123	POLR	177190
+Caenorhabditis_elegans	amx-1	WBGene00000137	Lysine demethylase	175493
+Caenorhabditis_elegans	arc-1	WBGene00000180	Tripartite motif	174525
+Caenorhabditis_elegans	arr-1	WBGene00000195	Others	180446
+Caenorhabditis_elegans	atn-1	WBGene00000228	Actin	179709
+Caenorhabditis_elegans	brf-1	WBGene00000271	GTF	174199
+Caenorhabditis_elegans	btf-1	WBGene00000274	Others	174965
+Caenorhabditis_elegans	cbp-1	WBGene00000366	CREB	176380
+Caenorhabditis_elegans	ccf-1	WBGene00000369	CCR4-NOT	176625
+Caenorhabditis_elegans	ccr-4	WBGene00000376	CCR4-NOT	178184
+Caenorhabditis_elegans	cdk-1	WBGene00000405	Cyclin	176374
+Caenorhabditis_elegans	cdk-5	WBGene00000407	Cyclin	176774
+Caenorhabditis_elegans	cdk-7	WBGene00000408	Cyclin	171784
+Caenorhabditis_elegans	cdk-8	WBGene00000409	Cyclin	172677
+Caenorhabditis_elegans	cdk-9	WBGene00000410	Cyclin	173023
+Caenorhabditis_elegans	ced-2	WBGene00000416	Others	176968
+Caenorhabditis_elegans	chd-3	WBGene00000482	CHD	181421
+Caenorhabditis_elegans	chk-1	WBGene00000498	Others	3565921
+Caenorhabditis_elegans	chk-2	WBGene00000499	Others	180304
+Caenorhabditis_elegans	cic-1	WBGene00000506	Cyclin	175357
+Caenorhabditis_elegans	cit-1.1	WBGene00000507	Cyclin	176125
+Caenorhabditis_elegans	cit-1.2	WBGene00000508	Cyclin	176126
+Caenorhabditis_elegans	cki-2	WBGene00000517	Cyclin	174261
+Caenorhabditis_elegans	cku-70	WBGene00000519	Others	176546
+Caenorhabditis_elegans	crt-1	WBGene00000802	Others	178997
+Caenorhabditis_elegans	csn-2	WBGene00000814	Others	172278
+Caenorhabditis_elegans	csn-5	WBGene00000817	Others	177342
+Caenorhabditis_elegans	cwn-1	WBGene00000857	Others	173399
+Caenorhabditis_elegans	cya-1	WBGene00000863	Cyclin	176287
+Caenorhabditis_elegans	cye-1	WBGene00000871	Cyclin	172399
+Caenorhabditis_elegans	cyn-13	WBGene00000889	Others	178487
+Caenorhabditis_elegans	dgk-1	WBGene00000958	Others	180452
+Caenorhabditis_elegans	dhs-19	WBGene00000982	Others	179578
+Caenorhabditis_elegans	dnj-10	WBGene00001028	Others	176211
+Caenorhabditis_elegans	dnj-13	WBGene00001031	Others	3564910
+Caenorhabditis_elegans	dog-1	WBGene00001049	Others	173370
+Caenorhabditis_elegans	dpy-30	WBGene00001088	Others	179671
+Caenorhabditis_elegans	dro-1	WBGene00001092	Others	191629
+Caenorhabditis_elegans	dsh-2	WBGene00001102	Others	266854
+Caenorhabditis_elegans	dyf-5	WBGene00001121	Others	187442
+Caenorhabditis_elegans	egl-15	WBGene00001184	FGF	181291
+Caenorhabditis_elegans	eif-3.I	WBGene00001232	Others	171809
+Caenorhabditis_elegans	elc-1	WBGene00001236	Others	190775
+Caenorhabditis_elegans	emb-5	WBGene00001259	SUPT	175621
+Caenorhabditis_elegans	erm-1	WBGene00001333	Others	172174
+Caenorhabditis_elegans	exo-3	WBGene00001372	Others	173069
+Caenorhabditis_elegans	eya-1	WBGene00001377	EYA	173293
+Caenorhabditis_elegans	fbp-1	WBGene00001404	Others	266822
+Caenorhabditis_elegans	feh-1	WBGene00001410	Others	175373
+Caenorhabditis_elegans	fli-1	WBGene00001443	Others	176215
+Caenorhabditis_elegans	ftt-2	WBGene00001502	Others	181348
+Caenorhabditis_elegans	gsk-3	WBGene00001746	Others	173149
+Caenorhabditis_elegans	hcf-1	WBGene00001827	Others	177560
+Caenorhabditis_elegans	hda-1	WBGene00001834	Histone deacetylase	179959
+Caenorhabditis_elegans	hel-1	WBGene00001840	RNA helicase	174333
+Caenorhabditis_elegans	hmp-2	WBGene00001979	Casein	173338
+Caenorhabditis_elegans	hpl-1	WBGene00001995	Chromobox	181450
+Caenorhabditis_elegans	hsb-1	WBGene00002002	Heat shock protein	178208
+Caenorhabditis_elegans	hsp-1	WBGene00002005	Heat shock protein	178507
+Caenorhabditis_elegans	icd-1	WBGene00002045	Others	174090
+Caenorhabditis_elegans	ire-1	WBGene00002147	Others	174305
+Caenorhabditis_elegans	isw-1	WBGene00002169	SWI/SNF	175944
+Caenorhabditis_elegans	jac-1	WBGene00002175	Casein	178451
+Caenorhabditis_elegans	kin-3	WBGene00002191	Casein	172978
+Caenorhabditis_elegans	let-19	WBGene00002295	Mediator complex	174402
+Caenorhabditis_elegans	let-23	WBGene00002299	Others	174462
+Caenorhabditis_elegans	let-49	WBGene00002324	Mediator complex	173353
+Caenorhabditis_elegans	let-363	WBGene00002583	Others	172167
+Caenorhabditis_elegans	let-711	WBGene00002845	CCR4-NOT	175971
+Caenorhabditis_elegans	lin-2	WBGene00002991	CAMK	181400
+Caenorhabditis_elegans	lin-9	WBGene00002998	Others	176256
+Caenorhabditis_elegans	lin-23	WBGene00003009	Others	174058
+Caenorhabditis_elegans	lin-35	WBGene00003020	Other_Co-activator/repressors	172249
+Caenorhabditis_elegans	lin-45	WBGene00003030	Others	177436
+Caenorhabditis_elegans	lin-53	WBGene00003036	RBBP	172802
+Caenorhabditis_elegans	lin-61	WBGene00003041	Others	172467
+Caenorhabditis_elegans	lit-1	WBGene00003048	Others	176808
+Caenorhabditis_elegans	ccar-1	WBGene00003085	Others	178362
+Caenorhabditis_elegans	mbf-1	WBGene00003148	Others	178071
+Caenorhabditis_elegans	mdf-2	WBGene00003161	Others	177046
+Caenorhabditis_elegans	mdt-6	WBGene00003164	Mediator complex	179091
+Caenorhabditis_elegans	mes-6	WBGene00003224	Others	177657
+Caenorhabditis_elegans	mrg-1	WBGene00003406	Other_CRF	176702
+Caenorhabditis_elegans	msi-1	WBGene00003423	HNRNP	175514
+Caenorhabditis_elegans	ncs-3	WBGene00003565	Others	186953
+Caenorhabditis_elegans	ndx-2	WBGene00003579	Other_CRF	189126
+Caenorhabditis_elegans	ned-8	WBGene00003587	Others	172910
+Caenorhabditis_elegans	nex-1	WBGene00003588	Others	175714
+Caenorhabditis_elegans	npp-10	WBGene00003796	Others	175852
+Caenorhabditis_elegans	nst-1	WBGene00003821	Others	174329
+Caenorhabditis_elegans	ntl-2	WBGene00003825	CCR4-NOT	173773
+Caenorhabditis_elegans	ntl-3	WBGene00003826	CCR4-NOT	176614
+Caenorhabditis_elegans	ogt-1	WBGene00003858	Others	176000
+Caenorhabditis_elegans	pab-1	WBGene00003902	Other_CRF	172920
+Caenorhabditis_elegans	pat-4	WBGene00003931	Others	175175
+Caenorhabditis_elegans	phf-5	WBGene00004016	PHF	3564851
+Caenorhabditis_elegans	plk-1	WBGene00004042	Others	176143
+Caenorhabditis_elegans	pqn-85	WBGene00004166	Others	173410
+Caenorhabditis_elegans	prx-2	WBGene00004192	Others	178094
+Caenorhabditis_elegans	swsn-4	WBGene00004204	SWI/SNF	178015
+Caenorhabditis_elegans	psr-1	WBGene00004205	Others	177229
+Caenorhabditis_elegans	ran-1	WBGene00004302	Others	176503
+Caenorhabditis_elegans	rap-2	WBGene00004308	Others	180011
+Caenorhabditis_elegans	rbr-2	WBGene00004319	Lysine demethylase	177985
+Caenorhabditis_elegans	rbx-1	WBGene00004320	Others	179358
+Caenorhabditis_elegans	rcq-5	WBGene00004322	Others	175522
+Caenorhabditis_elegans	rgr-1	WBGene00004343	Mediator complex	176320
+Caenorhabditis_elegans	rha-1	WBGene00004355	RNA helicase	174417
+Caenorhabditis_elegans	rho-1	WBGene00004357	Others	178458
+Caenorhabditis_elegans	rig-4	WBGene00004371	Others	177597
+Caenorhabditis_elegans	rpm-1	WBGene00004457	MYC	179259
+Caenorhabditis_elegans	scc-1	WBGene00004737	Others	173808
+Caenorhabditis_elegans	sel-10	WBGene00004767	Others	179878
+Caenorhabditis_elegans	sel-12	WBGene00004769	Others	180441
+Caenorhabditis_elegans	ser-7	WBGene00004780	Others	180565
+Caenorhabditis_elegans	sgk-1	WBGene00004789	Others	181697
+Caenorhabditis_elegans	sir-2.1	WBGene00004800	Sirtuin	177924
+Caenorhabditis_elegans	sir-2.2	WBGene00004801	Sirtuin	181455
+Caenorhabditis_elegans	sir-2.4	WBGene00004803	Sirtuin	182284
+Caenorhabditis_elegans	skp-1	WBGene00004806	Others	179598
+Caenorhabditis_elegans	spr-2	WBGene00005007	SET	177704
+Caenorhabditis_elegans	spr-5	WBGene00005010	Lysine demethylase	173214
+Caenorhabditis_elegans	spt-4	WBGene00005014	SUPT	175172
+Caenorhabditis_elegans	spt-5	WBGene00005015	SUPT	178143
+Caenorhabditis_elegans	src-1	WBGene00005077	Others	171722
+Caenorhabditis_elegans	src-2	WBGene00005078	Others	173296
+Caenorhabditis_elegans	ssr-2	WBGene00006055	Others	191965
+Caenorhabditis_elegans	sur-2	WBGene00006349	Mediator complex	173345
+Caenorhabditis_elegans	taf-1	WBGene00006382	TATA-box	173257
+Caenorhabditis_elegans	taf-2	WBGene00006383	TATA-box	192051
+Caenorhabditis_elegans	taf-5	WBGene00006386	TATA-box	172552
+Caenorhabditis_elegans	taf-10	WBGene00006392	TATA-box	3564983
+Caenorhabditis_elegans	nck-1	WBGene00006410	Others	180690
+Caenorhabditis_elegans	pak-2	WBGene00006443	Others	179527
+Caenorhabditis_elegans	wdr-5.1	WBGene00006474	WD	175474
+Caenorhabditis_elegans	plrg-1	WBGene00006481	Others	179500
+Caenorhabditis_elegans	ten-1	WBGene00006498	Others	175953
+Caenorhabditis_elegans	tap-1	WBGene00006524	Others	181556
+Caenorhabditis_elegans	tbp-1	WBGene00006542	TATA-box	176054
+Caenorhabditis_elegans	tim-1	WBGene00006571	Others	176652
+Caenorhabditis_elegans	top-1	WBGene00006595	Other_CRF	266847
+Caenorhabditis_elegans	trf-1	WBGene00006612	Others	176767
+Caenorhabditis_elegans	try-1	WBGene00006619	Others	173856
+Caenorhabditis_elegans	tsn-1	WBGene00006626	Others	173811
+Caenorhabditis_elegans	ttb-1	WBGene00006648	GTF	178544
+Caenorhabditis_elegans	unc-11	WBGene00006751	Others	171952
+Caenorhabditis_elegans	unc-27	WBGene00006764	Others	181124
+Caenorhabditis_elegans	unc-37	WBGene00006773	Transducin	172394
+Caenorhabditis_elegans	unc-40	WBGene00006776	Others	172233
+Caenorhabditis_elegans	unc-43	WBGene00006779	CAMK	177921
+Caenorhabditis_elegans	xrn-2	WBGene00006964	Others	175071
+Caenorhabditis_elegans	rfp-1	WBGene00007008	Ring finger protein	176180
+Caenorhabditis_elegans	wwp-1	WBGene00007009	WW	171647
+Caenorhabditis_elegans	mdt-4	WBGene00007012	Mediator complex	173852
+Caenorhabditis_elegans	mdt-8	WBGene00007013	Mediator complex	174763
+Caenorhabditis_elegans	mdt-17	WBGene00007017	Mediator complex	180325
+Caenorhabditis_elegans	mdt-18	WBGene00007018	Mediator complex	183844
+Caenorhabditis_elegans	mdt-19	WBGene00007019	Mediator complex	175378
+Caenorhabditis_elegans	mdt-20	WBGene00007020	Mediator complex	176937
+Caenorhabditis_elegans	mdt-22	WBGene00007022	Mediator complex	174595
+Caenorhabditis_elegans	trr-1	WBGene00007028	Others	174788
+Caenorhabditis_elegans	mys-1	WBGene00007029	Lysine acetyltransferase	179096
+Caenorhabditis_elegans	ctr-9	WBGene00007184	Others	176335
+Caenorhabditis_elegans	swsn-9	WBGene00007256	Bromodomain	172461
+Caenorhabditis_elegans	asfl-1	WBGene00007277	Others	172812
+Caenorhabditis_elegans	jmjd-5	WBGene00007387	Lysine demethylase	179543
+Caenorhabditis_elegans	folt-1	WBGene00007388	SLC	179544
+Caenorhabditis_elegans	bud-31	WBGene00007400	Others	176368
+Caenorhabditis_elegans	pro-2	WBGene00007413	Others	174598
+Caenorhabditis_elegans	arp-6	WBGene00007434	ACTR	174288
+Caenorhabditis_elegans	C16C10.4	WBGene00007625	SAP	175534
+Caenorhabditis_elegans	har-1	WBGene00007630	Coiled-coil	175529
+Caenorhabditis_elegans	mdt-21	WBGene00007704	Mediator complex	3565572
+Caenorhabditis_elegans	ruvb-1	WBGene00007784	Other_CRF	179388
+Caenorhabditis_elegans	nfki-1	WBGene00007877	NFKB associated	181625
+Caenorhabditis_elegans	hda-11	WBGene00007953	Histone deacetylase	183226
+Caenorhabditis_elegans	C36E8.1	WBGene00007980	Others	175517
+Caenorhabditis_elegans	pafo-1	WBGene00008338	Others	179583
+Caenorhabditis_elegans	D2013.6	WBGene00008404	WW	174477
+Caenorhabditis_elegans	pch-2	WBGene00008641	Thyroid hormone receptor	174313
+Caenorhabditis_elegans	lex-1	WBGene00008682	Others	178146
+Caenorhabditis_elegans	hint-1	WBGene00009002	Others	184760
+Caenorhabditis_elegans	rtfo-1	WBGene00009103	Others	179345
+Caenorhabditis_elegans	F26A3.4	WBGene00009142	Others	172525
+Caenorhabditis_elegans	F32D8.4	WBGene00009329	Other_CRF	259646
+Caenorhabditis_elegans	F33H2.3	WBGene00009367	ANP	173372
+Caenorhabditis_elegans	cfp-1	WBGene00009924	Others	178363
+Caenorhabditis_elegans	F54B11.5	WBGene00010028	Ring finger protein	186213
+Caenorhabditis_elegans	F54E12.2	WBGene00010061	Others	178054
+Caenorhabditis_elegans	ddx-17	WBGene00010260	RNA helicase	179897
+Caenorhabditis_elegans	cri-3	WBGene00010303	Others	175441
+Caenorhabditis_elegans	chd-1	WBGene00010369	CHD	172432
+Caenorhabditis_elegans	rga-5	WBGene00010374	Others	178348
+Caenorhabditis_elegans	mcrs-1	WBGene00010420	Others	173133
+Caenorhabditis_elegans	lpin-1	WBGene00010425	LPIN	179853
+Caenorhabditis_elegans	mys-2	WBGene00010537	Lysine acetyltransferase	173281
+Caenorhabditis_elegans	K05C4.5	WBGene00010582	Others	173339
+Caenorhabditis_elegans	cash-1	WBGene00010631	Others	179445
+Caenorhabditis_elegans	M03C11.8	WBGene00010845	SWI/SNF	176462
+Caenorhabditis_elegans	snfc-5	WBGene00011111	SWI/SNF	175571
+Caenorhabditis_elegans	R11H6.5	WBGene00011253	Others	179965
+Caenorhabditis_elegans	gtf-2H2C	WBGene00011814	GTF	176421
+Caenorhabditis_elegans	enol-1	WBGene00011884	Others	174423
+Caenorhabditis_elegans	chhy-1	WBGene00011923	Others	174383
+Caenorhabditis_elegans	cdka-1	WBGene00011955	Cyclin	188812
+Caenorhabditis_elegans	T24H10.1	WBGene00012000	TEF	174450
+Caenorhabditis_elegans	prmt-7	WBGene00012298	Arginine methyltransferase	172727
+Caenorhabditis_elegans	ash-2	WBGene00012458	Others	174838
+Caenorhabditis_elegans	arrd-7	WBGene00012464	Others	174847
+Caenorhabditis_elegans	mlt-3	WBGene00012704	Ankyrin repeat	189743
+Caenorhabditis_elegans	jmjd-2	WBGene00012982	Lysine demethylase	175080
+Caenorhabditis_elegans	Y54E2A.4	WBGene00013189	ASCC	190256
+Caenorhabditis_elegans	Y56A3A.18	WBGene00013236	Zinc finger	176624
+Caenorhabditis_elegans	prp-6	WBGene00013343	Others	180180
+Caenorhabditis_elegans	snx-6	WBGene00013354	Others	190399
+Caenorhabditis_elegans	tdpt-1	WBGene00013405	Others	173276
+Caenorhabditis_elegans	xpb-1	WBGene00013441	Others	176584
+Caenorhabditis_elegans	Y73F8A.24	WBGene00013529	GTF	178431
+Caenorhabditis_elegans	ekl-4	WBGene00013676	DNA_methylase	173310
+Caenorhabditis_elegans	gtf-2A2	WBGene00013736	GTF	176682
+Caenorhabditis_elegans	elpc-2	WBGene00013738	ELP	176687
+Caenorhabditis_elegans	cdkr-3	WBGene00013765	Cyclin	180327
+Caenorhabditis_elegans	prmt-1	WBGene00013766	Arginine methyltransferase	180326
+Caenorhabditis_elegans	gtf-2E1	WBGene00013998	GTF	178502
+Caenorhabditis_elegans	elpc-3	WBGene00014123	ELP	179669
+Caenorhabditis_elegans	gtf-2H3	WBGene00014230	GTF	176425
+Caenorhabditis_elegans	dcaf-1	WBGene00014243	Others	177804
+Caenorhabditis_elegans	trx-1	WBGene00015062	Others	181863
+Caenorhabditis_elegans	djr-1.1	WBGene00015184	Others	173416
+Caenorhabditis_elegans	tes-1	WBGene00015217	LIM	177515
+Caenorhabditis_elegans	gtf-2F1	WBGene00015296	GTF	173764
+Caenorhabditis_elegans	cids-1	WBGene00015347	Others	176162
+Caenorhabditis_elegans	tsg-101	WBGene00015658	Others	182474
+Caenorhabditis_elegans	swsn-2.2	WBGene00015971	SWI/SNF	172018
+Caenorhabditis_elegans	ascc-1	WBGene00016019	ASCC	182817
+Caenorhabditis_elegans	ntl-9	WBGene00016139	CCR4-NOT	175669
+Caenorhabditis_elegans	pxl-1	WBGene00016197	Others	175831
+Caenorhabditis_elegans	dpff-1	WBGene00016200	DPF	175832
+Caenorhabditis_elegans	C32E8.5	WBGene00016323	Others	171946
+Caenorhabditis_elegans	C34B2.8	WBGene00016393	Others	172969
+Caenorhabditis_elegans	prmt-5	WBGene00016408	Arginine methyltransferase	175717
+Caenorhabditis_elegans	C43H6.3	WBGene00016616	Others	180545
+Caenorhabditis_elegans	let-611	WBGene00016750	POLR	172321
+Caenorhabditis_elegans	aipr-1	WBGene00016966	Others	174092
+Caenorhabditis_elegans	utx-1	WBGene00017046	Lysine demethylase	181110
+Caenorhabditis_elegans	lec-12	WBGene00017080	Others	178548
+Caenorhabditis_elegans	DC2.5	WBGene00017082	WW	183970
+Caenorhabditis_elegans	pink-1	WBGene00017137	Others	173918
+Caenorhabditis_elegans	cst-1	WBGene00017472	Others	180708
+Caenorhabditis_elegans	rbbp-5	WBGene00017683	RBBP	174019
+Caenorhabditis_elegans	malt-1	WBGene00017702	Others	174135
+Caenorhabditis_elegans	peli-1	WBGene00017766	Others	178959
+Caenorhabditis_elegans	nono-1	WBGene00017778	Others	175844
+Caenorhabditis_elegans	F33D11.1	WBGene00018000	LIM	185224
+Caenorhabditis_elegans	phf-10	WBGene00018013	PHF	3565141
+Caenorhabditis_elegans	cdc-73	WBGene00018064	Others	177160
+Caenorhabditis_elegans	F35H10.6	WBGene00018071	Others	177625
+Caenorhabditis_elegans	hda-6	WBGene00018319	Histone deacetylase	177316
+Caenorhabditis_elegans	cnep-1	WBGene00018474	Others	185802
+Caenorhabditis_elegans	lmd-3	WBGene00018700	Nuclear receptor coactivator	179225
+Caenorhabditis_elegans	mnat-1	WBGene00018769	Others	173602
+Caenorhabditis_elegans	spt-16	WBGene00018849	SUPT	172984
+Caenorhabditis_elegans	F56D2.5	WBGene00018966	Ring finger protein	186378
+Caenorhabditis_elegans	F57B10.8	WBGene00019005	Others	172368
+Caenorhabditis_elegans	chpf-2	WBGene00019108	Others	186617
+Caenorhabditis_elegans	athp-2	WBGene00019217	Bromodomain	173769
+Caenorhabditis_elegans	hira-1	WBGene00019627	Others	175709
+Caenorhabditis_elegans	gtf-2H1	WBGene00019821	GTF	176838
+Caenorhabditis_elegans	htz-1	WBGene00019947	Others	177212
+Caenorhabditis_elegans	pfd-5	WBGene00020112	Others	176013
+Caenorhabditis_elegans	tfbm-1	WBGene00020189	Others	188022
+Caenorhabditis_elegans	lsy-13	WBGene00020287	ING	178470
+Caenorhabditis_elegans	pcbd-1	WBGene00020397	Others	188368
+Caenorhabditis_elegans	T10F2.2	WBGene00020422	SLC	188387
+Caenorhabditis_elegans	ssup-72	WBGene00020480	Others	188472
+Caenorhabditis_elegans	pqbp-1.1	WBGene00020647	Others	176847
+Caenorhabditis_elegans	ruvb-2	WBGene00020687	Other_CRF	177458
+Caenorhabditis_elegans	sulp-6	WBGene00020914	SLC	189085
+Caenorhabditis_elegans	sedl-1	WBGene00021046	Others	180478
+Caenorhabditis_elegans	W07E6.2	WBGene00021074	Transducin	173439
+Caenorhabditis_elegans	W08E12.7	WBGene00021088	Others	177097
+Caenorhabditis_elegans	W09C3.4	WBGene00021112	POLR	172081
+Caenorhabditis_elegans	Y17G9B.8	WBGene00021205	Others	177246
+Caenorhabditis_elegans	thoc-5	WBGene00021311	Others	175735
+Caenorhabditis_elegans	siah-1	WBGene00021369	Others	177138
+Caenorhabditis_elegans	pcaf-1	WBGene00021636	Lysine acetyltransferase	171920
+Caenorhabditis_elegans	mbtr-1	WBGene00021661	Others	171624
+Caenorhabditis_elegans	cyh-1	WBGene00021714	Cyclin	190078
+Caenorhabditis_elegans	xpd-1	WBGene00021752	Others	175190
+Caenorhabditis_elegans	hpo-29	WBGene00021754	Others	175189
+Caenorhabditis_elegans	phf-15	WBGene00021810	Others	175435
+Caenorhabditis_elegans	gtf-2H5	WBGene00021904	GTF	190298
+Caenorhabditis_elegans	rbm-39	WBGene00021921	RNA binding protein	176922
+Caenorhabditis_elegans	Y55F3BR.1	WBGene00021938	RNA helicase	176913
+Caenorhabditis_elegans	icd-2	WBGene00022042	Others	171646
+Caenorhabditis_elegans	ddx-35	WBGene00022056	RNA helicase	175308
+Caenorhabditis_elegans	chaf-2	WBGene00022141	Others	171747
+Caenorhabditis_elegans	set-27	WBGene00022173	SET	190607
+Caenorhabditis_elegans	Y71H2AM.9	WBGene00022174	SLC	190608
+Caenorhabditis_elegans	Y73E7A.2	WBGene00022269	Others	171723
+Caenorhabditis_elegans	Y92H12A.2	WBGene00022358	Others	171719
+Caenorhabditis_elegans	Y94H6A.5	WBGene00022378	RNA helicase	177054
+Caenorhabditis_elegans	pinn-1	WBGene00022448	Others	190941
+Caenorhabditis_elegans	elpc-1	WBGene00022463	ELP	172143
+Caenorhabditis_elegans	bet-1	WBGene00022473	Bromodomain	172054
+Caenorhabditis_elegans	toe-1	WBGene00022739	Others	173779
+Caenorhabditis_elegans	swsn-6	WBGene00022774	Actin	177325
+Caenorhabditis_elegans	cth-2	WBGene00022856	Others	174155
+Caenorhabditis_elegans	hat-1	WBGene00044069	Others	176458
+Caenorhabditis_elegans	set-18	WBGene00044070	SMYD	172949
+Caenorhabditis_elegans	ham-3	WBGene00044072	SWI/SNF	176426
+Caenorhabditis_elegans	adpr-1	WBGene00044440	WD	3565128
+Caenorhabditis_elegans	C33F10.14	WBGene00050941	Others	6418622

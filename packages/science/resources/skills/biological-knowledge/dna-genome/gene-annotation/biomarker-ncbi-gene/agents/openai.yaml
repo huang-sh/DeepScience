@@ -1,0 +1,4 @@
+interface:
+  display_name: "NCBI Gene"
+  short_description: "Query NCBI Gene records through E-utilities"
+  default_prompt: "Query NCBI Gene for identifiers, aliases, summaries, coordinates, and RefSeq accessions."

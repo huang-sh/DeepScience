@@ -1,0 +1,190 @@
+Index,DataSetID,species,RBPSYMBOL,CELLLINE,Genesymbol,Disease,DEEditing,ORF_Editing,LOF_Editing,_disease,_species,_type
+99514,DataSet_18,mouse,Abcf1,Mouse embryonic fibroblast,SSR3,Normal,4,-,-,Normal,mouse,Editing
+99501,DataSet_18,mouse,Abcf1,Mouse embryonic fibroblast,ENSG00000258790,Normal,1,-,-,Normal,mouse,Editing
+99502,DataSet_18,mouse,Abcf1,Mouse embryonic fibroblast,GSR,Normal,1,-,-,Normal,mouse,Editing
+99503,DataSet_18,mouse,Abcf1,Mouse embryonic fibroblast,H2AZ2,Normal,1,-,-,Normal,mouse,Editing
+99504,DataSet_18,mouse,Abcf1,Mouse embryonic fibroblast,MAGT1,Normal,1,-,-,Normal,mouse,Editing
+99505,DataSet_18,mouse,Abcf1,Mouse embryonic fibroblast,MAVS,Normal,1,-,-,Normal,mouse,Editing
+99506,DataSet_18,mouse,Abcf1,Mouse embryonic fibroblast,METTL7A,Normal,1,-,-,Normal,mouse,Editing
+99507,DataSet_18,mouse,Abcf1,Mouse embryonic fibroblast,MRPL30,Normal,1,-,-,Normal,mouse,Editing
+99508,DataSet_18,mouse,Abcf1,Mouse embryonic fibroblast,MYO1C,Normal,1,-,-,Normal,mouse,Editing
+99509,DataSet_18,mouse,Abcf1,Mouse embryonic fibroblast,PECR,Normal,1,-,-,Normal,mouse,Editing
+99510,DataSet_18,mouse,Abcf1,Mouse embryonic fibroblast,PGAM5,Normal,1,-,-,Normal,mouse,Editing
+99511,DataSet_18,mouse,Abcf1,Mouse embryonic fibroblast,PLEKHB2,Normal,1,-,-,Normal,mouse,Editing
+99512,DataSet_18,mouse,Abcf1,Mouse embryonic fibroblast,PRORP,Normal,1,-,-,Normal,mouse,Editing
+99513,DataSet_18,mouse,Abcf1,Mouse embryonic fibroblast,RPL7L1,Normal,1,-,-,Normal,mouse,Editing
+99515,DataSet_18,mouse,Abcf1,Mouse embryonic fibroblast,UGGT1,Normal,1,-,-,Normal,mouse,Editing
+99709,DataSet_22,mouse,Adar,Liver,SPN,Normal,6,-,-,Normal,mouse,Editing
+101567,DataSet_39,mouse,Adar,Fetal Liver cells,GABPB1-AS1,Normal,4,-,-,Normal,mouse,Editing
+99689,DataSet_22,mouse,Adar,Liver,PGPEP1,Normal,3,-,-,Normal,mouse,Editing
+99685,DataSet_22,mouse,Adar,Liver,NUP43,Normal,3,-,-,Normal,mouse,Editing
+99693,DataSet_22,mouse,Adar,Liver,PRKAR2A,Normal,3,-,-,Normal,mouse,Editing
+99669,DataSet_22,mouse,Adar,Liver,GATC,Normal,3,-,-,Normal,mouse,Editing
+101588,DataSet_39,mouse,Adar,Fetal Liver cells,SNRPD3,Normal,3,-,-,Normal,mouse,Editing
+101564,DataSet_39,mouse,Adar,Fetal Liver cells,F11R,Normal,3,-,-,Normal,mouse,Editing
+99661,DataSet_22,mouse,Adar,Liver,DCAF16,Normal,3,-,-,Normal,mouse,Editing
+99714,DataSet_22,mouse,Adar,Liver,TGOLN2,Normal,2,-,-,Normal,mouse,Editing
+99706,DataSet_22,mouse,Adar,Liver,SNRPD3,Normal,2,-,-,Normal,mouse,Editing
+101563,DataSet_39,mouse,Adar,Fetal Liver cells,ENSG00000270149,Normal,2,-,-,Normal,mouse,Editing
+101580,DataSet_39,mouse,Adar,Fetal Liver cells,PGPEP1,Normal,2,-,-,Normal,mouse,Editing
+99657,DataSet_22,mouse,Adar,Liver,APOOL,Normal,2,-,-,Normal,mouse,Editing
+101566,DataSet_39,mouse,Adar,Fetal Liver cells,FTX,Normal,2,-,-,Normal,mouse,Editing
+99718,DataSet_22,mouse,Adar,Liver,UFD1,Normal,2,-,-,Normal,mouse,Editing
+99695,DataSet_22,mouse,Adar,Liver,RAD1,Normal,2,-,-,Normal,mouse,Editing
+99727,DataSet_22,mouse,Adar,Liver,ZNF621,Normal,2,-,-,Normal,mouse,Editing
+99724,DataSet_22,mouse,Adar,Liver,ZNF121,Normal,2,-,-,Normal,mouse,Editing
+101573,DataSet_39,mouse,Adar,Fetal Liver cells,METTL7A,Normal,2,-,-,Normal,mouse,Editing
+101574,DataSet_39,mouse,Adar,Fetal Liver cells,MPHOSPH8,Normal,2,-,-,Normal,mouse,Editing
+99721,DataSet_22,mouse,Adar,Liver,XIAP,Normal,2,-,-,Normal,mouse,Editing
+101578,DataSet_39,mouse,Adar,Fetal Liver cells,OIP5-AS1,Normal,2,-,-,Normal,mouse,Editing
+99656,DataSet_22,mouse,Adar,Liver,AARS1,Normal,2,-,-,Normal,mouse,Editing
+101597,DataSet_39,mouse,Adar,Fetal Liver cells,YIPF4,Normal,2,-,-,Normal,mouse,Editing
+101589,DataSet_39,mouse,Adar,Fetal Liver cells,SSR3,Normal,2,-,-,Normal,mouse,Editing
+99676,DataSet_22,mouse,Adar,Liver,INTS11,Normal,2,-,-,Normal,mouse,Editing
+99670,DataSet_22,mouse,Adar,Liver,GINS1,Normal,2,-,-,Normal,mouse,Editing
+101587,DataSet_39,mouse,Adar,Fetal Liver cells,SLC35F5,Normal,2,-,-,Normal,mouse,Editing
+101579,DataSet_39,mouse,Adar,Fetal Liver cells,PAICS,Normal,1,-,-,Normal,mouse,Editing
+101554,DataSet_39,mouse,Adar,Fetal Liver cells,CASP10,Normal,1,-,-,Normal,mouse,Editing
+101591,DataSet_39,mouse,Adar,Fetal Liver cells,TAF1D,Normal,1,-,-,Normal,mouse,Editing
+101557,DataSet_39,mouse,Adar,Fetal Liver cells,COQ4,Normal,1,-,-,Normal,mouse,Editing
+101556,DataSet_39,mouse,Adar,Fetal Liver cells,CFLAR,Normal,1,-,-,Normal,mouse,Editing
+101592,DataSet_39,mouse,Adar,Fetal Liver cells,TGOLN2,Normal,1,-,-,Normal,mouse,Editing
+101555,DataSet_39,mouse,Adar,Fetal Liver cells,CCNYL1,Normal,1,-,-,Normal,mouse,Editing
+101552,DataSet_39,mouse,Adar,Fetal Liver cells,ANAPC16,Normal,1,-,-,Normal,mouse,Editing
+101553,DataSet_39,mouse,Adar,Fetal Liver cells,B4GALT5,Normal,1,-,-,Normal,mouse,Editing
+101559,DataSet_39,mouse,Adar,Fetal Liver cells,DCAF16,Normal,1,-,-,Normal,mouse,Editing
+101593,DataSet_39,mouse,Adar,Fetal Liver cells,TMEM170A,Normal,1,-,-,Normal,mouse,Editing
+99729,DataSet_22,mouse,Adar,Liver,ZNF655,Normal,1,-,-,Normal,mouse,Editing
+101594,DataSet_39,mouse,Adar,Fetal Liver cells,TMEM88B,Normal,1,-,-,Normal,mouse,Editing
+99728,DataSet_22,mouse,Adar,Liver,ZNF639,Normal,1,-,-,Normal,mouse,Editing
+101595,DataSet_39,mouse,Adar,Fetal Liver cells,TTLL3,Normal,1,-,-,Normal,mouse,Editing
+101596,DataSet_39,mouse,Adar,Fetal Liver cells,UGGT1,Normal,1,-,-,Normal,mouse,Editing
+99726,DataSet_22,mouse,Adar,Liver,ZNF587B,Normal,1,-,-,Normal,mouse,Editing
+101558,DataSet_39,mouse,Adar,Fetal Liver cells,DBN1,Normal,1,-,-,Normal,mouse,Editing
+101562,DataSet_39,mouse,Adar,Fetal Liver cells,ENOSF1,Normal,1,-,-,Normal,mouse,Editing
+101560,DataSet_39,mouse,Adar,Fetal Liver cells,DHFR,Normal,1,-,-,Normal,mouse,Editing
+101571,DataSet_39,mouse,Adar,Fetal Liver cells,LONP2,Normal,1,-,-,Normal,mouse,Editing
+101577,DataSet_39,mouse,Adar,Fetal Liver cells,NEAT1,Normal,1,-,-,Normal,mouse,Editing
+101576,DataSet_39,mouse,Adar,Fetal Liver cells,MTF2,Normal,1,-,-,Normal,mouse,Editing
+101575,DataSet_39,mouse,Adar,Fetal Liver cells,MRPL30,Normal,1,-,-,Normal,mouse,Editing
+101582,DataSet_39,mouse,Adar,Fetal Liver cells,RPL27,Normal,1,-,-,Normal,mouse,Editing
+101583,DataSet_39,mouse,Adar,Fetal Liver cells,RPL37A,Normal,1,-,-,Normal,mouse,Editing
+101572,DataSet_39,mouse,Adar,Fetal Liver cells,LZIC,Normal,1,-,-,Normal,mouse,Editing
+101584,DataSet_39,mouse,Adar,Fetal Liver cells,RPL7L1,Normal,1,-,-,Normal,mouse,Editing
+101570,DataSet_39,mouse,Adar,Fetal Liver cells,LINC01146,Normal,1,-,-,Normal,mouse,Editing
+101561,DataSet_39,mouse,Adar,Fetal Liver cells,EIF2AK2,Normal,1,-,-,Normal,mouse,Editing
+101569,DataSet_39,mouse,Adar,Fetal Liver cells,H6PD,Normal,1,-,-,Normal,mouse,Editing
+101585,DataSet_39,mouse,Adar,Fetal Liver cells,SLC35E1,Normal,1,-,-,Normal,mouse,Editing
+101568,DataSet_39,mouse,Adar,Fetal Liver cells,GATC,Normal,1,-,-,Normal,mouse,Editing
+101586,DataSet_39,mouse,Adar,Fetal Liver cells,SLC35E2B,Normal,1,-,-,Normal,mouse,Editing
+101565,DataSet_39,mouse,Adar,Fetal Liver cells,FCF1,Normal,1,-,-,Normal,mouse,Editing
+101590,DataSet_39,mouse,Adar,Fetal Liver cells,STK4,Normal,1,-,-,Normal,mouse,Editing
+101581,DataSet_39,mouse,Adar,Fetal Liver cells,RBBP9,Normal,1,-,-,Normal,mouse,Editing
+99725,DataSet_22,mouse,Adar,Liver,ZNF431,Normal,1,-,-,Normal,mouse,Editing
+99716,DataSet_22,mouse,Adar,Liver,TPTEP1,Normal,1,-,-,Normal,mouse,Editing
+99723,DataSet_22,mouse,Adar,Liver,YY1AP1,Normal,1,-,-,Normal,mouse,Editing
+99687,DataSet_22,mouse,Adar,Liver,PDK1,Normal,1,-,-,Normal,mouse,Editing
+99684,DataSet_22,mouse,Adar,Liver,NUP155,Normal,1,-,-,Normal,mouse,Editing
+99683,DataSet_22,mouse,Adar,Liver,NOL9,Normal,1,-,-,Normal,mouse,Editing
+99682,DataSet_22,mouse,Adar,Liver,NARF,Normal,1,-,-,Normal,mouse,Editing
+99681,DataSet_22,mouse,Adar,Liver,MRPL30,Normal,1,-,-,Normal,mouse,Editing
+99680,DataSet_22,mouse,Adar,Liver,MAVS,Normal,1,-,-,Normal,mouse,Editing
+99679,DataSet_22,mouse,Adar,Liver,LINC02193,Normal,1,-,-,Normal,mouse,Editing
+99678,DataSet_22,mouse,Adar,Liver,KNL1,Normal,1,-,-,Normal,mouse,Editing
+99677,DataSet_22,mouse,Adar,Liver,IST1,Normal,1,-,-,Normal,mouse,Editing
+99675,DataSet_22,mouse,Adar,Liver,INIP,Normal,1,-,-,Normal,mouse,Editing
+99674,DataSet_22,mouse,Adar,Liver,H2AZ2,Normal,1,-,-,Normal,mouse,Editing
+99673,DataSet_22,mouse,Adar,Liver,GTF2H3,Normal,1,-,-,Normal,mouse,Editing
+99672,DataSet_22,mouse,Adar,Liver,GSR,Normal,1,-,-,Normal,mouse,Editing
+99671,DataSet_22,mouse,Adar,Liver,GNL3L,Normal,1,-,-,Normal,mouse,Editing
+99668,DataSet_22,mouse,Adar,Liver,GABPB1-AS1,Normal,1,-,-,Normal,mouse,Editing
+99667,DataSet_22,mouse,Adar,Liver,FAM120AOS,Normal,1,-,-,Normal,mouse,Editing
+99666,DataSet_22,mouse,Adar,Liver,ENSG00000272468,Normal,1,-,-,Normal,mouse,Editing
+99665,DataSet_22,mouse,Adar,Liver,ENSG00000260289,Normal,1,-,-,Normal,mouse,Editing
+99664,DataSet_22,mouse,Adar,Liver,EIF2AK2,Normal,1,-,-,Normal,mouse,Editing
+99663,DataSet_22,mouse,Adar,Liver,EEF1AKMT2,Normal,1,-,-,Normal,mouse,Editing
+99662,DataSet_22,mouse,Adar,Liver,DMTF1,Normal,1,-,-,Normal,mouse,Editing
+99660,DataSet_22,mouse,Adar,Liver,COQ4,Normal,1,-,-,Normal,mouse,Editing
+99659,DataSet_22,mouse,Adar,Liver,CENPBD1P1,Normal,1,-,-,Normal,mouse,Editing
+99658,DataSet_22,mouse,Adar,Liver,BUB3,Normal,1,-,-,Normal,mouse,Editing
+99686,DataSet_22,mouse,Adar,Liver,OIP5-AS1,Normal,1,-,-,Normal,mouse,Editing
+99688,DataSet_22,mouse,Adar,Liver,PGAP6,Normal,1,-,-,Normal,mouse,Editing
+99722,DataSet_22,mouse,Adar,Liver,XRCC2,Normal,1,-,-,Normal,mouse,Editing
+99690,DataSet_22,mouse,Adar,Liver,PIEZO1,Normal,1,-,-,Normal,mouse,Editing
+99720,DataSet_22,mouse,Adar,Liver,WARS2-AS1,Normal,1,-,-,Normal,mouse,Editing
+99719,DataSet_22,mouse,Adar,Liver,VHL,Normal,1,-,-,Normal,mouse,Editing
+99717,DataSet_22,mouse,Adar,Liver,TTLL3,Normal,1,-,-,Normal,mouse,Editing
+99553,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,MRPL30,Normal,4,-,-,Normal,mouse,Editing
+99545,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,LONP2,Normal,4,-,-,Normal,mouse,Editing
+99556,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,NPLOC4,Normal,4,-,-,Normal,mouse,Editing
+99536,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,GABPB1-AS1,Normal,4,-,-,Normal,mouse,Editing
+99575,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,TIMM50,Normal,3,-,-,Normal,mouse,Editing
+99547,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,MAVS,Normal,3,-,-,Normal,mouse,Editing
+99565,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,PRKAR2A,Normal,3,-,-,Normal,mouse,Editing
+99571,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,SPN,Normal,2,-,-,Normal,mouse,Editing
+99569,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,RPL37A,Normal,2,-,-,Normal,mouse,Editing
+99566,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,PSMB2,Normal,2,-,-,Normal,mouse,Editing
+99580,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,UFD1,Normal,2,-,-,Normal,mouse,Editing
+99559,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,PDP2,Normal,2,-,-,Normal,mouse,Editing
+99557,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,NUP43,Normal,2,-,-,Normal,mouse,Editing
+99582,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,XRCC2,Normal,2,-,-,Normal,mouse,Editing
+99550,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,MICOS10-NBL1,Normal,2,-,-,Normal,mouse,Editing
+99549,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,MICOS10,Normal,2,-,-,Normal,mouse,Editing
+99583,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,ZNF320,Normal,2,-,-,Normal,mouse,Editing
+99588,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,ZNF714,Normal,2,-,-,Normal,mouse,Editing
+99543,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,KNL1,Normal,2,-,-,Normal,mouse,Editing
+99538,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,GDPD1,Normal,2,-,-,Normal,mouse,Editing
+99516,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,AARS1,Normal,2,-,-,Normal,mouse,Editing
+99525,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,DFFA,Normal,2,-,-,Normal,mouse,Editing
+99524,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,DCAF16,Normal,2,-,-,Normal,mouse,Editing
+99527,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,EIF2AK2,Normal,2,-,-,Normal,mouse,Editing
+99528,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,ENOSF1,Normal,2,-,-,Normal,mouse,Editing
+99529,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,ENSG00000260289,Normal,2,-,-,Normal,mouse,Editing
+99522,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,CD46,Normal,2,-,-,Normal,mouse,Editing
+99526,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,DHFR,Normal,1,-,-,Normal,mouse,Editing
+99567,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,RBSN,Normal,1,-,-,Normal,mouse,Editing
+99568,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,RPL28,Normal,1,-,-,Normal,mouse,Editing
+99570,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,SPC24,Normal,1,-,-,Normal,mouse,Editing
+99523,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,COQ4,Normal,1,-,-,Normal,mouse,Editing
+99572,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,STEEP1,Normal,1,-,-,Normal,mouse,Editing
+99573,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,TAF13,Normal,1,-,-,Normal,mouse,Editing
+99574,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,TAF1D,Normal,1,-,-,Normal,mouse,Editing
+99537,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,GATC,Normal,1,-,-,Normal,mouse,Editing
+99577,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,TNFRSF10B,Normal,1,-,-,Normal,mouse,Editing
+99578,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,TPST2,Normal,1,-,-,Normal,mouse,Editing
+99579,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,UBXN2A,Normal,1,-,-,Normal,mouse,Editing
+99521,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,CCDC18-AS1,Normal,1,-,-,Normal,mouse,Editing
+99581,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,UPK3BL1,Normal,1,-,-,Normal,mouse,Editing
+99520,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,CARD8,Normal,1,-,-,Normal,mouse,Editing
+99519,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,C19orf54,Normal,1,-,-,Normal,mouse,Editing
+99584,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,ZNF397,Normal,1,-,-,Normal,mouse,Editing
+99585,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,ZNF529,Normal,1,-,-,Normal,mouse,Editing
+99586,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,ZNF587B,Normal,1,-,-,Normal,mouse,Editing
+99587,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,ZNF621,Normal,1,-,-,Normal,mouse,Editing
+99518,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,AURKA,Normal,1,-,-,Normal,mouse,Editing
+99576,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,TMEM165,Normal,1,-,-,Normal,mouse,Editing
+99563,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,PPIA,Normal,1,-,-,Normal,mouse,Editing
+99564,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,PRIM1,Normal,1,-,-,Normal,mouse,Editing
+99535,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,FCF1,Normal,1,-,-,Normal,mouse,Editing
+99539,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,GINS1,Normal,1,-,-,Normal,mouse,Editing
+99540,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,GTF2H3,Normal,1,-,-,Normal,mouse,Editing
+99541,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,H2AZ2,Normal,1,-,-,Normal,mouse,Editing
+99542,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,INTS7,Normal,1,-,-,Normal,mouse,Editing
+99534,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,FAM118A,Normal,1,-,-,Normal,mouse,Editing
+99544,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,LINC02193,Normal,1,-,-,Normal,mouse,Editing
+99533,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,F11R,Normal,1,-,-,Normal,mouse,Editing
+99546,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,LZIC,Normal,1,-,-,Normal,mouse,Editing
+99532,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,EXOSC2,Normal,1,-,-,Normal,mouse,Editing
+99548,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,METTL7A,Normal,1,-,-,Normal,mouse,Editing
+99531,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,ENSG00000285756,Normal,1,-,-,Normal,mouse,Editing
+99530,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,ENSG00000267645,Normal,1,-,-,Normal,mouse,Editing
+99551,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,MMACHC,Normal,1,-,-,Normal,mouse,Editing
+99552,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,MPHOSPH8,Normal,1,-,-,Normal,mouse,Editing
+99517,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,ATAD3B,Normal,1,-,-,Normal,mouse,Editing
+99554,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,NARF,Normal,1,-,-,Normal,mouse,Editing
+99555,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,NASP,Normal,1,-,-,Normal,mouse,Editing
+99558,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,OIP5-AS1,Normal,1,-,-,Normal,mouse,Editing
+99560,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,PEX26,Normal,1,-,-,Normal,mouse,Editing
+99561,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,PHACTR4,Normal,1,-,-,Normal,mouse,Editing
+99562,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,POLG2,Normal,1,-,-,Normal,mouse,Editing
+99589,DataSet_19,mouse,Mettl3,Mouse embryonic fibroblast,ZNF83,Normal,1,-,-,Normal,mouse,Editing

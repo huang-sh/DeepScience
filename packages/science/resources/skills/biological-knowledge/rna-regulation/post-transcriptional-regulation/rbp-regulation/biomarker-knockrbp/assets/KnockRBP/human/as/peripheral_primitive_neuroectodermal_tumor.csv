@@ -1,0 +1,8 @@
+Index,DataSetID,species,RBPSYMBOL,CELLLINE,Genesymbol,Disease,DEAS,ORF_AS,LOF_AS,_disease,_species,_type
+3918,DataSet_165,human,LOXHD1,SK-N-MC,FUBP1,Peripheral primitive neuroectodermal tumor,2,0,0,Peripheral primitive neuroectodermal tumor,human,AS
+3916,DataSet_165,human,LOXHD1,SK-N-MC,EIF4A2,Peripheral primitive neuroectodermal tumor,1,1,0,Peripheral primitive neuroectodermal tumor,human,AS
+3917,DataSet_165,human,LOXHD1,SK-N-MC,ENSG00000266086,Peripheral primitive neuroectodermal tumor,1,0,0,Peripheral primitive neuroectodermal tumor,human,AS
+3919,DataSet_165,human,LOXHD1,SK-N-MC,IFT80,Peripheral primitive neuroectodermal tumor,1,0,0,Peripheral primitive neuroectodermal tumor,human,AS
+3920,DataSet_165,human,LOXHD1,SK-N-MC,RPS2,Peripheral primitive neuroectodermal tumor,1,1,0,Peripheral primitive neuroectodermal tumor,human,AS
+3921,DataSet_165,human,LOXHD1,SK-N-MC,SMC4,Peripheral primitive neuroectodermal tumor,1,1,0,Peripheral primitive neuroectodermal tumor,human,AS
+3922,DataSet_165,human,LOXHD1,SK-N-MC,SRSF1,Peripheral primitive neuroectodermal tumor,1,1,0,Peripheral primitive neuroectodermal tumor,human,AS

@@ -1,0 +1,498 @@
+Index,DataSetID,species,RBPSYMBOL,CELLLINE,Genesymbol,Disease,DEAS,ORF_AS,LOF_AS,_disease,_species,_type
+66008,DataSet_813,human,ADAR,Glioblastom Stem Cells,CTSA,Glioblastoma,4,4,0,Glioblastoma,human,AS
+66056,DataSet_813,human,ADAR,Glioblastom Stem Cells,SRSF2,Glioblastoma,2,1,0,Glioblastoma,human,AS
+66018,DataSet_813,human,ADAR,Glioblastom Stem Cells,ENSG00000274655,Glioblastoma,2,0,0,Glioblastoma,human,AS
+66074,DataSet_813,human,ADAR,Glioblastom Stem Cells,ZFAND2A-DT,Glioblastoma,2,0,0,Glioblastoma,human,AS
+66073,DataSet_813,human,ADAR,Glioblastom Stem Cells,ZFAND2A,Glioblastoma,2,0,0,Glioblastoma,human,AS
+66034,DataSet_813,human,ADAR,Glioblastom Stem Cells,LINC02609,Glioblastoma,2,0,0,Glioblastoma,human,AS
+66070,DataSet_813,human,ADAR,Glioblastom Stem Cells,XIST,Glioblastoma,2,0,0,Glioblastoma,human,AS
+66052,DataSet_813,human,ADAR,Glioblastom Stem Cells,RPS6KB2,Glioblastoma,2,2,0,Glioblastoma,human,AS
+66066,DataSet_813,human,ADAR,Glioblastom Stem Cells,TSIX,Glioblastoma,2,0,0,Glioblastoma,human,AS
+66049,DataSet_813,human,ADAR,Glioblastom Stem Cells,RAD52,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66055,DataSet_813,human,ADAR,Glioblastom Stem Cells,SLC4A3,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66054,DataSet_813,human,ADAR,Glioblastom Stem Cells,SETD6,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66053,DataSet_813,human,ADAR,Glioblastom Stem Cells,RPS6KB2-AS1,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66051,DataSet_813,human,ADAR,Glioblastom Stem Cells,REV3L,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66050,DataSet_813,human,ADAR,Glioblastom Stem Cells,RBM39,Glioblastoma,1,1,0,Glioblastoma,human,AS
+65998,DataSet_813,human,ADAR,Glioblastom Stem Cells,AKT1,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66048,DataSet_813,human,ADAR,Glioblastom Stem Cells,PRPF4B,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66057,DataSet_813,human,ADAR,Glioblastom Stem Cells,STK25,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66046,DataSet_813,human,ADAR,Glioblastom Stem Cells,OBSL1,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66045,DataSet_813,human,ADAR,Glioblastom Stem Cells,NRP2,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66044,DataSet_813,human,ADAR,Glioblastom Stem Cells,NISCH,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66043,DataSet_813,human,ADAR,Glioblastom Stem Cells,NFE2L1-DT,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66042,DataSet_813,human,ADAR,Glioblastom Stem Cells,NCBP3,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66047,DataSet_813,human,ADAR,Glioblastom Stem Cells,PPP1R16A,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66060,DataSet_813,human,ADAR,Glioblastom Stem Cells,THAP2,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66058,DataSet_813,human,ADAR,Glioblastom Stem Cells,STK36,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66068,DataSet_813,human,ADAR,Glioblastom Stem Cells,UBE3B,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66077,DataSet_813,human,ADAR,Glioblastom Stem Cells,ZNF646,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66076,DataSet_813,human,ADAR,Glioblastom Stem Cells,ZNF252P,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66075,DataSet_813,human,ADAR,Glioblastom Stem Cells,ZNF207,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66072,DataSet_813,human,ADAR,Glioblastom Stem Cells,YWHAZ,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66071,DataSet_813,human,ADAR,Glioblastom Stem Cells,YPEL4,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66069,DataSet_813,human,ADAR,Glioblastom Stem Cells,WDR55,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66067,DataSet_813,human,ADAR,Glioblastom Stem Cells,TTC28,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66059,DataSet_813,human,ADAR,Glioblastom Stem Cells,TAFAZZIN,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66065,DataSet_813,human,ADAR,Glioblastom Stem Cells,TRMT2A,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66064,DataSet_813,human,ADAR,Glioblastom Stem Cells,TRAF3IP2-AS1,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66063,DataSet_813,human,ADAR,Glioblastom Stem Cells,TMEM219,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66062,DataSet_813,human,ADAR,Glioblastom Stem Cells,TMED10P1,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66061,DataSet_813,human,ADAR,Glioblastom Stem Cells,TINF2,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66040,DataSet_813,human,ADAR,Glioblastom Stem Cells,MTERF2,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66041,DataSet_813,human,ADAR,Glioblastom Stem Cells,MUS81,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66038,DataSet_813,human,ADAR,Glioblastom Stem Cells,MFSD11,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66039,DataSet_813,human,ADAR,Glioblastom Stem Cells,MIR636,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66009,DataSet_813,human,ADAR,Glioblastom Stem Cells,DNASE1L1,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66016,DataSet_813,human,ADAR,Glioblastom Stem Cells,ENSG00000268362,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66015,DataSet_813,human,ADAR,Glioblastom Stem Cells,ENSG00000256546,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66014,DataSet_813,human,ADAR,Glioblastom Stem Cells,ENSG00000255182,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66013,DataSet_813,human,ADAR,Glioblastom Stem Cells,ENSG00000255164,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66012,DataSet_813,human,ADAR,Glioblastom Stem Cells,ENSG00000254602,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66011,DataSet_813,human,ADAR,Glioblastom Stem Cells,ELK4,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66010,DataSet_813,human,ADAR,Glioblastom Stem Cells,EIF4G2,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66007,DataSet_813,human,ADAR,Glioblastom Stem Cells,COQ4,Glioblastoma,1,1,0,Glioblastoma,human,AS
+65999,DataSet_813,human,ADAR,Glioblastom Stem Cells,ATG4D,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66006,DataSet_813,human,ADAR,Glioblastom Stem Cells,CLK2,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66005,DataSet_813,human,ADAR,Glioblastom Stem Cells,CDIPT,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66004,DataSet_813,human,ADAR,Glioblastom Stem Cells,CDIN1,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66003,DataSet_813,human,ADAR,Glioblastom Stem Cells,CATSPER2P1,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66002,DataSet_813,human,ADAR,Glioblastom Stem Cells,C3orf18,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66001,DataSet_813,human,ADAR,Glioblastom Stem Cells,ATP11C,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66000,DataSet_813,human,ADAR,Glioblastom Stem Cells,ATG9A,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66017,DataSet_813,human,ADAR,Glioblastom Stem Cells,ENSG00000274396,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66019,DataSet_813,human,ADAR,Glioblastom Stem Cells,ENSG00000274864,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66020,DataSet_813,human,ADAR,Glioblastom Stem Cells,ENSG00000276771,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66021,DataSet_813,human,ADAR,Glioblastom Stem Cells,ENSG00000277694,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66037,DataSet_813,human,ADAR,Glioblastom Stem Cells,MEGF8,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66036,DataSet_813,human,ADAR,Glioblastom Stem Cells,MAPK9,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66035,DataSet_813,human,ADAR,Glioblastom Stem Cells,MAILR,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66033,DataSet_813,human,ADAR,Glioblastom Stem Cells,LINC00963,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66032,DataSet_813,human,ADAR,Glioblastom Stem Cells,IVNS1ABP,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66031,DataSet_813,human,ADAR,Glioblastom Stem Cells,HOTAIRM1,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66030,DataSet_813,human,ADAR,Glioblastom Stem Cells,HNRNPDL,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66029,DataSet_813,human,ADAR,Glioblastom Stem Cells,HNRNPD,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66028,DataSet_813,human,ADAR,Glioblastom Stem Cells,HEMK1,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66027,DataSet_813,human,ADAR,Glioblastom Stem Cells,FASTK,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66026,DataSet_813,human,ADAR,Glioblastom Stem Cells,FARP2,Glioblastoma,1,1,0,Glioblastoma,human,AS
+66025,DataSet_813,human,ADAR,Glioblastom Stem Cells,FAHD2A,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66024,DataSet_813,human,ADAR,Glioblastom Stem Cells,ENSG00000286078,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66023,DataSet_813,human,ADAR,Glioblastom Stem Cells,ENSG00000284820,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66022,DataSet_813,human,ADAR,Glioblastom Stem Cells,ENSG00000278713,Glioblastoma,1,0,0,Glioblastoma,human,AS
+66078,DataSet_813,human,ADAR,Glioblastom Stem Cells,ZSWIM7,Glioblastoma,1,0,0,Glioblastoma,human,AS
+18741,DataSet_365,human,DDX42,U87MG,IP6K2,Glioblastoma,5,3,0,Glioblastoma,human,AS
+19523,DataSet_387,human,DDX42,U87MG,PPM1A,Glioblastoma,5,0,0,Glioblastoma,human,AS
+19433,DataSet_376,human,DDX42,U87MG,EPB41,Glioblastoma,3,3,0,Glioblastoma,human,AS
+18700,DataSet_365,human,DDX42,U87MG,C19orf12,Glioblastoma,3,2,0,Glioblastoma,human,AS
+19499,DataSet_387,human,DDX42,U87MG,FMNL3,Glioblastoma,3,0,0,Glioblastoma,human,AS
+19515,DataSet_387,human,DDX42,U87MG,MARK3,Glioblastoma,3,1,0,Glioblastoma,human,AS
+19478,DataSet_387,human,DDX42,U87MG,ABI1,Glioblastoma,3,0,0,Glioblastoma,human,AS
+19455,DataSet_376,human,DDX42,U87MG,RBM39,Glioblastoma,3,2,0,Glioblastoma,human,AS
+19525,DataSet_387,human,DDX42,U87MG,PRPF40B,Glioblastoma,3,3,0,Glioblastoma,human,AS
+19556,DataSet_387,human,DDX42,U87MG,ZNF562,Glioblastoma,3,0,0,Glioblastoma,human,AS
+18770,DataSet_365,human,DDX42,U87MG,RNF167,Glioblastoma,2,1,0,Glioblastoma,human,AS
+18767,DataSet_365,human,DDX42,U87MG,RBM39,Glioblastoma,2,1,0,Glioblastoma,human,AS
+18730,DataSet_365,human,DDX42,U87MG,FRMD4A,Glioblastoma,2,2,0,Glioblastoma,human,AS
+18729,DataSet_365,human,DDX42,U87MG,FMNL3,Glioblastoma,2,0,0,Glioblastoma,human,AS
+19468,DataSet_376,human,DDX42,U87MG,WARS1,Glioblastoma,2,0,0,Glioblastoma,human,AS
+18780,DataSet_365,human,DDX42,U87MG,SRGAP1,Glioblastoma,2,2,0,Glioblastoma,human,AS
+18777,DataSet_365,human,DDX42,U87MG,SMC4,Glioblastoma,2,1,0,Glioblastoma,human,AS
+18691,DataSet_365,human,DDX42,U87MG,AKAP8L,Glioblastoma,2,2,0,Glioblastoma,human,AS
+19480,DataSet_387,human,DDX42,U87MG,AGRN,Glioblastoma,2,0,0,Glioblastoma,human,AS
+19526,DataSet_387,human,DDX42,U87MG,RAB5B,Glioblastoma,2,0,0,Glioblastoma,human,AS
+19528,DataSet_387,human,DDX42,U87MG,RBM39,Glioblastoma,2,1,0,Glioblastoma,human,AS
+18793,DataSet_365,human,DDX42,U87MG,VDAC2,Glioblastoma,2,0,0,Glioblastoma,human,AS
+19555,DataSet_387,human,DDX42,U87MG,ZNF143,Glioblastoma,2,1,0,Glioblastoma,human,AS
+18731,DataSet_365,human,DDX42,U87MG,FXR1,Glioblastoma,2,2,0,Glioblastoma,human,AS
+19541,DataSet_387,human,DDX42,U87MG,SMC4,Glioblastoma,2,1,0,Glioblastoma,human,AS
+19548,DataSet_387,human,DDX42,U87MG,THUMPD3,Glioblastoma,2,0,0,Glioblastoma,human,AS
+18765,DataSet_365,human,DDX42,U87MG,PRPF40B,Glioblastoma,2,2,0,Glioblastoma,human,AS
+19454,DataSet_376,human,DDX42,U87MG,PTPN12,Glioblastoma,2,0,0,Glioblastoma,human,AS
+19500,DataSet_387,human,DDX42,U87MG,GINS3,Glioblastoma,2,2,0,Glioblastoma,human,AS
+19479,DataSet_387,human,DDX42,U87MG,ACP1,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19492,DataSet_387,human,DDX42,U87MG,EDC4,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19491,DataSet_387,human,DDX42,U87MG,DST,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19490,DataSet_387,human,DDX42,U87MG,DPP7,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19441,DataSet_376,human,DDX42,U87MG,HNRNPA2B1,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19489,DataSet_387,human,DDX42,U87MG,DCTN3,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19486,DataSet_387,human,DDX42,U87MG,CDK10,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19488,DataSet_387,human,DDX42,U87MG,CIRBP,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19485,DataSet_387,human,DDX42,U87MG,CAMTA2,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19481,DataSet_387,human,DDX42,U87MG,AHSA2P,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19487,DataSet_387,human,DDX42,U87MG,CDK2AP1,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19482,DataSet_387,human,DDX42,U87MG,AKTIP,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19483,DataSet_387,human,DDX42,U87MG,AP1S2,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19469,DataSet_376,human,DDX42,U87MG,ZFP62,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19484,DataSet_387,human,DDX42,U87MG,C11orf24,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19445,DataSet_376,human,DDX42,U87MG,LTBP3,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19467,DataSet_376,human,DDX42,U87MG,UPF3B,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19446,DataSet_376,human,DDX42,U87MG,MIER1,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19466,DataSet_376,human,DDX42,U87MG,TUG1,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19447,DataSet_376,human,DDX42,U87MG,MIOS,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19444,DataSet_376,human,DDX42,U87MG,KDM2B,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19448,DataSet_376,human,DDX42,U87MG,MIOS-DT,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19449,DataSet_376,human,DDX42,U87MG,MOV10,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19450,DataSet_376,human,DDX42,U87MG,MRPL43,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19451,DataSet_376,human,DDX42,U87MG,NFKB2,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19452,DataSet_376,human,DDX42,U87MG,NSMCE2,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19453,DataSet_376,human,DDX42,U87MG,PPP1R12A,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19443,DataSet_376,human,DDX42,U87MG,IP6K2,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19456,DataSet_376,human,DDX42,U87MG,RBMX,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19457,DataSet_376,human,DDX42,U87MG,RER1,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19458,DataSet_376,human,DDX42,U87MG,RNF167,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19459,DataSet_376,human,DDX42,U87MG,RNF34,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19460,DataSet_376,human,DDX42,U87MG,SCYL1,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19461,DataSet_376,human,DDX42,U87MG,SORBS2,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19462,DataSet_376,human,DDX42,U87MG,SS18L1,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19463,DataSet_376,human,DDX42,U87MG,TBC1D5,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19464,DataSet_376,human,DDX42,U87MG,TBX2,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19494,DataSet_387,human,DDX42,U87MG,ENSG00000258471,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19465,DataSet_376,human,DDX42,U87MG,TSPAN4,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19442,DataSet_376,human,DDX42,U87MG,IMPDH2,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19493,DataSet_387,human,DDX42,U87MG,ENSG00000237493,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19503,DataSet_387,human,DDX42,U87MG,HDAC8,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19495,DataSet_387,human,DDX42,U87MG,ENSG00000274292,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19496,DataSet_387,human,DDX42,U87MG,ENSG00000285547,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19530,DataSet_387,human,DDX42,U87MG,REV1,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19531,DataSet_387,human,DDX42,U87MG,RHOF,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19532,DataSet_387,human,DDX42,U87MG,RIF1,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19533,DataSet_387,human,DDX42,U87MG,RNF167,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19534,DataSet_387,human,DDX42,U87MG,RNF34,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19535,DataSet_387,human,DDX42,U87MG,RPS23,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19536,DataSet_387,human,DDX42,U87MG,SCAND2P,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19537,DataSet_387,human,DDX42,U87MG,SCYL1,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19538,DataSet_387,human,DDX42,U87MG,SF1,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19539,DataSet_387,human,DDX42,U87MG,SLC10A3,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19540,DataSet_387,human,DDX42,U87MG,SMARCE1,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19542,DataSet_387,human,DDX42,U87MG,SNHG29,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19543,DataSet_387,human,DDX42,U87MG,SNORD49B,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19544,DataSet_387,human,DDX42,U87MG,STK17A,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19545,DataSet_387,human,DDX42,U87MG,SUPT5H,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19546,DataSet_387,human,DDX42,U87MG,TAF1C,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19547,DataSet_387,human,DDX42,U87MG,TECR,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19549,DataSet_387,human,DDX42,U87MG,THUMPD3-AS1,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19550,DataSet_387,human,DDX42,U87MG,TP53BP1,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19551,DataSet_387,human,DDX42,U87MG,TSPAN31,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19552,DataSet_387,human,DDX42,U87MG,TUBGCP4,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19553,DataSet_387,human,DDX42,U87MG,TXNL1,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19554,DataSet_387,human,DDX42,U87MG,WDR73,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19529,DataSet_387,human,DDX42,U87MG,RER1,Glioblastoma,1,0,0,Glioblastoma,human,AS
+19527,DataSet_387,human,DDX42,U87MG,RBL2,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19524,DataSet_387,human,DDX42,U87MG,PQBP1,Glioblastoma,1,1,0,Glioblastoma,human,AS
+19509,DataSet_387,human,DDX42,U87MG,KDM2B,Glioblastoma,1,1,0,Glioblastoma,human,AS
+7040,DataSet_2,human,IGF2BP3,U87MG,SUB1,Glioblastoma,6,0,0,Glioblastoma,human,AS
+7041,DataSet_2,human,IGF2BP3,U87MG,SZT2,Glioblastoma,5,0,0,Glioblastoma,human,AS
+7027,DataSet_2,human,IGF2BP3,U87MG,HYI,Glioblastoma,5,5,0,Glioblastoma,human,AS
+7031,DataSet_2,human,IGF2BP3,U87MG,MTERF4,Glioblastoma,4,0,0,Glioblastoma,human,AS
+7024,DataSet_2,human,IGF2BP3,U87MG,EMG1,Glioblastoma,2,0,0,Glioblastoma,human,AS
+7030,DataSet_2,human,IGF2BP3,U87MG,LPCAT3,Glioblastoma,2,2,0,Glioblastoma,human,AS
+1083,DataSet_13,human,IGF2BP3,U87MG,BCS1L,Glioblastoma,2,0,0,Glioblastoma,human,AS
+7043,DataSet_2,human,IGF2BP3,U87MG,ZNF707,Glioblastoma,2,0,0,Glioblastoma,human,AS
+7037,DataSet_2,human,IGF2BP3,U87MG,SEC14L1,Glioblastoma,2,0,0,Glioblastoma,human,AS
+7038,DataSet_2,human,IGF2BP3,U87MG,SLC38A6,Glioblastoma,2,0,0,Glioblastoma,human,AS
+7042,DataSet_2,human,IGF2BP3,U87MG,TSPAN17,Glioblastoma,2,0,0,Glioblastoma,human,AS
+7023,DataSet_2,human,IGF2BP3,U87MG,ELOC,Glioblastoma,2,0,0,Glioblastoma,human,AS
+7033,DataSet_2,human,IGF2BP3,U87MG,PPP3CB,Glioblastoma,1,0,0,Glioblastoma,human,AS
+7036,DataSet_2,human,IGF2BP3,U87MG,SCG5,Glioblastoma,1,1,0,Glioblastoma,human,AS
+7035,DataSet_2,human,IGF2BP3,U87MG,SAR1A,Glioblastoma,1,0,0,Glioblastoma,human,AS
+7034,DataSet_2,human,IGF2BP3,U87MG,RPL23AP82,Glioblastoma,1,0,0,Glioblastoma,human,AS
+7039,DataSet_2,human,IGF2BP3,U87MG,SLC41A3,Glioblastoma,1,0,0,Glioblastoma,human,AS
+1082,DataSet_13,human,IGF2BP3,U87MG,ATF3,Glioblastoma,1,1,0,Glioblastoma,human,AS
+7032,DataSet_2,human,IGF2BP3,U87MG,NISCH,Glioblastoma,1,1,0,Glioblastoma,human,AS
+7028,DataSet_2,human,IGF2BP3,U87MG,KRT18,Glioblastoma,1,1,0,Glioblastoma,human,AS
+7026,DataSet_2,human,IGF2BP3,U87MG,HNRNPA2B1,Glioblastoma,1,0,0,Glioblastoma,human,AS
+7025,DataSet_2,human,IGF2BP3,U87MG,ENSG00000283411,Glioblastoma,1,0,0,Glioblastoma,human,AS
+7022,DataSet_2,human,IGF2BP3,U87MG,EIF3K,Glioblastoma,1,0,0,Glioblastoma,human,AS
+7021,DataSet_2,human,IGF2BP3,U87MG,DELE1,Glioblastoma,1,0,0,Glioblastoma,human,AS
+7020,DataSet_2,human,IGF2BP3,U87MG,CHEK1,Glioblastoma,1,0,0,Glioblastoma,human,AS
+7019,DataSet_2,human,IGF2BP3,U87MG,C2orf49,Glioblastoma,1,1,0,Glioblastoma,human,AS
+7018,DataSet_2,human,IGF2BP3,U87MG,ATF3,Glioblastoma,1,1,0,Glioblastoma,human,AS
+7017,DataSet_2,human,IGF2BP3,U87MG,ARRDC1,Glioblastoma,1,1,0,Glioblastoma,human,AS
+7029,DataSet_2,human,IGF2BP3,U87MG,KRT8,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24613,DataSet_432,human,MSI1,U251,CELF1,Glioblastoma,1,1,0,Glioblastoma,human,AS
+11485,DataSet_288,human,NONO,U251,IMMP1L,Glioblastoma,8,0,0,Glioblastoma,human,AS
+11246,DataSet_286,human,NONO,GSC P3,TMEM161B-DT,Glioblastoma,7,0,0,Glioblastoma,human,AS
+10984,DataSet_286,human,NONO,GSC P3,IP6K2,Glioblastoma,6,4,0,Glioblastoma,human,AS
+11550,DataSet_288,human,NONO,U251,WARS1,Glioblastoma,6,3,0,Glioblastoma,human,AS
+10820,DataSet_286,human,NONO,GSC P3,CCM2,Glioblastoma,6,0,0,Glioblastoma,human,AS
+11241,DataSet_286,human,NONO,GSC P3,TLE2,Glioblastoma,6,0,0,Glioblastoma,human,AS
+11452,DataSet_288,human,NONO,U251,CIART,Glioblastoma,6,0,0,Glioblastoma,human,AS
+11134,DataSet_286,human,NONO,GSC P3,RARS2,Glioblastoma,5,0,0,Glioblastoma,human,AS
+11040,DataSet_286,human,NONO,GSC P3,MRPL55,Glioblastoma,5,3,0,Glioblastoma,human,AS
+11017,DataSet_286,human,NONO,GSC P3,MAX,Glioblastoma,5,5,0,Glioblastoma,human,AS
+10925,DataSet_286,human,NONO,GSC P3,EXOG,Glioblastoma,4,0,0,Glioblastoma,human,AS
+10924,DataSet_286,human,NONO,GSC P3,EXOC7,Glioblastoma,4,4,0,Glioblastoma,human,AS
+10912,DataSet_286,human,NONO,GSC P3,ENSG00000279382,Glioblastoma,4,0,0,Glioblastoma,human,AS
+10865,DataSet_286,human,NONO,GSC P3,DPH7,Glioblastoma,4,3,0,Glioblastoma,human,AS
+10848,DataSet_286,human,NONO,GSC P3,CUTA,Glioblastoma,4,4,0,Glioblastoma,human,AS
+10836,DataSet_286,human,NONO,GSC P3,CIT,Glioblastoma,4,2,0,Glioblastoma,human,AS
+10943,DataSet_286,human,NONO,GSC P3,FUBP1,Glioblastoma,4,1,0,Glioblastoma,human,AS
+11003,DataSet_286,human,NONO,GSC P3,LINC01128,Glioblastoma,4,0,0,Glioblastoma,human,AS
+11079,DataSet_286,human,NONO,GSC P3,PBRM1,Glioblastoma,4,4,0,Glioblastoma,human,AS
+10977,DataSet_286,human,NONO,GSC P3,IKBKB,Glioblastoma,3,3,0,Glioblastoma,human,AS
+10991,DataSet_286,human,NONO,GSC P3,KATNBL1,Glioblastoma,3,3,0,Glioblastoma,human,AS
+10968,DataSet_286,human,NONO,GSC P3,HNRNPU,Glioblastoma,3,0,0,Glioblastoma,human,AS
+11031,DataSet_286,human,NONO,GSC P3,MICAL1,Glioblastoma,3,2,0,Glioblastoma,human,AS
+11039,DataSet_286,human,NONO,GSC P3,MRPL32,Glioblastoma,3,2,0,Glioblastoma,human,AS
+11154,DataSet_286,human,NONO,GSC P3,ROBO3,Glioblastoma,3,2,0,Glioblastoma,human,AS
+11252,DataSet_286,human,NONO,GSC P3,TNC,Glioblastoma,3,3,0,Glioblastoma,human,AS
+11258,DataSet_286,human,NONO,GSC P3,TRIM41,Glioblastoma,3,3,0,Glioblastoma,human,AS
+11117,DataSet_286,human,NONO,GSC P3,PPIEL,Glioblastoma,3,0,0,Glioblastoma,human,AS
+11128,DataSet_286,human,NONO,GSC P3,PTPRZ1,Glioblastoma,3,1,0,Glioblastoma,human,AS
+11556,DataSet_288,human,NONO,U251,YWHAE,Glioblastoma,3,2,1,Glioblastoma,human,AS
+11135,DataSet_286,human,NONO,GSC P3,RBM25,Glioblastoma,3,3,0,Glioblastoma,human,AS
+11511,DataSet_288,human,NONO,U251,PSRC1,Glioblastoma,3,2,0,Glioblastoma,human,AS
+10824,DataSet_286,human,NONO,GSC P3,CD99L2,Glioblastoma,3,2,0,Glioblastoma,human,AS
+10833,DataSet_286,human,NONO,GSC P3,CHTF18,Glioblastoma,3,3,0,Glioblastoma,human,AS
+10796,DataSet_286,human,NONO,GSC P3,ATP5MJ,Glioblastoma,3,0,0,Glioblastoma,human,AS
+11502,DataSet_288,human,NONO,U251,NUDT22,Glioblastoma,3,3,0,Glioblastoma,human,AS
+10838,DataSet_286,human,NONO,GSC P3,COA1,Glioblastoma,3,0,0,Glioblastoma,human,AS
+11484,DataSet_288,human,NONO,U251,HYI,Glioblastoma,3,3,0,Glioblastoma,human,AS
+10844,DataSet_286,human,NONO,GSC P3,CRNDE,Glioblastoma,3,0,0,Glioblastoma,human,AS
+11539,DataSet_288,human,NONO,U251,SZT2,Glioblastoma,3,0,0,Glioblastoma,human,AS
+11534,DataSet_288,human,NONO,U251,SRSF2,Glioblastoma,3,0,0,Glioblastoma,human,AS
+10928,DataSet_286,human,NONO,GSC P3,EZH2,Glioblastoma,3,2,0,Glioblastoma,human,AS
+10779,DataSet_286,human,NONO,GSC P3,ANKZF1,Glioblastoma,3,3,0,Glioblastoma,human,AS
+10772,DataSet_286,human,NONO,GSC P3,ADCYAP1R1,Glioblastoma,3,0,0,Glioblastoma,human,AS
+11175,DataSet_286,human,NONO,GSC P3,SEZ6L,Glioblastoma,2,0,0,Glioblastoma,human,AS
+11188,DataSet_286,human,NONO,GSC P3,SLC47A1,Glioblastoma,2,0,0,Glioblastoma,human,AS
+11193,DataSet_286,human,NONO,GSC P3,SNHG1,Glioblastoma,2,0,0,Glioblastoma,human,AS
+11183,DataSet_286,human,NONO,GSC P3,SLC1A3,Glioblastoma,2,0,0,Glioblastoma,human,AS
+11459,DataSet_288,human,NONO,U251,CTNNB1,Glioblastoma,2,2,0,Glioblastoma,human,AS
+11168,DataSet_286,human,NONO,GSC P3,SEC31A,Glioblastoma,2,2,0,Glioblastoma,human,AS
+11512,DataSet_288,human,NONO,U251,PUS1,Glioblastoma,2,2,0,Glioblastoma,human,AS
+11547,DataSet_288,human,NONO,U251,TSG101,Glioblastoma,2,0,0,Glioblastoma,human,AS
+11144,DataSet_286,human,NONO,GSC P3,RHOJ,Glioblastoma,2,0,0,Glioblastoma,human,AS
+11139,DataSet_286,human,NONO,GSC P3,RBM5-AS1,Glioblastoma,2,0,0,Glioblastoma,human,AS
+11549,DataSet_288,human,NONO,U251,U2AF1L4,Glioblastoma,2,2,0,Glioblastoma,human,AS
+11138,DataSet_286,human,NONO,GSC P3,RBM5,Glioblastoma,2,2,0,Glioblastoma,human,AS
+11148,DataSet_286,human,NONO,GSC P3,RNA5SP187,Glioblastoma,2,0,0,Glioblastoma,human,AS
+11214,DataSet_286,human,NONO,GSC P3,SRSF1,Glioblastoma,2,2,0,Glioblastoma,human,AS
+11202,DataSet_286,human,NONO,GSC P3,SNORD22,Glioblastoma,2,0,0,Glioblastoma,human,AS
+11205,DataSet_286,human,NONO,GSC P3,SNORD30,Glioblastoma,2,0,0,Glioblastoma,human,AS
+11455,DataSet_288,human,NONO,U251,CLCN2,Glioblastoma,2,2,0,Glioblastoma,human,AS
+11460,DataSet_288,human,NONO,U251,CUTA,Glioblastoma,2,2,0,Glioblastoma,human,AS
+11448,DataSet_288,human,NONO,U251,C1orf43,Glioblastoma,2,1,0,Glioblastoma,human,AS
+11440,DataSet_288,human,NONO,U251,ATXN2,Glioblastoma,2,2,0,Glioblastoma,human,AS
+11136,DataSet_286,human,NONO,GSC P3,RBM28,Glioblastoma,2,2,0,Glioblastoma,human,AS
+11470,DataSet_288,human,NONO,U251,ENSG00000267120,Glioblastoma,2,0,0,Glioblastoma,human,AS
+11480,DataSet_288,human,NONO,U251,FUBP1,Glioblastoma,2,0,0,Glioblastoma,human,AS
+11229,DataSet_286,human,NONO,GSC P3,TAF1D,Glioblastoma,2,1,0,Glioblastoma,human,AS
+11228,DataSet_286,human,NONO,GSC P3,SZT2,Glioblastoma,2,0,0,Glioblastoma,human,AS
+11226,DataSet_286,human,NONO,GSC P3,SUGP2,Glioblastoma,2,1,0,Glioblastoma,human,AS
+11223,DataSet_286,human,NONO,GSC P3,STK36,Glioblastoma,2,2,0,Glioblastoma,human,AS
+11221,DataSet_286,human,NONO,GSC P3,STAU1,Glioblastoma,2,0,0,Glioblastoma,human,AS
+11510,DataSet_288,human,NONO,U251,PSPC1,Glioblastoma,2,0,0,Glioblastoma,human,AS
+11457,DataSet_288,human,NONO,U251,COA1,Glioblastoma,2,0,0,Glioblastoma,human,AS
+11209,DataSet_286,human,NONO,GSC P3,SPATA5,Glioblastoma,2,0,0,Glioblastoma,human,AS
+10766,DataSet_286,human,NONO,GSC P3,ABCD4,Glioblastoma,2,2,0,Glioblastoma,human,AS
+10762,DataSet_286,human,NONO,GSC P3,AAAS,Glioblastoma,2,1,0,Glioblastoma,human,AS
+11119,DataSet_286,human,NONO,GSC P3,PPP6R3,Glioblastoma,2,0,0,Glioblastoma,human,AS
+10957,DataSet_286,human,NONO,GSC P3,GSDMD,Glioblastoma,2,2,0,Glioblastoma,human,AS
+10777,DataSet_286,human,NONO,GSC P3,AMN1,Glioblastoma,2,0,0,Glioblastoma,human,AS
+10784,DataSet_286,human,NONO,GSC P3,ARG2,Glioblastoma,2,2,0,Glioblastoma,human,AS
+10791,DataSet_286,human,NONO,GSC P3,ASPH,Glioblastoma,2,2,0,Glioblastoma,human,AS
+10800,DataSet_286,human,NONO,GSC P3,B4GALNT1,Glioblastoma,2,1,0,Glioblastoma,human,AS
+10951,DataSet_286,human,NONO,GSC P3,GOLGA1,Glioblastoma,2,1,0,Glioblastoma,human,AS
+10834,DataSet_286,human,NONO,GSC P3,CIRBP,Glioblastoma,2,2,0,Glioblastoma,human,AS
+10842,DataSet_286,human,NONO,GSC P3,COX20,Glioblastoma,2,2,0,Glioblastoma,human,AS
+10942,DataSet_286,human,NONO,GSC P3,FRMD5,Glioblastoma,2,1,0,Glioblastoma,human,AS
+10901,DataSet_286,human,NONO,GSC P3,ENSG00000266086,Glioblastoma,2,0,0,Glioblastoma,human,AS
+10940,DataSet_286,human,NONO,GSC P3,FOXM1,Glioblastoma,2,0,0,Glioblastoma,human,AS
+10933,DataSet_286,human,NONO,GSC P3,FANCA,Glioblastoma,2,2,0,Glioblastoma,human,AS
+10931,DataSet_286,human,NONO,GSC P3,FAHD2CP,Glioblastoma,2,0,0,Glioblastoma,human,AS
+10832,DataSet_286,human,NONO,GSC P3,CHPF2,Glioblastoma,2,1,0,Glioblastoma,human,AS
+10930,DataSet_286,human,NONO,GSC P3,FAHD2A,Glioblastoma,2,2,0,Glioblastoma,human,AS
+10929,DataSet_286,human,NONO,GSC P3,FADS3,Glioblastoma,2,2,0,Glioblastoma,human,AS
+10805,DataSet_286,human,NONO,GSC P3,BTN3A2,Glioblastoma,2,2,0,Glioblastoma,human,AS
+10811,DataSet_286,human,NONO,GSC P3,CAPRIN2,Glioblastoma,2,2,0,Glioblastoma,human,AS
+10822,DataSet_286,human,NONO,GSC P3,CD46,Glioblastoma,2,2,0,Glioblastoma,human,AS
+11109,DataSet_286,human,NONO,GSC P3,PLSCR1,Glioblastoma,2,1,0,Glioblastoma,human,AS
+10956,DataSet_286,human,NONO,GSC P3,GPRC5B,Glioblastoma,2,0,0,Glioblastoma,human,AS
+10803,DataSet_286,human,NONO,GSC P3,BRAT1,Glioblastoma,2,2,0,Glioblastoma,human,AS
+37836,DataSet_517,human,PRMT2,U87,PRRC2C,Glioblastoma,2,2,0,Glioblastoma,human,AS
+37832,DataSet_517,human,PRMT2,U87,ATXN2L,Glioblastoma,1,1,0,Glioblastoma,human,AS
+37833,DataSet_517,human,PRMT2,U87,CSNK1E,Glioblastoma,1,1,0,Glioblastoma,human,AS
+37834,DataSet_517,human,PRMT2,U87,ENSG00000266086,Glioblastoma,1,0,0,Glioblastoma,human,AS
+37835,DataSet_517,human,PRMT2,U87,HNRNPDL,Glioblastoma,1,0,0,Glioblastoma,human,AS
+37837,DataSet_517,human,PRMT2,U87,SRSF1,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24394,DataSet_426,human,RBM47,U87MG,MAPK12,Glioblastoma,3,0,0,Glioblastoma,human,AS
+24430,DataSet_426,human,RBM47,U87MG,UBC,Glioblastoma,3,1,0,Glioblastoma,human,AS
+24382,DataSet_426,human,RBM47,U87MG,FDPS,Glioblastoma,3,0,0,Glioblastoma,human,AS
+24368,DataSet_426,human,RBM47,U87MG,EBPL,Glioblastoma,3,2,0,Glioblastoma,human,AS
+24425,DataSet_426,human,RBM47,U87MG,THUMPD3,Glioblastoma,2,2,0,Glioblastoma,human,AS
+24407,DataSet_426,human,RBM47,U87MG,PNISR,Glioblastoma,2,2,0,Glioblastoma,human,AS
+24418,DataSet_426,human,RBM47,U87MG,SNHG5,Glioblastoma,2,0,0,Glioblastoma,human,AS
+24402,DataSet_426,human,RBM47,U87MG,NFATC4,Glioblastoma,2,2,0,Glioblastoma,human,AS
+24421,DataSet_426,human,RBM47,U87MG,SNORD50B,Glioblastoma,2,0,0,Glioblastoma,human,AS
+24396,DataSet_426,human,RBM47,U87MG,MCTP1,Glioblastoma,2,0,0,Glioblastoma,human,AS
+24431,DataSet_426,human,RBM47,U87MG,WSB1,Glioblastoma,2,1,0,Glioblastoma,human,AS
+24376,DataSet_426,human,RBM47,U87MG,ENSG00000271793,Glioblastoma,2,0,0,Glioblastoma,human,AS
+24400,DataSet_426,human,RBM47,U87MG,MVB12A,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24401,DataSet_426,human,RBM47,U87MG,NAT9,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24399,DataSet_426,human,RBM47,U87MG,MTMR11,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24410,DataSet_426,human,RBM47,U87MG,PYCR1,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24403,DataSet_426,human,RBM47,U87MG,NIT1,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24404,DataSet_426,human,RBM47,U87MG,NUDT18,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24398,DataSet_426,human,RBM47,U87MG,MRPL35,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24397,DataSet_426,human,RBM47,U87MG,MPDU1,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24405,DataSet_426,human,RBM47,U87MG,OCIAD1,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24406,DataSet_426,human,RBM47,U87MG,PLD4,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24408,DataSet_426,human,RBM47,U87MG,POLR1H,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24409,DataSet_426,human,RBM47,U87MG,PQBP1,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24353,DataSet_426,human,RBM47,U87MG,AEBP2,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24411,DataSet_426,human,RBM47,U87MG,RAB3GAP1,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24422,DataSet_426,human,RBM47,U87MG,SRSF1,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24429,DataSet_426,human,RBM47,U87MG,TTI2,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24428,DataSet_426,human,RBM47,U87MG,TMEM41B,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24427,DataSet_426,human,RBM47,U87MG,TMEM198B,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24426,DataSet_426,human,RBM47,U87MG,THUMPD3-AS1,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24424,DataSet_426,human,RBM47,U87MG,TCF19,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24423,DataSet_426,human,RBM47,U87MG,SRSF5,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24420,DataSet_426,human,RBM47,U87MG,SNORA24,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24412,DataSet_426,human,RBM47,U87MG,RABEPK,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24419,DataSet_426,human,RBM47,U87MG,SNHG8,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24417,DataSet_426,human,RBM47,U87MG,SMOX,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24416,DataSet_426,human,RBM47,U87MG,SLC35A2,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24415,DataSet_426,human,RBM47,U87MG,SEPTIN5,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24414,DataSet_426,human,RBM47,U87MG,RMC1,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24395,DataSet_426,human,RBM47,U87MG,MARS1,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24413,DataSet_426,human,RBM47,U87MG,RHOT2,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24393,DataSet_426,human,RBM47,U87MG,MAP1LC3A,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24354,DataSet_426,human,RBM47,U87MG,AHNAK2,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24372,DataSet_426,human,RBM47,U87MG,ENSG00000241728,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24370,DataSet_426,human,RBM47,U87MG,ENSG00000184441,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24369,DataSet_426,human,RBM47,U87MG,EFEMP2,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24367,DataSet_426,human,RBM47,U87MG,DUSP3,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24366,DataSet_426,human,RBM47,U87MG,DEDD,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24365,DataSet_426,human,RBM47,U87MG,DDIT3,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24364,DataSet_426,human,RBM47,U87MG,CRACR2B,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24363,DataSet_426,human,RBM47,U87MG,CPNE7,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24362,DataSet_426,human,RBM47,U87MG,COA1,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24361,DataSet_426,human,RBM47,U87MG,CFAP410,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24360,DataSet_426,human,RBM47,U87MG,CD68,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24359,DataSet_426,human,RBM47,U87MG,CAPRIN2,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24358,DataSet_426,human,RBM47,U87MG,ATG13,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24357,DataSet_426,human,RBM47,U87MG,ANKZF1,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24356,DataSet_426,human,RBM47,U87MG,AKR1A1,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24355,DataSet_426,human,RBM47,U87MG,AKAP8L,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24371,DataSet_426,human,RBM47,U87MG,ENSG00000233223,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24373,DataSet_426,human,RBM47,U87MG,ENSG00000255108,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24392,DataSet_426,human,RBM47,U87MG,LUC7L3,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24374,DataSet_426,human,RBM47,U87MG,ENSG00000264772,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24391,DataSet_426,human,RBM47,U87MG,KLC2-AS2,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24390,DataSet_426,human,RBM47,U87MG,KLC2,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24389,DataSet_426,human,RBM47,U87MG,KCNC4,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24388,DataSet_426,human,RBM47,U87MG,IDH3B,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24387,DataSet_426,human,RBM47,U87MG,HNRNPDL,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24386,DataSet_426,human,RBM47,U87MG,GRTP1,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24385,DataSet_426,human,RBM47,U87MG,GPAT3,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24384,DataSet_426,human,RBM47,U87MG,GP1BB,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24383,DataSet_426,human,RBM47,U87MG,FJX1,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24381,DataSet_426,human,RBM47,U87MG,ENSG00000285133,Glioblastoma,1,1,0,Glioblastoma,human,AS
+24380,DataSet_426,human,RBM47,U87MG,ENSG00000284874,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24379,DataSet_426,human,RBM47,U87MG,ENSG00000283196,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24378,DataSet_426,human,RBM47,U87MG,ENSG00000279716,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24377,DataSet_426,human,RBM47,U87MG,ENSG00000279088,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24375,DataSet_426,human,RBM47,U87MG,ENSG00000266086,Glioblastoma,1,0,0,Glioblastoma,human,AS
+24432,DataSet_426,human,RBM47,U87MG,ZNRD1ASP,Glioblastoma,1,0,0,Glioblastoma,human,AS
+3643,DataSet_16,human,SRSF1,U87MG,CD46,Glioblastoma,8,8,0,Glioblastoma,human,AS
+3827,DataSet_16,human,SRSF1,U87MG,ZNF263,Glioblastoma,4,4,0,Glioblastoma,human,AS
+5953,DataSet_17,human,SRSF1,U251,IFI44,Glioblastoma,4,4,0,Glioblastoma,human,AS
+3778,DataSet_16,human,SRSF1,U87MG,SNHG29,Glioblastoma,3,0,0,Glioblastoma,human,AS
+5877,DataSet_17,human,SRSF1,U251,BIRC5,Glioblastoma,3,3,0,Glioblastoma,human,AS
+5937,DataSet_17,human,SRSF1,U251,GAS5,Glioblastoma,3,0,0,Glioblastoma,human,AS
+5936,DataSet_17,human,SRSF1,U251,FTSJ3,Glioblastoma,3,3,0,Glioblastoma,human,AS
+5946,DataSet_17,human,SRSF1,U251,HNRNPDL,Glioblastoma,3,2,0,Glioblastoma,human,AS
+3797,DataSet_16,human,SRSF1,U87MG,THEMIS2,Glioblastoma,3,3,0,Glioblastoma,human,AS
+5964,DataSet_17,human,SRSF1,U251,KTN1,Glioblastoma,3,2,0,Glioblastoma,human,AS
+6079,DataSet_17,human,SRSF1,U251,ZSWIM7,Glioblastoma,2,1,0,Glioblastoma,human,AS
+3700,DataSet_16,human,SRSF1,U87MG,KTN1,Glioblastoma,2,1,0,Glioblastoma,human,AS
+3689,DataSet_16,human,SRSF1,U87MG,HMGN1,Glioblastoma,2,0,0,Glioblastoma,human,AS
+5893,DataSet_17,human,SRSF1,U251,CHEK1,Glioblastoma,2,2,0,Glioblastoma,human,AS
+3708,DataSet_16,human,SRSF1,U87MG,LUCAT1,Glioblastoma,2,0,0,Glioblastoma,human,AS
+5898,DataSet_17,human,SRSF1,U251,CTNNB1,Glioblastoma,2,2,0,Glioblastoma,human,AS
+3681,DataSet_16,human,SRSF1,U87MG,GAS5,Glioblastoma,2,0,0,Glioblastoma,human,AS
+5912,DataSet_17,human,SRSF1,U251,DNAJB12,Glioblastoma,2,2,0,Glioblastoma,human,AS
+5914,DataSet_17,human,SRSF1,U251,DTX3,Glioblastoma,2,0,0,Glioblastoma,human,AS
+3669,DataSet_16,human,SRSF1,U87MG,ENSG00000266086,Glioblastoma,2,0,0,Glioblastoma,human,AS
+5916,DataSet_17,human,SRSF1,U251,ENSG00000229180,Glioblastoma,2,0,0,Glioblastoma,human,AS
+5885,DataSet_17,human,SRSF1,U251,CD46,Glioblastoma,2,2,0,Glioblastoma,human,AS
+3749,DataSet_16,human,SRSF1,U87MG,PRECSIT,Glioblastoma,2,0,0,Glioblastoma,human,AS
+3717,DataSet_16,human,SRSF1,U87MG,MFSD11,Glioblastoma,2,2,0,Glioblastoma,human,AS
+3728,DataSet_16,human,SRSF1,U87MG,MYO1B,Glioblastoma,2,2,0,Glioblastoma,human,AS
+3736,DataSet_16,human,SRSF1,U87MG,OS9,Glioblastoma,2,2,0,Glioblastoma,human,AS
+3656,DataSet_16,human,SRSF1,U87MG,CTSL,Glioblastoma,2,0,0,Glioblastoma,human,AS
+3765,DataSet_16,human,SRSF1,U87MG,SAT2,Glioblastoma,2,2,0,Glioblastoma,human,AS
+3783,DataSet_16,human,SRSF1,U87MG,SNORD49B,Glioblastoma,2,0,0,Glioblastoma,human,AS
+3784,DataSet_16,human,SRSF1,U87MG,SRSF1,Glioblastoma,2,2,0,Glioblastoma,human,AS
+3788,DataSet_16,human,SRSF1,U87MG,STK17A,Glioblastoma,2,0,0,Glioblastoma,human,AS
+3792,DataSet_16,human,SRSF1,U87MG,TAF15,Glioblastoma,2,1,0,Glioblastoma,human,AS
+3808,DataSet_16,human,SRSF1,U87MG,TTC37,Glioblastoma,2,2,0,Glioblastoma,human,AS
+3820,DataSet_16,human,SRSF1,U87MG,YPEL5,Glioblastoma,2,0,0,Glioblastoma,human,AS
+5881,DataSet_17,human,SRSF1,U251,CARD8,Glioblastoma,2,2,0,Glioblastoma,human,AS
+5865,DataSet_17,human,SRSF1,U251,AK2,Glioblastoma,2,2,0,Glioblastoma,human,AS
+3662,DataSet_16,human,SRSF1,U87MG,DNAJB12,Glioblastoma,2,1,0,Glioblastoma,human,AS
+5874,DataSet_17,human,SRSF1,U251,APOO,Glioblastoma,2,0,0,Glioblastoma,human,AS
+5979,DataSet_17,human,SRSF1,U251,MYO1B,Glioblastoma,2,2,0,Glioblastoma,human,AS
+6032,DataSet_17,human,SRSF1,U251,SPAG17,Glioblastoma,2,1,0,Glioblastoma,human,AS
+5943,DataSet_17,human,SRSF1,U251,HMGN1,Glioblastoma,2,0,0,Glioblastoma,human,AS
+5961,DataSet_17,human,SRSF1,U251,KIF23,Glioblastoma,2,2,0,Glioblastoma,human,AS
+5969,DataSet_17,human,SRSF1,U251,MAPK8IP3,Glioblastoma,2,1,0,Glioblastoma,human,AS
+5970,DataSet_17,human,SRSF1,U251,MAPKAPK5-AS1,Glioblastoma,2,0,0,Glioblastoma,human,AS
+5977,DataSet_17,human,SRSF1,U251,MSTO2P,Glioblastoma,2,0,0,Glioblastoma,human,AS
+5995,DataSet_17,human,SRSF1,U251,PLOD2,Glioblastoma,2,2,0,Glioblastoma,human,AS
+6011,DataSet_17,human,SRSF1,U251,RBM5,Glioblastoma,2,2,0,Glioblastoma,human,AS
+6012,DataSet_17,human,SRSF1,U251,RBM5-AS1,Glioblastoma,2,0,0,Glioblastoma,human,AS
+6013,DataSet_17,human,SRSF1,U251,RBM6,Glioblastoma,2,0,0,Glioblastoma,human,AS
+5938,DataSet_17,human,SRSF1,U251,GAS5-AS1,Glioblastoma,2,0,0,Glioblastoma,human,AS
+6042,DataSet_17,human,SRSF1,U251,TAF1D,Glioblastoma,2,1,0,Glioblastoma,human,AS
+6053,DataSet_17,human,SRSF1,U251,TMEM161B-DT,Glioblastoma,2,0,0,Glioblastoma,human,AS
+3648,DataSet_16,human,SRSF1,U87MG,CIRBP,Glioblastoma,2,2,0,Glioblastoma,human,AS
+6057,DataSet_17,human,SRSF1,U251,TPM1,Glioblastoma,2,2,0,Glioblastoma,human,AS
+5941,DataSet_17,human,SRSF1,U251,GPS1,Glioblastoma,1,0,0,Glioblastoma,human,AS
+5886,DataSet_17,human,SRSF1,U251,CDCA7,Glioblastoma,1,1,0,Glioblastoma,human,AS
+5935,DataSet_17,human,SRSF1,U251,FN1,Glioblastoma,1,1,0,Glioblastoma,human,AS
+5939,DataSet_17,human,SRSF1,U251,GFER,Glioblastoma,1,1,0,Glioblastoma,human,AS
+5887,DataSet_17,human,SRSF1,U251,CDK5RAP3,Glioblastoma,1,1,0,Glioblastoma,human,AS
+5888,DataSet_17,human,SRSF1,U251,CENPE,Glioblastoma,1,1,0,Glioblastoma,human,AS
+5889,DataSet_17,human,SRSF1,U251,CEP295,Glioblastoma,1,1,0,Glioblastoma,human,AS
+5890,DataSet_17,human,SRSF1,U251,CERT1,Glioblastoma,1,1,0,Glioblastoma,human,AS
+5940,DataSet_17,human,SRSF1,U251,GOLGA4,Glioblastoma,1,1,0,Glioblastoma,human,AS
+5926,DataSet_17,human,SRSF1,U251,ENSG00000285827,Glioblastoma,1,1,0,Glioblastoma,human,AS
+5942,DataSet_17,human,SRSF1,U251,GSE1,Glioblastoma,1,0,0,Glioblastoma,human,AS
+5892,DataSet_17,human,SRSF1,U251,CHD3,Glioblastoma,1,1,0,Glioblastoma,human,AS
+5884,DataSet_17,human,SRSF1,U251,CCDC18,Glioblastoma,1,0,0,Glioblastoma,human,AS
+5883,DataSet_17,human,SRSF1,U251,CCDC14,Glioblastoma,1,1,0,Glioblastoma,human,AS
+5882,DataSet_17,human,SRSF1,U251,CCDC107,Glioblastoma,1,1,0,Glioblastoma,human,AS
+5880,DataSet_17,human,SRSF1,U251,CAMK2D,Glioblastoma,1,1,1,Glioblastoma,human,AS
+5879,DataSet_17,human,SRSF1,U251,C6orf141,Glioblastoma,1,1,0,Glioblastoma,human,AS
+5878,DataSet_17,human,SRSF1,U251,C11orf24,Glioblastoma,1,1,0,Glioblastoma,human,AS
+5876,DataSet_17,human,SRSF1,U251,BCAM,Glioblastoma,1,1,0,Glioblastoma,human,AS
+5875,DataSet_17,human,SRSF1,U251,ARHGEF39,Glioblastoma,1,0,0,Glioblastoma,human,AS
+5891,DataSet_17,human,SRSF1,U251,CHD1L,Glioblastoma,1,1,0,Glioblastoma,human,AS
+5934,DataSet_17,human,SRSF1,U251,FAM200B,Glioblastoma,1,1,0,Glioblastoma,human,AS
+5925,DataSet_17,human,SRSF1,U251,ENSG00000283782,Glioblastoma,1,1,0,Glioblastoma,human,AS
+5894,DataSet_17,human,SRSF1,U251,CIRBP,Glioblastoma,1,1,0,Glioblastoma,human,AS
+5931,DataSet_17,human,SRSF1,U251,ERI2,Glioblastoma,1,1,0,Glioblastoma,human,AS
+5913,DataSet_17,human,SRSF1,U251,DND1,Glioblastoma,1,1,0,Glioblastoma,human,AS
+5930,DataSet_17,human,SRSF1,U251,EPB41L2,Glioblastoma,1,1,1,Glioblastoma,human,AS
+5929,DataSet_17,human,SRSF1,U251,ENY2,Glioblastoma,1,1,0,Glioblastoma,human,AS
+5915,DataSet_17,human,SRSF1,U251,ENSG00000214135,Glioblastoma,1,0,0,Glioblastoma,human,AS
+5928,DataSet_17,human,SRSF1,U251,ENTPD6,Glioblastoma,1,1,0,Glioblastoma,human,AS
+5917,DataSet_17,human,SRSF1,U251,ENSG00000237188,Glioblastoma,1,0,0,Glioblastoma,human,AS
+5918,DataSet_17,human,SRSF1,U251,ENSG00000241357,Glioblastoma,1,0,0,Glioblastoma,human,AS
+5919,DataSet_17,human,SRSF1,U251,ENSG00000261054,Glioblastoma,1,0,0,Glioblastoma,human,AS
+5920,DataSet_17,human,SRSF1,U251,ENSG00000261790,Glioblastoma,1,0,0,Glioblastoma,human,AS
+5927,DataSet_17,human,SRSF1,U251,ENSG00000288606,Glioblastoma,1,0,0,Glioblastoma,human,AS
+5921,DataSet_17,human,SRSF1,U251,ENSG00000263798,Glioblastoma,1,0,0,Glioblastoma,human,AS
+5922,DataSet_17,human,SRSF1,U251,ENSG00000267120,Glioblastoma,1,0,0,Glioblastoma,human,AS
+5923,DataSet_17,human,SRSF1,U251,ENSG00000269179,Glioblastoma,1,0,0,Glioblastoma,human,AS
+5924,DataSet_17,human,SRSF1,U251,ENSG00000280778,Glioblastoma,1,1,0,Glioblastoma,human,AS
+5911,DataSet_17,human,SRSF1,U251,DMTF1,Glioblastoma,1,0,0,Glioblastoma,human,AS
+5873,DataSet_17,human,SRSF1,U251,APEX1,Glioblastoma,1,1,0,Glioblastoma,human,AS
+5909,DataSet_17,human,SRSF1,U251,DM1-AS,Glioblastoma,1,0,0,Glioblastoma,human,AS
+5901,DataSet_17,human,SRSF1,U251,CTTN,Glioblastoma,1,1,0,Glioblastoma,human,AS
+5895,DataSet_17,human,SRSF1,U251,CLK2,Glioblastoma,1,1,0,Glioblastoma,human,AS
+5896,DataSet_17,human,SRSF1,U251,COX20,Glioblastoma,1,1,0,Glioblastoma,human,AS
+5933,DataSet_17,human,SRSF1,U251,FAM126A,Glioblastoma,1,1,0,Glioblastoma,human,AS

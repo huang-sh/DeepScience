@@ -1,0 +1,1 @@
+**accessed via an online API**, refer to string-database skill

@@ -1,0 +1,17 @@
+**/biomarker-cccdb/
+**/biomarker-citedb/
+**/biomarker-bcscdb/
+**/biomarker-tcellatlas/
+**/biomarker-singlecellbase/
+**/biomarker-circrnadb/
+**/biomarker-snodb-snorna/
+**/biomarker-cancersea/
+**/biomarker-cellage/
+**/biomarker-dbemt/
+**/biomarker-emtome/
+**/biomarker-ferrdb/
+**/biomarker-macdb/
+**/biomarker-mirdb/
+**/biomarker-collectri/
+**/biomarker-regnetwork-*/
+**/biomarker-rm2target/

@@ -1,0 +1,20 @@
+Index,DataSetID,species,RBPSYMBOL,CELLLINE,Genesymbol,Disease,DEAS,ORF_AS,LOF_AS,_disease,_species,_type
+28245,DataSet_471,human,PUM1,TCam-2,CUL4A,Testicular seminoma,1,1,0,Testicular seminoma,human,AS
+28246,DataSet_471,human,PUM1,TCam-2,LRP6,Testicular seminoma,1,1,0,Testicular seminoma,human,AS
+28247,DataSet_471,human,PUM1,TCam-2,TEAD4,Testicular seminoma,1,0,0,Testicular seminoma,human,AS
+28254,DataSet_472,human,PUM2,TCam-2,CFAP410,Testicular seminoma,2,2,0,Testicular seminoma,human,AS
+28256,DataSet_472,human,PUM2,TCam-2,ENSG00000184441,Testicular seminoma,2,0,0,Testicular seminoma,human,AS
+28248,DataSet_472,human,PUM2,TCam-2,A2ML1-AS1,Testicular seminoma,1,0,0,Testicular seminoma,human,AS
+28249,DataSet_472,human,PUM2,TCam-2,AMT,Testicular seminoma,1,1,0,Testicular seminoma,human,AS
+28250,DataSet_472,human,PUM2,TCam-2,ARHGEF39,Testicular seminoma,1,0,0,Testicular seminoma,human,AS
+28251,DataSet_472,human,PUM2,TCam-2,BICD1,Testicular seminoma,1,1,0,Testicular seminoma,human,AS
+28252,DataSet_472,human,PUM2,TCam-2,BICD1-AS1,Testicular seminoma,1,0,0,Testicular seminoma,human,AS
+28253,DataSet_472,human,PUM2,TCam-2,CCDC107,Testicular seminoma,1,1,0,Testicular seminoma,human,AS
+28255,DataSet_472,human,PUM2,TCam-2,DUSP23,Testicular seminoma,1,1,0,Testicular seminoma,human,AS
+28257,DataSet_472,human,PUM2,TCam-2,ENSG00000283189,Testicular seminoma,1,1,0,Testicular seminoma,human,AS
+28258,DataSet_472,human,PUM2,TCam-2,GCH1,Testicular seminoma,1,1,0,Testicular seminoma,human,AS
+28259,DataSet_472,human,PUM2,TCam-2,MCAM,Testicular seminoma,1,0,0,Testicular seminoma,human,AS
+28260,DataSet_472,human,PUM2,TCam-2,RIMKLB,Testicular seminoma,1,0,0,Testicular seminoma,human,AS
+28261,DataSet_472,human,PUM2,TCam-2,RUSC1,Testicular seminoma,1,1,0,Testicular seminoma,human,AS
+28262,DataSet_472,human,PUM2,TCam-2,THAP7,Testicular seminoma,1,1,0,Testicular seminoma,human,AS
+28263,DataSet_472,human,PUM2,TCam-2,THAP7-AS1,Testicular seminoma,1,0,0,Testicular seminoma,human,AS

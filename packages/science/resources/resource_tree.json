@@ -1,0 +1,2278 @@
+{
+  "Biological Knowledge": {
+    "Cellular Landscape": {
+      "Cell Cell Interaction": {
+        "Cell Cell Communication": [
+          {
+            "db-name": "CCCdb",
+            "show-name": "CCCdb",
+            "description": "CCCdb is a manually curated database of experimentally validated cell–cell communications (CCC) in human and mouse across tissues and phenotypes.",
+            "reference": {
+              "db-url": "http://www.licpathway.net/cccdb/index.php",
+              "citation": "https://doi.org/10.1093/nar/gkaf1105"
+            },
+            "content": [
+              "Autocrine",
+              "Direct-Contact",
+              "Endocrine",
+              "Paracrine"
+            ],
+            "paths": [
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/cell-cell-communication/biomarker-cccdb/assets/CCCdb/CCCdb_Cell-cell-communications-by-Autocrine.csv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/cell-cell-communication/biomarker-cccdb/assets/CCCdb/CCCdb_Cell-cell-communications-by-Direct-Contact.csv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/cell-cell-communication/biomarker-cccdb/assets/CCCdb/CCCdb_Cell-cell-communications-by-Endocrine.csv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/cell-cell-communication/biomarker-cccdb/assets/CCCdb/CCCdb_Cell-cell-communications-by-Paracrine.csv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/cell-cell-communication/biomarker-cccdb/assets/CCCdb/CCCdb_Phenotype_Disease.csv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/cell-cell-communication/biomarker-cccdb/assets/CCCdb/CCCdb_Phenotype_Normal.csv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/cell-cell-communication/biomarker-cccdb/references/CCCdb_ref.md",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/cell-cell-communication/biomarker-cccdb/references/readme.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-cccdb",
+            "access-mode": "local"
+          },
+          {
+            "db-name": "CITEdb",
+            "show-name": "CITEdb",
+            "description": "CITEdb is a manually curated database of human cell–cell interactions with structured annotations including context, cell types, and interaction details.",
+            "reference": {
+              "db-url": "https://citedb.cn/",
+              "citation": "https://dx.doi.org/10.1093/bioinformatics/btac654"
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/cell-cell-communication/biomarker-citedb/assets/CITEdb.csv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/cell-cell-communication/biomarker-citedb/references/CITEdb_ref.md",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/cell-cell-communication/biomarker-citedb/references/readme.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-citedb",
+            "access-mode": "local"
+          }
+        ],
+        "Ligand Receptor Pair": [
+          {
+            "db-name": "CellChatDB",
+            "show-name": "CellChatDB",
+            "description": "CellChatDB is a curated database of ligand–receptor interactions (including cofactors) used by CellChat to infer cell–cell communication networks.",
+            "reference": {
+              "db-url": "http://www.cellchat.org/",
+              "citation": "https://www.nature.com/articles/s41467-021-21246-9"
+            },
+            "content": [
+              "human",
+              "mouse",
+              "zebrafish"
+            ],
+            "paths": [
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/ligand-receptor-pair/biomarker-cellchatdb/assets/CellChatDB/CellChatDB.human.tsv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/ligand-receptor-pair/biomarker-cellchatdb/assets/CellChatDB/CellChatDB.mouse.tsv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/ligand-receptor-pair/biomarker-cellchatdb/assets/CellChatDB/CellChatDB.zebrafish.tsv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/ligand-receptor-pair/biomarker-cellchatdb/references/CellChatDB_ref.md",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/ligand-receptor-pair/biomarker-cellchatdb/references/readme.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-cellchatdb",
+            "access-mode": "local"
+          },
+          {
+            "db-name": "cellphoneDB",
+            "show-name": "cellphoneDB",
+            "description": "CellPhoneDB is a curated database of human ligand-receptor interaction definitions for cell-cell communication analysis.",
+            "reference": {
+              "db-url": "https://www.cellphonedb.org/",
+              "citation": "https://www.nature.com/articles/s41596-024-01137-1"
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/ligand-receptor-pair/biomarker-cellphonedb/assets/cellphonedb-human.csv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/ligand-receptor-pair/biomarker-cellphonedb/references/cellphonedb_ref.md",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/ligand-receptor-pair/biomarker-cellphonedb/references/readme.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-cellphonedb",
+            "access-mode": "local"
+          },
+          {
+            "db-name": "ConnectomeDB",
+            "show-name": "ConnectomeDB",
+            "description": "connectomeDB2025 is a rigorously curated, open access database of peptide based ligand–receptor interactions with primary experimental evidence, intended for accurate inference of cell–cell communication networks across multiple vertebrate species.",
+            "reference": {
+              "db-url": "https://connectomedb.org",
+              "citation": "https://doi.org/10.1093/nar/gkaf1108"
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/ligand-receptor-pair/biomarker-connectomedb/assets/ConnectomeDB/ConnectomeDB2025_chicken.csv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/ligand-receptor-pair/biomarker-connectomedb/assets/ConnectomeDB/ConnectomeDB2025_chimp.csv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/ligand-receptor-pair/biomarker-connectomedb/assets/ConnectomeDB/ConnectomeDB2025_cow.csv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/ligand-receptor-pair/biomarker-connectomedb/assets/ConnectomeDB/ConnectomeDB2025_dog.csv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/ligand-receptor-pair/biomarker-connectomedb/assets/ConnectomeDB/ConnectomeDB2025_frog.csv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/ligand-receptor-pair/biomarker-connectomedb/assets/ConnectomeDB/ConnectomeDB2025_horse.csv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/ligand-receptor-pair/biomarker-connectomedb/assets/ConnectomeDB/ConnectomeDB2025_human.csv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/ligand-receptor-pair/biomarker-connectomedb/assets/ConnectomeDB/ConnectomeDB2025_macaque.csv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/ligand-receptor-pair/biomarker-connectomedb/assets/ConnectomeDB/ConnectomeDB2025_marmoset.csv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/ligand-receptor-pair/biomarker-connectomedb/assets/ConnectomeDB/ConnectomeDB2025_mouse.csv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/ligand-receptor-pair/biomarker-connectomedb/assets/ConnectomeDB/ConnectomeDB2025_pig.csv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/ligand-receptor-pair/biomarker-connectomedb/assets/ConnectomeDB/ConnectomeDB2025_rat.csv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/ligand-receptor-pair/biomarker-connectomedb/assets/ConnectomeDB/ConnectomeDB2025_sheep.csv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/ligand-receptor-pair/biomarker-connectomedb/assets/ConnectomeDB/ConnectomeDB2025_zebrafish.csv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/ligand-receptor-pair/biomarker-connectomedb/references/ConnectomeDB_ref.md",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-cell-interaction/ligand-receptor-pair/biomarker-connectomedb/references/readme.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-connectomedb",
+            "access-mode": "local"
+          }
+        ]
+      },
+      "Cell Type": {
+        "General Database": [
+          {
+            "db-name": "CellMarker",
+            "show-name": "CellMarker",
+            "description": "CellMarker 2.0 is an updated, manually curated database of cell markers in human and mouse.",
+            "reference": {
+              "db-url": "http://bio-bigdata.hrbmu.edu.cn/CellMarker/",
+              "citation": "https://academic.oup.com/nar/article/51/D1/D870/6775381"
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/cellular-landscape/cell-type/general-database/biomarker-cellmarker/assets/Cell_marker_All.csv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-type/general-database/biomarker-cellmarker/references/CellMarker_ref.md",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-type/general-database/biomarker-cellmarker/references/readme.md",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-type/general-database/biomarker-cellmarker/references/references.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-cellmarker",
+            "access-mode": "local"
+          },
+          {
+            "db-name": "PanglaoDB",
+            "show-name": "PanglaoDB",
+            "description": "PanglaoDB is a web server for exploring human and mouse scRNA‑seq data and provides a community‑curated cell‑type marker compendium.",
+            "reference": {
+              "db-url": "https://panglaodb.se/",
+              "citation": "https://academic.oup.com/database/article/doi/10.1093/database/baz046/5427041"
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/cellular-landscape/cell-type/general-database/biomarker-panglaodb/assets/PanglaoDB_markers_27_Mar_2020.tsv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-type/general-database/biomarker-panglaodb/references/PanglaoDB_ref.md",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-type/general-database/biomarker-panglaodb/references/readme.md",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-type/general-database/biomarker-panglaodb/references/references.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-panglaodb",
+            "access-mode": "local"
+          },
+          {
+            "db-name": "Azimuth",
+            "show-name": "Azimuth",
+            "description": "Azimuth provides reference atlases and mapping tools for single‑cell datasets.",
+            "reference": {
+              "db-url": "https://azimuth.hubmapconsortium.org/",
+              "citation": "https://www.cell.com/cell/fulltext/S0092-8674(21)00583-3"
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/cellular-landscape/cell-type/general-database/biomarker-azimuth/assets/Azimuth_2023.csv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-type/general-database/biomarker-azimuth/references/Azimuth_ref.md",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-type/general-database/biomarker-azimuth/references/readme.md",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-type/general-database/biomarker-azimuth/references/references.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-azimuth",
+            "access-mode": "local"
+          },
+          {
+            "db-name": "cellxgene-census",
+            "show-name": "cellxgene-census",
+            "description": "Query CELLxGENE Census expression and metadata across curated tissues, diseases, organisms, cell types, studies, and population-scale single-cell atlases.",
+            "reference": {
+              "db-url": "",
+              "citation": ""
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/cellular-landscape/cell-type/general-database/biomarker-cellxgene-census/references/cellxgene-census-guide.md",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-type/general-database/biomarker-cellxgene-census/references/census_schema.md",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-type/general-database/biomarker-cellxgene-census/references/common_patterns.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-cellxgene-census",
+            "access-mode": "remote"
+          },
+          {
+            "db-name": "singleCellBase",
+            "show-name": "singleCellBase",
+            "description": "singleCellBase is a manually curated database of cell type–marker gene associations across multiple species.",
+            "reference": {
+              "db-url": "https://www.singlecellbase.org/",
+              "citation": "https://biomarkerres.biomedcentral.com/articles/10.1186/s40364-023-00523-3"
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/cellular-landscape/cell-type/general-database/biomarker-singlecellbase/assets/singleCellBase_20230904_ALL.csv",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-type/general-database/biomarker-singlecellbase/references/readme.md",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-type/general-database/biomarker-singlecellbase/references/references.md",
+              "resource/skills/biological-knowledge/cellular-landscape/cell-type/general-database/biomarker-singlecellbase/references/singleCellBase_ref.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-singlecellbase",
+            "access-mode": "local"
+          }
+        ],
+        "Cell Type Specific Database": {
+          "Cancer Stem Cell": [
+            {
+              "db-name": "BCSCdb",
+              "show-name": "BCSCdb",
+              "description": "BCSCdb is a curated database of cancer stem cell (CSC) biomarkers, therapeutic targets, and biomarker interactions.",
+              "reference": {
+                "db-url": "http://dibresources.jcbose.ac.in/ssaha4/bcscdb",
+                "citation": "https://doi.org/10.1093/database/baac082"
+              },
+              "content": [
+                "marker",
+                "therapeutic",
+                "interaction"
+              ],
+              "paths": [
+                "resource/skills/biological-knowledge/cellular-landscape/cell-type/cell-type-specific-database/cancer-stem-cell/biomarker-bcscdb/assets/BCSCdb/CSC_Biomarker_2022_All.csv",
+                "resource/skills/biological-knowledge/cellular-landscape/cell-type/cell-type-specific-database/cancer-stem-cell/biomarker-bcscdb/assets/BCSCdb/CSC_Interaction_2022_All.csv",
+                "resource/skills/biological-knowledge/cellular-landscape/cell-type/cell-type-specific-database/cancer-stem-cell/biomarker-bcscdb/assets/BCSCdb/CSC_Therapeutic_2022_All.csv",
+                "resource/skills/biological-knowledge/cellular-landscape/cell-type/cell-type-specific-database/cancer-stem-cell/biomarker-bcscdb/references/BCSCdb_ref.md",
+                "resource/skills/biological-knowledge/cellular-landscape/cell-type/cell-type-specific-database/cancer-stem-cell/biomarker-bcscdb/references/readme.md"
+              ],
+              "skill-name": "biological-knowledge",
+              "package-name": "biomarker-bcscdb",
+              "access-mode": "local"
+            }
+          ],
+          "T Cell Subtype": [
+            {
+              "db-name": "TCellAtlas ",
+              "show-name": "TCellAtlas ",
+              "description": "TCellAtlas provides a large scale human T cell reference and a tool (STCAT) for automatic annotation of T cell subtypes and states at single cell resolution.",
+              "reference": {
+                "db-url": "https://guolab.wchscu.cn/TCellAtlas",
+                "citation": "https://doi.org/10.1016/j.scib.2025.02.043"
+              },
+              "content": [],
+              "paths": [
+                "resource/skills/biological-knowledge/cellular-landscape/cell-type/cell-type-specific-database/t-cell-subtype/biomarker-tcellatlas/assets/TCellAtlas_68_subtype_state_marker.csv",
+                "resource/skills/biological-knowledge/cellular-landscape/cell-type/cell-type-specific-database/t-cell-subtype/biomarker-tcellatlas/references/TCellAtlas_ref.md",
+                "resource/skills/biological-knowledge/cellular-landscape/cell-type/cell-type-specific-database/t-cell-subtype/biomarker-tcellatlas/references/readme.md"
+              ],
+              "skill-name": "biological-knowledge",
+              "package-name": "biomarker-tcellatlas",
+              "access-mode": "local"
+            }
+          ]
+        }
+      }
+    },
+    "Clinical & Phenotype": {
+      "Cancer Biomarkers": [
+        {
+          "db-name": "msi-detection",
+          "show-name": "msi-detection",
+          "description": "Detect microsatellite instability from sequencing assays, select compatible callers and thresholds, and report MSI-H evidence for oncology and Lynch syndrome.",
+          "reference": {
+            "db-url": "",
+            "citation": ""
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/clinical-and-phenotype/cancer-biomarkers/biomarker-msi-detection/references/bio-clinical-databases-msi-detection-guide.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/cancer-biomarkers/biomarker-msi-detection/references/bio-clinical-databases-msi-detection-usage.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/cancer-biomarkers/biomarker-msi-detection/scripts/msi_detection.sh"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-msi-detection",
+          "access-mode": "hybrid"
+        },
+        {
+          "db-name": "tumor-mutational-burden",
+          "show-name": "tumor-mutational-burden",
+          "description": "Calculate and interpret tumor mutational burden with assay-aware denominators, germline and artifact filtering, calibration, and oncology reporting criteria.",
+          "reference": {
+            "db-url": "",
+            "citation": ""
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/clinical-and-phenotype/cancer-biomarkers/biomarker-tumor-mutational-burden/references/bio-clinical-databases-tumor-mutational-burden-guide.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/cancer-biomarkers/biomarker-tumor-mutational-burden/references/bio-clinical-databases-tumor-mutational-burden-usage.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/cancer-biomarkers/biomarker-tumor-mutational-burden/scripts/tmb_calculation.py"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-tumor-mutational-burden",
+          "access-mode": "hybrid"
+        }
+      ],
+      "Clinical Evidence": [
+        {
+          "db-name": "biomedical-fact-lookup",
+          "show-name": "biomedical-fact-lookup",
+          "description": "Verify bounded biomedical facts and multiple-choice claims against authoritative public databases rather than answering database-dependent questions from memory.",
+          "reference": {
+            "db-url": "",
+            "citation": ""
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/clinical-and-phenotype/clinical-evidence/biomarker-biomedical-fact-lookup/references/tooluniverse-biomedical-fact-lookup-guide.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/clinical-evidence/biomarker-biomedical-fact-lookup/scripts/test_snippets.py"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-biomedical-fact-lookup",
+          "access-mode": "remote"
+        }
+      ],
+      "Genetic Risk": [
+        {
+          "db-name": "gwas-catalog",
+          "show-name": "gwas-catalog",
+          "description": "Query the NHGRI-EBI GWAS Catalog for variant-trait associations, studies, mapped genes, p-values, ancestry, and available summary statistics.",
+          "reference": {
+            "db-url": "",
+            "citation": ""
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/clinical-and-phenotype/genetic-risk/biomarker-gwas-catalog/references/api_reference.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/genetic-risk/biomarker-gwas-catalog/references/gwas-database-guide.md"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-gwas-catalog",
+          "access-mode": "remote"
+        },
+        {
+          "db-name": "polygenic-risk",
+          "show-name": "polygenic-risk",
+          "description": "Construct, calibrate, validate, and report ancestry-aware polygenic risk scores using public score catalogs and established PRS methods.",
+          "reference": {
+            "db-url": "",
+            "citation": ""
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/clinical-and-phenotype/genetic-risk/biomarker-polygenic-risk/references/bio-clinical-databases-polygenic-risk-guide.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/genetic-risk/biomarker-polygenic-risk/references/bio-clinical-databases-polygenic-risk-usage.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/genetic-risk/biomarker-polygenic-risk/scripts/ldpred2_analysis.R",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/genetic-risk/biomarker-polygenic-risk/scripts/prsice2_workflow.sh"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-polygenic-risk",
+          "access-mode": "hybrid"
+        }
+      ],
+      "Immunogenetics": [
+        {
+          "db-name": "hla-typing",
+          "show-name": "hla-typing",
+          "description": "Type and reconcile HLA alleles from sequencing or imputation workflows and interpret transplant, pharmacogenomic, neoantigen, and disease-association use cases.",
+          "reference": {
+            "db-url": "",
+            "citation": ""
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/clinical-and-phenotype/immunogenetics/biomarker-hla-typing/references/bio-clinical-databases-hla-typing-guide.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/immunogenetics/biomarker-hla-typing/references/bio-clinical-databases-hla-typing-usage.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/immunogenetics/biomarker-hla-typing/scripts/optitype_workflow.sh",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/immunogenetics/biomarker-hla-typing/scripts/t1k_workflow.sh"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-hla-typing",
+          "access-mode": "hybrid"
+        }
+      ],
+      "Pharmacogenomics": [
+        {
+          "db-name": "clinpgx",
+          "show-name": "clinpgx",
+          "description": "Query ClinPGx, CPIC, DPWG, and related pharmacogenomic evidence and translate star alleles into phenotypes and genotype-guided prescribing guidance.",
+          "reference": {
+            "db-url": "",
+            "citation": ""
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/clinical-and-phenotype/pharmacogenomics/biomarker-clinpgx/references/api_reference.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/pharmacogenomics/biomarker-clinpgx/references/bio-clinical-databases-pharmacogenomics-guide.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/pharmacogenomics/biomarker-clinpgx/references/bio-clinical-databases-pharmacogenomics-usage.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/pharmacogenomics/biomarker-clinpgx/references/clinpgx-database-guide.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/pharmacogenomics/biomarker-clinpgx/scripts/pharmgkb_query.py",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/pharmacogenomics/biomarker-clinpgx/scripts/query_clinpgx.py"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-clinpgx",
+          "access-mode": "remote"
+        }
+      ],
+      "Phenotypes": [
+        {
+          "db-name": "HPO",
+          "show-name": "Human Phenotype Ontology(Msigdb C5)",
+          "description": "Human Phenotype Ontology (HPO) organizes and defines human disease phenotypes and supports phenotype-driven genomic analysis.",
+          "reference": {
+            "db-url": "https://hpo.jax.org/",
+            "citation": "https://doi.org/10.1093/nar/gkad1005"
+          },
+          "content": [
+            "disease-phenotype annotation",
+            "gene-phenotype annotation"
+          ],
+          "paths": [
+            "resource/skills/biological-knowledge/clinical-and-phenotype/phenotypes/biomarker-hpo/assets/c5.hpo.v2025.1.Hs.json",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/phenotypes/biomarker-hpo/assets/c5.hpo.v2025.1.Hs.symbols.gmt",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/phenotypes/biomarker-hpo/references/HPO_ref.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/phenotypes/biomarker-hpo/references/readme.md"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-hpo",
+          "access-mode": "local"
+        }
+      ],
+      "Therapeutic Targets": [
+        {
+          "db-name": "ChEMBL",
+          "show-name": "ChEMBL",
+          "description": "ChEMBL is a manually curated bioactivity database of small molecules, assays, targets, and approved or clinical drugs.",
+          "reference": {
+            "db-url": "https://www.ebi.ac.uk/chembl/",
+            "citation": "https://doi.org/10.1093/nar/gkac1052"
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/clinical-and-phenotype/therapeutic-targets/biomarker-chembl/references/ChEMBL_ref.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/therapeutic-targets/biomarker-chembl/references/api_reference.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/therapeutic-targets/biomarker-chembl/references/chembl-database-guide.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/therapeutic-targets/biomarker-chembl/references/readme.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/therapeutic-targets/biomarker-chembl/scripts/example_queries.py"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-chembl",
+          "access-mode": "remote"
+        },
+        {
+          "db-name": "DrugBank",
+          "show-name": "DrugBank",
+          "description": "DrugBank is a comprehensive drug database combining chemical, pharmacological, target, and clinical information for approved and investigational drugs.",
+          "reference": {
+            "db-url": "https://go.drugbank.com/",
+            "citation": "https://doi.org/10.1093/nar/gkac1054"
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/clinical-and-phenotype/therapeutic-targets/biomarker-drugbank/references/DrugBank_ref.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/therapeutic-targets/biomarker-drugbank/references/readme.md"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-drugbank",
+          "access-mode": "remote"
+        },
+        {
+          "db-name": "FDA",
+          "show-name": "FDA openFDA",
+          "description": "openFDA is the FDA open-data platform providing API access to public drug, device, food, tobacco, and regulatory datasets.",
+          "reference": {
+            "db-url": "https://api.fda.gov",
+            "citation": "https://doi.org/10.1093/nar/gkac1051"
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/clinical-and-phenotype/therapeutic-targets/biomarker-fda/references/FDA_ref.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/therapeutic-targets/biomarker-fda/references/readme.md"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-fda",
+          "access-mode": "remote"
+        },
+        {
+          "db-name": "OpenTargets",
+          "show-name": "OpenTargets",
+          "description": "OpenTargets Platform integrates human genetics, omics, literature, and chemistry data to prioritize target-disease associations.",
+          "reference": {
+            "db-url": "https://www.opentargets.org/",
+            "citation": "https://doi.org/10.1093/nar/gkac1053"
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/clinical-and-phenotype/therapeutic-targets/biomarker-opentargets/references/OpenTargets_ref.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/therapeutic-targets/biomarker-opentargets/references/api_reference.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/therapeutic-targets/biomarker-opentargets/references/evidence_types.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/therapeutic-targets/biomarker-opentargets/references/opentargets-database-guide.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/therapeutic-targets/biomarker-opentargets/references/readme.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/therapeutic-targets/biomarker-opentargets/references/target_annotations.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/therapeutic-targets/biomarker-opentargets/scripts/query_opentargets.py"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-opentargets",
+          "access-mode": "remote"
+        }
+      ],
+      "Variants": [
+        {
+          "db-name": "acmg-classification",
+          "show-name": "acmg-classification",
+          "description": "Interpret germline and somatic variants using ACMG/AMP, ClinGen SVI, Bayesian evidence, PVS1, computational, functional, and tumor-tier frameworks.",
+          "reference": {
+            "db-url": "",
+            "citation": ""
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/clinical-and-phenotype/variants/biomarker-acmg-classification/references/bio-clinical-databases-acmg-classification-guide.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/variants/biomarker-acmg-classification/references/bio-clinical-databases-acmg-classification-usage.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/variants/biomarker-acmg-classification/scripts/acmg_classify.py"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-acmg-classification",
+          "access-mode": "hybrid"
+        },
+        {
+          "db-name": "clinvar",
+          "show-name": "clinvar",
+          "description": "Query ClinVar clinical significance, review status, submitter evidence, ClinGen expert-panel curation, and germline or somatic interpretations.",
+          "reference": {
+            "db-url": "",
+            "citation": ""
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/clinical-and-phenotype/variants/biomarker-clinvar/references/bio-clinical-databases-clinvar-lookup-guide.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/variants/biomarker-clinvar/references/bio-clinical-databases-clinvar-lookup-usage.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/variants/biomarker-clinvar/scripts/clinvar_query.py"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-clinvar",
+          "access-mode": "remote"
+        },
+        {
+          "db-name": "dbsnp",
+          "show-name": "dbsnp",
+          "description": "Resolve dbSNP rsIDs and merge histories and convert among rsID, SPDI, HGVS, and VCF representations using current NCBI records.",
+          "reference": {
+            "db-url": "",
+            "citation": ""
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/clinical-and-phenotype/variants/biomarker-dbsnp/references/bio-clinical-databases-dbsnp-queries-guide.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/variants/biomarker-dbsnp/references/bio-clinical-databases-dbsnp-queries-usage.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/variants/biomarker-dbsnp/scripts/dbsnp_lookup.py"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-dbsnp",
+          "access-mode": "remote"
+        },
+        {
+          "db-name": "gnomad",
+          "show-name": "gnomad",
+          "description": "Query gnomAD population frequencies, filtering allele frequencies, constraint metrics, structural variants, mitochondrial variants, and release-specific evidence.",
+          "reference": {
+            "db-url": "",
+            "citation": ""
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/clinical-and-phenotype/variants/biomarker-gnomad/references/bio-clinical-databases-gnomad-frequencies-guide.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/variants/biomarker-gnomad/references/bio-clinical-databases-gnomad-frequencies-usage.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/variants/biomarker-gnomad/scripts/gnomad_query.py"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-gnomad",
+          "access-mode": "remote"
+        },
+        {
+          "db-name": "myvariant",
+          "show-name": "myvariant",
+          "description": "Query myvariant.info for versioned, batched aggregation of ClinVar, gnomAD, dbSNP, dbNSFP, COSMIC, CADD, CIViC, and related variant annotations.",
+          "reference": {
+            "db-url": "",
+            "citation": ""
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/clinical-and-phenotype/variants/biomarker-myvariant/references/bio-clinical-databases-myvariant-queries-guide.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/variants/biomarker-myvariant/references/bio-clinical-databases-myvariant-queries-usage.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/variants/biomarker-myvariant/scripts/query_myvariant.py"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-myvariant",
+          "access-mode": "remote"
+        },
+        {
+          "db-name": "variant-prioritization",
+          "show-name": "variant-prioritization",
+          "description": "Prioritize rare-disease variants using inheritance, phasing, phenotype similarity, gene-disease validity, mosaic evidence, and secondary-findings guidance.",
+          "reference": {
+            "db-url": "",
+            "citation": ""
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/clinical-and-phenotype/variants/biomarker-variant-prioritization/references/bio-clinical-databases-variant-prioritization-guide.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/variants/biomarker-variant-prioritization/references/bio-clinical-databases-variant-prioritization-usage.md",
+            "resource/skills/biological-knowledge/clinical-and-phenotype/variants/biomarker-variant-prioritization/scripts/prioritize_variants.py"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-variant-prioritization",
+          "access-mode": "hybrid"
+        }
+      ]
+    },
+    "DNA & Genome": {
+      "Comparative Genomics": [
+        {
+          "db-name": "ortholog-databases",
+          "show-name": "ortholog-databases",
+          "description": "Retrieve and compare precomputed ortholog calls from Ensembl Compara, OrthoDB, OMA, eggNOG, PANTHER, KEGG Orthology, and related resources.",
+          "reference": {
+            "db-url": "",
+            "citation": ""
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/dna-genome/comparative-genomics/biomarker-ortholog-databases/references/bio-ortholog-inference-guide.md",
+            "resource/skills/biological-knowledge/dna-genome/comparative-genomics/biomarker-ortholog-databases/references/bio-ortholog-inference-usage.md",
+            "resource/skills/biological-knowledge/dna-genome/comparative-genomics/biomarker-ortholog-databases/scripts/compara_orthologs.py",
+            "resource/skills/biological-knowledge/dna-genome/comparative-genomics/biomarker-ortholog-databases/scripts/cross_resource.py",
+            "resource/skills/biological-knowledge/dna-genome/comparative-genomics/biomarker-ortholog-databases/scripts/kegg_orthology.py"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-ortholog-databases",
+          "access-mode": "remote"
+        }
+      ],
+      "Data Access": {
+        "Ncbi Entrez": [
+          {
+            "db-name": "ncbi-entrez",
+            "show-name": "ncbi-entrez",
+            "description": "Search, link, fetch, and batch-download records across NCBI Entrez databases with history-server pagination, rate limiting, retries, and integrity checks.",
+            "reference": {
+              "db-url": "",
+              "citation": ""
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/dna-genome/data-access/ncbi-entrez/biomarker-ncbi-entrez/references/bio-batch-downloads-guide.md",
+              "resource/skills/biological-knowledge/dna-genome/data-access/ncbi-entrez/biomarker-ncbi-entrez/references/bio-batch-downloads-usage.md",
+              "resource/skills/biological-knowledge/dna-genome/data-access/ncbi-entrez/biomarker-ncbi-entrez/references/bio-entrez-fetch-guide.md",
+              "resource/skills/biological-knowledge/dna-genome/data-access/ncbi-entrez/biomarker-ncbi-entrez/references/bio-entrez-fetch-usage.md",
+              "resource/skills/biological-knowledge/dna-genome/data-access/ncbi-entrez/biomarker-ncbi-entrez/references/bio-entrez-link-guide.md",
+              "resource/skills/biological-knowledge/dna-genome/data-access/ncbi-entrez/biomarker-ncbi-entrez/references/bio-entrez-link-usage.md",
+              "resource/skills/biological-knowledge/dna-genome/data-access/ncbi-entrez/biomarker-ncbi-entrez/references/bio-entrez-search-guide.md",
+              "resource/skills/biological-knowledge/dna-genome/data-access/ncbi-entrez/biomarker-ncbi-entrez/references/bio-entrez-search-usage.md",
+              "resource/skills/biological-knowledge/dna-genome/data-access/ncbi-entrez/biomarker-ncbi-entrez/scripts/basic_linking.py",
+              "resource/skills/biological-knowledge/dna-genome/data-access/ncbi-entrez/biomarker-ncbi-entrez/scripts/basic_search.py",
+              "resource/skills/biological-knowledge/dna-genome/data-access/ncbi-entrez/biomarker-ncbi-entrez/scripts/batch_by_ids.py",
+              "resource/skills/biological-knowledge/dna-genome/data-access/ncbi-entrez/biomarker-ncbi-entrez/scripts/batch_fasta.py",
+              "resource/skills/biological-knowledge/dna-genome/data-access/ncbi-entrez/biomarker-ncbi-entrez/scripts/chain_links.py",
+              "resource/skills/biological-knowledge/dna-genome/data-access/ncbi-entrez/biomarker-ncbi-entrez/scripts/database_info.py",
+              "resource/skills/biological-knowledge/dna-genome/data-access/ncbi-entrez/biomarker-ncbi-entrez/scripts/discover_links.py",
+              "resource/skills/biological-knowledge/dna-genome/data-access/ncbi-entrez/biomarker-ncbi-entrez/scripts/fetch_pubmed.py",
+              "resource/skills/biological-knowledge/dna-genome/data-access/ncbi-entrez/biomarker-ncbi-entrez/scripts/fetch_sequences.py",
+              "resource/skills/biological-knowledge/dna-genome/data-access/ncbi-entrez/biomarker-ncbi-entrez/scripts/fetch_summaries.py",
+              "resource/skills/biological-knowledge/dna-genome/data-access/ncbi-entrez/biomarker-ncbi-entrez/scripts/global_query.py",
+              "resource/skills/biological-knowledge/dna-genome/data-access/ncbi-entrez/biomarker-ncbi-entrez/scripts/robust_download.py"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-ncbi-entrez",
+            "access-mode": "remote"
+          }
+        ],
+        "Ncbi Datasets": [
+          {
+            "db-name": "ncbi-datasets",
+            "show-name": "ncbi-datasets",
+            "description": "Retrieve NCBI genomes, genes, orthologs, and related metadata with the Datasets v2 CLI using accession-driven and checksum-validated workflows.",
+            "reference": {
+              "db-url": "",
+              "citation": ""
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/dna-genome/data-access/ncbi-datasets/biomarker-ncbi-datasets/references/bio-ncbi-datasets-cli-guide.md",
+              "resource/skills/biological-knowledge/dna-genome/data-access/ncbi-datasets/biomarker-ncbi-datasets/references/bio-ncbi-datasets-cli-usage.md",
+              "resource/skills/biological-knowledge/dna-genome/data-access/ncbi-datasets/biomarker-ncbi-datasets/scripts/bulk_dehydrated.sh",
+              "resource/skills/biological-knowledge/dna-genome/data-access/ncbi-datasets/biomarker-ncbi-datasets/scripts/download_genome.sh",
+              "resource/skills/biological-knowledge/dna-genome/data-access/ncbi-datasets/biomarker-ncbi-datasets/scripts/gene_metadata.sh"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-ncbi-datasets",
+            "access-mode": "remote"
+          }
+        ],
+        "Sequence Retrieval": [
+          {
+            "db-name": "sequence-retrieval",
+            "show-name": "sequence-retrieval",
+            "description": "Retrieve DNA, RNA, transcript, and protein sequences across NCBI and ENA with accession disambiguation and curated-record preference.",
+            "reference": {
+              "db-url": "",
+              "citation": ""
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/dna-genome/data-access/sequence-retrieval/biomarker-sequence-retrieval/references/tooluniverse-sequence-retrieval-checklist.md",
+              "resource/skills/biological-knowledge/dna-genome/data-access/sequence-retrieval/biomarker-sequence-retrieval/references/tooluniverse-sequence-retrieval-examples.md",
+              "resource/skills/biological-knowledge/dna-genome/data-access/sequence-retrieval/biomarker-sequence-retrieval/references/tooluniverse-sequence-retrieval-guide.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-sequence-retrieval",
+            "access-mode": "remote"
+          }
+        ]
+      },
+      "Gene Annotation": [
+        {
+          "db-name": "biomart",
+          "show-name": "biomart",
+          "description": "Bulk-query Ensembl and compatible BioMart services for identifier mapping, genomic coordinates, transcript structure, and cross-species ortholog tables.",
+          "reference": {
+            "db-url": "",
+            "citation": ""
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/dna-genome/gene-annotation/biomarker-biomart/references/bio-biomart-queries-guide.md",
+            "resource/skills/biological-knowledge/dna-genome/gene-annotation/biomarker-biomart/references/bio-biomart-queries-usage.md",
+            "resource/skills/biological-knowledge/dna-genome/gene-annotation/biomarker-biomart/scripts/bulk_id_mapping.py",
+            "resource/skills/biological-knowledge/dna-genome/gene-annotation/biomarker-biomart/scripts/coordinate_table.sh",
+            "resource/skills/biological-knowledge/dna-genome/gene-annotation/biomarker-biomart/scripts/ortholog_table.py"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-biomart",
+          "access-mode": "remote"
+        },
+        {
+          "db-name": "Ensembl",
+          "show-name": "Ensembl",
+          "description": "Ensembl is a genome annotation and browser resource providing gene, transcript, exon, comparative genomics, and cross-reference data.",
+          "reference": {
+            "db-url": "https://www.ensembl.org/",
+            "citation": ""
+          },
+          "content": [
+            "gene / transcript / exon annotation",
+            "genome coordinates",
+            "ortholog / paralog",
+            "ID mapping (Ensembl/Entrez/UniProt)"
+          ],
+          "paths": [
+            "resource/skills/biological-knowledge/dna-genome/gene-annotation/biomarker-ensembl/references/api_endpoints.md",
+            "resource/skills/biological-knowledge/dna-genome/gene-annotation/biomarker-ensembl/references/bio-ensembl-rest-guide.md",
+            "resource/skills/biological-knowledge/dna-genome/gene-annotation/biomarker-ensembl/references/bio-ensembl-rest-usage.md",
+            "resource/skills/biological-knowledge/dna-genome/gene-annotation/biomarker-ensembl/references/ensembl-database-guide.md",
+            "resource/skills/biological-knowledge/dna-genome/gene-annotation/biomarker-ensembl/references/ensembl_ref.md",
+            "resource/skills/biological-knowledge/dna-genome/gene-annotation/biomarker-ensembl/references/readme.md",
+            "resource/skills/biological-knowledge/dna-genome/gene-annotation/biomarker-ensembl/scripts/compara_homology.py",
+            "resource/skills/biological-knowledge/dna-genome/gene-annotation/biomarker-ensembl/scripts/ensembl_query.py",
+            "resource/skills/biological-knowledge/dna-genome/gene-annotation/biomarker-ensembl/scripts/lookup_and_overlap.py",
+            "resource/skills/biological-knowledge/dna-genome/gene-annotation/biomarker-ensembl/scripts/query_ensembl.py",
+            "resource/skills/biological-knowledge/dna-genome/gene-annotation/biomarker-ensembl/scripts/vep_annotation.py"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-ensembl",
+          "access-mode": "remote"
+        },
+        {
+          "db-name": "ncbi-gene",
+          "show-name": "ncbi-gene",
+          "description": "Query current NCBI Gene records by symbol, Gene ID, organism, or search expression. Use for gene summaries, aliases, nomenclature, chromosome and map location, genomic coordinates, and identifier verification through NCBI E-utilities.",
+          "reference": {
+            "db-url": "",
+            "citation": ""
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/dna-genome/gene-annotation/biomarker-ncbi-gene/references/api_reference.md",
+            "resource/skills/biological-knowledge/dna-genome/gene-annotation/biomarker-ncbi-gene/references/common_workflows.md",
+            "resource/skills/biological-knowledge/dna-genome/gene-annotation/biomarker-ncbi-gene/references/gene-database-guide.md",
+            "resource/skills/biological-knowledge/dna-genome/gene-annotation/biomarker-ncbi-gene/scripts/batch_gene_lookup.py",
+            "resource/skills/biological-knowledge/dna-genome/gene-annotation/biomarker-ncbi-gene/scripts/fetch_gene_data.py",
+            "resource/skills/biological-knowledge/dna-genome/gene-annotation/biomarker-ncbi-gene/scripts/query_gene.py",
+            "resource/skills/biological-knowledge/dna-genome/gene-annotation/biomarker-ncbi-gene/scripts/query_ncbi_gene.py"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-ncbi-gene",
+          "access-mode": "remote"
+        }
+      ],
+      "Genomic Region": {
+        "Human Chromosome Cytogenetic Bands": [
+          {
+            "db-name": "msigdb",
+            "show-name": "msigdb C1: Positional gene sets",
+            "description": "MSigDB C1 positional gene sets organize genes by chromosomal cytogenetic bands and genomic regions.",
+            "reference": {
+              "db-url": "https://www.gsea-msigdb.org/gsea/msigdb/human/collections.jsp",
+              "citation": ""
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/dna-genome/genomic-region/human-chromosome-cytogenetic-bands/biomarker-msigdb-human-chromosome-cytogenetic-bands/assets/msigdb.c1.all.v2025.1.Hs.json",
+              "resource/skills/biological-knowledge/dna-genome/genomic-region/human-chromosome-cytogenetic-bands/biomarker-msigdb-human-chromosome-cytogenetic-bands/assets/msigdb.c1.all.v2025.1.Hs.symbols.gmt"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-msigdb-human-chromosome-cytogenetic-bands",
+            "access-mode": "local"
+          }
+        ]
+      },
+      "Non Coding Rna": {
+        "Circrna": [
+          {
+            "db-name": "circRNADb",
+            "show-name": "circRNADb",
+            "description": "circRNADb is a comprehensive database of human circular RNAs with genomic annotation, exon structure, sequence, IRES, and ORF/protein-coding evidence.",
+            "reference": {
+              "db-url": "http://reprod.njmu.edu.cn/circrnadb/",
+              "citation": "https://www.nature.com/articles/srep34985"
+            },
+            "content": [
+              "annotation",
+              "location",
+              "sequence"
+            ],
+            "paths": [
+              "resource/skills/biological-knowledge/dna-genome/non-coding-rna/circrna/biomarker-circrnadb/assets/circRNADb/circRNA_IRES",
+              "resource/skills/biological-knowledge/dna-genome/non-coding-rna/circrna/biomarker-circrnadb/assets/circRNADb/circRNA_ORF",
+              "resource/skills/biological-knowledge/dna-genome/non-coding-rna/circrna/biomarker-circrnadb/assets/circRNADb/circRNA_dataset.txt",
+              "resource/skills/biological-knowledge/dna-genome/non-coding-rna/circrna/biomarker-circrnadb/assets/circRNADb/circRNA_fasta",
+              "resource/skills/biological-knowledge/dna-genome/non-coding-rna/circrna/biomarker-circrnadb/references/circRNADb_ref.md",
+              "resource/skills/biological-knowledge/dna-genome/non-coding-rna/circrna/biomarker-circrnadb/references/readme.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-circrnadb",
+            "access-mode": "local"
+          }
+        ],
+        "Snorna": [
+          {
+            "db-name": "snoDB",
+            "show-name": "snoDB",
+            "description": "snoDB 2.0 is an interactive database of human small nucleolar RNAs with features, genomic locations, host genes, targets, and abundance links.",
+            "reference": {
+              "db-url": "https://bioinfoscottgroup.med.usherbrooke.ca/snoDB/",
+              "citation": "https://doi.org/10.1093/nar/gkac835"
+            },
+            "content": [
+              "annotation",
+              "location",
+              "sequence"
+            ],
+            "paths": [
+              "resource/skills/biological-knowledge/dna-genome/non-coding-rna/snorna/biomarker-snodb-snorna/assets/snoDB/snoDB_BED.bed",
+              "resource/skills/biological-knowledge/dna-genome/non-coding-rna/snorna/biomarker-snodb-snorna/assets/snoDB/snoDB_FASTA.fa",
+              "resource/skills/biological-knowledge/dna-genome/non-coding-rna/snorna/biomarker-snodb-snorna/assets/snoDB/snoDB_data.tsv",
+              "resource/skills/biological-knowledge/dna-genome/non-coding-rna/snorna/biomarker-snodb-snorna/references/readme.md",
+              "resource/skills/biological-knowledge/dna-genome/non-coding-rna/snorna/biomarker-snodb-snorna/references/snoDB_ref.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-snodb-snorna",
+            "access-mode": "local"
+          }
+        ]
+      },
+      "Sequence Similarity": {
+        "Blast": [
+          {
+            "db-name": "blast",
+            "show-name": "blast",
+            "description": "Run remote NCBI BLAST or local BLAST+ searches, select programs and databases, build custom databases, and retrieve reproducible sequence-similarity results.",
+            "reference": {
+              "db-url": "",
+              "citation": ""
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/dna-genome/sequence-similarity/blast/biomarker-blast/references/bio-blast-searches-guide.md",
+              "resource/skills/biological-knowledge/dna-genome/sequence-similarity/blast/biomarker-blast/references/bio-blast-searches-usage.md",
+              "resource/skills/biological-knowledge/dna-genome/sequence-similarity/blast/biomarker-blast/references/bio-local-blast-guide.md",
+              "resource/skills/biological-knowledge/dna-genome/sequence-similarity/blast/biomarker-blast/references/bio-local-blast-usage.md",
+              "resource/skills/biological-knowledge/dna-genome/sequence-similarity/blast/biomarker-blast/scripts/basic_blast.py",
+              "resource/skills/biological-knowledge/dna-genome/sequence-similarity/blast/biomarker-blast/scripts/blast_wrapper.py",
+              "resource/skills/biological-knowledge/dna-genome/sequence-similarity/blast/biomarker-blast/scripts/blastp_filtered.py",
+              "resource/skills/biological-knowledge/dna-genome/sequence-similarity/blast/biomarker-blast/scripts/create_database.sh",
+              "resource/skills/biological-knowledge/dna-genome/sequence-similarity/blast/biomarker-blast/scripts/reciprocal_best.sh",
+              "resource/skills/biological-knowledge/dna-genome/sequence-similarity/blast/biomarker-blast/scripts/run_blast.sh",
+              "resource/skills/biological-knowledge/dna-genome/sequence-similarity/blast/biomarker-blast/scripts/save_and_parse.py"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-blast",
+            "access-mode": "hybrid"
+          }
+        ]
+      }
+    },
+    "Functional Signatures": {
+      "Pathway": {
+        "Gene Ontology": [
+          {
+            "db-name": "GO",
+            "show-name": "GO",
+            "description": "Gene Ontology (GO) provides structured knowledge of gene functions.",
+            "reference": {
+              "db-url": "http://geneontology.org",
+              "citation": "https://doi.org/10.1093/nar/gky1055"
+            },
+            "content": [
+              "GO_Biological_Process",
+              "GO_Cellular_Component",
+              "GO_Molecular_Function"
+            ],
+            "paths": [
+              "resource/skills/biological-knowledge/functional-signatures/pathway/gene-ontology/biomarker-go/assets/GO/GO_Biological_Process_2025.txt",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/gene-ontology/biomarker-go/assets/GO/GO_Cellular_Component_2025.txt",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/gene-ontology/biomarker-go/assets/GO/GO_Molecular_Function_2025.txt",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/gene-ontology/biomarker-go/references/GO_ref.md",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/gene-ontology/biomarker-go/scripts/query_go.py"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-go",
+            "access-mode": "local"
+          }
+        ],
+        "Kegg": [
+          {
+            "db-name": "KEGG",
+            "show-name": "KEGG",
+            "description": "KEGG provides pathway maps representing molecular interaction and reaction networks.",
+            "reference": {
+              "db-url": "https://www.kegg.jp/",
+              "citation": "https://academic.oup.com/nar/article/53/D1/D672/7824602"
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/functional-signatures/pathway/kegg/biomarker-kegg/assets/KEGG/KEGG_2026.txt",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/kegg/biomarker-kegg/assets/KEGG/manifest.json",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/kegg/biomarker-kegg/references/response-schema.md",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/kegg/biomarker-kegg/scripts/query_kegg.py"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-kegg",
+            "access-mode": "hybrid"
+          }
+        ],
+        "Progeny": [
+          {
+            "db-name": "PROGENy",
+            "show-name": "PROGENy",
+            "description": "PROGENy is a pathway activity inference method based on perturbation‑response gene signatures.",
+            "reference": {
+              "db-url": "https://saezlab.github.io/progeny/",
+              "citation": "https://www.nature.com/articles/s41467-017-02391-6"
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/functional-signatures/pathway/progeny/biomarker-progeny/assets/PROGENy/PROGENy_human.csv",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/progeny/biomarker-progeny/assets/PROGENy/PROGENy_mouse.csv",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/progeny/biomarker-progeny/references/PROGENy_ref.md",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/progeny/biomarker-progeny/references/readme.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-progeny",
+            "access-mode": "local"
+          }
+        ],
+        "Reactome": [
+          {
+            "db-name": "Reactome",
+            "show-name": "Reactome",
+            "description": "Reactome is a free, expert-curated biological pathway database covering signaling, metabolism, reactions, and molecular events.",
+            "reference": {
+              "db-url": "https://reactome.org/",
+              "citation": "https://doi.org/10.1093/nar/gkac1055"
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/functional-signatures/pathway/reactome/biomarker-reactome/assets/Reactome/ReactomePathways.gmt",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/reactome/biomarker-reactome/assets/Reactome/manifest.json",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/reactome/biomarker-reactome/references/Reactome_ref.md",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/reactome/biomarker-reactome/references/api_reference.md",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/reactome/biomarker-reactome/references/gene-set-schema.md",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/reactome/biomarker-reactome/references/participants-schema.md",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/reactome/biomarker-reactome/references/reactome-database-guide.md",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/reactome/biomarker-reactome/scripts/reactome_query.py"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-reactome",
+            "access-mode": "hybrid"
+          }
+        ],
+        "Wikipathways": [
+          {
+            "db-name": "WikiPathways",
+            "show-name": "WikiPathways",
+            "description": "WikiPathways is an open, community curated pathway database.",
+            "reference": {
+              "db-url": "https://www.wikipathways.org/",
+              "citation": "https://doi.org/10.1093/nar/gkad960"
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/functional-signatures/pathway/wikipathways/biomarker-wikipathways/assets/WikiPathways/wikipathways-20260110-gmt-Anopheles_gambiae.gmt",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/wikipathways/biomarker-wikipathways/assets/WikiPathways/wikipathways-20260110-gmt-Arabidopsis_thaliana.gmt",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/wikipathways/biomarker-wikipathways/assets/WikiPathways/wikipathways-20260110-gmt-Bos_taurus.gmt",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/wikipathways/biomarker-wikipathways/assets/WikiPathways/wikipathways-20260110-gmt-Caenorhabditis_elegans.gmt",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/wikipathways/biomarker-wikipathways/assets/WikiPathways/wikipathways-20260110-gmt-Danio_rerio.gmt",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/wikipathways/biomarker-wikipathways/assets/WikiPathways/wikipathways-20260110-gmt-Drosophila_melanogaster.gmt",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/wikipathways/biomarker-wikipathways/assets/WikiPathways/wikipathways-20260110-gmt-Equus_caballus.gmt",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/wikipathways/biomarker-wikipathways/assets/WikiPathways/wikipathways-20260110-gmt-Gallus_gallus.gmt",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/wikipathways/biomarker-wikipathways/assets/WikiPathways/wikipathways-20260110-gmt-Homo_sapiens.gmt",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/wikipathways/biomarker-wikipathways/assets/WikiPathways/wikipathways-20260110-gmt-Mus_musculus.gmt",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/wikipathways/biomarker-wikipathways/assets/WikiPathways/wikipathways-20260110-gmt-Pan_troglodytes.gmt",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/wikipathways/biomarker-wikipathways/assets/WikiPathways/wikipathways-20260110-gmt-Populus_trichocarpa.gmt",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/wikipathways/biomarker-wikipathways/assets/WikiPathways/wikipathways-20260110-gmt-Rattus_norvegicus.gmt",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/wikipathways/biomarker-wikipathways/assets/WikiPathways/wikipathways-20260110-gmt-Saccharomyces_cerevisiae.gmt",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/wikipathways/biomarker-wikipathways/assets/WikiPathways/wikipathways-20260110-gmt-Solanum_lycopersicum.gmt",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/wikipathways/biomarker-wikipathways/assets/WikiPathways/wikipathways-20260110-gmt-Sus_scrofa.gmt",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/wikipathways/biomarker-wikipathways/assets/WikiPathways/wikipathways-20260110-gmt-Zea_mays.gmt",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/wikipathways/biomarker-wikipathways/references/WikiPathways_ref.md",
+              "resource/skills/biological-knowledge/functional-signatures/pathway/wikipathways/biomarker-wikipathways/references/readme.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-wikipathways",
+            "access-mode": "local"
+          }
+        ]
+      },
+      "Program": {
+        "Cell Senescence": [
+          {
+            "db-name": "cellAge",
+            "show-name": "cellAge",
+            "description": "CellAge is a manually curated database of human genes associated with cellular senescence.",
+            "reference": {
+              "db-url": "http://genomics.senescence.info/cells",
+              "citation": "https://doi.org/10.1186/s13059-020-01990-9"
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/functional-signatures/program/cell-senescence/biomarker-cellage/assets/cellage3.tsv",
+              "resource/skills/biological-knowledge/functional-signatures/program/cell-senescence/biomarker-cellage/references/cellAge_ref.md",
+              "resource/skills/biological-knowledge/functional-signatures/program/cell-senescence/biomarker-cellage/references/readme.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-cellage",
+            "access-mode": "local"
+          }
+        ],
+        "Epithelial Mesenchymal Transition": [
+          {
+            "db-name": "dbEMT",
+            "show-name": "dbEMT",
+            "description": "dbEMT 2.0 is a curated database of epithelial–mesenchymal transition (EMT) related genes with experimental evidence.",
+            "reference": {
+              "db-url": "http://dbemt.bioinfo-minzhao.org/",
+              "citation": "https://doi.org/10.1016/j.jgg.2019.11.010"
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/functional-signatures/program/epithelial-mesenchymal-transition/biomarker-dbemt/assets/dbemt2.txt",
+              "resource/skills/biological-knowledge/functional-signatures/program/epithelial-mesenchymal-transition/biomarker-dbemt/references/dbEMT_ref.md",
+              "resource/skills/biological-knowledge/functional-signatures/program/epithelial-mesenchymal-transition/biomarker-dbemt/references/readme.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-dbemt",
+            "access-mode": "local"
+          },
+          {
+            "db-name": "EMTome",
+            "show-name": "EMTome",
+            "description": "EMTome is a pan‑cancer resource of epithelial–mesenchymal transition (EMT) gene signatures and related multi‑omics annotations.",
+            "reference": {
+              "db-url": "http://www.emtome.org",
+              "citation": "https://www.nature.com/articles/s41416-020-01178-9"
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/functional-signatures/program/epithelial-mesenchymal-transition/biomarker-emtome/assets/EMTome_signatures.gmt",
+              "resource/skills/biological-knowledge/functional-signatures/program/epithelial-mesenchymal-transition/biomarker-emtome/references/EMTome_ref.md",
+              "resource/skills/biological-knowledge/functional-signatures/program/epithelial-mesenchymal-transition/biomarker-emtome/references/readme.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-emtome",
+            "access-mode": "local"
+          }
+        ],
+        "Regulated Cell Death": [
+          {
+            "db-name": "FerrDb",
+            "show-name": "FerrDb",
+            "description": "FerrDb V3 is a manually curated, open access database of regulated cell death (RCD) regulators and RCD–disease associations.",
+            "reference": {
+              "db-url": "https://www.zhounan.org/ferrdb/",
+              "citation": "https://doi.org/10.1093/nar/gkaf1119"
+            },
+            "content": [
+              "disease",
+              "driver",
+              "inducer",
+              "inhibitor",
+              "marker",
+              "suppressor",
+              "unclassified"
+            ],
+            "paths": [
+              "resource/skills/biological-knowledge/functional-signatures/program/regulated-cell-death/biomarker-ferrdb/assets/ferrdb_disease.csv",
+              "resource/skills/biological-knowledge/functional-signatures/program/regulated-cell-death/biomarker-ferrdb/assets/ferrdb_driver.csv",
+              "resource/skills/biological-knowledge/functional-signatures/program/regulated-cell-death/biomarker-ferrdb/assets/ferrdb_inducer.csv",
+              "resource/skills/biological-knowledge/functional-signatures/program/regulated-cell-death/biomarker-ferrdb/assets/ferrdb_inhibitor.csv",
+              "resource/skills/biological-knowledge/functional-signatures/program/regulated-cell-death/biomarker-ferrdb/assets/ferrdb_marker.csv",
+              "resource/skills/biological-knowledge/functional-signatures/program/regulated-cell-death/biomarker-ferrdb/assets/ferrdb_suppressor.csv",
+              "resource/skills/biological-knowledge/functional-signatures/program/regulated-cell-death/biomarker-ferrdb/assets/ferrdb_unclassified.csv",
+              "resource/skills/biological-knowledge/functional-signatures/program/regulated-cell-death/biomarker-ferrdb/references/ferrdb_ref.md",
+              "resource/skills/biological-knowledge/functional-signatures/program/regulated-cell-death/biomarker-ferrdb/references/readme.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-ferrdb",
+            "access-mode": "local"
+          }
+        ],
+        "Cancer Cell Program": [
+          {
+            "db-name": "3CA",
+            "show-name": "3CA",
+            "description": "This resource summarizes meta programs (co regulated gene sets) identified from the Curated Cancer Cell Atlas (3CA) study of transcriptional intratumour heterogeneity.",
+            "reference": {
+              "db-url": "https://www.weizmann.ac.il/sites/3CA/",
+              "citation": "https://www.nature.com/articles/s41586-023-06130-4"
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/functional-signatures/program/cancer-cell-program/biomarker-3ca/assets/3CA/3ca.cancer_cell.mp.csv",
+              "resource/skills/biological-knowledge/functional-signatures/program/cancer-cell-program/biomarker-3ca/assets/3CA/3ca.normal_cell.mp.csv",
+              "resource/skills/biological-knowledge/functional-signatures/program/cancer-cell-program/biomarker-3ca/references/3ca_ref.md",
+              "resource/skills/biological-knowledge/functional-signatures/program/cancer-cell-program/biomarker-3ca/references/readme.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-3ca",
+            "access-mode": "local"
+          },
+          {
+            "db-name": "CancerSEA",
+            "show-name": "CancerSEA",
+            "description": "CancerSEA is a cancer single‑cell functional state atlas that provides gene signatures for 14 functional states (e.g., EMT, proliferation, stemness).",
+            "reference": {
+              "db-url": "http://biocc.hrbmu.edu.cn/CancerSEA/",
+              "citation": "https://doi.org/10.1093/nar/gky939"
+            },
+            "content": [
+              "Angiogenesis",
+              "Apoptosis",
+              "Cell_Cycle",
+              "DNA_damage",
+              "DNA_repair",
+              "Differentiation",
+              "EMT",
+              "Hypoxia",
+              "Inflammation",
+              "Invasion",
+              "Metastasis",
+              "Proliferation",
+              "Quiescence",
+              "Stemness"
+            ],
+            "paths": [
+              "resource/skills/biological-knowledge/functional-signatures/program/cancer-cell-program/biomarker-cancersea/assets/CancerSEA/Angiogenesis.txt",
+              "resource/skills/biological-knowledge/functional-signatures/program/cancer-cell-program/biomarker-cancersea/assets/CancerSEA/Apoptosis.txt",
+              "resource/skills/biological-knowledge/functional-signatures/program/cancer-cell-program/biomarker-cancersea/assets/CancerSEA/Cell_Cycle.txt",
+              "resource/skills/biological-knowledge/functional-signatures/program/cancer-cell-program/biomarker-cancersea/assets/CancerSEA/DNA_damage.txt",
+              "resource/skills/biological-knowledge/functional-signatures/program/cancer-cell-program/biomarker-cancersea/assets/CancerSEA/DNA_repair.txt",
+              "resource/skills/biological-knowledge/functional-signatures/program/cancer-cell-program/biomarker-cancersea/assets/CancerSEA/Differentiation.txt",
+              "resource/skills/biological-knowledge/functional-signatures/program/cancer-cell-program/biomarker-cancersea/assets/CancerSEA/EMT.txt",
+              "resource/skills/biological-knowledge/functional-signatures/program/cancer-cell-program/biomarker-cancersea/assets/CancerSEA/Hypoxia.txt",
+              "resource/skills/biological-knowledge/functional-signatures/program/cancer-cell-program/biomarker-cancersea/assets/CancerSEA/Inflammation.txt",
+              "resource/skills/biological-knowledge/functional-signatures/program/cancer-cell-program/biomarker-cancersea/assets/CancerSEA/Invasion.txt",
+              "resource/skills/biological-knowledge/functional-signatures/program/cancer-cell-program/biomarker-cancersea/assets/CancerSEA/Metastasis.txt",
+              "resource/skills/biological-knowledge/functional-signatures/program/cancer-cell-program/biomarker-cancersea/assets/CancerSEA/Proliferation.txt",
+              "resource/skills/biological-knowledge/functional-signatures/program/cancer-cell-program/biomarker-cancersea/assets/CancerSEA/Quiescence.txt",
+              "resource/skills/biological-knowledge/functional-signatures/program/cancer-cell-program/biomarker-cancersea/assets/CancerSEA/Stemness.txt",
+              "resource/skills/biological-knowledge/functional-signatures/program/cancer-cell-program/biomarker-cancersea/references/CancerSEA_ref.md",
+              "resource/skills/biological-knowledge/functional-signatures/program/cancer-cell-program/biomarker-cancersea/references/readme.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-cancersea",
+            "access-mode": "local"
+          }
+        ]
+      },
+      "Signature": [
+        {
+          "db-name": "ImmuneSigDB",
+          "show-name": "ImmuneSigDB(msigdb C7)",
+          "description": "ImmuneSigDB is a curated collection of immunologic gene signatures derived from human and mouse immunology studies.",
+          "reference": {
+            "db-url": "https://www.gsea-msigdb.org/gsea/msigdb/collections.jsp#C7",
+            "citation": "http://www.cell.com/immunity/abstract/S1074-7613(15)00532-4"
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/functional-signatures/signature/biomarker-immunesigdb/assets/ImmuneSigDB/c7.immunesigdb.v2025.1.Hs.json",
+            "resource/skills/biological-knowledge/functional-signatures/signature/biomarker-immunesigdb/assets/ImmuneSigDB/c7.immunesigdb.v2025.1.Hs.symbols.gmt",
+            "resource/skills/biological-knowledge/functional-signatures/signature/biomarker-immunesigdb/references/ImmuneSigDB_ref.md",
+            "resource/skills/biological-knowledge/functional-signatures/signature/biomarker-immunesigdb/references/readme.md"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-immunesigdb",
+          "access-mode": "local"
+        },
+        {
+          "db-name": "msigdb",
+          "show-name": "msigdb H: Hallmark gene sets",
+          "description": "MSigDB Hallmark is a curated collection of 50 gene sets representing well-defined biological processes.",
+          "reference": {
+            "db-url": "https://www.gsea-msigdb.org/gsea/msigdb/",
+            "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4707969/"
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/functional-signatures/signature/biomarker-msigdb-signature/assets/hallmark/MSigDB.hallmark.all.v2025.1.Hs.json",
+            "resource/skills/biological-knowledge/functional-signatures/signature/biomarker-msigdb-signature/assets/hallmark/MSigDB.hallmark.all.v2025.1.Hs.symbols.gmt",
+            "resource/skills/biological-knowledge/functional-signatures/signature/biomarker-msigdb-signature/references/MSigDB.hallmark_ref.md",
+            "resource/skills/biological-knowledge/functional-signatures/signature/biomarker-msigdb-signature/references/readme.md"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-msigdb-signature",
+          "access-mode": "local"
+        },
+        {
+          "db-name": "somatic-signatures",
+          "show-name": "somatic-signatures",
+          "description": "Extract, assign, and interpret COSMIC somatic mutational signatures across SBS, DBS, indel, copy-number, and structural-variant profiles.",
+          "reference": {
+            "db-url": "",
+            "citation": ""
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/functional-signatures/signature/biomarker-somatic-signatures/references/bio-clinical-databases-somatic-signatures-guide.md",
+            "resource/skills/biological-knowledge/functional-signatures/signature/biomarker-somatic-signatures/references/bio-clinical-databases-somatic-signatures-usage.md",
+            "resource/skills/biological-knowledge/functional-signatures/signature/biomarker-somatic-signatures/scripts/mutsig_fitting.R",
+            "resource/skills/biological-knowledge/functional-signatures/signature/biomarker-somatic-signatures/scripts/sigprofiler_analysis.py"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-somatic-signatures",
+          "access-mode": "hybrid"
+        },
+        {
+          "db-name": "VAX: vaccine response",
+          "show-name": "VAX: vaccine response(msigdb C7)",
+          "description": "VAX is a curated collection of vaccine response gene signatures from the Human Immunology Project Consortium (HIPC).",
+          "reference": {
+            "db-url": "https://www.gsea-msigdb.org/gsea/msigdb/collections.jsp#C7",
+            "citation": "http://www.cell.com/immunity/abstract/S1074-7613(15)00532-4"
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/functional-signatures/signature/biomarker-vax-vaccine-response/assets/VAX_vaccine_response/c7.vax.v2025.1.Hs.json",
+            "resource/skills/biological-knowledge/functional-signatures/signature/biomarker-vax-vaccine-response/assets/VAX_vaccine_response/c7.vax.v2025.1.Hs.symbols.gmt",
+            "resource/skills/biological-knowledge/functional-signatures/signature/biomarker-vax-vaccine-response/references/VAX_vaccine_response_ref.md",
+            "resource/skills/biological-knowledge/functional-signatures/signature/biomarker-vax-vaccine-response/references/readme.md"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-vax-vaccine-response",
+          "access-mode": "local"
+        }
+      ]
+    },
+    "Metabolic Landscape": {
+      "Chemical Compounds": [
+        {
+          "db-name": "cross-database-compounds",
+          "show-name": "cross-database-compounds",
+          "description": "Resolve chemical identities and retrieve structures, identifiers, properties, and stereochemistry across PubChem, ChEMBL, OPSIN, and related compound sources.",
+          "reference": {
+            "db-url": "",
+            "citation": ""
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/metabolic-landscape/chemical-compounds/biomarker-cross-database-compounds/references/tooluniverse-chemical-compound-retrieval-checklist.md",
+            "resource/skills/biological-knowledge/metabolic-landscape/chemical-compounds/biomarker-cross-database-compounds/references/tooluniverse-chemical-compound-retrieval-examples.md",
+            "resource/skills/biological-knowledge/metabolic-landscape/chemical-compounds/biomarker-cross-database-compounds/references/tooluniverse-chemical-compound-retrieval-guide.md"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-cross-database-compounds",
+          "access-mode": "remote"
+        },
+        {
+          "db-name": "zinc",
+          "show-name": "zinc",
+          "description": "Search ZINC purchasable compounds by identifier or structure and retrieve docking-ready structures and analogs for virtual screening.",
+          "reference": {
+            "db-url": "",
+            "citation": ""
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/metabolic-landscape/chemical-compounds/biomarker-zinc/references/api_reference.md",
+            "resource/skills/biological-knowledge/metabolic-landscape/chemical-compounds/biomarker-zinc/references/zinc-database-guide.md"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-zinc",
+          "access-mode": "remote"
+        }
+      ],
+      "Metabolomics": [
+        {
+          "db-name": "HMDB",
+          "show-name": "HMDB",
+          "description": "HMDB is a comprehensive human metabolome database covering metabolite structures, pathways, concentrations, diseases, spectra, and related proteins.",
+          "reference": {
+            "db-url": "https://www.hmdb.ca/",
+            "citation": "https://doi.org/10.1093/nar/gkz1055"
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/metabolic-landscape/metabolomics/biomarker-hmdb/references/HMDB_ref.md",
+            "resource/skills/biological-knowledge/metabolic-landscape/metabolomics/biomarker-hmdb/references/hmdb-database-guide.md",
+            "resource/skills/biological-knowledge/metabolic-landscape/metabolomics/biomarker-hmdb/references/hmdb_data_fields.md",
+            "resource/skills/biological-knowledge/metabolic-landscape/metabolomics/biomarker-hmdb/references/readme.md"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-hmdb",
+          "access-mode": "remote"
+        },
+        {
+          "db-name": "MACdb",
+          "show-name": "MACdb",
+          "description": "MACdb is a curated knowledgebase of cancer–metabolite associations derived from manual curation of published studies.",
+          "reference": {
+            "db-url": "https://ngdc.cncb.ac.cn/macdb",
+            "citation": "https://doi.org/10.1158/1541-7786.MCR-22-0909"
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/metabolic-landscape/metabolomics/biomarker-macdb/assets/MACdb.metabolite.txt",
+            "resource/skills/biological-knowledge/metabolic-landscape/metabolomics/biomarker-macdb/references/MACdb_ref.md",
+            "resource/skills/biological-knowledge/metabolic-landscape/metabolomics/biomarker-macdb/references/readme.md"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-macdb",
+          "access-mode": "local"
+        },
+        {
+          "db-name": "PubChem",
+          "show-name": "PubChem",
+          "description": "PubChem is a public chemistry database maintained by NCBI with large-scale compound, substance, and bioassay information.",
+          "reference": {
+            "db-url": "https://pubchem.ncbi.nlm.nih.gov/",
+            "citation": "https://doi.org/10.1093/nar/gkac1055"
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/metabolic-landscape/metabolomics/biomarker-pubchem/references/PubChem_ref.md",
+            "resource/skills/biological-knowledge/metabolic-landscape/metabolomics/biomarker-pubchem/references/api_reference.md",
+            "resource/skills/biological-knowledge/metabolic-landscape/metabolomics/biomarker-pubchem/references/pubchem-database-guide.md",
+            "resource/skills/biological-knowledge/metabolic-landscape/metabolomics/biomarker-pubchem/references/readme.md",
+            "resource/skills/biological-knowledge/metabolic-landscape/metabolomics/biomarker-pubchem/scripts/bioactivity_query.py",
+            "resource/skills/biological-knowledge/metabolic-landscape/metabolomics/biomarker-pubchem/scripts/compound_search.py"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-pubchem",
+          "access-mode": "remote"
+        }
+      ]
+    },
+    "Protein Landscape": {
+      "Protein Annotation": [
+        {
+          "db-name": "UniProt",
+          "show-name": "UniProtKB",
+          "description": "UniProtKB is a comprehensive protein sequence and functional annotation knowledgebase.",
+          "reference": {
+            "db-url": "https://www.uniprot.org/"
+          },
+          "content": [
+            "sequence",
+            "PTM",
+            "function",
+            "location"
+          ],
+          "paths": [
+            "resource/skills/biological-knowledge/protein-landscape/protein-annotation/biomarker-uniprot/references/api_examples.md",
+            "resource/skills/biological-knowledge/protein-landscape/protein-annotation/biomarker-uniprot/references/api_fields.md",
+            "resource/skills/biological-knowledge/protein-landscape/protein-annotation/biomarker-uniprot/references/bio-uniprot-access-guide.md",
+            "resource/skills/biological-knowledge/protein-landscape/protein-annotation/biomarker-uniprot/references/bio-uniprot-access-usage.md",
+            "resource/skills/biological-knowledge/protein-landscape/protein-annotation/biomarker-uniprot/references/id_mapping_databases.md",
+            "resource/skills/biological-knowledge/protein-landscape/protein-annotation/biomarker-uniprot/references/query_syntax.md",
+            "resource/skills/biological-knowledge/protein-landscape/protein-annotation/biomarker-uniprot/references/uniprot-database-guide.md",
+            "resource/skills/biological-knowledge/protein-landscape/protein-annotation/biomarker-uniprot/references/uniprot_ref.md",
+            "resource/skills/biological-knowledge/protein-landscape/protein-annotation/biomarker-uniprot/scripts/isoforms_and_xrefs.py",
+            "resource/skills/biological-knowledge/protein-landscape/protein-annotation/biomarker-uniprot/scripts/query_uniprot.py",
+            "resource/skills/biological-knowledge/protein-landscape/protein-annotation/biomarker-uniprot/scripts/uniprot_client.py",
+            "resource/skills/biological-knowledge/protein-landscape/protein-annotation/biomarker-uniprot/scripts/uniprot_query.py"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-uniprot",
+          "access-mode": "remote"
+        }
+      ],
+      "Protein Homology": [
+        {
+          "db-name": "remote-homology",
+          "show-name": "remote-homology",
+          "description": "Detect distant protein homologs using iterative profiles, HMMs, fast sequence search, and structure-aware Foldseek workflows when standard BLAST is insufficient.",
+          "reference": {
+            "db-url": "",
+            "citation": ""
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/protein-landscape/protein-homology/biomarker-remote-homology/references/bio-remote-homology-guide.md",
+            "resource/skills/biological-knowledge/protein-landscape/protein-homology/biomarker-remote-homology/references/bio-remote-homology-usage.md",
+            "resource/skills/biological-knowledge/protein-landscape/protein-homology/biomarker-remote-homology/scripts/foldseek_search.sh",
+            "resource/skills/biological-knowledge/protein-landscape/protein-homology/biomarker-remote-homology/scripts/iterative_profile.sh",
+            "resource/skills/biological-knowledge/protein-landscape/protein-homology/biomarker-remote-homology/scripts/pfam_annotation.sh"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-remote-homology",
+          "access-mode": "hybrid"
+        }
+      ],
+      "Protein Protein Interaction": [
+        {
+          "db-name": "interaction-databases",
+          "show-name": "interaction-databases",
+          "description": "Select and query complementary interaction resources including STRING, BioGRID, IntAct, SIGNOR, Reactome, HuRI, HuMAP, OmniPath, ConsensusPathDB, and DIP.",
+          "reference": {
+            "db-url": "",
+            "citation": ""
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/protein-landscape/protein-protein-interaction/biomarker-interaction-databases/references/bio-interaction-databases-guide.md",
+            "resource/skills/biological-knowledge/protein-landscape/protein-protein-interaction/biomarker-interaction-databases/references/bio-interaction-databases-usage.md",
+            "resource/skills/biological-knowledge/protein-landscape/protein-protein-interaction/biomarker-interaction-databases/scripts/interaction_query.py",
+            "resource/skills/biological-knowledge/protein-landscape/protein-protein-interaction/biomarker-interaction-databases/scripts/string_network.py"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-interaction-databases",
+          "access-mode": "remote"
+        },
+        {
+          "db-name": "STRING",
+          "show-name": "STRING",
+          "description": "STRING is a database of known and predicted protein-protein associations integrating experiments, curated databases, co-expression, and text mining.",
+          "reference": {
+            "db-url": "https://string-db.org/",
+            "citation": "https://doi.org/10.1093/nar/gkad1027"
+          },
+          "content": [
+            "physical interaction",
+            "functional association",
+            "co-expression"
+          ],
+          "paths": [
+            "resource/skills/biological-knowledge/protein-landscape/protein-protein-interaction/biomarker-string/references/string-database-guide.md",
+            "resource/skills/biological-knowledge/protein-landscape/protein-protein-interaction/biomarker-string/references/string_ref.md",
+            "resource/skills/biological-knowledge/protein-landscape/protein-protein-interaction/biomarker-string/references/string_reference.md",
+            "resource/skills/biological-knowledge/protein-landscape/protein-protein-interaction/biomarker-string/scripts/query_string.py",
+            "resource/skills/biological-knowledge/protein-landscape/protein-protein-interaction/biomarker-string/scripts/string_api.py"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-string",
+          "access-mode": "remote"
+        }
+      ],
+      "Protein Structure": [
+        {
+          "db-name": "AlphaFold",
+          "show-name": "AlphaFold",
+          "description": "AlphaFold Protein Structure Database provides predicted protein structures and confidence metrics for proteins with UniProt identifiers.",
+          "reference": {
+            "db-url": "https://alphafold.ebi.ac.uk/"
+          },
+          "content": [],
+          "paths": [
+            "resource/skills/biological-knowledge/protein-landscape/protein-structure/biomarker-alphafold/references/AlphaFold_ref.md",
+            "resource/skills/biological-knowledge/protein-landscape/protein-structure/biomarker-alphafold/references/alphafold-database-guide.md",
+            "resource/skills/biological-knowledge/protein-landscape/protein-structure/biomarker-alphafold/references/api_reference.md",
+            "resource/skills/biological-knowledge/protein-landscape/protein-structure/biomarker-alphafold/references/readme.md"
+          ],
+          "skill-name": "biological-knowledge",
+          "package-name": "biomarker-alphafold",
+          "access-mode": "remote"
+        }
+      ]
+    },
+    "RNA Regulation": {
+      "Post Transcriptional Regulation": {
+        "Circrna Regulation": [
+          {
+            "db-name": "RegNetwork",
+            "show-name": "RegNetwork",
+            "description": "RegNetwork is an open source gene regulatory network (GRN) database that curates regulatory relationships among transcription factors (TFs), microRNAs (miRNAs), and genes in human and mouse, and provides a confidence scoring system in the 2025 update.",
+            "reference": {
+              "db-url": "http://www.zpliulab.cn/RegNetwork/home",
+              "citation": "https://doi.org/10.1093/nar/gkaf779"
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/circrna-regulation/biomarker-regnetwork-circrna-regulation/assets/human_core_circRNA_Target.txt",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/circrna-regulation/biomarker-regnetwork-circrna-regulation/assets/mouse_core_circRNA_Target.txt",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/circrna-regulation/biomarker-regnetwork-circrna-regulation/references/RegNetwork_ref.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-regnetwork-circrna-regulation",
+            "access-mode": "local"
+          }
+        ],
+        "Lncrna Regulation": [
+          {
+            "db-name": "RegNetwork",
+            "show-name": "RegNetwork",
+            "description": "RegNetwork is an open source gene regulatory network (GRN) database that curates regulatory relationships among transcription factors (TFs), microRNAs (miRNAs), and genes in human and mouse, and provides a confidence scoring system in the 2025 update.",
+            "reference": {
+              "db-url": "http://www.zpliulab.cn/RegNetwork/home",
+              "citation": "https://doi.org/10.1093/nar/gkaf779"
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/lncrna-regulation/biomarker-regnetwork-lncrna-regulation/assets/human_core_Regulator_lncRNA.txt",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/lncrna-regulation/biomarker-regnetwork-lncrna-regulation/assets/mouse_core_lncRNA_Target.txt",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/lncrna-regulation/biomarker-regnetwork-lncrna-regulation/references/RegNetwork_ref.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-regnetwork-lncrna-regulation",
+            "access-mode": "local"
+          }
+        ],
+        "Mirna Regulation": [
+          {
+            "db-name": "miRDB",
+            "show-name": "miRDB",
+            "description": "miRDB provides predicted functional microRNA (miRNA) targets.",
+            "reference": {
+              "db-url": "http://mirdb.org",
+              "citation": "https://doi.org/10.1093/nar/gkz757"
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/mirna-regulation/biomarker-mirdb/assets/miRDB/c3.mir.mirdb.v2025.1.Hs.json",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/mirna-regulation/biomarker-mirdb/assets/miRDB/c3.mir.mirdb.v2025.1.Hs.symbols.gmt",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/mirna-regulation/biomarker-mirdb/references/miRDB_ref.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-mirdb",
+            "access-mode": "local"
+          },
+          {
+            "db-name": "miRTarBase",
+            "show-name": "miRTarBase",
+            "description": "miRTarBase is a curated database of experimentally validated microRNA–target interactions (MTIs).",
+            "reference": {
+              "db-url": "https://mirtarbase.cuhk.edu.cn/~miRTarBase/miRTarBase_2025",
+              "citation": "https://doi.org/10.1093/nar/gkae1072"
+            },
+            "content": [
+              "miRTarBase (SE_R)",
+              "miRTarBase (SE_W)",
+              "miRTarBase (SE_WR)"
+            ],
+            "paths": [
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/mirna-regulation/biomarker-mirtarbase/assets/miRTarBase/miRTarBase_SE_R.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/mirna-regulation/biomarker-mirtarbase/assets/miRTarBase/miRTarBase_SE_W.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/mirna-regulation/biomarker-mirtarbase/assets/miRTarBase/miRTarBase_SE_WR.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/mirna-regulation/biomarker-mirtarbase/references/miRTarBase_ref.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-mirtarbase",
+            "access-mode": "local"
+          },
+          {
+            "db-name": "RegNetwork",
+            "show-name": "RegNetwork",
+            "description": "RegNetwork is an open source gene regulatory network (GRN) database that curates regulatory relationships among transcription factors (TFs), microRNAs (miRNAs), and genes in human and mouse, and provides a confidence scoring system in the 2025 update.",
+            "reference": {
+              "db-url": "http://www.zpliulab.cn/RegNetwork/home",
+              "citation": "https://doi.org/10.1093/nar/gkaf779"
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/mirna-regulation/biomarker-regnetwork-mirna-regulation/assets/RegNetwork/human_core_miRNA_Target.txt",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/mirna-regulation/biomarker-regnetwork-mirna-regulation/assets/RegNetwork/mouse_core_miRNA_Target.txt",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/mirna-regulation/biomarker-regnetwork-mirna-regulation/references/RegNetwork_ref.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-regnetwork-mirna-regulation",
+            "access-mode": "local"
+          }
+        ],
+        "Rbp Regulation": [
+          {
+            "db-name": "KnockRBP",
+            "show-name": "KnockRBP",
+            "description": "KnockRBP is a multi omics database that catalogs regulatory changes caused by genetic perturbation of RNA binding proteins (RBPs).",
+            "reference": {
+              "db-url": "https://knockrbp.xu-bioinfo.com",
+              "citation": "https://doi.org/10.1093/nar/gkae1072"
+            },
+            "content": [
+              "RBP annotation",
+              "RBP-APA regulations",
+              "RBP-AS regulations",
+              "RBP-gene regulations",
+              "RBP-miRNA regulations",
+              "RBP-RNA-Editing regulations",
+              "RBP-Translation regulations"
+            ],
+            "paths": [
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/acute_myeloid_leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/adult_hepatocellular_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/angiomyolipoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/bladder_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/breast_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/bronchogenic_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/childhood_acute_monocytic_leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/childhood_t_acute_lymphoblastic_leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/chronic_myelogenous_leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/clear_cell_renal_cell_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/colon_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/embryonal_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/endometrioid_carcinoma_of_ovary.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/esophageal_squamous_cell_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/ewing_sarcoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/gastric_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/glioblastoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/hepatocellular_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/human_papillomavirus_related_cervical_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/hypopharyngeal_squamous_cell_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/invasive_breast_carcinoma_of_no_special_type.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/lung_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/lung_small_cell_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/medulloblastoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/minimally_invasive_lung_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/neuroblastoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/normal.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/osteosarcoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/papillomavirus_related_endocervical_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/peripheral_primitive_neuroectodermal_tumor.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/prostate_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/renal_cell_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/sezary_syndrome.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/t_cell_acute_lymphoblastic_leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/apa/tongue_adenosquamous_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/acute_myeloid_leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/adenoma_of_the_mouse_pulmonary_system.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/adult_hepatocellular_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/angiomyolipoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/bladder_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/blast_phase_chronic_myelogenous_leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/breast_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/bronchogenic_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/childhood_acute_monocytic_leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/childhood_t_acute_lymphoblastic_leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/chronic_myelogenous_leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/chronic_myeloid_leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/clear_cell_renal_cell_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/colon_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/embryonal_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/endometrioid_carcinoma_of_ovary.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/erythroleukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/esophageal_squamous_cell_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/ewing_sarcoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/gastric_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/glioblastoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/head_and_neck_squamous_cell_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/hepatocellular_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/human_papillomavirus_related_cervical_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/hypopharyngeal_squamous_cell_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/invasive_breast_carcinoma_of_no_special_type.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/lung_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/lung_small_cell_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/medulloblastoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/melanoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/minimally_invasive_lung_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/neuroblastoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/normal.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/osteosarcoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/papillomavirus_related_endocervical_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/peripheral_primitive_neuroectodermal_tumor.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/plasma_cell_myeloma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/precursor_t_cell_acute_lymphoblastic_leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/prostate_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/renal_cell_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/sezary_syndrome.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/t_cell_acute_lymphoblastic_leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/testicular_seminoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/as/tongue_adenosquamous_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/editing/bladder_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/editing/breast_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/editing/bronchogenic_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/editing/childhood_acute_monocytic_leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/editing/childhood_t_acute_lymphoblastic_leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/editing/chronic_myelogenous_leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/editing/colon_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/editing/gastric_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/editing/glioblastoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/editing/hepatocellular_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/editing/human_papillomavirus_related_cervical_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/editing/invasive_breast_carcinoma_of_no_special_type.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/editing/normal.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/editing/papillomavirus_related_endocervical_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/acute_myeloid_leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/adenoma_of_the_mouse_pulmonary_system.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/adult_hepatocellular_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/angiomyolipoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/bladder_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/blast_phase_chronic_myelogenous_leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/breast_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/bronchogenic_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/childhood_acute_monocytic_leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/childhood_t_acute_lymphoblastic_leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/chronic_myelogenous_leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/chronic_myeloid_leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/clear_cell_renal_cell_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/colon_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/embryonal_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/endometrioid_carcinoma_of_ovary.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/erythroleukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/esophageal_squamous_cell_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/ewing_sarcoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/gastric_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/glioblastoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/head_and_neck_squamous_cell_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/hepatocellular_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/human_papillomavirus_related_cervical_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/hypopharyngeal_squamous_cell_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/invasive_breast_carcinoma_of_no_special_type.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/lung_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/lung_small_cell_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/medulloblastoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/melanoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/minimally_invasive_lung_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/neuroblastoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/normal.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/osteosarcoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/ovarian_serous_cystadenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/papillomavirus_related_endocervical_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/peripheral_primitive_neuroectodermal_tumor.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/plasma_cell_myeloma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/precursor_t_cell_acute_lymphoblastic_leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/prostate_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/renal_cell_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/sezary_syndrome.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/t_cell_acute_lymphoblastic_leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/testicular_seminoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/gene/tongue_adenosquamous_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/mirna/gastric_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/translation/childhood_acute_monocytic_leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/translation/colon_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/translation/hepatocellular_carcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/translation/lung_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/human/translation/normal.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/mouse/apa/leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/mouse/apa/mouse_colon_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/mouse/apa/mouse_pancreatic_ductal_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/mouse/apa/normal.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/mouse/apa/t_cell_acute_lymphoblastic_leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/mouse/as/normal.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/mouse/editing/normal.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/mouse/gene/leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/mouse/gene/mouse_colon_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/mouse/gene/mouse_pancreatic_ductal_adenocarcinoma.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/mouse/gene/normal.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/mouse/gene/t_cell_acute_lymphoblastic_leukemia.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/mouse/mirna/normal.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/assets/KnockRBP/mouse/translation/normal.csv",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/references/KnockRBP_ref.md",
+              "resource/skills/biological-knowledge/rna-regulation/post-transcriptional-regulation/rbp-regulation/biomarker-knockrbp/references/readme.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-knockrbp",
+            "access-mode": "local"
+          }
+        ]
+      },
+      "Rna Modification": {
+        "Rna Modification Protein Wer": [
+          {
+            "db-name": "RM2target",
+            "show-name": "RM2target",
+            "description": "RM2Target v2.0 is a curated database of regulatory associations between RNA modification proteins (writers, erasers, readers; WERs) and their target genes.",
+            "reference": {
+              "db-url": "http://rm2target.canceromics.org/",
+              "citation": "https://doi.org/10.1093/nar/gkaf1206"
+            },
+            "content": [
+              "ac4C",
+              "m6A",
+              "2-O-Methylation",
+              "A-to-I",
+              "Pseudouridine",
+              "m1A",
+              "m5U",
+              "m5C",
+              "m6Am",
+              "m7G"
+            ],
+            "paths": [
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Fruit_fly/Validated_Drosophila_melanogaster_m6A.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Human/Validated_Homo_sapiens_2-O-Methylation.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Human/Validated_Homo_sapiens_A-to-I.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Human/Validated_Homo_sapiens_Others.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Human/Validated_Homo_sapiens_Pseudouridine.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Human/Validated_Homo_sapiens_ac4C.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Human/Validated_Homo_sapiens_m1A.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Human/Validated_Homo_sapiens_m5C.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Human/Validated_Homo_sapiens_m5U.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Human/Validated_Homo_sapiens_m6A.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Human/Validated_Homo_sapiens_m6Am.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Human/Validated_Homo_sapiens_m7G.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Mouse/Validated_Mus_musculus_2-O-Methylation.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Mouse/Validated_Mus_musculus_A-to-I.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Mouse/Validated_Mus_musculus_Others.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Mouse/Validated_Mus_musculus_Pseudouridine.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Mouse/Validated_Mus_musculus_ac4C.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Mouse/Validated_Mus_musculus_m1A.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Mouse/Validated_Mus_musculus_m5C.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Mouse/Validated_Mus_musculus_m5U.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Mouse/Validated_Mus_musculus_m6A.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Mouse/Validated_Mus_musculus_m6Am.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Mouse/Validated_Mus_musculus_m7G.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Oryza/Validated_Oryza_sativa_ac4C.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Oryza/Validated_Oryza_sativa_m6A.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Rattus/Validated_Rattus_norvegicus_A-to-I.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Rattus/Validated_Rattus_norvegicus_ac4C.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Rattus/Validated_Rattus_norvegicus_m5C.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Rattus/Validated_Rattus_norvegicus_m6A.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Thale_cress/Validated_Arabidopsis_thaliana_Others.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Thale_cress/Validated_Arabidopsis_thaliana_ac4C.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Thale_cress/Validated_Arabidopsis_thaliana_m6A.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Worm/Validated_Caenorhabditis_elegans_2-O-Methylation.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Worm/Validated_Caenorhabditis_elegans_A-to-I.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Worm/Validated_Caenorhabditis_elegans_Others.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Worm/Validated_Caenorhabditis_elegans_m7G.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Zebrafish/Validated_Danio_rerio_ac4C.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Zebrafish/Validated_Danio_rerio_m5C.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/assets/RM2target/Zebrafish/Validated_Danio_rerio_m6A.csv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/references/RM2target_ref.md",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/rna-modification-protein-wer/biomarker-rm2target/references/readme.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-rm2target",
+            "access-mode": "local"
+          }
+        ],
+        "Snorna Guided Rrna Modification": [
+          {
+            "db-name": "snoDB",
+            "show-name": "snoDB",
+            "description": "snoDB 2.0 provides curated information on human snoRNAs and their guided rRNA chemical modifications.",
+            "reference": {
+              "db-url": "https://bioinfoscottgroup.med.usherbrooke.ca/snoDB/",
+              "citation": "https://doi.org/10.1093/nar/gkac835"
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/snorna-guided-rrna-modification/biomarker-snodb-snorna-guided-rrna-modification/assets/snoDB_rRNA_interactions_chemical_modifications.tsv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/snorna-guided-rrna-modification/biomarker-snodb-snorna-guided-rrna-modification/assets/snoDB_rRNA_interactions_conversion_table.tsv",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/snorna-guided-rrna-modification/biomarker-snodb-snorna-guided-rrna-modification/references/readme.md",
+              "resource/skills/biological-knowledge/rna-regulation/rna-modification/snorna-guided-rrna-modification/biomarker-snodb-snorna-guided-rrna-modification/references/snoDB_ref.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-snodb-snorna-guided-rrna-modification",
+            "access-mode": "local"
+          }
+        ]
+      },
+      "Transcriptional Regulation": {
+        "Transcription Factor": [
+          {
+            "db-name": "AnimalTFDB 4.0",
+            "show-name": "AnimalTFDB 4.0",
+            "description": "AnimalTFDB 4.0 is a comprehensive animal transcription factor database with TF families, cofactors, and regulatory annotations.",
+            "reference": {
+              "db-url": "http://bioinfo.life.hust.edu.cn/AnimalTFDB4/",
+              "citation": "https://doi.org/10.1093/nar/gkac907"
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-animaltfdb-4-0/assets/AnimalTFDB4/Caenorhabditis_elegans_Cof.txt",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-animaltfdb-4-0/assets/AnimalTFDB4/Caenorhabditis_elegans_TF.txt",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-animaltfdb-4-0/assets/AnimalTFDB4/Caenorhabditis_elegans_ortholog_to_human.txt",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-animaltfdb-4-0/assets/AnimalTFDB4/Danio_rerio_Cof.txt",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-animaltfdb-4-0/assets/AnimalTFDB4/Danio_rerio_TF.txt",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-animaltfdb-4-0/assets/AnimalTFDB4/Danio_rerio_ortholog_to_human.txt",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-animaltfdb-4-0/assets/AnimalTFDB4/Drosophila_melanogaster_Cof.txt",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-animaltfdb-4-0/assets/AnimalTFDB4/Drosophila_melanogaster_TF.txt",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-animaltfdb-4-0/assets/AnimalTFDB4/Drosophila_melanogaster_ortholog_to_human.txt",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-animaltfdb-4-0/assets/AnimalTFDB4/Homo_sapiens_Cof.txt",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-animaltfdb-4-0/assets/AnimalTFDB4/Homo_sapiens_TF.txt",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-animaltfdb-4-0/assets/AnimalTFDB4/Macaca_mulatta_Cof.txt",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-animaltfdb-4-0/assets/AnimalTFDB4/Macaca_mulatta_TF.txt",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-animaltfdb-4-0/assets/AnimalTFDB4/Macaca_mulatta_ortholog_to_human.txt",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-animaltfdb-4-0/assets/AnimalTFDB4/Mus_musculus_Cof.txt",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-animaltfdb-4-0/assets/AnimalTFDB4/Mus_musculus_TF.txt",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-animaltfdb-4-0/assets/AnimalTFDB4/Mus_musculus_ortholog_to_human.txt",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-animaltfdb-4-0/assets/AnimalTFDB4/Rattus_norvegicus_Cof.txt",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-animaltfdb-4-0/assets/AnimalTFDB4/Rattus_norvegicus_TF.txt",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-animaltfdb-4-0/assets/AnimalTFDB4/Rattus_norvegicus_ortholog_to_human.txt",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-animaltfdb-4-0/references/AnimalTFDB4_ref.md",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-animaltfdb-4-0/references/readme.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-animaltfdb-4-0",
+            "access-mode": "local"
+          },
+          {
+            "db-name": "CollecTRI",
+            "show-name": "CollecTRI",
+            "description": "CollecTRI is a meta resource of transcription factor (TF)–target gene interactions used to build signed TF regulons for estimating TF activity.",
+            "reference": {
+              "db-url": "https://zenodo.org/records/8192729/files/CollecTRI_regulons.csv",
+              "citation": "https://doi.org/10.1093/nar/gkad841"
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-collectri/assets/CollecTRI_regulons.csv",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-collectri/references/CollecTRI_ref.md",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-collectri/references/readme.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-collectri",
+            "access-mode": "local"
+          },
+          {
+            "db-name": "GTRD",
+            "show-name": "GTRD",
+            "description": "GTRD (Gene Transcription Regulation Database) provides uniformly processed transcription regulation datasets and TF binding site annotations.",
+            "reference": {
+              "db-url": "http://gtrd.biouml.org/",
+              "citation": "https://doi.org/10.1093/nar/gkaa1057"
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-gtrd/assets/GTRD/c3.tft.gtrd.v2025.1.Hs.json",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-gtrd/assets/GTRD/c3.tft.gtrd.v2025.1.Hs.symbols.gmt",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-gtrd/references/GTRD_ref.md",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-gtrd/references/readme.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-gtrd",
+            "access-mode": "local"
+          },
+          {
+            "db-name": "RegNetwork",
+            "show-name": "RegNetwork",
+            "description": "RegNetwork is an open source gene regulatory network (GRN) database that curates regulatory relationships among transcription factors (TFs), microRNAs (miRNAs), and genes in human and mouse, and provides a confidence scoring system in the 2025 update.",
+            "reference": {
+              "db-url": "http://www.zpliulab.cn/RegNetwork/home",
+              "citation": "https://doi.org/10.1093/nar/gkaf779"
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-regnetwork-transcription-factor/assets/RegNetwork/human_core_TF_Target.txt",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-regnetwork-transcription-factor/assets/RegNetwork/mouse_core_TF_Target.txt",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-regnetwork-transcription-factor/references/RegNetwork_ref.md",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-regnetwork-transcription-factor/references/readme.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-regnetwork-transcription-factor",
+            "access-mode": "local"
+          },
+          {
+            "db-name": "TF-Marker",
+            "show-name": "TF-Marker",
+            "description": "TF-Marker is a manually curated database of transcription factors and related markers for specific human cell and tissue types.",
+            "reference": {
+              "db-url": "http://bio.liclab.net/TF-Marker/",
+              "citation": "https://academic.oup.com/nar/article/50/D1/D402/6431821"
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-tf-marker/assets/TF-marker/I_Marker.txt",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-tf-marker/assets/TF-marker/TF.txt",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-tf-marker/assets/TF-marker/TFMarker.txt",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-tf-marker/assets/TF-marker/TF_Pmarker.txt",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-tf-marker/assets/TF-marker/T_Marker.txt",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-tf-marker/references/TF-marker_ref.md",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-tf-marker/references/readme.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-tf-marker",
+            "access-mode": "local"
+          },
+          {
+            "db-name": "TRRUST",
+            "show-name": "TRRUST",
+            "description": "TRRUST (Transcriptional Regulatory Relationships Unraveled by Sentence based Text mining) is a reference database of transcription factor (TF)–target interactions constructed through sentence based text mining of PubMed literature, followed by manual curation.",
+            "reference": {
+              "db-url": "https://www.grnpedia.org/trrust/",
+              "citation": "https://doi.org/10.1093/nar/gkx1013"
+            },
+            "content": [],
+            "paths": [
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-trrust/assets/TRRUST/trrust_rawdata.human.tsv",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-trrust/assets/TRRUST/trrust_rawdata.mouse.tsv",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-trrust/references/TRRUST_ref.md",
+              "resource/skills/biological-knowledge/rna-regulation/transcriptional-regulation/transcription-factor/biomarker-trrust/references/readme.md"
+            ],
+            "skill-name": "biological-knowledge",
+            "package-name": "biomarker-trrust",
+            "access-mode": "local"
+          }
+        ]
+      }
+    }
+  },
+  "Experimental Data": {
+    "Cross Domain": [
+      {
+        "db-name": "dataset-discovery",
+        "show-name": "dataset-discovery",
+        "description": "Map scientific questions to suitable public cohorts, studies, repositories, and dataset designs and evaluate candidate datasets before retrieval.",
+        "reference": {
+          "db-url": "",
+          "citation": ""
+        },
+        "content": [],
+        "paths": [
+          "resource/skills/experimental-data/cross-domain/biomarker-dataset-discovery/references/tooluniverse-dataset-discovery-guide.md"
+        ],
+        "skill-name": "experimental-data",
+        "package-name": "biomarker-dataset-discovery",
+        "access-mode": "remote"
+      }
+    ],
+    "Metabolomics": [
+      {
+        "db-name": "Metabolomics Workbench",
+        "show-name": "Metabolomics Workbench",
+        "description": "Metabolomics Workbench is a public repository for metabolomics studies, experimental metadata, standards, protocols, and analysis resources.",
+        "reference": {
+          "db-url": "https://www.metabolomicsworkbench.org/",
+          "citation": "https://www.metabolomicsworkbench.org/about/howtocite.php"
+        },
+        "content": [],
+        "paths": [
+          "resource/skills/experimental-data/metabolomics/biomarker-metabolomics-workbench/references/api_reference.md",
+          "resource/skills/experimental-data/metabolomics/biomarker-metabolomics-workbench/references/metabolomics-workbench-database-guide.md",
+          "resource/skills/experimental-data/metabolomics/biomarker-metabolomics-workbench/references/metabolomics_workbench_ref.md",
+          "resource/skills/experimental-data/metabolomics/biomarker-metabolomics-workbench/references/readme.md"
+        ],
+        "skill-name": "experimental-data",
+        "package-name": "biomarker-metabolomics-workbench",
+        "access-mode": "remote"
+      }
+    ],
+    "Proteomics": [
+      {
+        "db-name": "proteomics-data",
+        "show-name": "proteomics-data",
+        "description": "Find and evaluate public proteomics datasets in ProteomeXchange, MassIVE, and related repositories by species, instrument, protocol, accession, and modification.",
+        "reference": {
+          "db-url": "",
+          "citation": ""
+        },
+        "content": [],
+        "paths": [
+          "resource/skills/experimental-data/proteomics/biomarker-proteomics-data/references/tooluniverse-proteomics-data-retrieval-guide.md"
+        ],
+        "skill-name": "experimental-data",
+        "package-name": "biomarker-proteomics-data",
+        "access-mode": "remote"
+      }
+    ],
+    "Sequencing": [
+      {
+        "db-name": "ena",
+        "show-name": "ena",
+        "description": "Search and retrieve European Nucleotide Archive sequences, reads, assemblies, analyses, and metadata through Portal, Browser, and file endpoints.",
+        "reference": {
+          "db-url": "",
+          "citation": ""
+        },
+        "content": [],
+        "paths": [
+          "resource/skills/experimental-data/sequencing/biomarker-ena/references/api_reference.md",
+          "resource/skills/experimental-data/sequencing/biomarker-ena/references/ena-database-guide.md"
+        ],
+        "skill-name": "experimental-data",
+        "package-name": "biomarker-ena",
+        "access-mode": "remote"
+      },
+      {
+        "db-name": "sra",
+        "show-name": "sra",
+        "description": "Locate and download NCBI SRA raw sequencing runs through SRA Toolkit, ENA, or cloud mirrors with accession, layout, checksum, and scratch-space safeguards.",
+        "reference": {
+          "db-url": "",
+          "citation": ""
+        },
+        "content": [],
+        "paths": [
+          "resource/skills/experimental-data/sequencing/biomarker-sra/references/bio-sra-data-guide.md",
+          "resource/skills/experimental-data/sequencing/biomarker-sra/references/bio-sra-data-usage.md",
+          "resource/skills/experimental-data/sequencing/biomarker-sra/scripts/download_batch.sh",
+          "resource/skills/experimental-data/sequencing/biomarker-sra/scripts/download_single.sh",
+          "resource/skills/experimental-data/sequencing/biomarker-sra/scripts/find_sra_runs.py",
+          "resource/skills/experimental-data/sequencing/biomarker-sra/scripts/prefetch_large.sh"
+        ],
+        "skill-name": "experimental-data",
+        "package-name": "biomarker-sra",
+        "access-mode": "remote"
+      }
+    ],
+    "Structural Biology": [
+      {
+        "db-name": "PDB",
+        "show-name": "PDB",
+        "description": "Protein Data Bank (PDB) is the primary archive of experimentally determined 3D structures of proteins, nucleic acids, and macromolecular complexes.",
+        "reference": {
+          "db-url": "https://www.rcsb.org/"
+        },
+        "content": [],
+        "paths": [
+          "resource/skills/experimental-data/structural-biology/biomarker-pdb/references/PDB_ref.md",
+          "resource/skills/experimental-data/structural-biology/biomarker-pdb/references/api_reference.md",
+          "resource/skills/experimental-data/structural-biology/biomarker-pdb/references/pdb-database-guide.md",
+          "resource/skills/experimental-data/structural-biology/biomarker-pdb/references/readme.md",
+          "resource/skills/experimental-data/structural-biology/biomarker-pdb/scripts/query_pdb.py"
+        ],
+        "skill-name": "experimental-data",
+        "package-name": "biomarker-pdb",
+        "access-mode": "remote"
+      },
+      {
+        "db-name": "structure-retrieval",
+        "show-name": "structure-retrieval",
+        "description": "Retrieve and compare experimental and predicted protein structures across RCSB PDB, PDBe, and AlphaFold with quality and identity checks.",
+        "reference": {
+          "db-url": "",
+          "citation": ""
+        },
+        "content": [],
+        "paths": [
+          "resource/skills/experimental-data/structural-biology/biomarker-structure-retrieval/references/tooluniverse-protein-structure-retrieval-checklist.md",
+          "resource/skills/experimental-data/structural-biology/biomarker-structure-retrieval/references/tooluniverse-protein-structure-retrieval-examples.md",
+          "resource/skills/experimental-data/structural-biology/biomarker-structure-retrieval/references/tooluniverse-protein-structure-retrieval-guide.md"
+        ],
+        "skill-name": "experimental-data",
+        "package-name": "biomarker-structure-retrieval",
+        "access-mode": "remote"
+      }
+    ],
+    "Transcriptomics": [
+      {
+        "db-name": "expression-data-retrieval",
+        "show-name": "expression-data-retrieval",
+        "description": "Find and assess expression and omics datasets across ArrayExpress, BioStudies, GEO, and related repositories by organism, tissue, condition, and study design.",
+        "reference": {
+          "db-url": "",
+          "citation": ""
+        },
+        "content": [],
+        "paths": [
+          "resource/skills/experimental-data/transcriptomics/biomarker-expression-data-retrieval/references/tooluniverse-expression-data-retrieval-checklist.md",
+          "resource/skills/experimental-data/transcriptomics/biomarker-expression-data-retrieval/references/tooluniverse-expression-data-retrieval-examples.md",
+          "resource/skills/experimental-data/transcriptomics/biomarker-expression-data-retrieval/references/tooluniverse-expression-data-retrieval-guide.md"
+        ],
+        "skill-name": "experimental-data",
+        "package-name": "biomarker-expression-data-retrieval",
+        "access-mode": "remote"
+      },
+      {
+        "db-name": "geo",
+        "show-name": "geo",
+        "description": "Search and retrieve NCBI GEO expression studies, samples, platforms, processed matrices, supplementary files, and linked raw sequencing accessions.",
+        "reference": {
+          "db-url": "",
+          "citation": ""
+        },
+        "content": [],
+        "paths": [
+          "resource/skills/experimental-data/transcriptomics/biomarker-geo/references/bio-geo-data-guide.md",
+          "resource/skills/experimental-data/transcriptomics/biomarker-geo/references/bio-geo-data-usage.md",
+          "resource/skills/experimental-data/transcriptomics/biomarker-geo/references/geo-database-guide.md",
+          "resource/skills/experimental-data/transcriptomics/biomarker-geo/references/geo_reference.md",
+          "resource/skills/experimental-data/transcriptomics/biomarker-geo/scripts/geo_from_pubmed.py",
+          "resource/skills/experimental-data/transcriptomics/biomarker-geo/scripts/geo_to_sra.py",
+          "resource/skills/experimental-data/transcriptomics/biomarker-geo/scripts/search_geo.py"
+        ],
+        "skill-name": "experimental-data",
+        "package-name": "biomarker-geo",
+        "access-mode": "remote"
+      }
+    ]
+  },
+  "Literature": {
+    "Clinical Trials": [
+      {
+        "db-name": "clinicaltrials",
+        "show-name": "clinicaltrials",
+        "description": "Search ClinicalTrials.gov API v2 by condition, intervention, location, phase, status, sponsor, or identifier and retrieve structured trial records.",
+        "reference": {
+          "db-url": "",
+          "citation": ""
+        },
+        "content": [],
+        "paths": [
+          "resource/skills/literature/clinical-trials/biomarker-clinicaltrials/references/api_reference.md",
+          "resource/skills/literature/clinical-trials/biomarker-clinicaltrials/references/clinicaltrials-database-guide.md",
+          "resource/skills/literature/clinical-trials/biomarker-clinicaltrials/scripts/query_clinicaltrials.py"
+        ],
+        "skill-name": "literature",
+        "package-name": "biomarker-clinicaltrials",
+        "access-mode": "remote"
+      }
+    ],
+    "Patents": [
+      {
+        "db-name": "uspto",
+        "show-name": "uspto",
+        "description": "Search USPTO patent, trademark, examination-history, assignment, citation, and office-action APIs for biomedical intellectual-property evidence.",
+        "reference": {
+          "db-url": "",
+          "citation": ""
+        },
+        "content": [],
+        "paths": [
+          "resource/skills/literature/patents/biomarker-uspto/references/additional_apis.md",
+          "resource/skills/literature/patents/biomarker-uspto/references/patentsearch_api.md",
+          "resource/skills/literature/patents/biomarker-uspto/references/peds_api.md",
+          "resource/skills/literature/patents/biomarker-uspto/references/trademark_api.md",
+          "resource/skills/literature/patents/biomarker-uspto/references/uspto-database-guide.md",
+          "resource/skills/literature/patents/biomarker-uspto/scripts/patent_search.py",
+          "resource/skills/literature/patents/biomarker-uspto/scripts/peds_client.py",
+          "resource/skills/literature/patents/biomarker-uspto/scripts/trademark_client.py"
+        ],
+        "skill-name": "literature",
+        "package-name": "biomarker-uspto",
+        "access-mode": "remote"
+      }
+    ],
+    "Publications": [
+      {
+        "db-name": "pubmed",
+        "show-name": "pubmed",
+        "description": "Search and retrieve PubMed records with MeSH-aware Boolean queries, NCBI E-utilities, pagination, batching, and reproducible citation metadata.",
+        "reference": {
+          "db-url": "",
+          "citation": ""
+        },
+        "content": [],
+        "paths": [
+          "resource/skills/literature/publications/biomarker-pubmed/references/api_reference.md",
+          "resource/skills/literature/publications/biomarker-pubmed/references/common_queries.md",
+          "resource/skills/literature/publications/biomarker-pubmed/references/pubmed-database-guide.md",
+          "resource/skills/literature/publications/biomarker-pubmed/references/search_syntax.md",
+          "resource/skills/literature/publications/biomarker-pubmed/scripts/query_pubmed.py"
+        ],
+        "skill-name": "literature",
+        "package-name": "biomarker-pubmed",
+        "access-mode": "remote"
+      }
+    ]
+  }
+}

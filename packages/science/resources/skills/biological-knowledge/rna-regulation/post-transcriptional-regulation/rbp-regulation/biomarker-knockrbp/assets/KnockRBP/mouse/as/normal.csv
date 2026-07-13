@@ -1,0 +1,157 @@
+Index,DataSetID,species,RBPSYMBOL,CELLLINE,Genesymbol,Disease,DEAS,ORF_AS,LOF_AS,_disease,_species,_type
+230,DataSet_111,mouse,Ddx1,Blastocyst,ADAMTS7,Normal,1,0,0,Normal,mouse,AS
+231,DataSet_111,mouse,Ddx1,Blastocyst,FARP1,Normal,1,0,0,Normal,mouse,AS
+599,DataSet_115,mouse,Ddx25,Round spermatids,ZNF677,Normal,2,0,0,Normal,mouse,AS
+598,DataSet_115,mouse,Ddx25,Round spermatids,FRRS1,Normal,1,0,0,Normal,mouse,AS
+1020,DataSet_125,mouse,Dhx36,Zygotene spermatocytes,SARM1,Normal,4,0,0,Normal,mouse,AS
+1008,DataSet_125,mouse,Dhx36,Zygotene spermatocytes,ANKRD24,Normal,3,0,0,Normal,mouse,AS
+1010,DataSet_125,mouse,Dhx36,Zygotene spermatocytes,ENSG00000258924,Normal,3,0,0,Normal,mouse,AS
+1009,DataSet_125,mouse,Dhx36,Zygotene spermatocytes,ARHGEF33,Normal,1,0,0,Normal,mouse,AS
+1011,DataSet_125,mouse,Dhx36,Zygotene spermatocytes,ENSG00000260777,Normal,1,0,0,Normal,mouse,AS
+1012,DataSet_125,mouse,Dhx36,Zygotene spermatocytes,ENSG00000262732,Normal,1,0,0,Normal,mouse,AS
+1013,DataSet_125,mouse,Dhx36,Zygotene spermatocytes,ENSG00000263788,Normal,1,0,0,Normal,mouse,AS
+1014,DataSet_125,mouse,Dhx36,Zygotene spermatocytes,ENSG00000264486,Normal,1,0,0,Normal,mouse,AS
+1015,DataSet_125,mouse,Dhx36,Zygotene spermatocytes,ENSG00000269604,Normal,1,0,0,Normal,mouse,AS
+1016,DataSet_125,mouse,Dhx36,Zygotene spermatocytes,ERCC4,Normal,1,0,0,Normal,mouse,AS
+1017,DataSet_125,mouse,Dhx36,Zygotene spermatocytes,FEM1A,Normal,1,0,0,Normal,mouse,AS
+1018,DataSet_125,mouse,Dhx36,Zygotene spermatocytes,GUCY1A2,Normal,1,0,0,Normal,mouse,AS
+1019,DataSet_125,mouse,Dhx36,Zygotene spermatocytes,KLF18,Normal,1,0,0,Normal,mouse,AS
+1021,DataSet_125,mouse,Dhx36,Zygotene spermatocytes,SLC4A8,Normal,1,0,0,Normal,mouse,AS
+1022,DataSet_125,mouse,Dhx36,Zygotene spermatocytes,ZNF470,Normal,1,0,0,Normal,mouse,AS
+3576,DataSet_151,mouse,Eif4a3,Blastocyst,TMEM266,Normal,3,0,0,Normal,mouse,AS
+3575,DataSet_151,mouse,Eif4a3,Blastocyst,SMIM12,Normal,2,0,0,Normal,mouse,AS
+3570,DataSet_151,mouse,Eif4a3,Blastocyst,IGKV3OR2-268,Normal,1,0,0,Normal,mouse,AS
+3571,DataSet_151,mouse,Eif4a3,Blastocyst,LINC01876,Normal,1,0,0,Normal,mouse,AS
+3572,DataSet_151,mouse,Eif4a3,Blastocyst,PYROXD1,Normal,1,0,0,Normal,mouse,AS
+3573,DataSet_151,mouse,Eif4a3,Blastocyst,RECQL,Normal,1,0,0,Normal,mouse,AS
+3574,DataSet_151,mouse,Eif4a3,Blastocyst,SLC4A8,Normal,1,0,0,Normal,mouse,AS
+3617,DataSet_158,mouse,Endov,Liver,ATCAY,Normal,1,0,0,Normal,mouse,AS
+6081,DataSet_173,mouse,Fmr1,-,C18orf63,Normal,1,0,0,Normal,mouse,AS
+6082,DataSet_173,mouse,Fmr1,-,KCTD21-AS1,Normal,1,0,0,Normal,mouse,AS
+6083,DataSet_173,mouse,Fmr1,-,NUTM2E,Normal,1,0,0,Normal,mouse,AS
+6084,DataSet_173,mouse,Fmr1,-,SMAD6,Normal,1,0,0,Normal,mouse,AS
+6224,DataSet_188,mouse,Fto,Hippocampus,ENSG00000280302,Normal,1,0,0,Normal,mouse,AS
+7858,DataSet_204,mouse,Hnrnpk,Limb bud cells,KLF18,Normal,1,0,0,Normal,mouse,AS
+7859,DataSet_204,mouse,Hnrnpk,Limb bud cells,RFX2,Normal,1,0,0,Normal,mouse,AS
+7860,DataSet_204,mouse,Hnrnpk,Limb bud cells,UTP6,Normal,1,0,0,Normal,mouse,AS
+8082,DataSet_207,mouse,Hnrnpl,Fetal Liver cells,CHTOP,Normal,1,0,0,Normal,mouse,AS
+8083,DataSet_207,mouse,Hnrnpl,Fetal Liver cells,UTP6,Normal,1,0,0,Normal,mouse,AS
+8194,DataSet_222,mouse,Larp7,Mouse round spermatids,TNFAIP8L1,Normal,2,0,0,Normal,mouse,AS
+8188,DataSet_222,mouse,Larp7,Mouse round spermatids,ENSG00000262879,Normal,1,0,0,Normal,mouse,AS
+8189,DataSet_222,mouse,Larp7,Mouse round spermatids,FMO2,Normal,1,0,0,Normal,mouse,AS
+8190,DataSet_222,mouse,Larp7,Mouse round spermatids,KBTBD3,Normal,1,0,0,Normal,mouse,AS
+8191,DataSet_222,mouse,Larp7,Mouse round spermatids,MBD5,Normal,1,0,0,Normal,mouse,AS
+8192,DataSet_222,mouse,Larp7,Mouse round spermatids,SDK2,Normal,1,0,0,Normal,mouse,AS
+8193,DataSet_222,mouse,Larp7,Mouse round spermatids,TEDC1,Normal,1,0,0,Normal,mouse,AS
+8459,DataSet_224,mouse,Larp7,Mouse spermatocytes,BCAN-AS1,Normal,1,0,0,Normal,mouse,AS
+8460,DataSet_224,mouse,Larp7,Mouse spermatocytes,ENSG00000255500,Normal,1,0,0,Normal,mouse,AS
+8461,DataSet_224,mouse,Larp7,Mouse spermatocytes,ENSG00000278962,Normal,1,0,0,Normal,mouse,AS
+8462,DataSet_224,mouse,Larp7,Mouse spermatocytes,ENSG00000282556,Normal,1,0,0,Normal,mouse,AS
+8463,DataSet_224,mouse,Larp7,Mouse spermatocytes,GUCY1A2,Normal,1,0,0,Normal,mouse,AS
+8464,DataSet_224,mouse,Larp7,Mouse spermatocytes,KLF18,Normal,1,0,0,Normal,mouse,AS
+8465,DataSet_224,mouse,Larp7,Mouse spermatocytes,LINC01876,Normal,1,0,0,Normal,mouse,AS
+8466,DataSet_224,mouse,Larp7,Mouse spermatocytes,PHF12,Normal,1,0,0,Normal,mouse,AS
+9765,DataSet_244,mouse,Mecp2,-,LINC01876,Normal,1,0,0,Normal,mouse,AS
+9936,DataSet_259,mouse,Mettl14,NPCs,CFAP73,Normal,1,0,0,Normal,mouse,AS
+9937,DataSet_259,mouse,Mettl14,NPCs,LINC01958,Normal,1,0,0,Normal,mouse,AS
+9995,DataSet_268,mouse,Mettl3,E14TG2a,ATCAY,Normal,5,0,0,Normal,mouse,AS
+10000,DataSet_268,mouse,Mettl3,E14TG2a,HDGFL3,Normal,3,0,0,Normal,mouse,AS
+9933,DataSet_257,mouse,Mettl3,Retina,COBLL1,Normal,2,0,0,Normal,mouse,AS
+9901,DataSet_253,mouse,Mettl3,C57BL/6 neutrophil,ENSG00000287608,Normal,1,0,0,Normal,mouse,AS
+10007,DataSet_268,mouse,Mettl3,E14TG2a,UBE2E3,Normal,1,0,0,Normal,mouse,AS
+10006,DataSet_268,mouse,Mettl3,E14TG2a,SPAST,Normal,1,0,0,Normal,mouse,AS
+10005,DataSet_268,mouse,Mettl3,E14TG2a,RANBP3,Normal,1,0,0,Normal,mouse,AS
+10004,DataSet_268,mouse,Mettl3,E14TG2a,OR1A1,Normal,1,0,0,Normal,mouse,AS
+10003,DataSet_268,mouse,Mettl3,E14TG2a,MBD5,Normal,1,0,0,Normal,mouse,AS
+10002,DataSet_268,mouse,Mettl3,E14TG2a,LINC01958,Normal,1,0,0,Normal,mouse,AS
+10001,DataSet_268,mouse,Mettl3,E14TG2a,KPNB1,Normal,1,0,0,Normal,mouse,AS
+9999,DataSet_268,mouse,Mettl3,E14TG2a,GUCY1A2,Normal,1,0,0,Normal,mouse,AS
+9902,DataSet_253,mouse,Mettl3,C57BL/6 neutrophil,OR5A1,Normal,1,0,0,Normal,mouse,AS
+9998,DataSet_268,mouse,Mettl3,E14TG2a,GALNT1,Normal,1,0,0,Normal,mouse,AS
+9997,DataSet_268,mouse,Mettl3,E14TG2a,ENSG00000264558,Normal,1,0,0,Normal,mouse,AS
+9996,DataSet_268,mouse,Mettl3,E14TG2a,CD300E,Normal,1,0,0,Normal,mouse,AS
+9994,DataSet_268,mouse,Mettl3,E14TG2a,AK4,Normal,1,0,0,Normal,mouse,AS
+9935,DataSet_257,mouse,Mettl3,Retina,LINC01958,Normal,1,0,0,Normal,mouse,AS
+9934,DataSet_257,mouse,Mettl3,Retina,HADHB,Normal,1,0,0,Normal,mouse,AS
+10008,DataSet_268,mouse,Mettl3,E14TG2a,ZNF470,Normal,1,0,0,Normal,mouse,AS
+17185,DataSet_339,mouse,Oga,Liver,ENSG00000262879,Normal,2,0,0,Normal,mouse,AS
+17247,DataSet_340,mouse,Ogt,Liver,CLPTM1,Normal,1,0,0,Normal,mouse,AS
+17248,DataSet_340,mouse,Ogt,Liver,ENSG00000283213,Normal,1,0,0,Normal,mouse,AS
+16864,DataSet_323,mouse,Ptbp1,Neuroblastoma cell,ATCAY,Normal,3,0,0,Normal,mouse,AS
+16871,DataSet_323,mouse,Ptbp1,Neuroblastoma cell,RN7SL202P,Normal,2,0,0,Normal,mouse,AS
+16863,DataSet_323,mouse,Ptbp1,Neuroblastoma cell,ANKRD34C-AS1,Normal,1,0,0,Normal,mouse,AS
+16865,DataSet_323,mouse,Ptbp1,Neuroblastoma cell,BNC1,Normal,1,0,0,Normal,mouse,AS
+16866,DataSet_323,mouse,Ptbp1,Neuroblastoma cell,CLPTM1,Normal,1,0,0,Normal,mouse,AS
+16867,DataSet_323,mouse,Ptbp1,Neuroblastoma cell,DTNA,Normal,1,0,0,Normal,mouse,AS
+16868,DataSet_323,mouse,Ptbp1,Neuroblastoma cell,ENSG00000279762,Normal,1,0,0,Normal,mouse,AS
+16869,DataSet_323,mouse,Ptbp1,Neuroblastoma cell,ENSG00000280302,Normal,1,0,0,Normal,mouse,AS
+16870,DataSet_323,mouse,Ptbp1,Neuroblastoma cell,PSMD11,Normal,1,0,0,Normal,mouse,AS
+16872,DataSet_323,mouse,Ptbp1,Neuroblastoma cell,SPRED3,Normal,1,0,0,Normal,mouse,AS
+16873,DataSet_323,mouse,Ptbp1,Neuroblastoma cell,STIM1,Normal,1,0,0,Normal,mouse,AS
+16874,DataSet_323,mouse,Ptbp1,Neuroblastoma cell,TAOK1,Normal,1,0,0,Normal,mouse,AS
+17179,DataSet_338,mouse,Qki,Neural stem cells,ANKRD34C-AS1,Normal,6,0,0,Normal,mouse,AS
+17180,DataSet_338,mouse,Qki,Neural stem cells,ENSG00000287717,Normal,1,0,0,Normal,mouse,AS
+17181,DataSet_338,mouse,Qki,Neural stem cells,HECTD1,Normal,1,0,0,Normal,mouse,AS
+17182,DataSet_338,mouse,Qki,Neural stem cells,MAP3K9,Normal,1,0,0,Normal,mouse,AS
+17183,DataSet_338,mouse,Qki,Neural stem cells,MIR9-3HG,Normal,1,0,0,Normal,mouse,AS
+17184,DataSet_338,mouse,Qki,Neural stem cells,RANBP3,Normal,1,0,0,Normal,mouse,AS
+22408,DataSet_414,mouse,Rrp9,Morula,ARL17A,Normal,1,0,0,Normal,mouse,AS
+22409,DataSet_414,mouse,Rrp9,Morula,ATCAY,Normal,1,0,0,Normal,mouse,AS
+22410,DataSet_414,mouse,Rrp9,Morula,ENSG00000264558,Normal,1,0,0,Normal,mouse,AS
+22411,DataSet_414,mouse,Rrp9,Morula,ENSG00000268873,Normal,1,0,0,Normal,mouse,AS
+22412,DataSet_414,mouse,Rrp9,Morula,KPNB1,Normal,1,0,0,Normal,mouse,AS
+22413,DataSet_414,mouse,Rrp9,Morula,LRRC37A2,Normal,1,0,0,Normal,mouse,AS
+20354,DataSet_400,mouse,Smg6,-,ENSG00000259605,Normal,1,0,0,Normal,mouse,AS
+20355,DataSet_400,mouse,Smg6,-,SIX5,Normal,1,0,0,Normal,mouse,AS
+20326,DataSet_399,mouse,Smn1,-,FEM1A,Normal,3,0,0,Normal,mouse,AS
+20324,DataSet_399,mouse,Smn1,-,ATCAY,Normal,1,0,0,Normal,mouse,AS
+20325,DataSet_399,mouse,Smn1,-,ENSG00000269604,Normal,1,0,0,Normal,mouse,AS
+20327,DataSet_399,mouse,Smn1,-,FHIP1B,Normal,1,0,0,Normal,mouse,AS
+20328,DataSet_399,mouse,Smn1,-,LINC00923,Normal,1,0,0,Normal,mouse,AS
+20329,DataSet_399,mouse,Smn1,-,MAP3K9,Normal,1,0,0,Normal,mouse,AS
+20330,DataSet_399,mouse,Smn1,-,UBE3B,Normal,1,0,0,Normal,mouse,AS
+20331,DataSet_399,mouse,Smn1,-,USP35,Normal,1,0,0,Normal,mouse,AS
+20306,DataSet_397,mouse,Son,mESC,DNMT3A,Normal,6,0,0,Normal,mouse,AS
+20305,DataSet_397,mouse,Son,mESC,COBLL1,Normal,3,0,0,Normal,mouse,AS
+20322,DataSet_397,mouse,Son,mESC,USP35,Normal,2,0,0,Normal,mouse,AS
+20311,DataSet_397,mouse,Son,mESC,FHIP1B,Normal,2,0,0,Normal,mouse,AS
+20302,DataSet_397,mouse,Son,mESC,ACSM2B,Normal,1,0,0,Normal,mouse,AS
+20315,DataSet_397,mouse,Son,mESC,PTPRE,Normal,1,0,0,Normal,mouse,AS
+20321,DataSet_397,mouse,Son,mESC,UBE2E3,Normal,1,0,0,Normal,mouse,AS
+20320,DataSet_397,mouse,Son,mESC,STAP2,Normal,1,0,0,Normal,mouse,AS
+20319,DataSet_397,mouse,Son,mESC,SPAST,Normal,1,0,0,Normal,mouse,AS
+20318,DataSet_397,mouse,Son,mESC,SHANK2-AS3,Normal,1,0,0,Normal,mouse,AS
+20317,DataSet_397,mouse,Son,mESC,SCN3A,Normal,1,0,0,Normal,mouse,AS
+20316,DataSet_397,mouse,Son,mESC,RENO1,Normal,1,0,0,Normal,mouse,AS
+20313,DataSet_397,mouse,Son,mESC,LINC01748,Normal,1,0,0,Normal,mouse,AS
+20314,DataSet_397,mouse,Son,mESC,PPP2R5E,Normal,1,0,0,Normal,mouse,AS
+20303,DataSet_397,mouse,Son,mESC,AK4,Normal,1,0,0,Normal,mouse,AS
+20312,DataSet_397,mouse,Son,mESC,FOXN1,Normal,1,0,0,Normal,mouse,AS
+20310,DataSet_397,mouse,Son,mESC,FEM1A,Normal,1,0,0,Normal,mouse,AS
+20309,DataSet_397,mouse,Son,mESC,ENSG00000269604,Normal,1,0,0,Normal,mouse,AS
+20308,DataSet_397,mouse,Son,mESC,ENSG00000256748,Normal,1,0,0,Normal,mouse,AS
+20307,DataSet_397,mouse,Son,mESC,EFL1,Normal,1,0,0,Normal,mouse,AS
+20304,DataSet_397,mouse,Son,mESC,CLPP,Normal,1,0,0,Normal,mouse,AS
+20323,DataSet_397,mouse,Son,mESC,ZNF500,Normal,1,0,0,Normal,mouse,AS
+19679,DataSet_392,mouse,Srsf10,Cortex,ATCAY,Normal,1,0,0,Normal,mouse,AS
+19680,DataSet_392,mouse,Srsf10,Cortex,FHIP1B,Normal,1,0,0,Normal,mouse,AS
+19681,DataSet_392,mouse,Srsf10,Cortex,GID4,Normal,1,0,0,Normal,mouse,AS
+19682,DataSet_392,mouse,Srsf10,Cortex,LINC01876,Normal,1,0,0,Normal,mouse,AS
+19683,DataSet_392,mouse,Srsf10,Cortex,PGM1,Normal,1,0,0,Normal,mouse,AS
+19684,DataSet_393,mouse,Srsf10,Cortex,FHIP1B,Normal,1,0,0,Normal,mouse,AS
+19685,DataSet_393,mouse,Srsf10,Cortex,P3H1,Normal,1,0,0,Normal,mouse,AS
+19558,DataSet_389,mouse,Tardbp,Testis,FARP1,Normal,1,0,0,Normal,mouse,AS
+19559,DataSet_389,mouse,Tardbp,Testis,KLF18,Normal,1,0,0,Normal,mouse,AS
+19560,DataSet_389,mouse,Tardbp,Testis,LINC01876,Normal,1,0,0,Normal,mouse,AS
+19561,DataSet_389,mouse,Tardbp,Testis,OLMALINC,Normal,1,0,0,Normal,mouse,AS
+19474,DataSet_385,mouse,Tial1 and Tia1,Pro B cells,NUTM2E,Normal,4,0,0,Normal,mouse,AS
+19476,DataSet_385,mouse,Tial1 and Tia1,Pro B cells,SHANK2-AS3,Normal,2,0,0,Normal,mouse,AS
+19472,DataSet_385,mouse,Tial1 and Tia1,Pro B cells,CHTOP,Normal,1,0,0,Normal,mouse,AS
+19473,DataSet_385,mouse,Tial1 and Tia1,Pro B cells,KLF18,Normal,1,0,0,Normal,mouse,AS
+19475,DataSet_385,mouse,Tial1 and Tia1,Pro B cells,RASSF4,Normal,1,0,0,Normal,mouse,AS
+19477,DataSet_385,mouse,Tial1 and Tia1,Pro B cells,TBC1D3F,Normal,1,0,0,Normal,mouse,AS
+19366,DataSet_371,mouse,Upf2,Blastocyst,KPNB1,Normal,1,0,0,Normal,mouse,AS
+18681,DataSet_362,mouse,Ythdc2,-,ANKRD34C-AS1,Normal,1,0,0,Normal,mouse,AS
+65258,DataSet_77,mouse,Ythdf2,mESC,FHIP1B,Normal,1,0,0,Normal,mouse,AS
+65259,DataSet_77,mouse,Ythdf2,mESC,GUCY1A2,Normal,1,0,0,Normal,mouse,AS
+18500,DataSet_359,mouse,Zc3h13,mESC,ENSG00000262879,Normal,2,0,0,Normal,mouse,AS

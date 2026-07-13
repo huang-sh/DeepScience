@@ -1,0 +1,11 @@
+{
+  "database": "KEGG",
+  "release": "KEGG 2026",
+  "organism": "Homo sapiens",
+  "taxonId": 9606,
+  "file": "KEGG_2026.txt",
+  "bytes": 226252,
+  "lines": 352,
+  "sha256": "435b074141ee535d3d20b43e5507b6b801b9b411f3051dc2120e4d171266fd67",
+  "schema": "pathway_name<TAB>reserved_description<TAB>gene_symbol..."
+}

@@ -1,0 +1,953 @@
+Species	Symbol	Ensembl	Family	Entrez_ID
+Rattus_norvegicus	Pcgf3	ENSRNOG00000000062	PCGF	305624
+Rattus_norvegicus	Dr1	ENSRNOG00000000070	Others	289881
+Rattus_norvegicus	Mtf2	ENSRNOG00000000075	Others	360905
+Rattus_norvegicus	Hltf	ENSRNOG00000000082	Others	295568
+Rattus_norvegicus	Coprs	ENSRNOG00000000111	Others	290925
+Rattus_norvegicus	Srsf2	ENSRNOG00000000248	Others	494445
+Rattus_norvegicus	Jmjd6	ENSRNOG00000000250	Others	360665
+Rattus_norvegicus	Prmt7	ENSRNOG00000000258	Arginine methyltransferase	361402
+Rattus_norvegicus	Ccar1	ENSRNOG00000000397	Others	361849
+Rattus_norvegicus	Vgll2	ENSRNOG00000000405	Vestigial like	309772
+Rattus_norvegicus	Nelfe	ENSRNOG00000000420	GTF	294258
+Rattus_norvegicus	Notch4	ENSRNOG00000000442	Notch	406162
+Rattus_norvegicus	Brd2	ENSRNOG00000000461	Bromodomain	294276
+Rattus_norvegicus	Ring1	ENSRNOG00000000467	Ring finger protein	309626
+Rattus_norvegicus	Daxx	ENSRNOG00000000477	Other_CRF	140926
+Rattus_norvegicus	Phf1	ENSRNOG00000000480	PHF	294287
+Rattus_norvegicus	RGD735065	ENSRNOG00000000524	Other_CRF	294311
+Rattus_norvegicus	Pim1	ENSRNOG00000000529	Others	24649
+Rattus_norvegicus	Frk	ENSRNOG00000000543	Others	79209
+Rattus_norvegicus	Hdac2	ENSRNOG00000000604	Histone deacetylase	84577
+Rattus_norvegicus	Cdk1	ENSRNOG00000000632	Cyclin	54237
+Rattus_norvegicus	Nrbf2	ENSRNOG00000000641	Nuclear receptor coactivator	58839
+Rattus_norvegicus	Jmjd1c	ENSRNOG00000000648	Other_CRF	171120
+Rattus_norvegicus	Cggbp1	ENSRNOG00000000718	Others	288353
+Rattus_norvegicus	Ddx39b	ENSRNOG00000000841	RNA helicase	114612
+Rattus_norvegicus	Auts2l1	ENSRNOG00000000885	Others	304419
+Rattus_norvegicus	Sfswap	ENSRNOG00000000931	Others	304431
+Rattus_norvegicus	Ran	ENSRNOG00000000938	Others	84509
+Rattus_norvegicus	Rnf6	ENSRNOG00000000968	Ring finger protein	304271
+Rattus_norvegicus	Bud31	ENSRNOG00000000989	Others	89819
+Rattus_norvegicus	Smurf1	ENSRNOG00000000999	Others	690516
+Rattus_norvegicus	Gtf2h3	ENSRNOG00000001035	GTF	288651
+Rattus_norvegicus	Snapc2	ENSRNOG00000001056	Others	304204
+Rattus_norvegicus	N4bp2l2	ENSRNOG00000001108	Others	288416
+Rattus_norvegicus	Brca2	ENSRNOG00000001111	Others	360254
+Rattus_norvegicus	Med13l	ENSRNOG00000001120	Mediator complex	360817
+Rattus_norvegicus	Tesc	ENSRNOG00000001128	Others	288689
+Rattus_norvegicus	Suds3	ENSRNOG00000001139	Other_Co-activator/repressors	360819
+Rattus_norvegicus	Rnf10	ENSRNOG00000001172	Ring finger protein	288710
+Rattus_norvegicus	Slc19a1	ENSRNOG00000001232	SLC	29723
+Rattus_norvegicus	Prmt2	ENSRNOG00000001297	Arginine methyltransferase	499420
+Rattus_norvegicus	Taf6	ENSRNOG00000001355	TATA-box	288533
+Rattus_norvegicus	Actl6b	ENSRNOG00000001408	Actin	288563
+Rattus_norvegicus	Baz1b	ENSRNOG00000001453	Bromodomain	368002
+Rattus_norvegicus	Tbp	ENSRNOG00000001489	TATA-box	117526
+Rattus_norvegicus	Hat1	ENSRNOG00000001524	Others	296501
+Rattus_norvegicus	Nrip1	ENSRNOG00000001585	Nuclear receptor coactivator	304157
+Rattus_norvegicus	Brwd1	ENSRNOG00000001632	Bromodomain	304061
+Rattus_norvegicus	Chaf1b	ENSRNOG00000001692	Others	288242
+Rattus_norvegicus	Dvl3	ENSRNOG00000001708	Others	303811
+Rattus_norvegicus	Med21	ENSRNOG00000001820	Mediator complex	312849
+Rattus_norvegicus	Med15	ENSRNOG00000001877	Mediator complex	360743
+Rattus_norvegicus	Brdt	ENSRNOG00000002073	Bromodomain	NA
+Rattus_norvegicus	Cnot6l	ENSRNOG00000002075	CCR4-NOT	360917
+Rattus_norvegicus	Lin54	ENSRNOG00000002203	Others	305171
+Rattus_norvegicus	Slc30a9	ENSRNOG00000002246	SLC	498358
+Rattus_norvegicus	Hnrnpd	ENSRNOG00000002292	HNRNP	79256
+Rattus_norvegicus	Trim25	ENSRNOG00000002341	Tripartite motif	494338
+Rattus_norvegicus	Eaf2	ENSRNOG00000002350	Others	266787
+Rattus_norvegicus	Morf4l2	ENSRNOG00000002389	Other_CRF	317413
+Rattus_norvegicus	Tpr	ENSRNOG00000002394	Others	304862
+Rattus_norvegicus	Rnf2	ENSRNOG00000002454	Ring finger protein	304850
+Rattus_norvegicus	Rap2c	ENSRNOG00000002529	Others	302495
+Rattus_norvegicus	Taf1	ENSRNOG00000002565	TATA-box	317256
+Rattus_norvegicus	Sap30l	ENSRNOG00000002575	SAP	360531
+Rattus_norvegicus	Cnot8	ENSRNOG00000002630	CCR4-NOT	363603
+Rattus_norvegicus	Naca	ENSRNOG00000002632	Others	288770
+Rattus_norvegicus	Ciita	ENSRNOG00000002659	Others	85483
+Rattus_norvegicus	Tfb2m	ENSRNOG00000002695	Others	289307
+Rattus_norvegicus	Phf8	ENSRNOG00000002708	PHF	317425
+Rattus_norvegicus	Dhx9	ENSRNOG00000002735	RNA helicase	304859
+Rattus_norvegicus	Aatf	ENSRNOG00000002778	Others	114512
+Rattus_norvegicus	Tob1	ENSRNOG00000002828	Others	170842
+Rattus_norvegicus	Gsk3b	ENSRNOG00000002833	Others	84027
+Rattus_norvegicus	Trim11	ENSRNOG00000002915	Tripartite motif	360534
+Rattus_norvegicus	Calr	ENSRNOG00000003029	Others	64202
+Rattus_norvegicus	Wnt3a	ENSRNOG00000003039	Others	303181
+Rattus_norvegicus	Dcaf6	ENSRNOG00000003078	Others	289181
+Rattus_norvegicus	Hdac8	ENSRNOG00000003122	Histone deacetylase	363481
+Rattus_norvegicus	Sqstm1	ENSRNOG00000003147	Others	113894
+Rattus_norvegicus	Nlrp3	ENSRNOG00000003170	Others	287362
+Rattus_norvegicus	Cited1	ENSRNOG00000003189	CITED	64466
+Rattus_norvegicus	Hexim1	ENSRNOG00000003203	Others	498008
+Rattus_norvegicus	Ldb2	ENSRNOG00000003205	LIM	289664
+Rattus_norvegicus	Cdc73	ENSRNOG00000003258	Others	304832
+Rattus_norvegicus	Maml1	ENSRNOG00000003268	MAML	303101
+Rattus_norvegicus	Creg1	ENSRNOG00000003291	Others	289185
+Rattus_norvegicus	Rrn3	ENSRNOG00000003326	Others	304714
+Rattus_norvegicus	Rasd1	ENSRNOG00000003348	Others	64455
+Rattus_norvegicus	Ogt	ENSRNOG00000003359	Others	26295
+Rattus_norvegicus	Cenpf	ENSRNOG00000003388	CENP	257649
+Rattus_norvegicus	Aim2	ENSRNOG00000003480	Others	304987
+Rattus_norvegicus	Mnda	ENSRNOG00000003486	Others	304988
+Rattus_norvegicus	Smyd2	ENSRNOG00000003583	SMYD	289372
+Rattus_norvegicus	Med28	ENSRNOG00000003592	Mediator complex	305391
+Rattus_norvegicus	Tab3	ENSRNOG00000003643	Others	317546
+Rattus_norvegicus	Myocd	ENSRNOG00000003669	Others	246297
+Rattus_norvegicus	Pir	ENSRNOG00000003674	Others	363465
+Rattus_norvegicus	Med13	ENSRNOG00000003679	Mediator complex	303403
+Rattus_norvegicus	Tbl1x	ENSRNOG00000003686	Transducin	302711
+Rattus_norvegicus	Nono	ENSRNOG00000003689	Others	317259
+Rattus_norvegicus	Med14	ENSRNOG00000003792	Mediator complex	317343
+Rattus_norvegicus	Pttg1	ENSRNOG00000003802	Others	64193
+Rattus_norvegicus	Tada1	ENSRNOG00000003816	Transcriptional adaptor	360874
+Rattus_norvegicus	Rptor	ENSRNOG00000003821	Others	287871
+Rattus_norvegicus	Med12	ENSRNOG00000003848	Mediator complex	679693
+Rattus_norvegicus	Dnaja3	ENSRNOG00000003855	Others	360481
+Rattus_norvegicus	Ankar	ENSRNOG00000003991	Ankyrin repeat	501138
+Rattus_norvegicus	Grip1	ENSRNOG00000004013	Others	84016
+Rattus_norvegicus	Msl3	ENSRNOG00000004016	Others	317464
+Rattus_norvegicus	Lrrk2	ENSRNOG00000004048	Other_CRF	300160
+Rattus_norvegicus	Trib1	ENSRNOG00000004100	Others	78969
+Rattus_norvegicus	Hdac9	ENSRNOG00000004158	Histone deacetylase	687001
+Rattus_norvegicus	Flii	ENSRNOG00000004159	Others	287375
+Rattus_norvegicus	Ccdc59	ENSRNOG00000004183	Coiled-coil	314799
+Rattus_norvegicus	Btg1	ENSRNOG00000004284	Others	29618
+Rattus_norvegicus	Gtf2a1	ENSRNOG00000004300	GTF	83830
+Rattus_norvegicus	Egfr	ENSRNOG00000004332	Others	24329
+Rattus_norvegicus	Notch3	ENSRNOG00000004346	Notch	56761
+Rattus_norvegicus	Parp10	ENSRNOG00000004361	PARP	102548778
+Rattus_norvegicus	Lpin1	ENSRNOG00000004377	LPIN	313977
+Rattus_norvegicus	Fbxw11	ENSRNOG00000004395	Others	303024
+Rattus_norvegicus	Rad21	ENSRNOG00000004420	Others	314949
+Rattus_norvegicus	Ppargc1a	ENSRNOG00000004473	Others	83516
+Rattus_norvegicus	Eapp	ENSRNOG00000004509	Others	299043
+Rattus_norvegicus	Brd1	ENSRNOG00000004538	Bromodomain	315210
+Rattus_norvegicus	Npm1	ENSRNOG00000004616	Nucleoplasmin	25498
+Rattus_norvegicus	Traf6	ENSRNOG00000004639	Others	311245
+Rattus_norvegicus	Eny2	ENSRNOG00000004681	Others	685258
+Rattus_norvegicus	Rbfox2	ENSRNOG00000004688	Others	362950
+Rattus_norvegicus	Arhgap5	ENSRNOG00000004696	Others	299012
+Rattus_norvegicus	Esf1	ENSRNOG00000004777	Others	366203
+Rattus_norvegicus	AABR07053185.1	ENSRNOG00000004787	ELP	687694
+Rattus_norvegicus	Limd1	ENSRNOG00000004837	LIM	316101
+Rattus_norvegicus	Med30	ENSRNOG00000004844	Mediator complex	299905
+Rattus_norvegicus	Pa2g4	ENSRNOG00000004904	Others	288778
+Rattus_norvegicus	Cnot2	ENSRNOG00000004909	CCR4-NOT	299805
+Rattus_norvegicus	Supt7l	ENSRNOG00000004927	SUPT	313905
+Rattus_norvegicus	Txlng	ENSRNOG00000004971	Others	302680
+Rattus_norvegicus	Med22	ENSRNOG00000005059	Mediator complex	499762
+Rattus_norvegicus	Recql5	ENSRNOG00000005107	Others	287834
+Rattus_norvegicus	Asf1b	ENSRNOG00000005115	Others	304648
+Rattus_norvegicus	Rbbp7	ENSRNOG00000005157	RBBP	83712
+Rattus_norvegicus	Rtf1	ENSRNOG00000005183	Others	366169
+Rattus_norvegicus	Snx6	ENSRNOG00000005249	Others	362738
+Rattus_norvegicus	Sav1	ENSRNOG00000005264	Others	299116
+Rattus_norvegicus	Csnk2a1	ENSRNOG00000005276	Casein	116549
+Rattus_norvegicus	Trip11	ENSRNOG00000005292	Thyroid hormone receptor	314393
+Rattus_norvegicus	Crebbp	ENSRNOG00000005330	CREB	54244
+Rattus_norvegicus	Rybp	ENSRNOG00000005353	Others	120102351
+Rattus_norvegicus	Sertad2	ENSRNOG00000005393	Others	498423
+Rattus_norvegicus	Ctbp1	ENSRNOG00000005428	Others	29382
+Rattus_norvegicus	Sap30bp	ENSRNOG00000005482	SAP	360662
+Rattus_norvegicus	Ing3	ENSRNOG00000005496	ING	312154
+Rattus_norvegicus	Arhgef5	ENSRNOG00000005506	Others	140898
+Rattus_norvegicus	Med1	ENSRNOG00000005606	Mediator complex	497991
+Rattus_norvegicus	Ncoa3	ENSRNOG00000005616	Nuclear receptor coactivator	84584
+Rattus_norvegicus	AABR07060778.1	ENSRNOG00000005630	Others	690660
+Rattus_norvegicus	Aurkb	ENSRNOG00000005659	Others	114592
+Rattus_norvegicus	Runx1t1	ENSRNOG00000005673	Others	362489
+Rattus_norvegicus	Lmcd1	ENSRNOG00000005690	LIM	494021
+Rattus_norvegicus	AABR07017110.1	ENSRNOG00000005869	TEF	498453
+Rattus_norvegicus	Tle2	ENSRNOG00000005874	Transducin	299636
+Rattus_norvegicus	Lrpprc	ENSRNOG00000005877	Others	313867
+Rattus_norvegicus	Tle1	ENSRNOG00000005882	Transducin	362533
+Rattus_norvegicus	Pawr	ENSRNOG00000005917	Others	64513
+Rattus_norvegicus	Yap1	ENSRNOG00000005933	Others	363014
+Rattus_norvegicus	C1d	ENSRNOG00000005982	Other_Co-activator/repressors	289810
+Rattus_norvegicus	Cdk12	ENSRNOG00000006000	Cyclin	192350
+Rattus_norvegicus	Ezh2	ENSRNOG00000006048	Others	312299
+Rattus_norvegicus	Med19	ENSRNOG00000006050	Mediator complex	311165
+Rattus_norvegicus	Phf21a	ENSRNOG00000006063	PHF	362166
+Rattus_norvegicus	Rnf20	ENSRNOG00000006087	Ring finger protein	313216
+Rattus_norvegicus	Trim37	ENSRNOG00000006248	Tripartite motif	360592
+Rattus_norvegicus	Mdm2	ENSRNOG00000006304	Others	314856
+Rattus_norvegicus	Wwp1	ENSRNOG00000006328	WW	297930
+Rattus_norvegicus	Peli1	ENSRNOG00000006329	Others	305549
+Rattus_norvegicus	Mbd3l1	ENSRNOG00000006363	MBD	300389
+Rattus_norvegicus	Smarcad1	ENSRNOG00000006391	SWI/SNF	312398
+Rattus_norvegicus	Xrcc6	ENSRNOG00000006392	Others	25019
+Rattus_norvegicus	Sirt6	ENSRNOG00000006393	Sirtuin	299638
+Rattus_norvegicus	Erbb2	ENSRNOG00000006450	Erbb2	24337
+Rattus_norvegicus	Cdk2	ENSRNOG00000006469	Cyclin	362817
+Rattus_norvegicus	Topors	ENSRNOG00000006485	Others	362501
+Rattus_norvegicus	Casp8ap2	ENSRNOG00000006487	Others	313128
+Rattus_norvegicus	Cops5	ENSRNOG00000006499	Others	312916
+Rattus_norvegicus	Setd3	ENSRNOG00000006587	SET	299295
+Rattus_norvegicus	Cry1	ENSRNOG00000006622	Others	299691
+Rattus_norvegicus	Kdm4c	ENSRNOG00000006644	Lysine demethylase	298144
+Rattus_norvegicus	Ddx1	ENSRNOG00000006652	RNA helicase	84474
+Rattus_norvegicus	Plrg1	ENSRNOG00000006655	Others	60376
+Rattus_norvegicus	Chd7	ENSRNOG00000006689	CHD	312974
+Rattus_norvegicus	Maged1	ENSRNOG00000006756	MAGE	84469
+Rattus_norvegicus	Brd4	ENSRNOG00000006770	Bromodomain	362844
+Rattus_norvegicus	Smyd1	ENSRNOG00000006776	SMYD	297333
+Rattus_norvegicus	Lancl2	ENSRNOG00000006810	Others	362375
+Rattus_norvegicus	Hdac11	ENSRNOG00000006824	Histone deacetylase	297453
+Rattus_norvegicus	Baz1a	ENSRNOG00000006828	Bromodomain	314126
+Rattus_norvegicus	Padi4	ENSRNOG00000006855	Others	29512
+Rattus_norvegicus	Mtdh	ENSRNOG00000006870	Others	170910
+Rattus_norvegicus	Slc26a3	ENSRNOG00000006878	SLC	114629
+Rattus_norvegicus	Rbl1	ENSRNOG00000006921	Other_Co-activator/repressors	680111
+Rattus_norvegicus	C1qbp	ENSRNOG00000006949	Others	29681
+Rattus_norvegicus	Xiap	ENSRNOG00000006967	Others	63879
+Rattus_norvegicus	Med6	ENSRNOG00000006976	Mediator complex	299180
+Rattus_norvegicus	Ccnk	ENSRNOG00000006985	Cyclin	500715
+Rattus_norvegicus	Med7	ENSRNOG00000007053	Mediator complex	100911235
+Rattus_norvegicus	Dhx33	ENSRNOG00000007054	RNA helicase	287464
+Rattus_norvegicus	Strap	ENSRNOG00000007134	Others	297699
+Rattus_norvegicus	Ehmt1	ENSRNOG00000007242	Histone lysine methyltransferase	362078
+Rattus_norvegicus	Cdkn1b	ENSRNOG00000007249	Cyclin	83571
+Rattus_norvegicus	Mnat1	ENSRNOG00000007267	Others	266713
+Rattus_norvegicus	Trib3	ENSRNOG00000007319	Others	246273
+Rattus_norvegicus	Ascc2	ENSRNOG00000007349	ASCC	498402
+Rattus_norvegicus	Nfkbia	ENSRNOG00000007390	NFKB associated	25493
+Rattus_norvegicus	Top1mt	ENSRNOG00000007500	Other_CRF	300029
+Rattus_norvegicus	Fhl3	ENSRNOG00000007541	FHL	313582
+Rattus_norvegicus	Polr3f	ENSRNOG00000007548	POLR	311487
+Rattus_norvegicus	Padi2	ENSRNOG00000007574	Other_CRF	29511
+Rattus_norvegicus	Eya1	ENSRNOG00000007590	EYA	502935
+Rattus_norvegicus	Fhl5	ENSRNOG00000007680	FHL	297954
+Rattus_norvegicus	Brd3	ENSRNOG00000007681	Bromodomain	362092
+Rattus_norvegicus	Ccnc	ENSRNOG00000007719	Cyclin	114839
+Rattus_norvegicus	Pqbp1	ENSRNOG00000007766	Others	302557
+Rattus_norvegicus	Pnrc1	ENSRNOG00000007793	Others	286988
+Rattus_norvegicus	Kdm3a	ENSRNOG00000007814	Lysine demethylase	312440
+Rattus_norvegicus	Vgll4	ENSRNOG00000007822	Vestigial like	297523
+Rattus_norvegicus	Ufl1	ENSRNOG00000007831	Others	313115
+Rattus_norvegicus	Supt4h1	ENSRNOG00000007845	SUPT	287608
+Rattus_norvegicus	Actr6	ENSRNOG00000007875	ACTR	314718
+Rattus_norvegicus	Ssbp3	ENSRNOG00000007920	Others	84354
+Rattus_norvegicus	Pak6	ENSRNOG00000007925	Others	296078
+Rattus_norvegicus	Wbp2	ENSRNOG00000007971	WW	192645
+Rattus_norvegicus	Ncoa2	ENSRNOG00000007975	Nuclear receptor coactivator	83724
+Rattus_norvegicus	Abra	ENSRNOG00000007999	Actin	286965
+Rattus_norvegicus	Cdk5	ENSRNOG00000008017	Cyclin	140908
+Rattus_norvegicus	Wbp2nl	ENSRNOG00000008038	Others	688642
+Rattus_norvegicus	Wwc1	ENSRNOG00000008065	WW	303039
+Rattus_norvegicus	Dpf3	ENSRNOG00000008086	DPF	299186
+Rattus_norvegicus	Tgs1	ENSRNOG00000008156	Others	312947
+Rattus_norvegicus	Wdr5	ENSRNOG00000008212	WD	362093
+Rattus_norvegicus	Brms1l	ENSRNOG00000008249	Other_CRF	299053
+Rattus_norvegicus	Wdtc1	ENSRNOG00000008377	WD	313020
+Rattus_norvegicus	Pml	ENSRNOG00000008400	Others	315713
+Rattus_norvegicus	Nab2	ENSRNOG00000008415	Others	314910
+Rattus_norvegicus	Cbl	ENSRNOG00000008444	Others	500985
+Rattus_norvegicus	Dact1	ENSRNOG00000008445	Others	500666
+Rattus_norvegicus	Eid1	ENSRNOG00000008452	EID	499882
+Rattus_norvegicus	Thoc5	ENSRNOG00000008456	Others	360972
+Rattus_norvegicus	Ago2	ENSRNOG00000008533	Others	59117
+Rattus_norvegicus	Tada3	ENSRNOG00000008597	Transcriptional adaptor	362414
+Rattus_norvegicus	Phip	ENSRNOG00000008652	Others	315843
+Rattus_norvegicus	Tmem97	ENSRNOG00000008704	Others	497961
+Rattus_norvegicus	Med24	ENSRNOG00000008711	Mediator complex	619436
+Rattus_norvegicus	Zmym2	ENSRNOG00000008734	Zinc finger	305913
+Rattus_norvegicus	Cops2	ENSRNOG00000008744	Others	261736
+Rattus_norvegicus	Pex2	ENSRNOG00000008748	Others	29534
+Rattus_norvegicus	Atf7ip	ENSRNOG00000008870	Others	312800
+Rattus_norvegicus	Sdr16c5	ENSRNOG00000008871	Others	297805
+Rattus_norvegicus	Ino80b	ENSRNOG00000008873	INO80 complex	500225
+Rattus_norvegicus	Tdrd3	ENSRNOG00000009034	Others	306066
+Rattus_norvegicus	Chrac1	ENSRNOG00000009103	Other_CRF	315058
+Rattus_norvegicus	Psen1	ENSRNOG00000009110	Others	29192
+Rattus_norvegicus	Itgb3bp	ENSRNOG00000009116	Others	362548
+Rattus_norvegicus	Mad2l2	ENSRNOG00000009134	Others	313702
+Rattus_norvegicus	Anp32b	ENSRNOG00000009266	ANP	170724
+Rattus_norvegicus	Smarca4	ENSRNOG00000009271	SWI/SNF	171379
+Rattus_norvegicus	Hck	ENSRNOG00000009331	Others	25734
+Rattus_norvegicus	Nelfb	ENSRNOG00000009377	GTF	311796
+Rattus_norvegicus	Lmo2	ENSRNOG00000009401	LIM	362176
+Rattus_norvegicus	Ewsr1	ENSRNOG00000009437	Others	289752
+Rattus_norvegicus	Src	ENSRNOG00000009495	Others	83805
+Rattus_norvegicus	Depdc1	ENSRNOG00000009503	Others	295538
+Rattus_norvegicus	Phf12	ENSRNOG00000009566	PHF	303274
+Rattus_norvegicus	Tcf20	ENSRNOG00000009585	Others	366964
+Rattus_norvegicus	Mtor	ENSRNOG00000009615	Others	56718
+Rattus_norvegicus	Apex1	ENSRNOG00000009663	Others	79116
+Rattus_norvegicus	Mdm4	ENSRNOG00000009696	Others	304798
+Rattus_norvegicus	Chd3	ENSRNOG00000009722	CHD	303241
+Rattus_norvegicus	Uxt	ENSRNOG00000009893	Others	299313
+Rattus_norvegicus	Skil	ENSRNOG00000009899	SKI	114208
+Rattus_norvegicus	Puf60	ENSRNOG00000009960	Others	84401
+Rattus_norvegicus	Thrap3	ENSRNOG00000009977	Thyroid hormone receptor	313591
+Rattus_norvegicus	Ripply2	ENSRNOG00000010004	Others	363111
+Rattus_norvegicus	Smarcd3	ENSRNOG00000010077	SWI/SNF	296732
+Rattus_norvegicus	Leo1	ENSRNOG00000010116	Others	300837
+Rattus_norvegicus	Raf1	ENSRNOG00000010153	Others	24703
+Rattus_norvegicus	Ice2	ENSRNOG00000010160	GTF	691379
+Rattus_norvegicus	Vhl	ENSRNOG00000010258	Others	24874
+Rattus_norvegicus	Trim32	ENSRNOG00000010303	Tripartite motif	313264
+Rattus_norvegicus	Tnip1	ENSRNOG00000010370	Others	363599
+Rattus_norvegicus	Nrg1	ENSRNOG00000010392	Others	112400
+Rattus_norvegicus	Eya3	ENSRNOG00000010396	EYA	313027
+Rattus_norvegicus	Mycbp2	ENSRNOG00000010479	MYC	290447
+Rattus_norvegicus	Med17	ENSRNOG00000010496	Mediator complex	300367
+Rattus_norvegicus	Smarcd2	ENSRNOG00000010557	SWI/SNF	83833
+Rattus_norvegicus	Kdm5a	ENSRNOG00000010591	Lysine demethylase	312678
+Rattus_norvegicus	Birc2	ENSRNOG00000010602	Others	60371
+Rattus_norvegicus	Dnmt3b	ENSRNOG00000010625	DNA_methylase	444985
+Rattus_norvegicus	Ctnnd2	ENSRNOG00000010649	Casein	114028
+Rattus_norvegicus	Cth	ENSRNOG00000010658	Others	24962
+Rattus_norvegicus	Med12l	ENSRNOG00000010680	Mediator complex	690752
+Rattus_norvegicus	Terf2ip	ENSRNOG00000010712	Others	307861
+Rattus_norvegicus	Trak2	ENSRNOG00000010881	Others	171086
+Rattus_norvegicus	Fbxw7	ENSRNOG00000010889	Others	100360914
+Rattus_norvegicus	Taf1d	ENSRNOG00000010921	TATA-box	363017
+Rattus_norvegicus	Ywhab	ENSRNOG00000010945	Others	56011
+Rattus_norvegicus	Irf2bpl	ENSRNOG00000011026	Others	314329
+Rattus_norvegicus	Efcab6	ENSRNOG00000011094	Others	315179
+Rattus_norvegicus	Gtf2b	ENSRNOG00000011135	GTF	81673
+Rattus_norvegicus	Blm	ENSRNOG00000011213	Others	308755
+Rattus_norvegicus	Tbl1xr1	ENSRNOG00000011216	Transducin	365755
+Rattus_norvegicus	Stk3	ENSRNOG00000011278	Others	65189
+Rattus_norvegicus	Mllt3	ENSRNOG00000011280	GTF	114510
+Rattus_norvegicus	Med16	ENSRNOG00000011315	Mediator complex	299607
+Rattus_norvegicus	Hipk3	ENSRNOG00000011358	HIPK	83617
+Rattus_norvegicus	Hr	ENSRNOG00000011427	Lysine methyltransferase	60563
+Rattus_norvegicus	S100a9	ENSRNOG00000011483	Others	94195
+Rattus_norvegicus	Psip1	ENSRNOG00000011498	Others	313323
+Rattus_norvegicus	Pou2af1	ENSRNOG00000011500	Others	690528
+Rattus_norvegicus	Dusp26	ENSRNOG00000011518	Others	306527
+Rattus_norvegicus	Actl6a	ENSRNOG00000011553	Actin	361925
+Rattus_norvegicus	S100a8	ENSRNOG00000011557	Others	116547
+Rattus_norvegicus	Cecr2	ENSRNOG00000011566	Other_CRF	500308
+Rattus_norvegicus	Camk2d	ENSRNOG00000011589	CAMK	24246
+Rattus_norvegicus	Hnrnpc	ENSRNOG00000011621	HNRNP	100911576
+Rattus_norvegicus	Tnks	ENSRNOG00000011625	Others	290794
+Rattus_norvegicus	Alpk3	ENSRNOG00000011659	Others	365298
+Rattus_norvegicus	Xrn2	ENSRNOG00000011785	Others	362229
+Rattus_norvegicus	Cbx3	ENSRNOG00000011814	Chromobox	297093
+Rattus_norvegicus	Sgk1	ENSRNOG00000011815	Others	29517
+Rattus_norvegicus	Lzts1	ENSRNOG00000011826	Others	266711
+Rattus_norvegicus	Myo6	ENSRNOG00000011852	Others	315840
+Rattus_norvegicus	Mtpn	ENSRNOG00000011857	Others	79215
+Rattus_norvegicus	Kat2b	ENSRNOG00000011871	Lysine acetyltransferase	301164
+Rattus_norvegicus	Slc25a15	ENSRNOG00000011881	SLC	306574
+Rattus_norvegicus	Smarca2	ENSRNOG00000011931	SWI/SNF	361745
+Rattus_norvegicus	Csnk2a2	ENSRNOG00000011933	Casein	307641
+Rattus_norvegicus	Supt16h	ENSRNOG00000011953	SUPT	305851
+Rattus_norvegicus	Wwox	ENSRNOG00000012030	WW	292041
+Rattus_norvegicus	Prmt5	ENSRNOG00000012046	Arginine methyltransferase	364382
+Rattus_norvegicus	Txn1	ENSRNOG00000012081	Others	116484
+Rattus_norvegicus	Rbl2	ENSRNOG00000012153	Other_Co-activator/repressors	81758
+Rattus_norvegicus	Syk	ENSRNOG00000012160	Others	25155
+Rattus_norvegicus	Supt6h	ENSRNOG00000012240	SUPT	303281
+Rattus_norvegicus	Cnot7	ENSRNOG00000012263	CCR4-NOT	306492
+Rattus_norvegicus	Med26	ENSRNOG00000012270	Mediator complex	306328
+Rattus_norvegicus	Cnot1	ENSRNOG00000012271	CCR4-NOT	291841
+Rattus_norvegicus	Gtf2h1	ENSRNOG00000012360	GTF	361580
+Rattus_norvegicus	Naa15	ENSRNOG00000012385	Others	310399
+Rattus_norvegicus	Thrsp	ENSRNOG00000012404	Others	25357
+Rattus_norvegicus	Bcl9l	ENSRNOG00000012420	BCL	300673
+Rattus_norvegicus	Setd6	ENSRNOG00000012447	SET	291844
+Rattus_norvegicus	Orc2	ENSRNOG00000012558	Others	301430
+Rattus_norvegicus	Lpxn	ENSRNOG00000012611	Others	293783
+Rattus_norvegicus	Sfr1	ENSRNOG00000012641	Others	294030
+Rattus_norvegicus	Lgals9	ENSRNOG00000012681	Others	25476
+Rattus_norvegicus	Pcgf2	ENSRNOG00000012705	PCGF	287662
+Rattus_norvegicus	Zfp451	ENSRNOG00000012718	Zinc finger	316312
+Rattus_norvegicus	Brf2	ENSRNOG00000012739	GTF	306542
+Rattus_norvegicus	Pabpc1l	ENSRNOG00000012750	Other_CRF	296351
+Rattus_norvegicus	Chtop	ENSRNOG00000012760	Others	361990
+Rattus_norvegicus	Ajuba	ENSRNOG00000012791	Others	85265
+Rattus_norvegicus	Grhpr	ENSRNOG00000012794	Others	680021
+Rattus_norvegicus	Wdr61	ENSRNOG00000012803	WD	363064
+Rattus_norvegicus	Kat6b	ENSRNOG00000012850	Lysine acetyltransferase	688634
+Rattus_norvegicus	Ern1	ENSRNOG00000012864	Others	498013
+Rattus_norvegicus	Rbbp8	ENSRNOG00000012899	RBBP	291787
+Rattus_norvegicus	Rprd1b	ENSRNOG00000012923	Others	311591
+Rattus_norvegicus	Wwp2	ENSRNOG00000012937	WW	291999
+Rattus_norvegicus	Nab1	ENSRNOG00000012959	Others	64824
+Rattus_norvegicus	Pfdn5	ENSRNOG00000012985	Others	300257
+Rattus_norvegicus	Tle3	ENSRNOG00000013013	Transducin	84424
+Rattus_norvegicus	Setd7	ENSRNOG00000013045	SET	689954
+Rattus_norvegicus	Phf21b	ENSRNOG00000013067	PHF	300117
+Rattus_norvegicus	Zcchc12	ENSRNOG00000013162	Zinc finger	313436
+Rattus_norvegicus	Wnt4	ENSRNOG00000013166	Others	84426
+Rattus_norvegicus	Ercc3	ENSRNOG00000013180	Others	291703
+Rattus_norvegicus	Ruvbl1	ENSRNOG00000013195	Other_CRF	65137
+Rattus_norvegicus	Chchd3	ENSRNOG00000013211	Coiled-coil	296966
+Rattus_norvegicus	Sap30	ENSRNOG00000013218	SAP	680122
+Rattus_norvegicus	Tle4	ENSRNOG00000013239	Transducin	25565
+Rattus_norvegicus	Trim24	ENSRNOG00000013251	Tripartite motif	500084
+Rattus_norvegicus	Helz2	ENSRNOG00000013267	Others	296474
+Rattus_norvegicus	Rbpms	ENSRNOG00000013328	RNA binding protein	498642
+Rattus_norvegicus	Tsg101	ENSRNOG00000013381	Others	292925
+Rattus_norvegicus	Med23	ENSRNOG00000013422	Mediator complex	309565
+Rattus_norvegicus	Nif3l1	ENSRNOG00000013446	Others	301431
+Rattus_norvegicus	Pex14	ENSRNOG00000013498	Others	64460
+Rattus_norvegicus	Cdk13	ENSRNOG00000013620	Cyclin	306998
+Rattus_norvegicus	Hdac1l	ENSRNOG00000013695	Histone deacetylase	84576
+Rattus_norvegicus	Siah2	ENSRNOG00000013703	Others	140593
+Rattus_norvegicus	Aebp1	ENSRNOG00000013720	Others	305494
+Rattus_norvegicus	Tnip2	ENSRNOG00000013805	Others	305451
+Rattus_norvegicus	Sirt3	ENSRNOG00000013828	Sirtuin	293615
+Rattus_norvegicus	Tp53bp1	ENSRNOG00000013837	Others	296099
+Rattus_norvegicus	Ankrd2	ENSRNOG00000013840	Ankyrin repeat	309374
+Rattus_norvegicus	Dcaf1	ENSRNOG00000013841	Others	315987
+Rattus_norvegicus	Med20	ENSRNOG00000013852	Mediator complex	316209
+Rattus_norvegicus	Fgf1	ENSRNOG00000013867	FGF	25317
+Rattus_norvegicus	Rnf4	ENSRNOG00000013930	Ring finger protein	29274
+Rattus_norvegicus	Med27	ENSRNOG00000013933	Mediator complex	296612
+Rattus_norvegicus	Skor1	ENSRNOG00000013959	SKI	315748
+Rattus_norvegicus	Ncoa7	ENSRNOG00000014004	Nuclear receptor coactivator	498995
+Rattus_norvegicus	Ccna1	ENSRNOG00000014052	Cyclin	295052
+Rattus_norvegicus	Jade1	ENSRNOG00000014066	Others	310352
+Rattus_norvegicus	Hmox1	ENSRNOG00000014117	Others	24451
+Rattus_norvegicus	Nod2	ENSRNOG00000014124	Others	291912
+Rattus_norvegicus	Kcnip3	ENSRNOG00000014152	Others	65199
+Rattus_norvegicus	Ilf2	ENSRNOG00000014154	Others	310612
+Rattus_norvegicus	Rbm15b	ENSRNOG00000014161	RNA binding protein	315989
+Rattus_norvegicus	Zfp703	ENSRNOG00000014199	Zinc finger	680717
+Rattus_norvegicus	Hif1an	ENSRNOG00000014234	Others	309434
+Rattus_norvegicus	Erbb4	ENSRNOG00000014248	Erbb2	59323
+Rattus_norvegicus	Elof1	ENSRNOG00000014284	GTF	691193
+Rattus_norvegicus	Elp3	ENSRNOG00000014291	ELP	100362548
+Rattus_norvegicus	Csrp3	ENSRNOG00000014327	Others	117505
+Rattus_norvegicus	Hsbp1	ENSRNOG00000014415	Heat shock protein	286899
+Rattus_norvegicus	Brd7	ENSRNOG00000014419	Bromodomain	361374
+Rattus_norvegicus	Chd1	ENSRNOG00000014434	CHD	308215
+Rattus_norvegicus	Uri1	ENSRNOG00000014463	Others	308537
+Rattus_norvegicus	Ino80	ENSRNOG00000014483	INO80 complex	296084
+Rattus_norvegicus	Zfp638	ENSRNOG00000014501	Zinc finger	312491
+Rattus_norvegicus	Ing1	ENSRNOG00000014520	ING	306626
+Rattus_norvegicus	Brf1	ENSRNOG00000014595	GTF	299347
+Rattus_norvegicus	Dhx36	ENSRNOG00000014599	RNA helicase	310461
+Rattus_norvegicus	Cxxc1	ENSRNOG00000014614	Others	291440
+Rattus_norvegicus	Med31	ENSRNOG00000014618	Mediator complex	287475
+Rattus_norvegicus	Smurf2	ENSRNOG00000014623	Others	303614
+Rattus_norvegicus	Lmo1	ENSRNOG00000014629	LIM	245979
+Rattus_norvegicus	Zmynd11	ENSRNOG00000014670	Zinc finger	291259
+Rattus_norvegicus	Tonsl	ENSRNOG00000014703	Others	366953
+Rattus_norvegicus	Cbfa2t3	ENSRNOG00000014723	Others	361431
+Rattus_norvegicus	Tasor	ENSRNOG00000014750	FAM	680155
+Rattus_norvegicus	Ppie	ENSRNOG00000014762	Others	298508
+Rattus_norvegicus	Pdcd4	ENSRNOG00000014779	Others	64031
+Rattus_norvegicus	Ccne1	ENSRNOG00000014786	Cyclin	25729
+Rattus_norvegicus	Srfbp1	ENSRNOG00000014808	Others	291469
+Rattus_norvegicus	Epc1	ENSRNOG00000014834	Others	100362678
+Rattus_norvegicus	Anp32a	ENSRNOG00000014846	ANP	25379
+Rattus_norvegicus	Ash2l	ENSRNOG00000014875	Others	290829
+Rattus_norvegicus	Lpin2	ENSRNOG00000014876	LPIN	316737
+Rattus_norvegicus	Nck1	ENSRNOG00000014917	Others	300955
+Rattus_norvegicus	Mdfi	ENSRNOG00000014987	Others	501097
+Rattus_norvegicus	Mak	ENSRNOG00000015101	Others	25677
+Rattus_norvegicus	Kmt2a	ENSRNOG00000015133	Lysine methyltransferase	315606
+Rattus_norvegicus	Tradd	ENSRNOG00000015179	Others	246756
+Rattus_norvegicus	Kdm8	ENSRNOG00000015180	Lysine demethylase	308976
+Rattus_norvegicus	Mybbp1a	ENSRNOG00000015236	MYB	60571
+Rattus_norvegicus	Taf8	ENSRNOG00000015249	TATA-box	316216
+Rattus_norvegicus	Ddx20	ENSRNOG00000015274	RNA helicase	84473
+Rattus_norvegicus	Actr8	ENSRNOG00000015280	ACTR	361107
+Rattus_norvegicus	Ctdsp1	ENSRNOG00000015295	Others	363249
+Rattus_norvegicus	Elp2	ENSRNOG00000015301	ELP	307545
+Rattus_norvegicus	Jup	ENSRNOG00000015380	Others	81679
+Rattus_norvegicus	Pink1	ENSRNOG00000015385	Others	298575
+Rattus_norvegicus	Ccna2	ENSRNOG00000015423	Cyclin	114494
+Rattus_norvegicus	Calcoco1	ENSRNOG00000015447	Others	246047
+Rattus_norvegicus	Nelfa	ENSRNOG00000015474	GTF	305455
+Rattus_norvegicus	Emsy	ENSRNOG00000015560	Others	361607
+Rattus_norvegicus	Suv39h2	ENSRNOG00000015585	Others	364785
+Rattus_norvegicus	Nsd3	ENSRNOG00000015621	Nuclear receptor coactivator	290831
+Rattus_norvegicus	Taf1c	ENSRNOG00000015632	TATA-box	361420
+Rattus_norvegicus	Trip13	ENSRNOG00000015810	Thyroid hormone receptor	292206
+Rattus_norvegicus	Niban2	ENSRNOG00000015845	FAM	362115
+Rattus_norvegicus	Arhgap35	ENSRNOG00000015852	Others	306400
+Rattus_norvegicus	Cd3d	ENSRNOG00000015994	Others	25710
+Rattus_norvegicus	Kank1	ENSRNOG00000016023	Others	309429
+Rattus_norvegicus	Rb1	ENSRNOG00000016029	Other_Co-activator/repressors	24708
+Rattus_norvegicus	Cnot9	ENSRNOG00000016034	CCR4-NOT	301513
+Rattus_norvegicus	Rprd1a	ENSRNOG00000016036	Others	291736
+Rattus_norvegicus	Fgfr1	ENSRNOG00000016050	FGF	79114
+Rattus_norvegicus	Trip4	ENSRNOG00000016121	Thyroid hormone receptor	315769
+Rattus_norvegicus	Sumo1	ENSRNOG00000016133	Others	301442
+Rattus_norvegicus	Dek	ENSRNOG00000016152	Other_CRF	306817
+Rattus_norvegicus	Pdlim1	ENSRNOG00000016166	Others	54133
+Rattus_norvegicus	Ssbp2	ENSRNOG00000016213	Others	361877
+Rattus_norvegicus	Btrc	ENSRNOG00000016280	Others	361765
+Rattus_norvegicus	Tcea2	ENSRNOG00000016288	TEF	29575
+Rattus_norvegicus	Cbfa2t2	ENSRNOG00000016352	Others	296293
+Rattus_norvegicus	Gps2	ENSRNOG00000016360	Others	497941
+Rattus_norvegicus	Fgfr2	ENSRNOG00000016374	FGF	25022
+Rattus_norvegicus	Wdr77	ENSRNOG00000016394	WD	310769
+Rattus_norvegicus	Clu	ENSRNOG00000016460	Others	24854
+Rattus_norvegicus	Kctd1	ENSRNOG00000016467	Others	291772
+Rattus_norvegicus	Kdm1b	ENSRNOG00000016519	Lysine demethylase	306819
+Rattus_norvegicus	Ino80c	ENSRNOG00000016532	INO80 complex	291737
+Rattus_norvegicus	Bmi1	ENSRNOG00000016585	Others	307151
+Rattus_norvegicus	Wwtr1	ENSRNOG00000016617	WW	295062
+Rattus_norvegicus	Ankra2	ENSRNOG00000016622	Ankyrin repeat	120099218
+Rattus_norvegicus	Eya4	ENSRNOG00000016627	EYA	292172
+Rattus_norvegicus	Lpin3	ENSRNOG00000016636	LPIN	362261
+Rattus_norvegicus	Sfmbt1	ENSRNOG00000016645	Others	58967
+Rattus_norvegicus	Nsd1	ENSRNOG00000016680	Nuclear receptor coactivator	306764
+Rattus_norvegicus	Gtf2a1l	ENSRNOG00000016703	GTF	316711
+Rattus_norvegicus	Elp1	ENSRNOG00000016725	ELP	140934
+Rattus_norvegicus	Tcerg1l	ENSRNOG00000016737	TEF	361669
+Rattus_norvegicus	Chd6	ENSRNOG00000016744	CHD	311607
+Rattus_norvegicus	Loxl2	ENSRNOG00000016758	Others	290350
+Rattus_norvegicus	Sap130	ENSRNOG00000016773	SAP	307527
+Rattus_norvegicus	Kmt5b	ENSRNOG00000016790	Lysine methyltransferase	361688
+Rattus_norvegicus	Ss18	ENSRNOG00000016800	SS18	361295
+Rattus_norvegicus	Phf2	ENSRNOG00000016816	PHF	306814
+Rattus_norvegicus	Fhl2	ENSRNOG00000016866	FHL	63839
+Rattus_norvegicus	Cbx7	ENSRNOG00000016875	Chromobox	362962
+Rattus_norvegicus	Rnf25	ENSRNOG00000016886	Ring finger protein	301515
+Rattus_norvegicus	Btf3	ENSRNOG00000016912	Others	294680
+Rattus_norvegicus	Stk36	ENSRNOG00000016913	Others	301516
+Rattus_norvegicus	Ccnt2	ENSRNOG00000017113	Cyclin	304758
+Rattus_norvegicus	Trim6	ENSRNOG00000017147	Tripartite motif	293294
+Rattus_norvegicus	Med10	ENSRNOG00000017150	Mediator complex	290939
+Rattus_norvegicus	Med4	ENSRNOG00000017170	Mediator complex	306030
+Rattus_norvegicus	Malt1	ENSRNOG00000017181	Others	307366
+Rattus_norvegicus	Prmt6	ENSRNOG00000017187	Arginine methyltransferase	295384
+Rattus_norvegicus	Ctr9	ENSRNOG00000017195	Others	293184
+Rattus_norvegicus	Tab1	ENSRNOG00000017285	Others	315139
+Rattus_norvegicus	Ctbp2	ENSRNOG00000017326	Others	81717
+Rattus_norvegicus	Raly	ENSRNOG00000017405	Others	296301
+Rattus_norvegicus	Ppargc1b	ENSRNOG00000017503	Others	291567
+Rattus_norvegicus	Kmt5c	ENSRNOG00000017508	Lysine methyltransferase	308345
+Rattus_norvegicus	Eed	ENSRNOG00000017509	Others	293104
+Rattus_norvegicus	Btn1a1	ENSRNOG00000017514	Others	306956
+Rattus_norvegicus	Bcl9	ENSRNOG00000017516	BCL	310704
+Rattus_norvegicus	Abt1	ENSRNOG00000017585	Others	306960
+Rattus_norvegicus	Fbp1	ENSRNOG00000017597	Others	24362
+Rattus_norvegicus	Npm3	ENSRNOG00000017622	Nucleoplasmin	502389
+Rattus_norvegicus	Chd1l	ENSRNOG00000017669	CHD	310707
+Rattus_norvegicus	Edrf1	ENSRNOG00000017728	Others	309069
+Rattus_norvegicus	Nudt5	ENSRNOG00000017741	Other_CRF	361274
+Rattus_norvegicus	Ercc2	ENSRNOG00000017753	Others	308415
+Rattus_norvegicus	Lrif1	ENSRNOG00000017784	Others	310775
+Rattus_norvegicus	Ssu72	ENSRNOG00000017829	Others	298681
+Rattus_norvegicus	Actn2	ENSRNOG00000017833	Actin	291245
+Rattus_norvegicus		ENSRNOG00000017864	GTF	NA
+Rattus_norvegicus	Sirt5	ENSRNOG00000017866	Sirtuin	306840
+Rattus_norvegicus	Eno1	ENSRNOG00000017895	Others	24333
+Rattus_norvegicus	Dvl2	ENSRNOG00000017915	Others	303251
+Rattus_norvegicus	Btaf1	ENSRNOG00000017938	Others	368042
+Rattus_norvegicus	Skor2	ENSRNOG00000018006	SKI	681200
+Rattus_norvegicus	Gtf2h5	ENSRNOG00000018007	GTF	502227
+Rattus_norvegicus	Apbb1	ENSRNOG00000018020	Others	29722
+Rattus_norvegicus	Taf5l	ENSRNOG00000018027	TATA-box	307927
+Rattus_norvegicus	Sra1	ENSRNOG00000018089	Others	252891
+Rattus_norvegicus	Smarca5	ENSRNOG00000018149	SWI/SNF	307766
+Rattus_norvegicus	Anxa4	ENSRNOG00000018159	Others	79124
+Rattus_norvegicus	Gtf2h2	ENSRNOG00000018230	GTF	294693
+Rattus_norvegicus	Tdp2	ENSRNOG00000018246	Others	498749
+Rattus_norvegicus	Ncl	ENSRNOG00000018273	Others	25135
+Rattus_norvegicus	Ncoa6	ENSRNOG00000018288	Nuclear receptor coactivator	116464
+Rattus_norvegicus	Park7	ENSRNOG00000018289	Others	117287
+Rattus_norvegicus	Ccar2	ENSRNOG00000018295	Others	306007
+Rattus_norvegicus	Chd4	ENSRNOG00000018309	CHD	117535
+Rattus_norvegicus	Picalm	ENSRNOG00000018322	Others	89816
+Rattus_norvegicus	Kat2a	ENSRNOG00000018364	Lysine acetyltransferase	303539
+Rattus_norvegicus	Ldb1	ENSRNOG00000018468	LIM	309447
+Rattus_norvegicus	Plk3	ENSRNOG00000018484	Others	58936
+Rattus_norvegicus	Cidea	ENSRNOG00000018505	Others	291541
+Rattus_norvegicus	Cdk7	ENSRNOG00000018510	Cyclin	171150
+Rattus_norvegicus	Ezr	ENSRNOG00000018524	Others	54319
+Rattus_norvegicus	Pcgf5	ENSRNOG00000018532	PCGF	681178
+Rattus_norvegicus	Pprc1	ENSRNOG00000018561	Others	294007
+Rattus_norvegicus	Ankrd1	ENSRNOG00000018598	Ankyrin repeat	27064
+Rattus_norvegicus	Wac	ENSRNOG00000018698	WW	307029
+Rattus_norvegicus	Cir1	ENSRNOG00000018719	Other_Co-activator/repressors	362149
+Rattus_norvegicus	Gmnn	ENSRNOG00000018782	Others	291137
+Rattus_norvegicus	Mrtfa	ENSRNOG00000018803	Others	315151
+Rattus_norvegicus	Plk1	ENSRNOG00000018815	Others	25515
+Rattus_norvegicus	Notch2	ENSRNOG00000018835	Notch	29492
+Rattus_norvegicus	Tcerg1	ENSRNOG00000018849	TEF	307474
+Rattus_norvegicus	Phf19	ENSRNOG00000018874	PHF	296653
+Rattus_norvegicus	Pik3r1	ENSRNOG00000018903	Others	25513
+Rattus_norvegicus	Trim33	ENSRNOG00000018946	Tripartite motif	365894
+Rattus_norvegicus	Ilk	ENSRNOG00000018993	Others	170922
+Rattus_norvegicus	Habp4	ENSRNOG00000019027	Others	361196
+Rattus_norvegicus	Ikbkb	ENSRNOG00000019073	Others	84351
+Rattus_norvegicus	Hnrnpk	ENSRNOG00000019113	HNRNP	117282
+Rattus_norvegicus	Banp	ENSRNOG00000019140	Others	292064
+Rattus_norvegicus	Kdm2a	ENSRNOG00000019145	Lysine demethylase	361700
+Rattus_norvegicus	Zmynd8	ENSRNOG00000019154	Zinc finger	296374
+Rattus_norvegicus	Taf10	ENSRNOG00000019178	TATA-box	293345
+Rattus_norvegicus	Eya2	ENSRNOG00000019203	EYA	156826
+Rattus_norvegicus	Adrb2	ENSRNOG00000019217	Others	NA
+Rattus_norvegicus	Taf3	ENSRNOG00000019223	TATA-box	100360100
+Rattus_norvegicus	Pik3r2	ENSRNOG00000019228	Others	29741
+Rattus_norvegicus	Sgf29	ENSRNOG00000019245	Others	293488
+Rattus_norvegicus	Dyrk1b	ENSRNOG00000019254	Others	308468
+Rattus_norvegicus	Trak1	ENSRNOG00000019262	Others	316085
+Rattus_norvegicus	Pelp1	ENSRNOG00000019268	Others	360552
+Rattus_norvegicus	Arrb2	ENSRNOG00000019308	Others	25388
+Rattus_norvegicus	Notch1	ENSRNOG00000019322	Notch	25496
+Rattus_norvegicus	Hipk1	ENSRNOG00000019333	HIPK	365895
+Rattus_norvegicus	Med11	ENSRNOG00000019384	Mediator complex	287456
+Rattus_norvegicus	Dmap1	ENSRNOG00000019407	DNA_methylase	298447
+Rattus_norvegicus	Taf6l	ENSRNOG00000019419	TATA-box	309194
+Rattus_norvegicus	Kat8	ENSRNOG00000019485	Lysine acetyltransferase	310194
+Rattus_norvegicus	Eaf1	ENSRNOG00000019559	Others	306261
+Rattus_norvegicus	Vegfa	ENSRNOG00000019598	Other_CRF	83785
+Rattus_norvegicus	Hdac3	ENSRNOG00000019618	Histone deacetylase	84578
+Rattus_norvegicus	Pmf1	ENSRNOG00000019620	Others	681050
+Rattus_norvegicus	Pycard	ENSRNOG00000019675	Others	282817
+Rattus_norvegicus	Med29	ENSRNOG00000019702	Mediator complex	292751
+Rattus_norvegicus	Paf1	ENSRNOG00000019746	Others	361531
+Rattus_norvegicus	Sufu	ENSRNOG00000019807	Others	361769
+Rattus_norvegicus	Ell	ENSRNOG00000019824	GTF	306347
+Rattus_norvegicus	Rbm39	ENSRNOG00000019848	RNA binding protein	362251
+Rattus_norvegicus	Nedd8	ENSRNOG00000019895	Others	25490
+Rattus_norvegicus	Phf20	ENSRNOG00000019948	PHF	311575
+Rattus_norvegicus	Kdm4a	ENSRNOG00000019956	Lysine demethylase	313539
+Rattus_norvegicus	Ino80e	ENSRNOG00000019960	INO80 complex	293494
+Rattus_norvegicus	Tgfb1i1	ENSRNOG00000019965	Others	84574
+Rattus_norvegicus	Trim8	ENSRNOG00000019968	Tripartite motif	688785
+Rattus_norvegicus	Scand1	ENSRNOG00000019987	Others	362252
+Rattus_norvegicus	Taf7	ENSRNOG00000020024	TATA-box	307485
+Rattus_norvegicus	Nfkbib	ENSRNOG00000020063	NFKB associated	81525
+Rattus_norvegicus	Sirt2	ENSRNOG00000020102	Sirtuin	361532
+Rattus_norvegicus	Brms1	ENSRNOG00000020117	Other_CRF	293668
+Rattus_norvegicus	Supt3h	ENSRNOG00000020153	SUPT	685697
+Rattus_norvegicus	Pcgf6	ENSRNOG00000020250	PCGF	309457
+Rattus_norvegicus	Per2	ENSRNOG00000020254	Others	63840
+Rattus_norvegicus	Taf5	ENSRNOG00000020274	TATA-box	294018
+Rattus_norvegicus	Tnni2	ENSRNOG00000020276	Others	29389
+Rattus_norvegicus	Taf13	ENSRNOG00000020315	TATA-box	310784
+Rattus_norvegicus	Utp4	ENSRNOG00000020333	Others	291987
+Rattus_norvegicus	Ezh1	ENSRNOG00000020336	Others	303547
+Rattus_norvegicus	Brd8	ENSRNOG00000020340	Bromodomain	291691
+Rattus_norvegicus	Nup98	ENSRNOG00000020347	Others	81738
+Rattus_norvegicus	Med25	ENSRNOG00000020363	Mediator complex	292889
+Rattus_norvegicus	Hdac4	ENSRNOG00000020372	Histone deacetylase	363287
+Rattus_norvegicus	Dapk3	ENSRNOG00000020383	Others	64391
+Rattus_norvegicus	Ash1l	ENSRNOG00000020386	Others	310638
+Rattus_norvegicus	Actn4	ENSRNOG00000020433	Actin	63836
+Rattus_norvegicus	Nsmce4a	ENSRNOG00000020452	EID	NA
+Rattus_norvegicus	Ripk3	ENSRNOG00000020465	Others	246240
+Rattus_norvegicus	Pin1	ENSRNOG00000020474	Others	298696
+Rattus_norvegicus	Camk4	ENSRNOG00000020478	CAMK	25050
+Rattus_norvegicus	Drap1	ENSRNOG00000020527	Others	293674
+Rattus_norvegicus	Ndufa13	ENSRNOG00000020602	Others	100911483
+Rattus_norvegicus	Pih1d1	ENSRNOG00000020634	Other_CRF	292898
+Rattus_norvegicus	Tgfb1	ENSRNOG00000020652	Others	59086
+Rattus_norvegicus	Pygo2	ENSRNOG00000020663	Others	295251
+Rattus_norvegicus	Pbxip1	ENSRNOG00000020673	Others	310644
+Rattus_norvegicus	Dpf1	ENSRNOG00000020687	DPF	50545
+Rattus_norvegicus	Brca1	ENSRNOG00000020701	Others	497672
+Rattus_norvegicus	Pspc1	ENSRNOG00000020782	Others	305910
+Rattus_norvegicus	Ruvbl2	ENSRNOG00000020793	Other_CRF	292907
+Rattus_norvegicus	Dpf2	ENSRNOG00000020892	DPF	361711
+Rattus_norvegicus	Fgf19	ENSRNOG00000020899	FGF	170582
+Rattus_norvegicus	Hdac5	ENSRNOG00000020905	Histone deacetylase	84580
+Rattus_norvegicus	Setd2	ENSRNOG00000020915	SET	316013
+Rattus_norvegicus	Ccnd1	ENSRNOG00000020918	Cyclin	58919
+Rattus_norvegicus	Atxn7l3	ENSRNOG00000020930	Others	287734
+Rattus_norvegicus	Egln2	ENSRNOG00000020947	Others	308457
+Rattus_norvegicus	Men1	ENSRNOG00000021054	Others	29417
+Rattus_norvegicus	Sf1	ENSRNOG00000021085	Others	117855
+Rattus_norvegicus	Prdx5	ENSRNOG00000021125	Others	113898
+Rattus_norvegicus	Anp32e	ENSRNOG00000021168	ANP	361999
+Rattus_norvegicus	Txnip	ENSRNOG00000021201	Others	117514
+Rattus_norvegicus	Lgals12	ENSRNOG00000021207	Others	293710
+Rattus_norvegicus	Prnp	ENSRNOG00000021259	Others	24686
+Rattus_norvegicus	Hexim2	ENSRNOG00000021287	Others	303580
+Rattus_norvegicus	Rbbp5	ENSRNOG00000021289	RBBP	304794
+Rattus_norvegicus	Noc2l	ENSRNOG00000021392	Others	313777
+Rattus_norvegicus	Tirap	ENSRNOG00000021420	Others	680127
+Rattus_norvegicus	Kmt2e	ENSRNOG00000021614	Lysine methyltransferase	311968
+Rattus_norvegicus	Trim29	ENSRNOG00000021771	Tripartite motif	300656
+Rattus_norvegicus	Dnajb1	ENSRNOG00000021824	Others	361384
+Rattus_norvegicus	Htatip2	ENSRNOG00000022189	Others	292935
+Rattus_norvegicus	Senp1	ENSRNOG00000022260	Others	300193
+Rattus_norvegicus	Cenpu	ENSRNOG00000022261	CENP	306464
+Rattus_norvegicus	Aip	ENSRNOG00000022289	Others	282827
+Rattus_norvegicus	Kdm1a	ENSRNOG00000022372	Lysine demethylase	500569
+Rattus_norvegicus	Crtc1	ENSRNOG00000022421	CREB	684527
+Rattus_norvegicus	Chuk	ENSRNOG00000022485	Others	309361
+Rattus_norvegicus	Cdk9	ENSRNOG00000022586	Cyclin	362110
+Rattus_norvegicus	Pphln1	ENSRNOG00000022778	Others	366975
+Rattus_norvegicus	Ell3	ENSRNOG00000022868	GTF	296102
+Rattus_norvegicus	Ice1	ENSRNOG00000023053	Others	306665
+Rattus_norvegicus	Yeats2	ENSRNOG00000023107	Others	498112
+Rattus_norvegicus	Cnot11	ENSRNOG00000023220	CCR4-NOT	363221
+Rattus_norvegicus	Wtip	ENSRNOG00000023296	Others	361552
+Rattus_norvegicus	Lin9	ENSRNOG00000023304	Others	689523
+Rattus_norvegicus	Parp14	ENSRNOG00000023334	PARP	303903
+Rattus_norvegicus	Ing4	ENSRNOG00000023363	ING	297597
+Rattus_norvegicus	Parp9	ENSRNOG00000023463	PARP	303905
+Rattus_norvegicus	Rpap2	ENSRNOG00000023484	Others	305120
+Rattus_norvegicus	Skap1	ENSRNOG00000023881	Others	286975
+Rattus_norvegicus	Actr5	ENSRNOG00000023989	ACTR	362258
+Rattus_norvegicus	Dgkq	ENSRNOG00000024112	Others	100361138
+Rattus_norvegicus	Arglu1	ENSRNOG00000024142	Others	290912
+Rattus_norvegicus	Phf5a	ENSRNOG00000024170	PHF	192246
+Rattus_norvegicus	Rsf1	ENSRNOG00000024194	Others	308839
+Rattus_norvegicus	Ino80d	ENSRNOG00000024272	INO80 complex	316440
+Rattus_norvegicus	L3mbtl2	ENSRNOG00000024743	Others	300320
+Rattus_norvegicus	Macroh2a2	ENSRNOG00000024751	Others	361844
+Rattus_norvegicus	Tpte2	ENSRNOG00000024837	Others	364629
+Rattus_norvegicus	NEWGENE_1359268	ENSRNOG00000024889	Others	313588
+Rattus_norvegicus	Npat	ENSRNOG00000024934	Nuclear coactivator	315666
+Rattus_norvegicus	Chd8	ENSRNOG00000025011	CHD	65027
+Rattus_norvegicus	Dnttip2	ENSRNOG00000025025	Others	100910753
+Rattus_norvegicus	Nfkbid	ENSRNOG00000025111	NFKB associated	308496
+Rattus_norvegicus	Kat6a	ENSRNOG00000025174	Lysine acetyltransferase	306571
+Rattus_norvegicus	Trrap	ENSRNOG00000025244	Others	288471
+Rattus_norvegicus	Scai	ENSRNOG00000025278	Others	690538
+Rattus_norvegicus	Dppa4	ENSRNOG00000025404	Others	685378
+Rattus_norvegicus	Atad2	ENSRNOG00000025604	Others	314993
+Rattus_norvegicus	Npm2	ENSRNOG00000025638	Nucleoplasmin	290359
+Rattus_norvegicus	Kdm2b	ENSRNOG00000025702	Lysine demethylase	304495
+Rattus_norvegicus	Crk	ENSRNOG00000025792	Others	54245
+Rattus_norvegicus	Cavin2	ENSRNOG00000025895	Others	316384
+Rattus_norvegicus	Gtf2e1	ENSRNOG00000026008	GTF	303918
+Rattus_norvegicus	Taf4b	ENSRNOG00000026023	TATA-box	291773
+Rattus_norvegicus	Prmt1	ENSRNOG00000026109	Arginine methyltransferase	60421
+Rattus_norvegicus	Taf7l	ENSRNOG00000026315	TATA-box	363493
+Rattus_norvegicus	Ell2	ENSRNOG00000027089	GTF	309918
+Rattus_norvegicus	Tdg	ENSRNOG00000027124	Others	114521
+Rattus_norvegicus	Tenm2	ENSRNOG00000027341	Others	117242
+Rattus_norvegicus	Trim28	ENSRNOG00000027487	Tripartite motif	116698
+Rattus_norvegicus	Nmi	ENSRNOG00000027502	Others	311021
+Rattus_norvegicus	AC119015.1	ENSRNOG00000027511	TATA-box	303433
+Rattus_norvegicus	Htatsf1	ENSRNOG00000027761	Others	317612
+Rattus_norvegicus	Ssx1	ENSRNOG00000027850	SSX	691903
+Rattus_norvegicus	Rexo4	ENSRNOG00000027867	Others	311826
+Rattus_norvegicus	Fam83g	ENSRNOG00000027924	FAM	100360307
+Rattus_norvegicus	Dscam	ENSRNOG00000027992	Others	171119
+Rattus_norvegicus	RGD1563620	ENSRNOG00000028052	RBBP	310511
+Rattus_norvegicus	Smarcb1	ENSRNOG00000028302	SWI/SNF	361825
+Rattus_norvegicus	Gnl3	ENSRNOG00000028461	Others	290556
+Rattus_norvegicus	Med8	ENSRNOG00000028477	Mediator complex	362575
+Rattus_norvegicus	AABR07037203.1	ENSRNOG00000028611	Others	501526
+Rattus_norvegicus	Siva1	ENSRNOG00000028640	Others	362791
+Rattus_norvegicus	Vgll3	ENSRNOG00000028774	Vestigial like	498038
+Rattus_norvegicus	Polr2a	ENSRNOG00000028834	POLR	363633
+Rattus_norvegicus	Dab2	ENSRNOG00000028930	Others	79128
+Rattus_norvegicus	Zmym5	ENSRNOG00000029220	Zinc finger	305911
+Rattus_norvegicus	Sfmbt2	ENSRNOG00000029235	Others	307106
+Rattus_norvegicus	Epc2	ENSRNOG00000029447	Others	362132
+Rattus_norvegicus	Pid1	ENSRNOG00000029735	Others	501174
+Rattus_norvegicus	Rwdd3	ENSRNOG00000029893	Others	65026
+Rattus_norvegicus	Insr	ENSRNOG00000029986	Others	24954
+Rattus_norvegicus	Arrb1	ENSRNOG00000030404	Others	25387
+Rattus_norvegicus	Ehmt2	ENSRNOG00000030630	Histone lysine methyltransferase	361798
+Rattus_norvegicus	Ddx5	ENSRNOG00000030680	RNA helicase	287765
+Rattus_norvegicus	Ctnnd1	ENSRNOG00000030790	Casein	311163
+Rattus_norvegicus	Carm1	ENSRNOG00000031129	Others	363026
+Rattus_norvegicus	Nfkbiz	ENSRNOG00000031163	NFKB associated	304005
+Rattus_norvegicus	Snd1	ENSRNOG00000031173	Others	64635
+Rattus_norvegicus	Hyal2	ENSRNOG00000031420	Others	64468
+Rattus_norvegicus	Ccnh	ENSRNOG00000031656	Cyclin	84389
+Rattus_norvegicus	Eloc	ENSRNOG00000031730	Others	64525
+Rattus_norvegicus	Hdac10	ENSRNOG00000031915	Histone deacetylase	362981
+Rattus_norvegicus	Timeless	ENSRNOG00000031916	Others	83508
+Rattus_norvegicus	Supt5h	ENSRNOG00000032034	SUPT	308472
+Rattus_norvegicus	Scmh1	ENSRNOG00000032183	Others	500540
+Rattus_norvegicus	Cdyl	ENSRNOG00000032215	Chromodomain Y	361237
+Rattus_norvegicus	Sin3a	ENSRNOG00000032254	Other_CRF	363067
+Rattus_norvegicus	Spag8	ENSRNOG00000032539	Others	362508
+Rattus_norvegicus	Dot1l	ENSRNOG00000032546	Others	362831
+Rattus_norvegicus	AABR07010705.1	ENSRNOG00000032715	Lysine methyltransferase	NA
+Rattus_norvegicus	Bex2	ENSRNOG00000032729	Others	363498
+Rattus_norvegicus	Cxxc5	ENSRNOG00000032878	Others	291670
+Rattus_norvegicus	Dcc	ENSRNOG00000033099	Others	25311
+Rattus_norvegicus	Spen	ENSRNOG00000033556	Others	690911
+Rattus_norvegicus	Polr3c	ENSRNOG00000033560	POLR	310685
+Rattus_norvegicus	Tbpl2	ENSRNOG00000033682	TATA-box	680050
+Rattus_norvegicus	Elane	ENSRNOG00000033685	Others	299606
+Rattus_norvegicus	Hnrnpu	ENSRNOG00000033790	HNRNP	117280
+Rattus_norvegicus	Taf2	ENSRNOG00000034022	TATA-box	170844
+Rattus_norvegicus	Hspa8	ENSRNOG00000034066	Heat shock protein	24468
+Rattus_norvegicus	Bcor	ENSRNOG00000034240	Other_Co-activator/repressors	317346
+Rattus_norvegicus	Actb	ENSRNOG00000034254	Actin	81822
+Rattus_norvegicus	Sirt7	ENSRNOG00000036683	Sirtuin	303745
+Rattus_norvegicus	Alyref	ENSRNOG00000036687	Others	690585
+Rattus_norvegicus	Cbx5	ENSRNOG00000036841	Chromobox	300266
+Rattus_norvegicus	Pramef12	ENSRNOG00000037035	Others	691157
+Rattus_norvegicus	Ppidl1	ENSRNOG00000037230	Others	NA
+Rattus_norvegicus	Ep400	ENSRNOG00000037483	Others	304569
+Rattus_norvegicus	Chek2	ENSRNOG00000037509	Others	114212
+Rattus_norvegicus	Ascc3	ENSRNOG00000037604	ASCC	309887
+Rattus_norvegicus	Kdm6b	ENSRNOG00000037613	Lysine demethylase	363630
+Rattus_norvegicus	Sertad3	ENSRNOG00000037690	Others	499108
+Rattus_norvegicus	Rita1	ENSRNOG00000037720	Others	288683
+Rattus_norvegicus	Snw1	ENSRNOG00000037998	Others	500695
+Rattus_norvegicus	Ccdc62	ENSRNOG00000038002	Coiled-coil	689909
+Rattus_norvegicus	Hcls1	ENSRNOG00000038881	Others	288077
+Rattus_norvegicus		ENSRNOG00000039576	Others	302553
+Rattus_norvegicus	Mcidas	ENSRNOG00000039588	Others	688802
+Rattus_norvegicus	AABR07035338.1	ENSRNOG00000039819	Cyclin	498140
+Rattus_norvegicus	Taf9	ENSRNOG00000039848	TATA-box	373541
+Rattus_norvegicus	Dnmt1	ENSRNOG00000039859	DNA_methylase	84350
+Rattus_norvegicus	Lbh	ENSRNOG00000039902	Others	683626
+Rattus_norvegicus	Ecd	ENSRNOG00000042253	Others	688968
+Rattus_norvegicus	Hdgf	ENSRNOG00000042261	Others	114499
+Rattus_norvegicus	Trappc2	ENSRNOG00000042276	Others	501550
+Rattus_norvegicus	Bcl10	ENSRNOG00000042389	BCL	83477
+Rattus_norvegicus	Cdyl2	ENSRNOG00000042888	Chromodomain Y	292044
+Rattus_norvegicus	Rgcc	ENSRNOG00000042960	Others	117183
+Rattus_norvegicus	Bahcc1	ENSRNOG00000043102	Others	360674
+Rattus_norvegicus	Rnf168	ENSRNOG00000043345	Ring finger protein	690043
+Rattus_norvegicus	Bcl3	ENSRNOG00000043416	BCL	680611
+Rattus_norvegicus	Rbm14	ENSRNOG00000045568	RNA binding protein	170900
+Rattus_norvegicus	Rnf14	ENSRNOG00000045637	Ring finger protein	619577
+Rattus_norvegicus	NEWGENE_1559832	ENSRNOG00000045695	Ring finger protein	317241
+Rattus_norvegicus	Hira	ENSRNOG00000045770	Others	363849
+Rattus_norvegicus	Kdm4d	ENSRNOG00000045905	Lysine demethylase	689582
+Rattus_norvegicus	Ralgapa1	ENSRNOG00000046256	Others	56785
+Rattus_norvegicus	Tceal5	ENSRNOG00000046280	TEF	680282
+Rattus_norvegicus	Bend3	ENSRNOG00000046505	Others	683923
+Rattus_norvegicus	Cited4	ENSRNOG00000046607	CITED	114491
+Rattus_norvegicus	Mms19	ENSRNOG00000046769	Others	171124
+Rattus_norvegicus	Cbx6	ENSRNOG00000046955	Chromobox	315136
+Rattus_norvegicus	Gtf2f1	ENSRNOG00000047134	GTF	316123
+Rattus_norvegicus	Erbin	ENSRNOG00000047137	Erbb2	365661
+Rattus_norvegicus	Rnf8	ENSRNOG00000047171	Ring finger protein	361815
+Rattus_norvegicus	Bptf	ENSRNOG00000047296	Bromodomain	303617
+Rattus_norvegicus	Abl1	ENSRNOG00000047356	Others	311860
+Rattus_norvegicus	Rbm15	ENSRNOG00000047499	RNA binding protein	684233
+Rattus_norvegicus	Heatr1	ENSRNOG00000047594	Others	361262
+Rattus_norvegicus	Top1	ENSRNOG00000047611	Other_CRF	64550
+Rattus_norvegicus	Hells	ENSRNOG00000047692	Others	294071
+Rattus_norvegicus	Ss18l2	ENSRNOG00000047853	SS18	687029
+Rattus_norvegicus	Nelfcd	ENSRNOG00000047874	GTF	679203
+Rattus_norvegicus	Cbx8	ENSRNOG00000048113	Chromobox	303731
+Rattus_norvegicus	Taf12	ENSRNOG00000048288	TATA-box	682902
+Rattus_norvegicus	Trip6	ENSRNOG00000048580	Thyroid hormone receptor	686323
+Rattus_norvegicus	Sin3b	ENSRNOG00000048622	Others	683381
+Rattus_norvegicus	Nup62	ENSRNOG00000048733	Others	65274
+Rattus_norvegicus	Mllt1	ENSRNOG00000048736	GTF	301119
+Rattus_norvegicus	Hdac6	ENSRNOG00000048738	Histone deacetylase	108348065
+Rattus_norvegicus	Cdk5rap3	ENSRNOG00000048747	Cyclin	80278
+Rattus_norvegicus	Tceal3	ENSRNOG00000049020	TEF	679974
+Rattus_norvegicus	Pidd1	ENSRNOG00000049179	Others	293625
+Rattus_norvegicus	Cbx2	ENSRNOG00000049215	Chromobox	303730
+Rattus_norvegicus	Kdm4b	ENSRNOG00000049221	Lysine demethylase	301128
+Rattus_norvegicus	Chd9	ENSRNOG00000049302	CHD	307726
+Rattus_norvegicus	Safb2	ENSRNOG00000049511	Others	301126
+Rattus_norvegicus	Mbtd1	ENSRNOG00000049988	Others	688133
+Rattus_norvegicus	Eng	ENSRNOG00000050190	Others	497010
+Rattus_norvegicus	Kdm3b	ENSRNOG00000050200	Lysine demethylase	682469
+Rattus_norvegicus	Utf1	ENSRNOG00000050207	Others	681901
+Rattus_norvegicus	Srcap	ENSRNOG00000050282	Others	361652
+Rattus_norvegicus	Jmy	ENSRNOG00000050343	Others	683593
+Rattus_norvegicus	Tob2	ENSRNOG00000050500	Others	315159
+Rattus_norvegicus	Rhoa	ENSRNOG00000050519	Others	117273
+Rattus_norvegicus	Safb	ENSRNOG00000050543	Others	64196
+Rattus_norvegicus		ENSRNOG00000050647	Heat shock protein	24472
+Rattus_norvegicus	Birc5	ENSRNOG00000050819	Others	64041
+Rattus_norvegicus	Dtx1	ENSRNOG00000050848	Others	687424
+Rattus_norvegicus	Ddx17	ENSRNOG00000051170	RNA helicase	315133
+Rattus_norvegicus	Pcgf1	ENSRNOG00000051433	PCGF	312480
+Rattus_norvegicus	Prpf6	ENSRNOG00000051498	Others	499958
+Rattus_norvegicus	Sirt1	ENSRNOG00000051592	Sirtuin	309757
+Rattus_norvegicus	Hcfc1	ENSRNOG00000051948	Others	363519
+Rattus_norvegicus	Tle5	ENSRNOG00000052025	Others	29466
+Rattus_norvegicus	H2az2	ENSRNOG00000052275	Others	685909
+Rattus_norvegicus	Cnot10	ENSRNOG00000052305	CCR4-NOT	316034
+Rattus_norvegicus	Bend6	ENSRNOG00000052376	Others	363212
+Rattus_norvegicus	Btk	ENSRNOG00000052407	Others	367901
+Rattus_norvegicus	Kdm7a	ENSRNOG00000052445	Lysine demethylase	684297
+Rattus_norvegicus	Kdm6a	ENSRNOG00000052721	Lysine demethylase	103689969
+Rattus_norvegicus	Nol11	ENSRNOG00000052934	Nuclear coactivator	688885
+Rattus_norvegicus	Ccnt1	ENSRNOG00000053054	Cyclin	315291
+Rattus_norvegicus	Cnot3	ENSRNOG00000053234	CCR4-NOT	308311
+Rattus_norvegicus	Mllt6	ENSRNOG00000053285	Others	303504
+Rattus_norvegicus	Hcfc2	ENSRNOG00000053510	Others	314704
+Rattus_norvegicus	Tarbp1	ENSRNOG00000053574	Others	679346
+Rattus_norvegicus	Prmt8	ENSRNOG00000053804	Arginine methyltransferase	688502
+Rattus_norvegicus	Med9	ENSRNOG00000053961	Mediator complex	497914
+Rattus_norvegicus	Ctnnb1	ENSRNOG00000054172	Casein	84353
+Rattus_norvegicus	Sltm	ENSRNOG00000054446	Others	NA
+Rattus_norvegicus	Taf4	ENSRNOG00000054497	TATA-box	NA
+Rattus_norvegicus	Mcrs1	ENSRNOG00000054838	Others	300222
+Rattus_norvegicus	Flna	ENSRNOG00000054890	Others	293860
+Rattus_norvegicus	Cnot6	ENSRNOG00000054891	CCR4-NOT	287249
+Rattus_norvegicus	Sfrp4	ENSRNOG00000054957	Others	89803
+Rattus_norvegicus	Setd1a	ENSRNOG00000055028	SET	309001
+Rattus_norvegicus	Ski	ENSRNOG00000055340	SKI	313757
+Rattus_norvegicus	Kmt2b	ENSRNOG00000055525	Lysine methyltransferase	102550344
+Rattus_norvegicus	Hdac7	ENSRNOG00000055597	Histone deacetylase	84582
+Rattus_norvegicus	Ago1	ENSRNOG00000055915	Others	313594
+Rattus_norvegicus	Trim27	ENSRNOG00000055917	Tripartite motif	291171
+Rattus_norvegicus	Crtc2	ENSRNOG00000056337	CREB	310615
+Rattus_norvegicus	Cep290	ENSRNOG00000056458	Others	314787
+Rattus_norvegicus	Ascc1	ENSRNOG00000056647	ASCC	294512
+Rattus_norvegicus	Gtf2a2	ENSRNOG00000056701	GTF	83828
+Rattus_norvegicus	Atrx	ENSRNOG00000056703	Others	246284
+Rattus_norvegicus	Actn1	ENSRNOG00000056756	Actin	81634
+Rattus_norvegicus	Nipbl	ENSRNOG00000056907	Others	294787
+Rattus_norvegicus	Cited2	ENSRNOG00000056940	CITED	114490
+Rattus_norvegicus	Cenpb	ENSRNOG00000057284	CENP	362217
+Rattus_norvegicus	Nfatc2ip	ENSRNOG00000057384	Nuclear coactivator	308983
+Rattus_norvegicus	Kdm5c	ENSRNOG00000057706	Lysine demethylase	317432
+Rattus_norvegicus	Ttf2	ENSRNOG00000057761	Others	295324
+Rattus_norvegicus	Taf15	ENSRNOG00000058393	TATA-box	287571
+Rattus_norvegicus	Morf4l1	ENSRNOG00000058412	Other_CRF	300891
+Rattus_norvegicus	Suz12	ENSRNOG00000058663	Others	688041
+Rattus_norvegicus	Rbx1	ENSRNOG00000058914	Others	300084
+Rattus_norvegicus	Itch	ENSRNOG00000059043	Others	311567
+Rattus_norvegicus	Hsbp1l1	ENSRNOG00000059055	Heat shock protein	100192205
+Rattus_norvegicus	Supt20h	ENSRNOG00000059480	SUPT	361946
+Rattus_norvegicus	NEWGENE_1308612	ENSRNOG00000059891	Others	311713
+Rattus_norvegicus	Jak2	ENSRNOG00000059968	Others	24514
+Rattus_norvegicus	Brip1	ENSRNOG00000059997	Others	360588
+Rattus_norvegicus	Ss18l1	ENSRNOG00000060010	SS18	192352
+Rattus_norvegicus	Strn3	ENSRNOG00000060335	Others	114520
+Rattus_norvegicus	H1f5	ENSRNOG00000060355	Histone cluster 1 H1	680522
+Rattus_norvegicus	Kdm5b	ENSRNOG00000060544	Lysine demethylase	304809
+Rattus_norvegicus	Atn1	ENSRNOG00000060594	Others	29515
+Rattus_norvegicus	Rai1	ENSRNOG00000060615	Others	303188
+Rattus_norvegicus	Nlrp12	ENSRNOG00000060745	Others	292541
+Rattus_norvegicus	Rnf111	ENSRNOG00000060750	Ring finger protein	300813
+Rattus_norvegicus	Ikbkg	ENSRNOG00000060936	Others	309295
+Rattus_norvegicus	Cask	ENSRNOG00000060946	CAMK	29647
+Rattus_norvegicus	Kat5	ENSRNOG00000061012	Lysine acetyltransferase	192218
+Rattus_norvegicus	Taf1a	ENSRNOG00000061139	TATA-box	360893
+Rattus_norvegicus	Crym	ENSRNOG00000061215	Others	117024
+Rattus_norvegicus	Phf10	ENSRNOG00000061312	PHF	292404
+Rattus_norvegicus	Loxl3	ENSRNOG00000061373	Others	312478
+Rattus_norvegicus	Taf1b	ENSRNOG00000061415	TATA-box	690450
+Rattus_norvegicus	Ctdp1	ENSRNOG00000061474	Others	291414
+Rattus_norvegicus	Smarcd1	ENSRNOG00000061572	SWI/SNF	363002
+Rattus_norvegicus	Asxl1	ENSRNOG00000061603	Others	311553
+Rattus_norvegicus	Tspyl2	ENSRNOG00000061782	Others	302612
+Rattus_norvegicus	Rbmxl1	ENSRNOG00000062375	RNA binding protein	307779
+Rattus_norvegicus	Tenm1	ENSRNOG00000062454	Others	298168
+Rattus_norvegicus	Axin1	ENSRNOG00000062714	Others	79257
+Rattus_norvegicus	Set	ENSRNOG00000062793	SET	307947
+Rattus_norvegicus	Cbx4	ENSRNOG00000063043	Chromobox	501403
+Rattus_norvegicus		ENSRNOG00000063091	Others	NA
+Rattus_norvegicus	Ncoa4	ENSRNOG00000063221	Nuclear receptor coactivator	619385
+Rattus_norvegicus	Nrip2	ENSRNOG00000063347	Nuclear coactivator	689619
+Rattus_norvegicus	Egln1	ENSRNOG00000063609	Others	308913
+Rattus_norvegicus	Rfxap	ENSRNOG00000064105	Others	499617
+Rattus_norvegicus		ENSRNOG00000064614	Others	683282
+Rattus_norvegicus	Sap18	ENSRNOG00000064694	SAP	290284
+Rattus_norvegicus	Fhit	ENSRNOG00000064939	Others	60398
+Rattus_norvegicus		ENSRNOG00000065634	MBD	120094327
+Rattus_norvegicus	Ep300	ENSRNOG00000065659	Others	170915
+Rattus_norvegicus	Chchd2	ENSRNOG00000065713	Coiled-coil	100910788
+Rattus_norvegicus	Mycbp	ENSRNOG00000065724	MYC	100361133
+Rattus_norvegicus	Basp1	ENSRNOG00000066065	Others	64160
+Rattus_norvegicus	Smyd3	ENSRNOG00000066304	SMYD	498295
+Rattus_norvegicus	Mrtfb	ENSRNOG00000066694	Others	100362470
+Rattus_norvegicus		ENSRNOG00000066836	Others	NA
+Rattus_norvegicus	Bcas3	ENSRNOG00000066893	Others	363662
+Rattus_norvegicus	Tbpl1	ENSRNOG00000066988	TATA-box	689030
+Rattus_norvegicus	Med18	ENSRNOG00000067073	Mediator complex	682988
+Rattus_norvegicus	Maml3	ENSRNOG00000067338	MAML	310405
+Rattus_norvegicus	Pcbd1	ENSRNOG00000067614	Others	29700
+Rattus_norvegicus	Cdk5r1	ENSRNOG00000068243	Cyclin	116671
+Rattus_norvegicus	Magea4	ENSRNOG00000068983	MAGE	689858
+Rattus_norvegicus	Pnrc2	ENSRNOG00000070268	Others	100125373
+Rattus_norvegicus	Chek1	ENSRNOG00000071217	Others	140583

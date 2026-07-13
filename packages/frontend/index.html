@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" data-color-scheme="light" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5faf9" />
+    <title>DeepScience</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+    <script>
+      // Apply the saved theme before first paint to avoid a flash of the
+      // default theme. Kept in sync with store.ts (THEME_KEY / THEMES).
+      (function () {
+        try {
+          var valid = ["teal", "light"];
+          var t = localStorage.getItem("ds-theme");
+          if (!t || valid.indexOf(t) === -1) t = "light";
+          var el = document.documentElement;
+          el.setAttribute("data-theme", t);
+          el.setAttribute("data-color-scheme", t === "light" ? "light" : "dark");
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="icon" href="/favicon.ico?v=0.0.1" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=0.0.1" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=0.0.1" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=0.0.1" />
+    <link rel="manifest" href="/site.webmanifest?v=0.0.1" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="/src/main.tsx" type="module"></script>
+  </body>
+</html>

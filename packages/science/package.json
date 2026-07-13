@@ -1,0 +1,33 @@
+{
+  "name": "@shying/ds-science",
+  "version": "0.0.1",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huang-sh/DeepScience.git",
+    "directory": "packages/science"
+  },
+  "homepage": "https://github.com/huang-sh/DeepScience#readme",
+  "bugs": {
+    "url": "https://github.com/huang-sh/DeepScience/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "skills",
+    "resources"
+  ],
+  "scripts": {
+    "build": "tsgo -p tsconfig.json && shx mkdir -p dist/agents/prompts && shx cp -r src/agents/prompts/* dist/agents/prompts/"
+  },
+  "dependencies": {
+    "@earendil-works/pi-agent-core": "^0.80.6",
+    "@earendil-works/pi-ai": "^0.80.6",
+    "typebox": "1.1.38"
+  }
+}

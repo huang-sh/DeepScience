@@ -1,0 +1,901 @@
+Index,DataSetID,species,RBPSYMBOL,CELLLINE,Genesymbol,Disease,DEAPA,ORF_APA,LOF_APA,_disease,_species,_type
+224351,DataSet_33,human,ADAR,ZR-75-1,LCOR,Invasive breast carcinoma of no special type,9,117,117,Invasive breast carcinoma of no special type,human,APA
+217799,DataSet_32,human,ADAR,ZR-75-1,HEXA,Invasive breast carcinoma of no special type,8,80,56,Invasive breast carcinoma of no special type,human,APA
+214111,DataSet_31,human,ADAR,ZR-75-1,AP5Z1,Invasive breast carcinoma of no special type,8,24,24,Invasive breast carcinoma of no special type,human,APA
+217912,DataSet_32,human,ADAR,ZR-75-1,MTHFD1,Invasive breast carcinoma of no special type,8,8,8,Invasive breast carcinoma of no special type,human,APA
+218128,DataSet_32,human,ADAR,ZR-75-1,SH3YL1,Invasive breast carcinoma of no special type,8,56,56,Invasive breast carcinoma of no special type,human,APA
+217671,DataSet_32,human,ADAR,ZR-75-1,ENSG00000260729,Invasive breast carcinoma of no special type,8,8,0,Invasive breast carcinoma of no special type,human,APA
+217673,DataSet_32,human,ADAR,ZR-75-1,ENSG00000261460,Invasive breast carcinoma of no special type,8,0,0,Invasive breast carcinoma of no special type,human,APA
+218178,DataSet_32,human,ADAR,ZR-75-1,SPTLC1,Invasive breast carcinoma of no special type,7,14,14,Invasive breast carcinoma of no special type,human,APA
+214745,DataSet_31,human,ADAR,ZR-75-1,TK2,Invasive breast carcinoma of no special type,7,161,161,Invasive breast carcinoma of no special type,human,APA
+218185,DataSet_32,human,ADAR,ZR-75-1,STAMBP,Invasive breast carcinoma of no special type,7,168,168,Invasive breast carcinoma of no special type,human,APA
+224263,DataSet_33,human,ADAR,ZR-75-1,ENSG00000271793,Invasive breast carcinoma of no special type,7,0,0,Invasive breast carcinoma of no special type,human,APA
+214292,DataSet_31,human,ADAR,ZR-75-1,ENSG00000260851,Invasive breast carcinoma of no special type,7,0,0,Invasive breast carcinoma of no special type,human,APA
+224518,DataSet_33,human,ADAR,ZR-75-1,SNHG5,Invasive breast carcinoma of no special type,7,0,0,Invasive breast carcinoma of no special type,human,APA
+218104,DataSet_32,human,ADAR,ZR-75-1,RUFY3,Invasive breast carcinoma of no special type,6,12,12,Invasive breast carcinoma of no special type,human,APA
+214537,DataSet_31,human,ADAR,ZR-75-1,NKIRAS1,Invasive breast carcinoma of no special type,6,54,54,Invasive breast carcinoma of no special type,human,APA
+214450,DataSet_31,human,ADAR,ZR-75-1,LINC00467,Invasive breast carcinoma of no special type,6,0,0,Invasive breast carcinoma of no special type,human,APA
+217796,DataSet_32,human,ADAR,ZR-75-1,HECTD1,Invasive breast carcinoma of no special type,6,36,36,Invasive breast carcinoma of no special type,human,APA
+224156,DataSet_33,human,ADAR,ZR-75-1,ARHGAP17,Invasive breast carcinoma of no special type,6,18,18,Invasive breast carcinoma of no special type,human,APA
+217714,DataSet_32,human,ADAR,ZR-75-1,ENSG00000289025,Invasive breast carcinoma of no special type,6,6,6,Invasive breast carcinoma of no special type,human,APA
+224230,DataSet_33,human,ADAR,ZR-75-1,DPH5,Invasive breast carcinoma of no special type,6,24,24,Invasive breast carcinoma of no special type,human,APA
+214155,DataSet_31,human,ADAR,ZR-75-1,C6orf136,Invasive breast carcinoma of no special type,6,33,43,Invasive breast carcinoma of no special type,human,APA
+214335,DataSet_31,human,ADAR,ZR-75-1,ETFRF1,Invasive breast carcinoma of no special type,6,41,34,Invasive breast carcinoma of no special type,human,APA
+224399,DataSet_33,human,ADAR,ZR-75-1,MYEF2,Invasive breast carcinoma of no special type,6,36,30,Invasive breast carcinoma of no special type,human,APA
+217870,DataSet_32,human,ADAR,ZR-75-1,MAPK6,Invasive breast carcinoma of no special type,6,0,0,Invasive breast carcinoma of no special type,human,APA
+214190,DataSet_31,human,ADAR,ZR-75-1,CHRM3,Invasive breast carcinoma of no special type,6,35,25,Invasive breast carcinoma of no special type,human,APA
+214261,DataSet_31,human,ADAR,ZR-75-1,ELOVL2-AS1,Invasive breast carcinoma of no special type,6,0,0,Invasive breast carcinoma of no special type,human,APA
+214447,DataSet_31,human,ADAR,ZR-75-1,LIAS,Invasive breast carcinoma of no special type,5,35,30,Invasive breast carcinoma of no special type,human,APA
+214596,DataSet_31,human,ADAR,ZR-75-1,PIGV,Invasive breast carcinoma of no special type,5,85,85,Invasive breast carcinoma of no special type,human,APA
+217873,DataSet_32,human,ADAR,ZR-75-1,MAX,Invasive breast carcinoma of no special type,5,30,23,Invasive breast carcinoma of no special type,human,APA
+217499,DataSet_32,human,ADAR,ZR-75-1,CC2D1A,Invasive breast carcinoma of no special type,5,20,20,Invasive breast carcinoma of no special type,human,APA
+217914,DataSet_32,human,ADAR,ZR-75-1,MTM1,Invasive breast carcinoma of no special type,5,60,60,Invasive breast carcinoma of no special type,human,APA
+214562,DataSet_31,human,ADAR,ZR-75-1,OGFOD2,Invasive breast carcinoma of no special type,5,50,8,Invasive breast carcinoma of no special type,human,APA
+214578,DataSet_31,human,ADAR,ZR-75-1,PDLIM5,Invasive breast carcinoma of no special type,5,30,30,Invasive breast carcinoma of no special type,human,APA
+214086,DataSet_31,human,ADAR,ZR-75-1,ABCB9,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+217814,DataSet_32,human,ADAR,ZR-75-1,IL15RA,Invasive breast carcinoma of no special type,5,35,30,Invasive breast carcinoma of no special type,human,APA
+214634,DataSet_31,human,ADAR,ZR-75-1,RABAC1,Invasive breast carcinoma of no special type,5,25,25,Invasive breast carcinoma of no special type,human,APA
+214089,DataSet_31,human,ADAR,ZR-75-1,ACER3,Invasive breast carcinoma of no special type,5,25,25,Invasive breast carcinoma of no special type,human,APA
+214674,DataSet_31,human,ADAR,ZR-75-1,SCARB2,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+217752,DataSet_32,human,ADAR,ZR-75-1,FXR1,Invasive breast carcinoma of no special type,5,35,30,Invasive breast carcinoma of no special type,human,APA
+214781,DataSet_31,human,ADAR,ZR-75-1,TRNT1,Invasive breast carcinoma of no special type,5,15,15,Invasive breast carcinoma of no special type,human,APA
+214836,DataSet_31,human,ADAR,ZR-75-1,ZFAND1,Invasive breast carcinoma of no special type,5,30,25,Invasive breast carcinoma of no special type,human,APA
+217732,DataSet_32,human,ADAR,ZR-75-1,FAM219B,Invasive breast carcinoma of no special type,5,25,20,Invasive breast carcinoma of no special type,human,APA
+217376,DataSet_32,human,ADAR,ZR-75-1,A1BG-AS1,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+217396,DataSet_32,human,ADAR,ZR-75-1,AFDN,Invasive breast carcinoma of no special type,5,45,45,Invasive breast carcinoma of no special type,human,APA
+217399,DataSet_32,human,ADAR,ZR-75-1,AGK,Invasive breast carcinoma of no special type,5,30,30,Invasive breast carcinoma of no special type,human,APA
+217446,DataSet_32,human,ADAR,ZR-75-1,ATE1,Invasive breast carcinoma of no special type,5,130,130,Invasive breast carcinoma of no special type,human,APA
+217492,DataSet_32,human,ADAR,ZR-75-1,CASK,Invasive breast carcinoma of no special type,5,80,80,Invasive breast carcinoma of no special type,human,APA
+217493,DataSet_32,human,ADAR,ZR-75-1,CASK-AS1,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+214729,DataSet_31,human,ADAR,ZR-75-1,TCF4,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+217517,DataSet_32,human,ADAR,ZR-75-1,CCNJL,Invasive breast carcinoma of no special type,5,15,15,Invasive breast carcinoma of no special type,human,APA
+214401,DataSet_31,human,ADAR,ZR-75-1,HERPUD1,Invasive breast carcinoma of no special type,5,30,30,Invasive breast carcinoma of no special type,human,APA
+214364,DataSet_31,human,ADAR,ZR-75-1,FOXP1,Invasive breast carcinoma of no special type,5,125,120,Invasive breast carcinoma of no special type,human,APA
+224551,DataSet_33,human,ADAR,ZR-75-1,TIMM23B-AGAP6,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+224545,DataSet_33,human,ADAR,ZR-75-1,TBL1X,Invasive breast carcinoma of no special type,5,35,35,Invasive breast carcinoma of no special type,human,APA
+224534,DataSet_33,human,ADAR,ZR-75-1,SUCLA2,Invasive breast carcinoma of no special type,5,30,30,Invasive breast carcinoma of no special type,human,APA
+214134,DataSet_31,human,ADAR,ZR-75-1,ATP7B,Invasive breast carcinoma of no special type,5,45,45,Invasive breast carcinoma of no special type,human,APA
+214137,DataSet_31,human,ADAR,ZR-75-1,B3GALNT1,Invasive breast carcinoma of no special type,5,175,195,Invasive breast carcinoma of no special type,human,APA
+224405,DataSet_33,human,ADAR,ZR-75-1,NARF,Invasive breast carcinoma of no special type,5,25,20,Invasive breast carcinoma of no special type,human,APA
+224226,DataSet_33,human,ADAR,ZR-75-1,DENND5A,Invasive breast carcinoma of no special type,5,35,35,Invasive breast carcinoma of no special type,human,APA
+224145,DataSet_33,human,ADAR,ZR-75-1,AGAP6,Invasive breast carcinoma of no special type,5,10,0,Invasive breast carcinoma of no special type,human,APA
+214256,DataSet_31,human,ADAR,ZR-75-1,EEF1D,Invasive breast carcinoma of no special type,5,107,0,Invasive breast carcinoma of no special type,human,APA
+218354,DataSet_32,human,ADAR,ZR-75-1,ZNF706,Invasive breast carcinoma of no special type,5,5,5,Invasive breast carcinoma of no special type,human,APA
+214317,DataSet_31,human,ADAR,ZR-75-1,ENSG00000285505,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+214321,DataSet_31,human,ADAR,ZR-75-1,ENSG00000285708,Invasive breast carcinoma of no special type,5,5,5,Invasive breast carcinoma of no special type,human,APA
+214282,DataSet_31,human,ADAR,ZR-75-1,ENSG00000256028,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+218199,DataSet_32,human,ADAR,ZR-75-1,SZT2,Invasive breast carcinoma of no special type,5,10,10,Invasive breast carcinoma of no special type,human,APA
+218048,DataSet_32,human,ADAR,ZR-75-1,PTPDC1,Invasive breast carcinoma of no special type,4,16,16,Invasive breast carcinoma of no special type,human,APA
+218220,DataSet_32,human,ADAR,ZR-75-1,THTPA,Invasive breast carcinoma of no special type,4,24,24,Invasive breast carcinoma of no special type,human,APA
+224369,DataSet_33,human,ADAR,ZR-75-1,MAPK6,Invasive breast carcinoma of no special type,4,0,0,Invasive breast carcinoma of no special type,human,APA
+224383,DataSet_33,human,ADAR,ZR-75-1,METTL8,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+217746,DataSet_32,human,ADAR,ZR-75-1,FKBP11,Invasive breast carcinoma of no special type,4,8,8,Invasive breast carcinoma of no special type,human,APA
+217734,DataSet_32,human,ADAR,ZR-75-1,FAM98C,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+218256,DataSet_32,human,ADAR,ZR-75-1,TRIM3,Invasive breast carcinoma of no special type,4,16,12,Invasive breast carcinoma of no special type,human,APA
+217733,DataSet_32,human,ADAR,ZR-75-1,FAM47E-STBD1,Invasive breast carcinoma of no special type,4,8,8,Invasive breast carcinoma of no special type,human,APA
+224407,DataSet_33,human,ADAR,ZR-75-1,NCALD,Invasive breast carcinoma of no special type,4,96,0,Invasive breast carcinoma of no special type,human,APA
+217719,DataSet_32,human,ADAR,ZR-75-1,ERGIC1,Invasive breast carcinoma of no special type,4,16,16,Invasive breast carcinoma of no special type,human,APA
+224485,DataSet_33,human,ADAR,ZR-75-1,RNASEH2C,Invasive breast carcinoma of no special type,4,0,0,Invasive breast carcinoma of no special type,human,APA
+224492,DataSet_33,human,ADAR,ZR-75-1,RPP38,Invasive breast carcinoma of no special type,4,24,16,Invasive breast carcinoma of no special type,human,APA
+218135,DataSet_32,human,ADAR,ZR-75-1,SLBP,Invasive breast carcinoma of no special type,4,20,20,Invasive breast carcinoma of no special type,human,APA
+218025,DataSet_32,human,ADAR,ZR-75-1,PPP1R9A,Invasive breast carcinoma of no special type,4,24,24,Invasive breast carcinoma of no special type,human,APA
+217688,DataSet_32,human,ADAR,ZR-75-1,ENSG00000272822,Invasive breast carcinoma of no special type,4,4,4,Invasive breast carcinoma of no special type,human,APA
+217676,DataSet_32,human,ADAR,ZR-75-1,ENSG00000265303,Invasive breast carcinoma of no special type,4,4,4,Invasive breast carcinoma of no special type,human,APA
+218157,DataSet_32,human,ADAR,ZR-75-1,SMG8,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+218200,DataSet_32,human,ADAR,ZR-75-1,TAF1,Invasive breast carcinoma of no special type,4,20,20,Invasive breast carcinoma of no special type,human,APA
+217631,DataSet_32,human,ADAR,ZR-75-1,EIF4G3,Invasive breast carcinoma of no special type,4,40,40,Invasive breast carcinoma of no special type,human,APA
+217622,DataSet_32,human,ADAR,ZR-75-1,DYRK4,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+217547,DataSet_32,human,ADAR,ZR-75-1,CLP1,Invasive breast carcinoma of no special type,4,24,24,Invasive breast carcinoma of no special type,human,APA
+224553,DataSet_33,human,ADAR,ZR-75-1,TIPARP,Invasive breast carcinoma of no special type,4,25,15,Invasive breast carcinoma of no special type,human,APA
+224574,DataSet_33,human,ADAR,ZR-75-1,TSC1,Invasive breast carcinoma of no special type,4,44,44,Invasive breast carcinoma of no special type,human,APA
+224279,DataSet_33,human,ADAR,ZR-75-1,ENSG00000289025,Invasive breast carcinoma of no special type,4,4,4,Invasive breast carcinoma of no special type,human,APA
+218115,DataSet_32,human,ADAR,ZR-75-1,SEC22C,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+217773,DataSet_32,human,ADAR,ZR-75-1,GOLGA2,Invasive breast carcinoma of no special type,4,32,32,Invasive breast carcinoma of no special type,human,APA
+218279,DataSet_32,human,ADAR,ZR-75-1,UCK2,Invasive breast carcinoma of no special type,4,16,16,Invasive breast carcinoma of no special type,human,APA
+218302,DataSet_32,human,ADAR,ZR-75-1,WIPI2,Invasive breast carcinoma of no special type,4,20,20,Invasive breast carcinoma of no special type,human,APA
+218001,DataSet_32,human,ADAR,ZR-75-1,PLEKHB2,Invasive breast carcinoma of no special type,4,36,36,Invasive breast carcinoma of no special type,human,APA
+217920,DataSet_32,human,ADAR,ZR-75-1,MYADM,Invasive breast carcinoma of no special type,4,40,20,Invasive breast carcinoma of no special type,human,APA
+218055,DataSet_32,human,ADAR,ZR-75-1,PXN,Invasive breast carcinoma of no special type,4,0,0,Invasive breast carcinoma of no special type,human,APA
+218315,DataSet_32,human,ADAR,ZR-75-1,ZFHX2-AS1,Invasive breast carcinoma of no special type,4,0,0,Invasive breast carcinoma of no special type,human,APA
+218322,DataSet_32,human,ADAR,ZR-75-1,ZNF211,Invasive breast carcinoma of no special type,4,28,28,Invasive breast carcinoma of no special type,human,APA
+217893,DataSet_32,human,ADAR,ZR-75-1,MIR3658,Invasive breast carcinoma of no special type,4,0,0,Invasive breast carcinoma of no special type,human,APA
+37,DataSet_1,human,DDX54,MCF7,CSDE1,Invasive breast carcinoma of no special type,8,208,208,Invasive breast carcinoma of no special type,human,APA
+157,DataSet_1,human,DDX54,MCF7,SRSF11,Invasive breast carcinoma of no special type,8,32,32,Invasive breast carcinoma of no special type,human,APA
+1699,DataSet_107,human,DDX54,MCF7,SRSF11,Invasive breast carcinoma of no special type,8,32,32,Invasive breast carcinoma of no special type,human,APA
+1433,DataSet_107,human,DDX54,MCF7,ACER3,Invasive breast carcinoma of no special type,7,35,35,Invasive breast carcinoma of no special type,human,APA
+1625,DataSet_107,human,DDX54,MCF7,PCID2,Invasive breast carcinoma of no special type,6,0,0,Invasive breast carcinoma of no special type,human,APA
+1636,DataSet_107,human,DDX54,MCF7,PPIL2,Invasive breast carcinoma of no special type,6,96,96,Invasive breast carcinoma of no special type,human,APA
+1547,DataSet_107,human,DDX54,MCF7,FKBP1A,Invasive breast carcinoma of no special type,6,6,6,Invasive breast carcinoma of no special type,human,APA
+1542,DataSet_107,human,DDX54,MCF7,ERMP1,Invasive breast carcinoma of no special type,6,90,72,Invasive breast carcinoma of no special type,human,APA
+1737,DataSet_107,human,DDX54,MCF7,YPEL1,Invasive breast carcinoma of no special type,6,0,0,Invasive breast carcinoma of no special type,human,APA
+159,DataSet_1,human,DDX54,MCF7,SRSF5,Invasive breast carcinoma of no special type,6,24,24,Invasive breast carcinoma of no special type,human,APA
+1700,DataSet_107,human,DDX54,MCF7,SRSF5,Invasive breast carcinoma of no special type,6,24,24,Invasive breast carcinoma of no special type,human,APA
+1703,DataSet_107,human,DDX54,MCF7,STAT3,Invasive breast carcinoma of no special type,5,105,105,Invasive breast carcinoma of no special type,human,APA
+1569,DataSet_107,human,DDX54,MCF7,HNRNPA1,Invasive breast carcinoma of no special type,5,10,10,Invasive breast carcinoma of no special type,human,APA
+165,DataSet_1,human,DDX54,MCF7,TCOF1,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+1581,DataSet_107,human,DDX54,MCF7,LRRC51,Invasive breast carcinoma of no special type,5,45,45,Invasive breast carcinoma of no special type,human,APA
+1494,DataSet_107,human,DDX54,MCF7,CYB561,Invasive breast carcinoma of no special type,4,45,41,Invasive breast carcinoma of no special type,human,APA
+1501,DataSet_107,human,DDX54,MCF7,DDX3X,Invasive breast carcinoma of no special type,4,84,80,Invasive breast carcinoma of no special type,human,APA
+1602,DataSet_107,human,DDX54,MCF7,MSI2,Invasive breast carcinoma of no special type,4,6,7,Invasive breast carcinoma of no special type,human,APA
+87,DataSet_1,human,DDX54,MCF7,GSTZ1,Invasive breast carcinoma of no special type,4,36,36,Invasive breast carcinoma of no special type,human,APA
+1562,DataSet_107,human,DDX54,MCF7,HACD3,Invasive breast carcinoma of no special type,4,32,32,Invasive breast carcinoma of no special type,human,APA
+1570,DataSet_107,human,DDX54,MCF7,HNRNPC,Invasive breast carcinoma of no special type,4,60,52,Invasive breast carcinoma of no special type,human,APA
+1584,DataSet_107,human,DDX54,MCF7,LYRM2,Invasive breast carcinoma of no special type,4,8,8,Invasive breast carcinoma of no special type,human,APA
+39,DataSet_1,human,DDX54,MCF7,CYB561,Invasive breast carcinoma of no special type,4,45,41,Invasive breast carcinoma of no special type,human,APA
+196,DataSet_1,human,DDX54,MCF7,ZNF706,Invasive breast carcinoma of no special type,4,4,4,Invasive breast carcinoma of no special type,human,APA
+101,DataSet_1,human,DDX54,MCF7,LMNA,Invasive breast carcinoma of no special type,4,36,32,Invasive breast carcinoma of no special type,human,APA
+1450,DataSet_107,human,DDX54,MCF7,ARHGDIA,Invasive breast carcinoma of no special type,4,30,20,Invasive breast carcinoma of no special type,human,APA
+1715,DataSet_107,human,DDX54,MCF7,TMEM126A,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+1709,DataSet_107,human,DDX54,MCF7,TBCA,Invasive breast carcinoma of no special type,4,20,20,Invasive breast carcinoma of no special type,human,APA
+1619,DataSet_107,human,DDX54,MCF7,NSMCE2,Invasive breast carcinoma of no special type,3,21,6,Invasive breast carcinoma of no special type,human,APA
+1684,DataSet_107,human,DDX54,MCF7,SMAP2,Invasive breast carcinoma of no special type,3,12,12,Invasive breast carcinoma of no special type,human,APA
+1647,DataSet_107,human,DDX54,MCF7,RAP1B,Invasive breast carcinoma of no special type,3,3,0,Invasive breast carcinoma of no special type,human,APA
+1540,DataSet_107,human,DDX54,MCF7,ENSG00000289517,Invasive breast carcinoma of no special type,3,0,0,Invasive breast carcinoma of no special type,human,APA
+91,DataSet_1,human,DDX54,MCF7,HMGN5,Invasive breast carcinoma of no special type,3,15,1,Invasive breast carcinoma of no special type,human,APA
+108,DataSet_1,human,DDX54,MCF7,MELTF,Invasive breast carcinoma of no special type,3,0,0,Invasive breast carcinoma of no special type,human,APA
+109,DataSet_1,human,DDX54,MCF7,MELTF-AS1,Invasive breast carcinoma of no special type,3,0,0,Invasive breast carcinoma of no special type,human,APA
+1511,DataSet_107,human,DDX54,MCF7,DPM1,Invasive breast carcinoma of no special type,3,12,12,Invasive breast carcinoma of no special type,human,APA
+132,DataSet_1,human,DDX54,MCF7,PRORP,Invasive breast carcinoma of no special type,3,21,18,Invasive breast carcinoma of no special type,human,APA
+1510,DataSet_107,human,DDX54,MCF7,DOP1A,Invasive breast carcinoma of no special type,3,0,0,Invasive breast carcinoma of no special type,human,APA
+137,DataSet_1,human,DDX54,MCF7,RBM6,Invasive breast carcinoma of no special type,3,15,15,Invasive breast carcinoma of no special type,human,APA
+1658,DataSet_107,human,DDX54,MCF7,RPE,Invasive breast carcinoma of no special type,3,33,30,Invasive breast carcinoma of no special type,human,APA
+1669,DataSet_107,human,DDX54,MCF7,SCRN1,Invasive breast carcinoma of no special type,3,15,15,Invasive breast carcinoma of no special type,human,APA
+1488,DataSet_107,human,DDX54,MCF7,COX11,Invasive breast carcinoma of no special type,3,0,0,Invasive breast carcinoma of no special type,human,APA
+59,DataSet_1,human,DDX54,MCF7,ENSG00000258790,Invasive breast carcinoma of no special type,3,3,3,Invasive breast carcinoma of no special type,human,APA
+174,DataSet_1,human,DDX54,MCF7,TPM3,Invasive breast carcinoma of no special type,3,18,18,Invasive breast carcinoma of no special type,human,APA
+1481,DataSet_107,human,DDX54,MCF7,CES2,Invasive breast carcinoma of no special type,3,6,6,Invasive breast carcinoma of no special type,human,APA
+1476,DataSet_107,human,DDX54,MCF7,CDH1,Invasive breast carcinoma of no special type,3,6,6,Invasive breast carcinoma of no special type,human,APA
+183,DataSet_1,human,DDX54,MCF7,UBE2N,Invasive breast carcinoma of no special type,3,9,9,Invasive breast carcinoma of no special type,human,APA
+1472,DataSet_107,human,DDX54,MCF7,CCHCR1,Invasive breast carcinoma of no special type,3,12,12,Invasive breast carcinoma of no special type,human,APA
+1720,DataSet_107,human,DDX54,MCF7,TPCN1,Invasive breast carcinoma of no special type,3,12,12,Invasive breast carcinoma of no special type,human,APA
+1436,DataSet_107,human,DDX54,MCF7,ADAM17,Invasive breast carcinoma of no special type,3,0,0,Invasive breast carcinoma of no special type,human,APA
+1437,DataSet_107,human,DDX54,MCF7,AIF1L,Invasive breast carcinoma of no special type,3,21,21,Invasive breast carcinoma of no special type,human,APA
+1439,DataSet_107,human,DDX54,MCF7,AKIP1,Invasive breast carcinoma of no special type,3,21,18,Invasive breast carcinoma of no special type,human,APA
+1440,DataSet_107,human,DDX54,MCF7,ALDH6A1,Invasive breast carcinoma of no special type,3,9,9,Invasive breast carcinoma of no special type,human,APA
+1546,DataSet_107,human,DDX54,MCF7,FANCI,Invasive breast carcinoma of no special type,3,0,0,Invasive breast carcinoma of no special type,human,APA
+1563,DataSet_107,human,DDX54,MCF7,HADHB,Invasive breast carcinoma of no special type,3,12,12,Invasive breast carcinoma of no special type,human,APA
+1595,DataSet_107,human,DDX54,MCF7,MICA,Invasive breast carcinoma of no special type,3,0,0,Invasive breast carcinoma of no special type,human,APA
+1627,DataSet_107,human,DDX54,MCF7,PDLIM5,Invasive breast carcinoma of no special type,3,18,18,Invasive breast carcinoma of no special type,human,APA
+1629,DataSet_107,human,DDX54,MCF7,PGM3,Invasive breast carcinoma of no special type,3,27,24,Invasive breast carcinoma of no special type,human,APA
+1571,DataSet_107,human,DDX54,MCF7,IAH1,Invasive breast carcinoma of no special type,3,12,12,Invasive breast carcinoma of no special type,human,APA
+1589,DataSet_107,human,DDX54,MCF7,MCFD2,Invasive breast carcinoma of no special type,3,33,30,Invasive breast carcinoma of no special type,human,APA
+1610,DataSet_107,human,DDX54,MCF7,NDUFA5,Invasive breast carcinoma of no special type,3,42,42,Invasive breast carcinoma of no special type,human,APA
+1580,DataSet_107,human,DDX54,MCF7,LRRC23,Invasive breast carcinoma of no special type,3,12,12,Invasive breast carcinoma of no special type,human,APA
+1568,DataSet_107,human,DDX54,MCF7,HMGN5,Invasive breast carcinoma of no special type,3,15,1,Invasive breast carcinoma of no special type,human,APA
+25,DataSet_1,human,DDX54,MCF7,CES2,Invasive breast carcinoma of no special type,3,6,6,Invasive breast carcinoma of no special type,human,APA
+1633,DataSet_107,human,DDX54,MCF7,POLDIP3,Invasive breast carcinoma of no special type,3,12,12,Invasive breast carcinoma of no special type,human,APA
+26,DataSet_1,human,DDX54,MCF7,CHD4,Invasive breast carcinoma of no special type,3,54,54,Invasive breast carcinoma of no special type,human,APA
+1575,DataSet_107,human,DDX54,MCF7,KANSL1L,Invasive breast carcinoma of no special type,3,0,0,Invasive breast carcinoma of no special type,human,APA
+1592,DataSet_107,human,DDX54,MCF7,MDH1,Invasive breast carcinoma of no special type,2,12,12,Invasive breast carcinoma of no special type,human,APA
+1451,DataSet_107,human,DDX54,MCF7,ARHGEF12,Invasive breast carcinoma of no special type,2,6,6,Invasive breast carcinoma of no special type,human,APA
+1483,DataSet_107,human,DDX54,MCF7,CIAPIN1,Invasive breast carcinoma of no special type,2,12,12,Invasive breast carcinoma of no special type,human,APA
+1591,DataSet_107,human,DDX54,MCF7,MCM4,Invasive breast carcinoma of no special type,2,14,14,Invasive breast carcinoma of no special type,human,APA
+1588,DataSet_107,human,DDX54,MCF7,MAT2A,Invasive breast carcinoma of no special type,2,4,2,Invasive breast carcinoma of no special type,human,APA
+1484,DataSet_107,human,DDX54,MCF7,CIDEB,Invasive breast carcinoma of no special type,2,0,0,Invasive breast carcinoma of no special type,human,APA
+1600,DataSet_107,human,DDX54,MCF7,MRPL49,Invasive breast carcinoma of no special type,2,6,6,Invasive breast carcinoma of no special type,human,APA
+1655,DataSet_107,human,DDX54,MCF7,RN7SK,Invasive breast carcinoma of no special type,2,0,0,Invasive breast carcinoma of no special type,human,APA
+1469,DataSet_107,human,DDX54,MCF7,CCAR1,Invasive breast carcinoma of no special type,2,4,4,Invasive breast carcinoma of no special type,human,APA
+1466,DataSet_107,human,DDX54,MCF7,CAMK2B,Invasive breast carcinoma of no special type,2,0,0,Invasive breast carcinoma of no special type,human,APA
+1461,DataSet_107,human,DDX54,MCF7,C18orf21,Invasive breast carcinoma of no special type,2,12,8,Invasive breast carcinoma of no special type,human,APA
+1605,DataSet_107,human,DDX54,MCF7,NAA50,Invasive breast carcinoma of no special type,2,14,14,Invasive breast carcinoma of no special type,human,APA
+1458,DataSet_107,human,DDX54,MCF7,C11orf16,Invasive breast carcinoma of no special type,2,0,0,Invasive breast carcinoma of no special type,human,APA
+1606,DataSet_107,human,DDX54,MCF7,NAP1L1,Invasive breast carcinoma of no special type,2,0,0,Invasive breast carcinoma of no special type,human,APA
+1612,DataSet_107,human,DDX54,MCF7,NEAT1,Invasive breast carcinoma of no special type,2,0,0,Invasive breast carcinoma of no special type,human,APA
+1614,DataSet_107,human,DDX54,MCF7,NIPAL2,Invasive breast carcinoma of no special type,2,4,4,Invasive breast carcinoma of no special type,human,APA
+1457,DataSet_107,human,DDX54,MCF7,BLOC1S5-TXNDC5,Invasive breast carcinoma of no special type,2,0,0,Invasive breast carcinoma of no special type,human,APA
+1583,DataSet_107,human,DDX54,MCF7,LYAR,Invasive breast carcinoma of no special type,2,4,4,Invasive breast carcinoma of no special type,human,APA
+1509,DataSet_107,human,DDX54,MCF7,DNAJC5,Invasive breast carcinoma of no special type,2,2,2,Invasive breast carcinoma of no special type,human,APA
+1503,DataSet_107,human,DDX54,MCF7,DDX55,Invasive breast carcinoma of no special type,2,6,6,Invasive breast carcinoma of no special type,human,APA
+1532,DataSet_107,human,DDX54,MCF7,ENSG00000277599,Invasive breast carcinoma of no special type,2,0,0,Invasive breast carcinoma of no special type,human,APA
+1557,DataSet_107,human,DDX54,MCF7,GSE1,Invasive breast carcinoma of no special type,2,10,10,Invasive breast carcinoma of no special type,human,APA
+1567,DataSet_107,human,DDX54,MCF7,HMGB1,Invasive breast carcinoma of no special type,2,8,8,Invasive breast carcinoma of no special type,human,APA
+1552,DataSet_107,human,DDX54,MCF7,GINS2,Invasive breast carcinoma of no special type,2,0,0,Invasive breast carcinoma of no special type,human,APA
+1551,DataSet_107,human,DDX54,MCF7,GGCX,Invasive breast carcinoma of no special type,2,20,8,Invasive breast carcinoma of no special type,human,APA
+1645,DataSet_107,human,DDX54,MCF7,PTPRF,Invasive breast carcinoma of no special type,2,12,12,Invasive breast carcinoma of no special type,human,APA
+1544,DataSet_107,human,DDX54,MCF7,FAM3A,Invasive breast carcinoma of no special type,2,14,14,Invasive breast carcinoma of no special type,human,APA
+1638,DataSet_107,human,DDX54,MCF7,PRMT2,Invasive breast carcinoma of no special type,2,20,2,Invasive breast carcinoma of no special type,human,APA
+1535,DataSet_107,human,DDX54,MCF7,ENSG00000280416,Invasive breast carcinoma of no special type,2,0,0,Invasive breast carcinoma of no special type,human,APA
+1534,DataSet_107,human,DDX54,MCF7,ENSG00000278144,Invasive breast carcinoma of no special type,2,0,0,Invasive breast carcinoma of no special type,human,APA
+1617,DataSet_107,human,DDX54,MCF7,NOP9,Invasive breast carcinoma of no special type,2,6,4,Invasive breast carcinoma of no special type,human,APA
+1651,DataSet_107,human,DDX54,MCF7,REXO5,Invasive breast carcinoma of no special type,2,6,6,Invasive breast carcinoma of no special type,human,APA
+1507,DataSet_107,human,DDX54,MCF7,DMAC2L,Invasive breast carcinoma of no special type,2,18,16,Invasive breast carcinoma of no special type,human,APA
+57307,DataSet_161,human,ESRP1 and ESRP2,MCF7,CTSF,Invasive breast carcinoma of no special type,9,108,108,Invasive breast carcinoma of no special type,human,APA
+57351,DataSet_161,human,ESRP1 and ESRP2,MCF7,EIF3I,Invasive breast carcinoma of no special type,8,120,120,Invasive breast carcinoma of no special type,human,APA
+57667,DataSet_161,human,ESRP1 and ESRP2,MCF7,PIGV,Invasive breast carcinoma of no special type,8,136,136,Invasive breast carcinoma of no special type,human,APA
+57676,DataSet_161,human,ESRP1 and ESRP2,MCF7,PITRM1,Invasive breast carcinoma of no special type,7,70,70,Invasive breast carcinoma of no special type,human,APA
+57502,DataSet_161,human,ESRP1 and ESRP2,MCF7,IFITM2,Invasive breast carcinoma of no special type,7,66,63,Invasive breast carcinoma of no special type,human,APA
+57523,DataSet_161,human,ESRP1 and ESRP2,MCF7,KDM5B,Invasive breast carcinoma of no special type,7,58,50,Invasive breast carcinoma of no special type,human,APA
+57281,DataSet_161,human,ESRP1 and ESRP2,MCF7,CKMT2-AS1,Invasive breast carcinoma of no special type,6,0,0,Invasive breast carcinoma of no special type,human,APA
+57348,DataSet_161,human,ESRP1 and ESRP2,MCF7,EEF1D,Invasive breast carcinoma of no special type,6,127,0,Invasive breast carcinoma of no special type,human,APA
+57643,DataSet_161,human,ESRP1 and ESRP2,MCF7,P4HA2,Invasive breast carcinoma of no special type,6,36,36,Invasive breast carcinoma of no special type,human,APA
+57460,DataSet_161,human,ESRP1 and ESRP2,MCF7,GCC2,Invasive breast carcinoma of no special type,6,0,0,Invasive breast carcinoma of no special type,human,APA
+57734,DataSet_161,human,ESRP1 and ESRP2,MCF7,RBM24,Invasive breast carcinoma of no special type,6,24,24,Invasive breast carcinoma of no special type,human,APA
+57387,DataSet_161,human,ESRP1 and ESRP2,MCF7,ENSG00000264324,Invasive breast carcinoma of no special type,6,6,6,Invasive breast carcinoma of no special type,human,APA
+57301,DataSet_161,human,ESRP1 and ESRP2,MCF7,CRIP2,Invasive breast carcinoma of no special type,6,24,24,Invasive breast carcinoma of no special type,human,APA
+57316,DataSet_161,human,ESRP1 and ESRP2,MCF7,DCTN1,Invasive breast carcinoma of no special type,6,54,54,Invasive breast carcinoma of no special type,human,APA
+57161,DataSet_161,human,ESRP1 and ESRP2,MCF7,ALDH7A1,Invasive breast carcinoma of no special type,6,42,42,Invasive breast carcinoma of no special type,human,APA
+57824,DataSet_161,human,ESRP1 and ESRP2,MCF7,STX4,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+57536,DataSet_161,human,ESRP1 and ESRP2,MCF7,LAS1L,Invasive breast carcinoma of no special type,5,20,20,Invasive breast carcinoma of no special type,human,APA
+57439,DataSet_161,human,ESRP1 and ESRP2,MCF7,FAM3A,Invasive breast carcinoma of no special type,5,35,35,Invasive breast carcinoma of no special type,human,APA
+57638,DataSet_161,human,ESRP1 and ESRP2,MCF7,OASL,Invasive breast carcinoma of no special type,5,15,15,Invasive breast carcinoma of no special type,human,APA
+57654,DataSet_161,human,ESRP1 and ESRP2,MCF7,PDLIM5,Invasive breast carcinoma of no special type,5,30,30,Invasive breast carcinoma of no special type,human,APA
+57162,DataSet_161,human,ESRP1 and ESRP2,MCF7,ALG9,Invasive breast carcinoma of no special type,5,25,20,Invasive breast carcinoma of no special type,human,APA
+57169,DataSet_161,human,ESRP1 and ESRP2,MCF7,ANKRD13D,Invasive breast carcinoma of no special type,5,10,10,Invasive breast carcinoma of no special type,human,APA
+57600,DataSet_161,human,ESRP1 and ESRP2,MCF7,MYH10,Invasive breast carcinoma of no special type,5,45,45,Invasive breast carcinoma of no special type,human,APA
+57370,DataSet_161,human,ESRP1 and ESRP2,MCF7,ENSG00000258529,Invasive breast carcinoma of no special type,5,5,5,Invasive breast carcinoma of no special type,human,APA
+57171,DataSet_161,human,ESRP1 and ESRP2,MCF7,ANKZF1,Invasive breast carcinoma of no special type,5,15,0,Invasive breast carcinoma of no special type,human,APA
+57286,DataSet_161,human,ESRP1 and ESRP2,MCF7,CLN6,Invasive breast carcinoma of no special type,5,30,5,Invasive breast carcinoma of no special type,human,APA
+57197,DataSet_161,human,ESRP1 and ESRP2,MCF7,ATE1,Invasive breast carcinoma of no special type,5,130,130,Invasive breast carcinoma of no special type,human,APA
+57845,DataSet_161,human,ESRP1 and ESRP2,MCF7,TEX264,Invasive breast carcinoma of no special type,5,35,35,Invasive breast carcinoma of no special type,human,APA
+57275,DataSet_161,human,ESRP1 and ESRP2,MCF7,CHCHD7,Invasive breast carcinoma of no special type,5,25,25,Invasive breast carcinoma of no special type,human,APA
+57498,DataSet_161,human,ESRP1 and ESRP2,MCF7,HYAL2,Invasive breast carcinoma of no special type,4,16,16,Invasive breast carcinoma of no special type,human,APA
+57590,DataSet_161,human,ESRP1 and ESRP2,MCF7,MSTO1,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+57503,DataSet_161,human,ESRP1 and ESRP2,MCF7,IGSF1,Invasive breast carcinoma of no special type,4,28,28,Invasive breast carcinoma of no special type,human,APA
+57588,DataSet_161,human,ESRP1 and ESRP2,MCF7,MRPL4,Invasive breast carcinoma of no special type,4,18,8,Invasive breast carcinoma of no special type,human,APA
+57609,DataSet_161,human,ESRP1 and ESRP2,MCF7,NCAPD3,Invasive breast carcinoma of no special type,4,20,20,Invasive breast carcinoma of no special type,human,APA
+57636,DataSet_161,human,ESRP1 and ESRP2,MCF7,NUSAP1,Invasive breast carcinoma of no special type,4,28,28,Invasive breast carcinoma of no special type,human,APA
+57527,DataSet_161,human,ESRP1 and ESRP2,MCF7,KIF3A,Invasive breast carcinoma of no special type,4,20,20,Invasive breast carcinoma of no special type,human,APA
+57558,DataSet_161,human,ESRP1 and ESRP2,MCF7,MAGT1,Invasive breast carcinoma of no special type,4,21,21,Invasive breast carcinoma of no special type,human,APA
+57596,DataSet_161,human,ESRP1 and ESRP2,MCF7,MUS81,Invasive breast carcinoma of no special type,4,8,8,Invasive breast carcinoma of no special type,human,APA
+57417,DataSet_161,human,ESRP1 and ESRP2,MCF7,ENSG00000285920,Invasive breast carcinoma of no special type,4,4,4,Invasive breast carcinoma of no special type,human,APA
+57665,DataSet_161,human,ESRP1 and ESRP2,MCF7,PI4KB,Invasive breast carcinoma of no special type,4,28,28,Invasive breast carcinoma of no special type,human,APA
+57687,DataSet_161,human,ESRP1 and ESRP2,MCF7,POLA1,Invasive breast carcinoma of no special type,4,8,8,Invasive breast carcinoma of no special type,human,APA
+57691,DataSet_161,human,ESRP1 and ESRP2,MCF7,PPM1N,Invasive breast carcinoma of no special type,4,28,28,Invasive breast carcinoma of no special type,human,APA
+57704,DataSet_161,human,ESRP1 and ESRP2,MCF7,PSME3IP1,Invasive breast carcinoma of no special type,4,28,28,Invasive breast carcinoma of no special type,human,APA
+57746,DataSet_161,human,ESRP1 and ESRP2,MCF7,RNASEK,Invasive breast carcinoma of no special type,4,20,20,Invasive breast carcinoma of no special type,human,APA
+57747,DataSet_161,human,ESRP1 and ESRP2,MCF7,RNASEK-C17orf49,Invasive breast carcinoma of no special type,4,4,0,Invasive breast carcinoma of no special type,human,APA
+57753,DataSet_161,human,ESRP1 and ESRP2,MCF7,RPAP3,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+57760,DataSet_161,human,ESRP1 and ESRP2,MCF7,RSRP1,Invasive breast carcinoma of no special type,4,8,8,Invasive breast carcinoma of no special type,human,APA
+57787,DataSet_161,human,ESRP1 and ESRP2,MCF7,SLC4A2,Invasive breast carcinoma of no special type,4,16,16,Invasive breast carcinoma of no special type,human,APA
+57827,DataSet_161,human,ESRP1 and ESRP2,MCF7,SULT1A1,Invasive breast carcinoma of no special type,4,16,12,Invasive breast carcinoma of no special type,human,APA
+57839,DataSet_161,human,ESRP1 and ESRP2,MCF7,TCERG1,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+57863,DataSet_161,human,ESRP1 and ESRP2,MCF7,TMEM259,Invasive breast carcinoma of no special type,4,8,4,Invasive breast carcinoma of no special type,human,APA
+57892,DataSet_161,human,ESRP1 and ESRP2,MCF7,TUBG1,Invasive breast carcinoma of no special type,4,8,8,Invasive breast carcinoma of no special type,human,APA
+57900,DataSet_161,human,ESRP1 and ESRP2,MCF7,UBXN6,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+57914,DataSet_161,human,ESRP1 and ESRP2,MCF7,WARS1,Invasive breast carcinoma of no special type,4,24,24,Invasive breast carcinoma of no special type,human,APA
+57480,DataSet_161,human,ESRP1 and ESRP2,MCF7,HACE1,Invasive breast carcinoma of no special type,4,16,16,Invasive breast carcinoma of no special type,human,APA
+57962,DataSet_161,human,ESRP1 and ESRP2,MCF7,ZNF85,Invasive breast carcinoma of no special type,4,20,4,Invasive breast carcinoma of no special type,human,APA
+57337,DataSet_161,human,ESRP1 and ESRP2,MCF7,DUS4L,Invasive breast carcinoma of no special type,4,4,4,Invasive breast carcinoma of no special type,human,APA
+57249,DataSet_161,human,ESRP1 and ESRP2,MCF7,CCDC25,Invasive breast carcinoma of no special type,4,8,8,Invasive breast carcinoma of no special type,human,APA
+57323,DataSet_161,human,ESRP1 and ESRP2,MCF7,DEF8,Invasive breast carcinoma of no special type,4,32,28,Invasive breast carcinoma of no special type,human,APA
+57362,DataSet_161,human,ESRP1 and ESRP2,MCF7,ENSG00000244151,Invasive breast carcinoma of no special type,4,0,0,Invasive breast carcinoma of no special type,human,APA
+57364,DataSet_161,human,ESRP1 and ESRP2,MCF7,ENSG00000246203,Invasive breast carcinoma of no special type,4,0,0,Invasive breast carcinoma of no special type,human,APA
+57372,DataSet_161,human,ESRP1 and ESRP2,MCF7,ENSG00000258666,Invasive breast carcinoma of no special type,4,0,0,Invasive breast carcinoma of no special type,human,APA
+57305,DataSet_161,human,ESRP1 and ESRP2,MCF7,CSNK2B,Invasive breast carcinoma of no special type,4,20,20,Invasive breast carcinoma of no special type,human,APA
+57332,DataSet_161,human,ESRP1 and ESRP2,MCF7,DNM1L,Invasive breast carcinoma of no special type,4,32,32,Invasive breast carcinoma of no special type,human,APA
+57401,DataSet_161,human,ESRP1 and ESRP2,MCF7,ENSG00000274177,Invasive breast carcinoma of no special type,4,0,0,Invasive breast carcinoma of no special type,human,APA
+57225,DataSet_161,human,ESRP1 and ESRP2,MCF7,C17orf49,Invasive breast carcinoma of no special type,4,0,0,Invasive breast carcinoma of no special type,human,APA
+57226,DataSet_161,human,ESRP1 and ESRP2,MCF7,C19orf53,Invasive breast carcinoma of no special type,3,9,9,Invasive breast carcinoma of no special type,human,APA
+57259,DataSet_161,human,ESRP1 and ESRP2,MCF7,CDK11A,Invasive breast carcinoma of no special type,3,18,18,Invasive breast carcinoma of no special type,human,APA
+57296,DataSet_161,human,ESRP1 and ESRP2,MCF7,COQ4,Invasive breast carcinoma of no special type,3,6,4,Invasive breast carcinoma of no special type,human,APA
+57303,DataSet_161,human,ESRP1 and ESRP2,MCF7,CSK,Invasive breast carcinoma of no special type,3,9,9,Invasive breast carcinoma of no special type,human,APA
+57218,DataSet_161,human,ESRP1 and ESRP2,MCF7,BPGM,Invasive breast carcinoma of no special type,3,9,9,Invasive breast carcinoma of no special type,human,APA
+57216,DataSet_161,human,ESRP1 and ESRP2,MCF7,BICDL2,Invasive breast carcinoma of no special type,3,12,12,Invasive breast carcinoma of no special type,human,APA
+57314,DataSet_161,human,ESRP1 and ESRP2,MCF7,DCAF4,Invasive breast carcinoma of no special type,3,15,15,Invasive breast carcinoma of no special type,human,APA
+57201,DataSet_161,human,ESRP1 and ESRP2,MCF7,ATR,Invasive breast carcinoma of no special type,3,6,6,Invasive breast carcinoma of no special type,human,APA
+57194,DataSet_161,human,ESRP1 and ESRP2,MCF7,ARNT,Invasive breast carcinoma of no special type,3,13,8,Invasive breast carcinoma of no special type,human,APA
+57322,DataSet_161,human,ESRP1 and ESRP2,MCF7,DDX52,Invasive breast carcinoma of no special type,3,6,6,Invasive breast carcinoma of no special type,human,APA
+57156,DataSet_161,human,ESRP1 and ESRP2,MCF7,AFG3L1P,Invasive breast carcinoma of no special type,3,0,0,Invasive breast carcinoma of no special type,human,APA
+57326,DataSet_161,human,ESRP1 and ESRP2,MCF7,DHFR,Invasive breast carcinoma of no special type,3,12,12,Invasive breast carcinoma of no special type,human,APA
+57331,DataSet_161,human,ESRP1 and ESRP2,MCF7,DMAC2,Invasive breast carcinoma of no special type,3,21,21,Invasive breast carcinoma of no special type,human,APA
+57447,DataSet_161,human,ESRP1 and ESRP2,MCF7,FLYWCH1,Invasive breast carcinoma of no special type,3,12,12,Invasive breast carcinoma of no special type,human,APA
+57450,DataSet_161,human,ESRP1 and ESRP2,MCF7,FUS,Invasive breast carcinoma of no special type,3,6,6,Invasive breast carcinoma of no special type,human,APA
+57416,DataSet_161,human,ESRP1 and ESRP2,MCF7,ENSG00000285283,Invasive breast carcinoma of no special type,3,3,3,Invasive breast carcinoma of no special type,human,APA
+57451,DataSet_161,human,ESRP1 and ESRP2,MCF7,FUT10,Invasive breast carcinoma of no special type,3,9,6,Invasive breast carcinoma of no special type,human,APA
+57455,DataSet_161,human,ESRP1 and ESRP2,MCF7,GALNT6,Invasive breast carcinoma of no special type,3,36,0,Invasive breast carcinoma of no special type,human,APA
+57446,DataSet_161,human,ESRP1 and ESRP2,MCF7,FLVCR2,Invasive breast carcinoma of no special type,3,12,12,Invasive breast carcinoma of no special type,human,APA
+57441,DataSet_161,human,ESRP1 and ESRP2,MCF7,FBXL19,Invasive breast carcinoma of no special type,3,20,20,Invasive breast carcinoma of no special type,human,APA
+57483,DataSet_161,human,ESRP1 and ESRP2,MCF7,HEATR5A,Invasive breast carcinoma of no special type,3,9,2,Invasive breast carcinoma of no special type,human,APA
+57428,DataSet_161,human,ESRP1 and ESRP2,MCF7,EXD2,Invasive breast carcinoma of no special type,3,21,21,Invasive breast carcinoma of no special type,human,APA
+57338,DataSet_161,human,ESRP1 and ESRP2,MCF7,DUSP22,Invasive breast carcinoma of no special type,3,15,14,Invasive breast carcinoma of no special type,human,APA
+57154,DataSet_161,human,ESRP1 and ESRP2,MCF7,ADPRM,Invasive breast carcinoma of no special type,3,6,6,Invasive breast carcinoma of no special type,human,APA
+57400,DataSet_161,human,ESRP1 and ESRP2,MCF7,ENSG00000273711,Invasive breast carcinoma of no special type,3,0,0,Invasive breast carcinoma of no special type,human,APA
+57391,DataSet_161,human,ESRP1 and ESRP2,MCF7,ENSG00000268575,Invasive breast carcinoma of no special type,3,0,0,Invasive breast carcinoma of no special type,human,APA
+57389,DataSet_161,human,ESRP1 and ESRP2,MCF7,ENSG00000267105,Invasive breast carcinoma of no special type,3,0,0,Invasive breast carcinoma of no special type,human,APA
+57371,DataSet_161,human,ESRP1 and ESRP2,MCF7,ENSG00000258653,Invasive breast carcinoma of no special type,3,3,0,Invasive breast carcinoma of no special type,human,APA
+57354,DataSet_161,human,ESRP1 and ESRP2,MCF7,ELP5,Invasive breast carcinoma of no special type,3,12,12,Invasive breast carcinoma of no special type,human,APA
+57347,DataSet_161,human,ESRP1 and ESRP2,MCF7,EED,Invasive breast carcinoma of no special type,3,18,18,Invasive breast carcinoma of no special type,human,APA
+57152,DataSet_161,human,ESRP1 and ESRP2,MCF7,ADAR,Invasive breast carcinoma of no special type,3,42,42,Invasive breast carcinoma of no special type,human,APA
+57423,DataSet_161,human,ESRP1 and ESRP2,MCF7,ENSG00000288725,Invasive breast carcinoma of no special type,12,12,12,Invasive breast carcinoma of no special type,human,APA
+57212,DataSet_161,human,ESRP1 and ESRP2,MCF7,BBS2,Invasive breast carcinoma of no special type,12,168,168,Invasive breast carcinoma of no special type,human,APA
+57309,DataSet_161,human,ESRP1 and ESRP2,MCF7,CUL4B,Invasive breast carcinoma of no special type,10,120,120,Invasive breast carcinoma of no special type,human,APA
+110626,DataSet_198,human,HNRNPC,MCF7,ACADM,Invasive breast carcinoma of no special type,9,63,63,Invasive breast carcinoma of no special type,human,APA
+110653,DataSet_198,human,HNRNPC,MCF7,ACVR1,Invasive breast carcinoma of no special type,9,144,144,Invasive breast carcinoma of no special type,human,APA
+110892,DataSet_198,human,HNRNPC,MCF7,ASAH1,Invasive breast carcinoma of no special type,35,644,506,Invasive breast carcinoma of no special type,human,APA
+105791,DataSet_197,human,HNRNPC,MCF7,ADGRG1,Invasive breast carcinoma of no special type,33,2095,92,Invasive breast carcinoma of no special type,human,APA
+110667,DataSet_198,human,HNRNPC,MCF7,ADGRG1,Invasive breast carcinoma of no special type,33,1528,68,Invasive breast carcinoma of no special type,human,APA
+116420,DataSet_199,human,HNRNPC,T47D,ADGRG1,Invasive breast carcinoma of no special type,32,1907,76,Invasive breast carcinoma of no special type,human,APA
+111763,DataSet_198,human,HNRNPC,MCF7,DLG1,Invasive breast carcinoma of no special type,30,1110,1110,Invasive breast carcinoma of no special type,human,APA
+106766,DataSet_197,human,HNRNPC,MCF7,DLG1,Invasive breast carcinoma of no special type,29,1073,1073,Invasive breast carcinoma of no special type,human,APA
+111596,DataSet_198,human,HNRNPC,MCF7,CTSB,Invasive breast carcinoma of no special type,29,1433,1433,Invasive breast carcinoma of no special type,human,APA
+120553,DataSet_199,human,HNRNPC,T47D,POMT1,Invasive breast carcinoma of no special type,27,368,368,Invasive breast carcinoma of no special type,human,APA
+115197,DataSet_198,human,HNRNPC,MCF7,SPG7,Invasive breast carcinoma of no special type,26,350,209,Invasive breast carcinoma of no special type,human,APA
+107499,DataSet_197,human,HNRNPC,MCF7,GDAP1,Invasive breast carcinoma of no special type,25,444,434,Invasive breast carcinoma of no special type,human,APA
+106008,DataSet_197,human,HNRNPC,MCF7,ASAH1,Invasive breast carcinoma of no special type,25,491,353,Invasive breast carcinoma of no special type,human,APA
+118653,DataSet_199,human,HNRNPC,T47D,GDAP1,Invasive breast carcinoma of no special type,25,434,429,Invasive breast carcinoma of no special type,human,APA
+119497,DataSet_199,human,HNRNPC,T47D,MARK3,Invasive breast carcinoma of no special type,25,654,452,Invasive breast carcinoma of no special type,human,APA
+119940,DataSet_199,human,HNRNPC,T47D,NDUFS2,Invasive breast carcinoma of no special type,24,349,326,Invasive breast carcinoma of no special type,human,APA
+113469,DataSet_198,human,HNRNPC,MCF7,MFSD8,Invasive breast carcinoma of no special type,23,338,302,Invasive breast carcinoma of no special type,human,APA
+113143,DataSet_198,human,HNRNPC,MCF7,KMT2C,Invasive breast carcinoma of no special type,23,257,248,Invasive breast carcinoma of no special type,human,APA
+111599,DataSet_198,human,HNRNPC,MCF7,CTSH,Invasive breast carcinoma of no special type,23,253,253,Invasive breast carcinoma of no special type,human,APA
+108113,DataSet_197,human,HNRNPC,MCF7,MAN1B1,Invasive breast carcinoma of no special type,23,219,214,Invasive breast carcinoma of no special type,human,APA
+119505,DataSet_199,human,HNRNPC,T47D,MATR3,Invasive breast carcinoma of no special type,22,231,90,Invasive breast carcinoma of no special type,human,APA
+107109,DataSet_197,human,HNRNPC,MCF7,ENSG00000264058,Invasive breast carcinoma of no special type,22,0,0,Invasive breast carcinoma of no special type,human,APA
+109610,DataSet_197,human,HNRNPC,MCF7,SMARCE1,Invasive breast carcinoma of no special type,22,177,177,Invasive breast carcinoma of no special type,human,APA
+108394,DataSet_197,human,HNRNPC,MCF7,MXI1,Invasive breast carcinoma of no special type,21,504,504,Invasive breast carcinoma of no special type,human,APA
+109605,DataSet_197,human,HNRNPC,MCF7,SMARCA4,Invasive breast carcinoma of no special type,21,588,588,Invasive breast carcinoma of no special type,human,APA
+107149,DataSet_197,human,HNRNPC,MCF7,ENSG00000271793,Invasive breast carcinoma of no special type,21,80,40,Invasive breast carcinoma of no special type,human,APA
+115099,DataSet_198,human,HNRNPC,MCF7,SMARCE1,Invasive breast carcinoma of no special type,21,169,169,Invasive breast carcinoma of no special type,human,APA
+116808,DataSet_199,human,HNRNPC,T47D,BBS2,Invasive breast carcinoma of no special type,21,267,213,Invasive breast carcinoma of no special type,human,APA
+116598,DataSet_199,human,HNRNPC,T47D,APTX,Invasive breast carcinoma of no special type,21,307,240,Invasive breast carcinoma of no special type,human,APA
+119348,DataSet_199,human,HNRNPC,T47D,LMBRD1,Invasive breast carcinoma of no special type,21,273,273,Invasive breast carcinoma of no special type,human,APA
+119266,DataSet_199,human,HNRNPC,T47D,KRIT1,Invasive breast carcinoma of no special type,21,541,299,Invasive breast carcinoma of no special type,human,APA
+115265,DataSet_198,human,HNRNPC,MCF7,ST3GAL5,Invasive breast carcinoma of no special type,21,273,273,Invasive breast carcinoma of no special type,human,APA
+112163,DataSet_198,human,HNRNPC,MCF7,ENSG00000264058,Invasive breast carcinoma of no special type,21,0,0,Invasive breast carcinoma of no special type,human,APA
+116778,DataSet_199,human,HNRNPC,T47D,B3GALNT1,Invasive breast carcinoma of no special type,21,966,679,Invasive breast carcinoma of no special type,human,APA
+117213,DataSet_199,human,HNRNPC,T47D,CHD4,Invasive breast carcinoma of no special type,21,378,378,Invasive breast carcinoma of no special type,human,APA
+122417,DataSet_199,human,HNRNPC,T47D,VRK1,Invasive breast carcinoma of no special type,21,433,372,Invasive breast carcinoma of no special type,human,APA
+106621,DataSet_197,human,HNRNPC,MCF7,CTSB,Invasive breast carcinoma of no special type,21,1036,1035,Invasive breast carcinoma of no special type,human,APA
+120922,DataSet_199,human,HNRNPC,T47D,RBPJ,Invasive breast carcinoma of no special type,21,427,323,Invasive breast carcinoma of no special type,human,APA
+112810,DataSet_198,human,HNRNPC,MCF7,HADH,Invasive breast carcinoma of no special type,20,144,144,Invasive breast carcinoma of no special type,human,APA
+114594,DataSet_198,human,HNRNPC,MCF7,RBPJ,Invasive breast carcinoma of no special type,20,400,308,Invasive breast carcinoma of no special type,human,APA
+116355,DataSet_199,human,HNRNPC,T47D,ABHD14A-ACY1,Invasive breast carcinoma of no special type,20,46,16,Invasive breast carcinoma of no special type,human,APA
+116404,DataSet_199,human,HNRNPC,T47D,ACY1,Invasive breast carcinoma of no special type,20,128,97,Invasive breast carcinoma of no special type,human,APA
+116510,DataSet_199,human,HNRNPC,T47D,AMPD2,Invasive breast carcinoma of no special type,20,206,172,Invasive breast carcinoma of no special type,human,APA
+106624,DataSet_197,human,HNRNPC,MCF7,CTSH,Invasive breast carcinoma of no special type,19,209,209,Invasive breast carcinoma of no special type,human,APA
+119375,DataSet_199,human,HNRNPC,T47D,LRPPRC,Invasive breast carcinoma of no special type,19,251,194,Invasive breast carcinoma of no special type,human,APA
+113155,DataSet_198,human,HNRNPC,MCF7,KRIT1,Invasive breast carcinoma of no special type,19,387,290,Invasive breast carcinoma of no special type,human,APA
+118860,DataSet_199,human,HNRNPC,T47D,HADH,Invasive breast carcinoma of no special type,19,136,136,Invasive breast carcinoma of no special type,human,APA
+106846,DataSet_197,human,HNRNPC,MCF7,DYNC1H1,Invasive breast carcinoma of no special type,19,86,60,Invasive breast carcinoma of no special type,human,APA
+106711,DataSet_197,human,HNRNPC,MCF7,DDX3X,Invasive breast carcinoma of no special type,19,385,362,Invasive breast carcinoma of no special type,human,APA
+108403,DataSet_197,human,HNRNPC,MCF7,MYO5A,Invasive breast carcinoma of no special type,18,187,162,Invasive breast carcinoma of no special type,human,APA
+118324,DataSet_199,human,HNRNPC,T47D,ENSG00000288725,Invasive breast carcinoma of no special type,18,18,15,Invasive breast carcinoma of no special type,human,APA
+111817,DataSet_198,human,HNRNPC,MCF7,DPAGT1,Invasive breast carcinoma of no special type,18,121,103,Invasive breast carcinoma of no special type,human,APA
+106446,DataSet_197,human,HNRNPC,MCF7,CHD4,Invasive breast carcinoma of no special type,18,324,324,Invasive breast carcinoma of no special type,human,APA
+107068,DataSet_197,human,HNRNPC,MCF7,ENSG00000258959,Invasive breast carcinoma of no special type,18,0,0,Invasive breast carcinoma of no special type,human,APA
+117509,DataSet_199,human,HNRNPC,T47D,DCAKD,Invasive breast carcinoma of no special type,18,235,204,Invasive breast carcinoma of no special type,human,APA
+113958,DataSet_198,human,HNRNPC,MCF7,OPA1,Invasive breast carcinoma of no special type,18,0,0,Invasive breast carcinoma of no special type,human,APA
+118053,DataSet_199,human,HNRNPC,T47D,ENSG00000261832,Invasive breast carcinoma of no special type,18,82,80,Invasive breast carcinoma of no special type,human,APA
+113363,DataSet_198,human,HNRNPC,MCF7,MARK3,Invasive breast carcinoma of no special type,18,450,425,Invasive breast carcinoma of no special type,human,APA
+110340,DataSet_197,human,HNRNPC,MCF7,VRK1,Invasive breast carcinoma of no special type,18,342,342,Invasive breast carcinoma of no special type,human,APA
+107964,DataSet_197,human,HNRNPC,MCF7,KMT2C,Invasive breast carcinoma of no special type,18,207,162,Invasive breast carcinoma of no special type,human,APA
+115978,DataSet_198,human,HNRNPC,MCF7,VRK1,Invasive breast carcinoma of no special type,18,342,342,Invasive breast carcinoma of no special type,human,APA
+105757,DataSet_197,human,HNRNPC,MCF7,ACADM,Invasive breast carcinoma of no special type,18,119,98,Invasive breast carcinoma of no special type,human,APA
+113250,DataSet_198,human,HNRNPC,MCF7,LRP8,Invasive breast carcinoma of no special type,18,256,256,Invasive breast carcinoma of no special type,human,APA
+107658,DataSet_197,human,HNRNPC,MCF7,HADH,Invasive breast carcinoma of no special type,18,144,144,Invasive breast carcinoma of no special type,human,APA
+117275,DataSet_199,human,HNRNPC,T47D,CLN3,Invasive breast carcinoma of no special type,18,245,208,Invasive breast carcinoma of no special type,human,APA
+111591,DataSet_198,human,HNRNPC,MCF7,CTNNB1,Invasive breast carcinoma of no special type,18,680,663,Invasive breast carcinoma of no special type,human,APA
+117615,DataSet_199,human,HNRNPC,T47D,DLG1,Invasive breast carcinoma of no special type,18,636,593,Invasive breast carcinoma of no special type,human,APA
+117442,DataSet_199,human,HNRNPC,T47D,CTSL,Invasive breast carcinoma of no special type,17,314,314,Invasive breast carcinoma of no special type,human,APA
+117210,DataSet_199,human,HNRNPC,T47D,CHD1L,Invasive breast carcinoma of no special type,17,102,102,Invasive breast carcinoma of no special type,human,APA
+108482,DataSet_197,human,HNRNPC,MCF7,NECAP1,Invasive breast carcinoma of no special type,17,85,85,Invasive breast carcinoma of no special type,human,APA
+117672,DataSet_199,human,HNRNPC,T47D,DPAGT1,Invasive breast carcinoma of no special type,17,91,111,Invasive breast carcinoma of no special type,human,APA
+112346,DataSet_198,human,HNRNPC,MCF7,ENSG00000288725,Invasive breast carcinoma of no special type,17,15,15,Invasive breast carcinoma of no special type,human,APA
+117895,DataSet_199,human,HNRNPC,T47D,ENSG00000237188,Invasive breast carcinoma of no special type,17,0,0,Invasive breast carcinoma of no special type,human,APA
+106616,DataSet_197,human,HNRNPC,MCF7,CTNNB1,Invasive breast carcinoma of no special type,17,680,663,Invasive breast carcinoma of no special type,human,APA
+119878,DataSet_199,human,HNRNPC,T47D,NAMPT,Invasive breast carcinoma of no special type,17,204,204,Invasive breast carcinoma of no special type,human,APA
+107200,DataSet_197,human,HNRNPC,MCF7,ENSG00000284697,Invasive breast carcinoma of no special type,17,0,0,Invasive breast carcinoma of no special type,human,APA
+112278,DataSet_198,human,HNRNPC,MCF7,ENSG00000284697,Invasive breast carcinoma of no special type,17,0,0,Invasive breast carcinoma of no special type,human,APA
+113771,DataSet_198,human,HNRNPC,MCF7,NECAP1,Invasive breast carcinoma of no special type,17,85,85,Invasive breast carcinoma of no special type,human,APA
+112079,DataSet_198,human,HNRNPC,MCF7,ENSG00000256028,Invasive breast carcinoma of no special type,16,0,0,Invasive breast carcinoma of no special type,human,APA
+111389,DataSet_198,human,HNRNPC,MCF7,CHD1L,Invasive breast carcinoma of no special type,16,96,96,Invasive breast carcinoma of no special type,human,APA
+118240,DataSet_199,human,HNRNPC,T47D,ENSG00000285130,Invasive breast carcinoma of no special type,16,16,13,Invasive breast carcinoma of no special type,human,APA
+112026,DataSet_198,human,HNRNPC,MCF7,ENSG00000237188,Invasive breast carcinoma of no special type,16,0,0,Invasive breast carcinoma of no special type,human,APA
+111927,DataSet_198,human,HNRNPC,MCF7,EIF2B5,Invasive breast carcinoma of no special type,16,62,30,Invasive breast carcinoma of no special type,human,APA
+117782,DataSet_199,human,HNRNPC,T47D,EIF2B5,Invasive breast carcinoma of no special type,16,32,32,Invasive breast carcinoma of no special type,human,APA
+114014,DataSet_198,human,HNRNPC,MCF7,PAM,Invasive breast carcinoma of no special type,16,252,195,Invasive breast carcinoma of no special type,human,APA
+107553,DataSet_197,human,HNRNPC,MCF7,GOSR2,Invasive breast carcinoma of no special type,16,508,232,Invasive breast carcinoma of no special type,human,APA
+107097,DataSet_197,human,HNRNPC,MCF7,ENSG00000262633,Invasive breast carcinoma of no special type,16,16,0,Invasive breast carcinoma of no special type,human,APA
+106911,DataSet_197,human,HNRNPC,MCF7,EIF2B5,Invasive breast carcinoma of no special type,16,32,32,Invasive breast carcinoma of no special type,human,APA
+120214,DataSet_199,human,HNRNPC,T47D,PAM,Invasive breast carcinoma of no special type,16,240,240,Invasive breast carcinoma of no special type,human,APA
+107975,DataSet_197,human,HNRNPC,MCF7,KRIT1,Invasive breast carcinoma of no special type,16,331,301,Invasive breast carcinoma of no special type,human,APA
+116383,DataSet_199,human,HNRNPC,T47D,ACER3,Invasive breast carcinoma of no special type,16,80,80,Invasive breast carcinoma of no special type,human,APA
+120368,DataSet_199,human,HNRNPC,T47D,PGAP2,Invasive breast carcinoma of no special type,16,202,135,Invasive breast carcinoma of no special type,human,APA
+106500,DataSet_197,human,HNRNPC,MCF7,CLN3,Invasive breast carcinoma of no special type,16,208,208,Invasive breast carcinoma of no special type,human,APA
+108057,DataSet_197,human,HNRNPC,MCF7,LRP8,Invasive breast carcinoma of no special type,16,256,256,Invasive breast carcinoma of no special type,human,APA
+121918,DataSet_199,human,HNRNPC,T47D,TJP2,Invasive breast carcinoma of no special type,16,166,119,Invasive breast carcinoma of no special type,human,APA
+107093,DataSet_197,human,HNRNPC,MCF7,ENSG00000261832,Invasive breast carcinoma of no special type,16,64,80,Invasive breast carcinoma of no special type,human,APA
+116483,DataSet_199,human,HNRNPC,T47D,ALDH3A2,Invasive breast carcinoma of no special type,16,112,130,Invasive breast carcinoma of no special type,human,APA
+117547,DataSet_199,human,HNRNPC,T47D,DDX3X,Invasive breast carcinoma of no special type,16,327,303,Invasive breast carcinoma of no special type,human,APA
+111447,DataSet_198,human,HNRNPC,MCF7,CLCC1,Invasive breast carcinoma of no special type,15,528,528,Invasive breast carcinoma of no special type,human,APA
+106617,DataSet_197,human,HNRNPC,MCF7,CTNND1,Invasive breast carcinoma of no special type,15,541,505,Invasive breast carcinoma of no special type,human,APA
+176543,DataSet_267,human,NAT10,MCF7,TMEM67,Invasive breast carcinoma of no special type,9,117,117,Invasive breast carcinoma of no special type,human,APA
+176282,DataSet_267,human,NAT10,MCF7,NGLY1,Invasive breast carcinoma of no special type,9,63,63,Invasive breast carcinoma of no special type,human,APA
+175832,DataSet_267,human,NAT10,MCF7,AKAP9,Invasive breast carcinoma of no special type,9,117,117,Invasive breast carcinoma of no special type,human,APA
+175975,DataSet_267,human,NAT10,MCF7,CYTOR,Invasive breast carcinoma of no special type,8,0,0,Invasive breast carcinoma of no special type,human,APA
+176260,DataSet_267,human,NAT10,MCF7,MTHFD1,Invasive breast carcinoma of no special type,8,8,8,Invasive breast carcinoma of no special type,human,APA
+175868,DataSet_267,human,NAT10,MCF7,AZIN1,Invasive breast carcinoma of no special type,8,80,80,Invasive breast carcinoma of no special type,human,APA
+176466,DataSet_267,human,NAT10,MCF7,SLC9A6,Invasive breast carcinoma of no special type,7,70,70,Invasive breast carcinoma of no special type,human,APA
+176349,DataSet_267,human,NAT10,MCF7,POMT2,Invasive breast carcinoma of no special type,7,56,49,Invasive breast carcinoma of no special type,human,APA
+176042,DataSet_267,human,NAT10,MCF7,ENSG00000261611,Invasive breast carcinoma of no special type,7,0,0,Invasive breast carcinoma of no special type,human,APA
+176624,DataSet_267,human,NAT10,MCF7,ZNF23,Invasive breast carcinoma of no special type,7,42,35,Invasive breast carcinoma of no special type,human,APA
+176413,DataSet_267,human,NAT10,MCF7,RPS6KA3,Invasive breast carcinoma of no special type,6,72,66,Invasive breast carcinoma of no special type,human,APA
+176305,DataSet_267,human,NAT10,MCF7,P4HA2,Invasive breast carcinoma of no special type,6,36,36,Invasive breast carcinoma of no special type,human,APA
+175996,DataSet_267,human,NAT10,MCF7,DPH5,Invasive breast carcinoma of no special type,6,24,24,Invasive breast carcinoma of no special type,human,APA
+176333,DataSet_267,human,NAT10,MCF7,PLAGL1,Invasive breast carcinoma of no special type,6,126,84,Invasive breast carcinoma of no special type,human,APA
+176059,DataSet_267,human,NAT10,MCF7,ENSG00000284292,Invasive breast carcinoma of no special type,6,0,0,Invasive breast carcinoma of no special type,human,APA
+175976,DataSet_267,human,NAT10,MCF7,DARS2,Invasive breast carcinoma of no special type,6,24,24,Invasive breast carcinoma of no special type,human,APA
+176363,DataSet_267,human,NAT10,MCF7,PRKAR1A,Invasive breast carcinoma of no special type,6,57,55,Invasive breast carcinoma of no special type,human,APA
+176091,DataSet_267,human,NAT10,MCF7,FAN1,Invasive breast carcinoma of no special type,6,78,36,Invasive breast carcinoma of no special type,human,APA
+175853,DataSet_267,human,NAT10,MCF7,ARPC1B,Invasive breast carcinoma of no special type,6,42,42,Invasive breast carcinoma of no special type,human,APA
+175915,DataSet_267,human,NAT10,MCF7,CCDC88A,Invasive breast carcinoma of no special type,6,20,0,Invasive breast carcinoma of no special type,human,APA
+176511,DataSet_267,human,NAT10,MCF7,TARBP2,Invasive breast carcinoma of no special type,6,18,18,Invasive breast carcinoma of no special type,human,APA
+176279,DataSet_267,human,NAT10,MCF7,NEDD4L,Invasive breast carcinoma of no special type,5,120,120,Invasive breast carcinoma of no special type,human,APA
+176117,DataSet_267,human,NAT10,MCF7,GGCT,Invasive breast carcinoma of no special type,5,20,20,Invasive breast carcinoma of no special type,human,APA
+176146,DataSet_267,human,NAT10,MCF7,HINT1,Invasive breast carcinoma of no special type,5,5,5,Invasive breast carcinoma of no special type,human,APA
+176155,DataSet_267,human,NAT10,MCF7,HSP90B1,Invasive breast carcinoma of no special type,5,25,25,Invasive breast carcinoma of no special type,human,APA
+176621,DataSet_267,human,NAT10,MCF7,ZFYVE16,Invasive breast carcinoma of no special type,5,15,15,Invasive breast carcinoma of no special type,human,APA
+176182,DataSet_267,human,NAT10,MCF7,KDM6A,Invasive breast carcinoma of no special type,5,55,55,Invasive breast carcinoma of no special type,human,APA
+176219,DataSet_267,human,NAT10,MCF7,MAP3K4,Invasive breast carcinoma of no special type,5,20,20,Invasive breast carcinoma of no special type,human,APA
+176603,DataSet_267,human,NAT10,MCF7,WDR81,Invasive breast carcinoma of no special type,5,25,25,Invasive breast carcinoma of no special type,human,APA
+176551,DataSet_267,human,NAT10,MCF7,TRAF3IP2,Invasive breast carcinoma of no special type,5,40,40,Invasive breast carcinoma of no special type,human,APA
+176401,DataSet_267,human,NAT10,MCF7,RHBDD1,Invasive breast carcinoma of no special type,5,10,10,Invasive breast carcinoma of no special type,human,APA
+176376,DataSet_267,human,NAT10,MCF7,PXN,Invasive breast carcinoma of no special type,5,8,1,Invasive breast carcinoma of no special type,human,APA
+176284,DataSet_267,human,NAT10,MCF7,NME3,Invasive breast carcinoma of no special type,5,15,15,Invasive breast carcinoma of no special type,human,APA
+176539,DataSet_267,human,NAT10,MCF7,TMEM186,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+176317,DataSet_267,human,NAT10,MCF7,PDAP1,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+176499,DataSet_267,human,NAT10,MCF7,STAT3,Invasive breast carcinoma of no special type,5,105,105,Invasive breast carcinoma of no special type,human,APA
+176454,DataSet_267,human,NAT10,MCF7,SLC25A26,Invasive breast carcinoma of no special type,5,40,40,Invasive breast carcinoma of no special type,human,APA
+176443,DataSet_267,human,NAT10,MCF7,SEPTIN9,Invasive breast carcinoma of no special type,5,43,0,Invasive breast carcinoma of no special type,human,APA
+176099,DataSet_267,human,NAT10,MCF7,FERMT2,Invasive breast carcinoma of no special type,5,30,30,Invasive breast carcinoma of no special type,human,APA
+175819,DataSet_267,human,NAT10,MCF7,ABAT,Invasive breast carcinoma of no special type,5,25,25,Invasive breast carcinoma of no special type,human,APA
+176204,DataSet_267,human,NAT10,MCF7,LRIG1,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+175869,DataSet_267,human,NAT10,MCF7,B3GALNT1,Invasive breast carcinoma of no special type,5,175,195,Invasive breast carcinoma of no special type,human,APA
+176087,DataSet_267,human,NAT10,MCF7,FAM151B-DT,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+175924,DataSet_267,human,NAT10,MCF7,CDCA3,Invasive breast carcinoma of no special type,5,20,20,Invasive breast carcinoma of no special type,human,APA
+175827,DataSet_267,human,NAT10,MCF7,ADK,Invasive breast carcinoma of no special type,5,40,40,Invasive breast carcinoma of no special type,human,APA
+176057,DataSet_267,human,NAT10,MCF7,ENSG00000281039,Invasive breast carcinoma of no special type,5,5,5,Invasive breast carcinoma of no special type,human,APA
+176044,DataSet_267,human,NAT10,MCF7,ENSG00000262791,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+175900,DataSet_267,human,NAT10,MCF7,CAMKK2,Invasive breast carcinoma of no special type,5,48,46,Invasive breast carcinoma of no special type,human,APA
+176459,DataSet_267,human,NAT10,MCF7,SLC35A3,Invasive breast carcinoma of no special type,4,32,32,Invasive breast carcinoma of no special type,human,APA
+175890,DataSet_267,human,NAT10,MCF7,C17orf80,Invasive breast carcinoma of no special type,4,26,10,Invasive breast carcinoma of no special type,human,APA
+176471,DataSet_267,human,NAT10,MCF7,SMG8,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+176106,DataSet_267,human,NAT10,MCF7,FRMD6,Invasive breast carcinoma of no special type,4,16,16,Invasive breast carcinoma of no special type,human,APA
+175904,DataSet_267,human,NAT10,MCF7,CAST,Invasive breast carcinoma of no special type,4,0,0,Invasive breast carcinoma of no special type,human,APA
+175905,DataSet_267,human,NAT10,MCF7,CBFB,Invasive breast carcinoma of no special type,4,16,16,Invasive breast carcinoma of no special type,human,APA
+176510,DataSet_267,human,NAT10,MCF7,TAF11,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+176418,DataSet_267,human,NAT10,MCF7,RTEL1-TNFRSF6B,Invasive breast carcinoma of no special type,4,0,0,Invasive breast carcinoma of no special type,human,APA
+176417,DataSet_267,human,NAT10,MCF7,RTEL1,Invasive breast carcinoma of no special type,4,16,16,Invasive breast carcinoma of no special type,human,APA
+176421,DataSet_267,human,NAT10,MCF7,RWDD3,Invasive breast carcinoma of no special type,4,4,4,Invasive breast carcinoma of no special type,human,APA
+176526,DataSet_267,human,NAT10,MCF7,TIMM17B,Invasive breast carcinoma of no special type,4,16,16,Invasive breast carcinoma of no special type,human,APA
+176517,DataSet_267,human,NAT10,MCF7,TDRKH,Invasive breast carcinoma of no special type,4,24,24,Invasive breast carcinoma of no special type,human,APA
+176108,DataSet_267,human,NAT10,MCF7,FUOM,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+176527,DataSet_267,human,NAT10,MCF7,TLCD4-RWDD3,Invasive breast carcinoma of no special type,4,4,4,Invasive breast carcinoma of no special type,human,APA
+176534,DataSet_267,human,NAT10,MCF7,TMEM134,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+175861,DataSet_267,human,NAT10,MCF7,ATG4D,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+175858,DataSet_267,human,NAT10,MCF7,ASCC2,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+176559,DataSet_267,human,NAT10,MCF7,TSEN54,Invasive breast carcinoma of no special type,4,19,14,Invasive breast carcinoma of no special type,human,APA
+176600,DataSet_267,human,NAT10,MCF7,VPS8,Invasive breast carcinoma of no special type,4,16,16,Invasive breast carcinoma of no special type,human,APA
+175830,DataSet_267,human,NAT10,MCF7,AIP,Invasive breast carcinoma of no special type,4,36,28,Invasive breast carcinoma of no special type,human,APA
+176633,DataSet_267,human,NAT10,MCF7,ZNF576,Invasive breast carcinoma of no special type,4,24,24,Invasive breast carcinoma of no special type,human,APA
+175943,DataSet_267,human,NAT10,MCF7,CLDND1,Invasive breast carcinoma of no special type,4,67,38,Invasive breast carcinoma of no special type,human,APA
+176391,DataSet_267,human,NAT10,MCF7,RBM42,Invasive breast carcinoma of no special type,4,24,24,Invasive breast carcinoma of no special type,human,APA
+176377,DataSet_267,human,NAT10,MCF7,PXN-AS1,Invasive breast carcinoma of no special type,4,0,0,Invasive breast carcinoma of no special type,human,APA
+176024,DataSet_267,human,NAT10,MCF7,ENSG00000248710,Invasive breast carcinoma of no special type,4,4,4,Invasive breast carcinoma of no special type,human,APA
+176136,DataSet_267,human,NAT10,MCF7,HACE1,Invasive breast carcinoma of no special type,4,16,16,Invasive breast carcinoma of no special type,human,APA
+176077,DataSet_267,human,NAT10,MCF7,EVL,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+176160,DataSet_267,human,NAT10,MCF7,IFT80,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+176189,DataSet_267,human,NAT10,MCF7,KRI1,Invasive breast carcinoma of no special type,4,0,0,Invasive breast carcinoma of no special type,human,APA
+176045,DataSet_267,human,NAT10,MCF7,ENSG00000265303,Invasive breast carcinoma of no special type,4,4,4,Invasive breast carcinoma of no special type,human,APA
+176221,DataSet_267,human,NAT10,MCF7,MAP7,Invasive breast carcinoma of no special type,4,36,36,Invasive breast carcinoma of no special type,human,APA
+176241,DataSet_267,human,NAT10,MCF7,MFSD8,Invasive breast carcinoma of no special type,4,96,96,Invasive breast carcinoma of no special type,human,APA
+175961,DataSet_267,human,NAT10,MCF7,CSPP1,Invasive breast carcinoma of no special type,4,92,92,Invasive breast carcinoma of no special type,human,APA
+176266,DataSet_267,human,NAT10,MCF7,MXI1,Invasive breast carcinoma of no special type,4,96,96,Invasive breast carcinoma of no special type,human,APA
+176634,DataSet_267,human,NAT10,MCF7,ZNF638,Invasive breast carcinoma of no special type,4,17,9,Invasive breast carcinoma of no special type,human,APA
+175983,DataSet_267,human,NAT10,MCF7,DEGS2,Invasive breast carcinoma of no special type,4,0,0,Invasive breast carcinoma of no special type,human,APA
+175969,DataSet_267,human,NAT10,MCF7,CWC27,Invasive breast carcinoma of no special type,4,20,20,Invasive breast carcinoma of no special type,human,APA
+176283,DataSet_267,human,NAT10,MCF7,NIPA2,Invasive breast carcinoma of no special type,4,36,36,Invasive breast carcinoma of no special type,human,APA
+176015,DataSet_267,human,NAT10,MCF7,ENOSF1,Invasive breast carcinoma of no special type,4,16,16,Invasive breast carcinoma of no special type,human,APA
+176297,DataSet_267,human,NAT10,MCF7,OCRL,Invasive breast carcinoma of no special type,4,8,8,Invasive breast carcinoma of no special type,human,APA
+176009,DataSet_267,human,NAT10,MCF7,EIF4G3,Invasive breast carcinoma of no special type,4,40,40,Invasive breast carcinoma of no special type,human,APA
+175971,DataSet_267,human,NAT10,MCF7,CYFIP1,Invasive breast carcinoma of no special type,4,0,0,Invasive breast carcinoma of no special type,human,APA
+175826,DataSet_267,human,NAT10,MCF7,ACVR1,Invasive breast carcinoma of no special type,3,48,48,Invasive breast carcinoma of no special type,human,APA
+175825,DataSet_267,human,NAT10,MCF7,ACSL5,Invasive breast carcinoma of no special type,3,15,15,Invasive breast carcinoma of no special type,human,APA
+175838,DataSet_267,human,NAT10,MCF7,ANKFY1,Invasive breast carcinoma of no special type,3,12,12,Invasive breast carcinoma of no special type,human,APA
+176062,DataSet_267,human,NAT10,MCF7,ENSG00000284989,Invasive breast carcinoma of no special type,27,0,0,Invasive breast carcinoma of no special type,human,APA
+176497,DataSet_267,human,NAT10,MCF7,ST3GAL3,Invasive breast carcinoma of no special type,27,918,891,Invasive breast carcinoma of no special type,human,APA
+176548,DataSet_267,human,NAT10,MCF7,TPP1,Invasive breast carcinoma of no special type,18,162,162,Invasive breast carcinoma of no special type,human,APA
+176002,DataSet_267,human,NAT10,MCF7,DYNC1H1,Invasive breast carcinoma of no special type,14,42,43,Invasive breast carcinoma of no special type,human,APA
+176036,DataSet_267,human,NAT10,MCF7,ENSG00000258959,Invasive breast carcinoma of no special type,14,0,0,Invasive breast carcinoma of no special type,human,APA
+176267,DataSet_267,human,NAT10,MCF7,MYLK,Invasive breast carcinoma of no special type,12,228,228,Invasive breast carcinoma of no special type,human,APA
+176262,DataSet_267,human,NAT10,MCF7,MTM1,Invasive breast carcinoma of no special type,10,120,120,Invasive breast carcinoma of no special type,human,APA
+311046,DataSet_424,human,RBM39,MCF7,ENSG00000271793,Invasive breast carcinoma of no special type,9,72,32,Invasive breast carcinoma of no special type,human,APA
+312134,DataSet_424,human,RBM39,MCF7,SPG7,Invasive breast carcinoma of no special type,9,156,15,Invasive breast carcinoma of no special type,human,APA
+310498,DataSet_424,human,RBM39,MCF7,ACER3,Invasive breast carcinoma of no special type,9,45,45,Invasive breast carcinoma of no special type,human,APA
+312188,DataSet_424,human,RBM39,MCF7,SYNCRIP,Invasive breast carcinoma of no special type,9,134,79,Invasive breast carcinoma of no special type,human,APA
+310564,DataSet_424,human,RBM39,MCF7,ANKZF1,Invasive breast carcinoma of no special type,9,32,0,Invasive breast carcinoma of no special type,human,APA
+310492,DataSet_424,human,RBM39,MCF7,ACADM,Invasive breast carcinoma of no special type,8,56,35,Invasive breast carcinoma of no special type,human,APA
+311477,DataSet_424,human,RBM39,MCF7,MATR3,Invasive breast carcinoma of no special type,8,105,0,Invasive breast carcinoma of no special type,human,APA
+310511,DataSet_424,human,RBM39,MCF7,ADGRV1,Invasive breast carcinoma of no special type,8,32,32,Invasive breast carcinoma of no special type,human,APA
+311855,DataSet_424,human,RBM39,MCF7,PRMT7,Invasive breast carcinoma of no special type,8,121,74,Invasive breast carcinoma of no special type,human,APA
+312068,DataSet_424,human,RBM39,MCF7,SLC22A5,Invasive breast carcinoma of no special type,8,48,48,Invasive breast carcinoma of no special type,human,APA
+312169,DataSet_424,human,RBM39,MCF7,STAU2,Invasive breast carcinoma of no special type,8,104,42,Invasive breast carcinoma of no special type,human,APA
+310635,DataSet_424,human,RBM39,MCF7,ATR,Invasive breast carcinoma of no special type,7,14,14,Invasive breast carcinoma of no special type,human,APA
+310630,DataSet_424,human,RBM39,MCF7,ATP7A,Invasive breast carcinoma of no special type,7,85,64,Invasive breast carcinoma of no special type,human,APA
+310847,DataSet_424,human,RBM39,MCF7,CWC27,Invasive breast carcinoma of no special type,7,35,35,Invasive breast carcinoma of no special type,human,APA
+310594,DataSet_424,human,RBM39,MCF7,ARMC8,Invasive breast carcinoma of no special type,7,84,35,Invasive breast carcinoma of no special type,human,APA
+311722,DataSet_424,human,RBM39,MCF7,PCBP1-AS1,Invasive breast carcinoma of no special type,7,0,0,Invasive breast carcinoma of no special type,human,APA
+310538,DataSet_424,human,RBM39,MCF7,ALDH7A1,Invasive breast carcinoma of no special type,7,49,49,Invasive breast carcinoma of no special type,human,APA
+310917,DataSet_424,human,RBM39,MCF7,DTNA,Invasive breast carcinoma of no special type,7,7,7,Invasive breast carcinoma of no special type,human,APA
+311913,DataSet_424,human,RBM39,MCF7,RABL2A,Invasive breast carcinoma of no special type,7,51,36,Invasive breast carcinoma of no special type,human,APA
+311327,DataSet_424,human,RBM39,MCF7,IGFLR1,Invasive breast carcinoma of no special type,6,24,24,Invasive breast carcinoma of no special type,human,APA
+311006,DataSet_424,human,RBM39,MCF7,ENSG00000258728,Invasive breast carcinoma of no special type,6,4,0,Invasive breast carcinoma of no special type,human,APA
+310903,DataSet_424,human,RBM39,MCF7,DNM1L,Invasive breast carcinoma of no special type,6,45,40,Invasive breast carcinoma of no special type,human,APA
+310783,DataSet_424,human,RBM39,MCF7,CLIP4,Invasive breast carcinoma of no special type,6,90,18,Invasive breast carcinoma of no special type,human,APA
+311321,DataSet_424,human,RBM39,MCF7,IFITM1,Invasive breast carcinoma of no special type,6,58,58,Invasive breast carcinoma of no special type,human,APA
+310825,DataSet_424,human,RBM39,MCF7,CREB3L4,Invasive breast carcinoma of no special type,6,29,17,Invasive breast carcinoma of no special type,human,APA
+311211,DataSet_424,human,RBM39,MCF7,GALT,Invasive breast carcinoma of no special type,6,18,7,Invasive breast carcinoma of no special type,human,APA
+311970,DataSet_424,human,RBM39,MCF7,RNASEH2B,Invasive breast carcinoma of no special type,6,66,66,Invasive breast carcinoma of no special type,human,APA
+311110,DataSet_424,human,RBM39,MCF7,ENSG00000288681,Invasive breast carcinoma of no special type,6,6,6,Invasive breast carcinoma of no special type,human,APA
+312105,DataSet_424,human,RBM39,MCF7,SMPD3,Invasive breast carcinoma of no special type,6,0,0,Invasive breast carcinoma of no special type,human,APA
+312182,DataSet_424,human,RBM39,MCF7,SUGP2,Invasive breast carcinoma of no special type,6,10,10,Invasive breast carcinoma of no special type,human,APA
+311113,DataSet_424,human,RBM39,MCF7,ENSG00000288725,Invasive breast carcinoma of no special type,6,5,0,Invasive breast carcinoma of no special type,human,APA
+311123,DataSet_424,human,RBM39,MCF7,ERAP1,Invasive breast carcinoma of no special type,6,0,0,Invasive breast carcinoma of no special type,human,APA
+312390,DataSet_424,human,RBM39,MCF7,WASHC3,Invasive breast carcinoma of no special type,6,18,18,Invasive breast carcinoma of no special type,human,APA
+312424,DataSet_424,human,RBM39,MCF7,ZFAND2B,Invasive breast carcinoma of no special type,6,48,19,Invasive breast carcinoma of no special type,human,APA
+311416,DataSet_424,human,RBM39,MCF7,LINC00467,Invasive breast carcinoma of no special type,6,0,0,Invasive breast carcinoma of no special type,human,APA
+311316,DataSet_424,human,RBM39,MCF7,HTT,Invasive breast carcinoma of no special type,5,17,12,Invasive breast carcinoma of no special type,human,APA
+311318,DataSet_424,human,RBM39,MCF7,ICA1,Invasive breast carcinoma of no special type,5,28,28,Invasive breast carcinoma of no special type,human,APA
+311235,DataSet_424,human,RBM39,MCF7,GLT8D1,Invasive breast carcinoma of no special type,5,22,16,Invasive breast carcinoma of no special type,human,APA
+311328,DataSet_424,human,RBM39,MCF7,IKBKB,Invasive breast carcinoma of no special type,5,15,15,Invasive breast carcinoma of no special type,human,APA
+311344,DataSet_424,human,RBM39,MCF7,INTS10,Invasive breast carcinoma of no special type,5,15,13,Invasive breast carcinoma of no special type,human,APA
+310468,DataSet_424,human,RBM39,MCF7,A1BG-AS1,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+311353,DataSet_424,human,RBM39,MCF7,IRF7,Invasive breast carcinoma of no special type,5,25,25,Invasive breast carcinoma of no special type,human,APA
+311458,DataSet_424,human,RBM39,MCF7,MAN2C1,Invasive breast carcinoma of no special type,5,23,2,Invasive breast carcinoma of no special type,human,APA
+311539,DataSet_424,human,RBM39,MCF7,MLX,Invasive breast carcinoma of no special type,5,17,9,Invasive breast carcinoma of no special type,human,APA
+311615,DataSet_424,human,RBM39,MCF7,NEDD4L,Invasive breast carcinoma of no special type,5,120,120,Invasive breast carcinoma of no special type,human,APA
+311634,DataSet_424,human,RBM39,MCF7,NME6,Invasive breast carcinoma of no special type,5,70,65,Invasive breast carcinoma of no special type,human,APA
+311831,DataSet_424,human,RBM39,MCF7,POMGNT1,Invasive breast carcinoma of no special type,5,55,23,Invasive breast carcinoma of no special type,human,APA
+311214,DataSet_424,human,RBM39,MCF7,GARS1-DT,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+311909,DataSet_424,human,RBM39,MCF7,RAB3IP,Invasive breast carcinoma of no special type,5,25,25,Invasive breast carcinoma of no special type,human,APA
+311938,DataSet_424,human,RBM39,MCF7,RCOR3,Invasive breast carcinoma of no special type,5,24,11,Invasive breast carcinoma of no special type,human,APA
+311941,DataSet_424,human,RBM39,MCF7,RECQL5,Invasive breast carcinoma of no special type,5,16,10,Invasive breast carcinoma of no special type,human,APA
+311988,DataSet_424,human,RBM39,MCF7,RPGR,Invasive breast carcinoma of no special type,5,20,20,Invasive breast carcinoma of no special type,human,APA
+311996,DataSet_424,human,RBM39,MCF7,RPUSD3,Invasive breast carcinoma of no special type,5,36,11,Invasive breast carcinoma of no special type,human,APA
+312205,DataSet_424,human,RBM39,MCF7,TBP,Invasive breast carcinoma of no special type,5,20,20,Invasive breast carcinoma of no special type,human,APA
+312208,DataSet_424,human,RBM39,MCF7,TCF3,Invasive breast carcinoma of no special type,5,48,48,Invasive breast carcinoma of no special type,human,APA
+312326,DataSet_424,human,RBM39,MCF7,TSC1,Invasive breast carcinoma of no special type,5,55,55,Invasive breast carcinoma of no special type,human,APA
+311887,DataSet_424,human,RBM39,MCF7,PTP4A2,Invasive breast carcinoma of no special type,5,25,25,Invasive breast carcinoma of no special type,human,APA
+312458,DataSet_424,human,RBM39,MCF7,ZNF576,Invasive breast carcinoma of no special type,5,30,30,Invasive breast carcinoma of no special type,human,APA
+311176,DataSet_424,human,RBM39,MCF7,FERMT2,Invasive breast carcinoma of no special type,5,30,30,Invasive breast carcinoma of no special type,human,APA
+310936,DataSet_424,human,RBM39,MCF7,EFHC1,Invasive breast carcinoma of no special type,5,39,29,Invasive breast carcinoma of no special type,human,APA
+310778,DataSet_424,human,RBM39,MCF7,CKMT2-AS1,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+310650,DataSet_424,human,RBM39,MCF7,BBS2,Invasive breast carcinoma of no special type,5,111,15,Invasive breast carcinoma of no special type,human,APA
+310604,DataSet_424,human,RBM39,MCF7,ASAH1,Invasive breast carcinoma of no special type,5,140,25,Invasive breast carcinoma of no special type,human,APA
+310900,DataSet_424,human,RBM39,MCF7,DNAJC19,Invasive breast carcinoma of no special type,5,20,20,Invasive breast carcinoma of no special type,human,APA
+310504,DataSet_424,human,RBM39,MCF7,ACSF2,Invasive breast carcinoma of no special type,5,21,16,Invasive breast carcinoma of no special type,human,APA
+310949,DataSet_424,human,RBM39,MCF7,ELP3,Invasive breast carcinoma of no special type,5,25,25,Invasive breast carcinoma of no special type,human,APA
+310984,DataSet_424,human,RBM39,MCF7,ENSG00000248101,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+310541,DataSet_424,human,RBM39,MCF7,ALKBH6,Invasive breast carcinoma of no special type,5,35,13,Invasive breast carcinoma of no special type,human,APA
+310514,DataSet_424,human,RBM39,MCF7,ADIRF-AS1,Invasive breast carcinoma of no special type,4,0,0,Invasive breast carcinoma of no special type,human,APA
+310751,DataSet_424,human,RBM39,MCF7,CEMIP2,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+310579,DataSet_424,human,RBM39,MCF7,ARHGAP11A,Invasive breast carcinoma of no special type,4,15,0,Invasive breast carcinoma of no special type,human,APA
+310599,DataSet_424,human,RBM39,MCF7,ARPC4-TTLL3,Invasive breast carcinoma of no special type,4,2,0,Invasive breast carcinoma of no special type,human,APA
+310632,DataSet_424,human,RBM39,MCF7,ATP9B,Invasive breast carcinoma of no special type,4,8,8,Invasive breast carcinoma of no special type,human,APA
+310547,DataSet_424,human,RBM39,MCF7,AMD1,Invasive breast carcinoma of no special type,4,24,24,Invasive breast carcinoma of no special type,human,APA
+310652,DataSet_424,human,RBM39,MCF7,BBS9,Invasive breast carcinoma of no special type,4,32,32,Invasive breast carcinoma of no special type,human,APA
+310654,DataSet_424,human,RBM39,MCF7,BCAP29,Invasive breast carcinoma of no special type,4,17,17,Invasive breast carcinoma of no special type,human,APA
+310571,DataSet_424,human,RBM39,MCF7,APLP2,Invasive breast carcinoma of no special type,4,24,24,Invasive breast carcinoma of no special type,human,APA
+310533,DataSet_424,human,RBM39,MCF7,AKIP1,Invasive breast carcinoma of no special type,4,28,24,Invasive breast carcinoma of no special type,human,APA
+310527,DataSet_424,human,RBM39,MCF7,AIP,Invasive breast carcinoma of no special type,4,36,28,Invasive breast carcinoma of no special type,human,APA
+310805,DataSet_424,human,RBM39,MCF7,COP1,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+310476,DataSet_424,human,RBM39,MCF7,ABCD4,Invasive breast carcinoma of no special type,4,19,11,Invasive breast carcinoma of no special type,human,APA
+310857,DataSet_424,human,RBM39,MCF7,CYTH1,Invasive breast carcinoma of no special type,4,19,19,Invasive breast carcinoma of no special type,human,APA
+310497,DataSet_424,human,RBM39,MCF7,ACCS,Invasive breast carcinoma of no special type,4,4,2,Invasive breast carcinoma of no special type,human,APA
+310836,DataSet_424,human,RBM39,MCF7,CSNK1G1,Invasive breast carcinoma of no special type,4,14,14,Invasive breast carcinoma of no special type,human,APA
+310828,DataSet_424,human,RBM39,MCF7,CREM,Invasive breast carcinoma of no special type,4,113,89,Invasive breast carcinoma of no special type,human,APA
+310801,DataSet_424,human,RBM39,MCF7,COMMD3-BMI1,Invasive breast carcinoma of no special type,4,11,2,Invasive breast carcinoma of no special type,human,APA
+310781,DataSet_424,human,RBM39,MCF7,CLDND1,Invasive breast carcinoma of no special type,4,75,31,Invasive breast carcinoma of no special type,human,APA
+310842,DataSet_424,human,RBM39,MCF7,CTNNB1,Invasive breast carcinoma of no special type,21,680,663,Invasive breast carcinoma of no special type,human,APA
+310573,DataSet_424,human,RBM39,MCF7,APTX,Invasive breast carcinoma of no special type,20,260,260,Invasive breast carcinoma of no special type,human,APA
+310638,DataSet_424,human,RBM39,MCF7,B3GALNT1,Invasive breast carcinoma of no special type,18,828,702,Invasive breast carcinoma of no special type,human,APA
+311236,DataSet_424,human,RBM39,MCF7,GLUD1,Invasive breast carcinoma of no special type,13,117,117,Invasive breast carcinoma of no special type,human,APA
+311489,DataSet_424,human,RBM39,MCF7,MED12,Invasive breast carcinoma of no special type,13,132,120,Invasive breast carcinoma of no special type,human,APA
+311931,DataSet_424,human,RBM39,MCF7,RBPJ,Invasive breast carcinoma of no special type,12,240,156,Invasive breast carcinoma of no special type,human,APA
+311280,DataSet_424,human,RBM39,MCF7,HDAC8,Invasive breast carcinoma of no special type,12,132,132,Invasive breast carcinoma of no special type,human,APA
+310769,DataSet_424,human,RBM39,MCF7,CHN1,Invasive breast carcinoma of no special type,12,144,120,Invasive breast carcinoma of no special type,human,APA
+310710,DataSet_424,human,RBM39,MCF7,CAST,Invasive breast carcinoma of no special type,11,0,0,Invasive breast carcinoma of no special type,human,APA
+310568,DataSet_424,human,RBM39,MCF7,AP3B2,Invasive breast carcinoma of no special type,11,99,99,Invasive breast carcinoma of no special type,human,APA
+310742,DataSet_424,human,RBM39,MCF7,CDIN1,Invasive breast carcinoma of no special type,10,72,72,Invasive breast carcinoma of no special type,human,APA
+311358,DataSet_424,human,RBM39,MCF7,ITGB1BP1,Invasive breast carcinoma of no special type,10,44,40,Invasive breast carcinoma of no special type,human,APA
+311034,DataSet_424,human,RBM39,MCF7,ENSG00000267120,Invasive breast carcinoma of no special type,10,0,0,Invasive breast carcinoma of no special type,human,APA
+300012,DataSet_415,human,RPL7,BT-549,ABHD14A-ACY1,Invasive breast carcinoma of no special type,9,18,9,Invasive breast carcinoma of no special type,human,APA
+300022,DataSet_415,human,RPL7,BT-549,ACY1,Invasive breast carcinoma of no special type,9,54,54,Invasive breast carcinoma of no special type,human,APA
+301284,DataSet_415,human,RPL7,BT-549,WBP1,Invasive breast carcinoma of no special type,9,36,21,Invasive breast carcinoma of no special type,human,APA
+300576,DataSet_415,human,RPL7,BT-549,HSD17B4,Invasive breast carcinoma of no special type,9,72,72,Invasive breast carcinoma of no special type,human,APA
+300592,DataSet_415,human,RPL7,BT-549,INO80B-WBP1,Invasive breast carcinoma of no special type,9,0,0,Invasive breast carcinoma of no special type,human,APA
+300923,DataSet_415,human,RPL7,BT-549,PPARG,Invasive breast carcinoma of no special type,9,153,153,Invasive breast carcinoma of no special type,human,APA
+300085,DataSet_415,human,RPL7,BT-549,ARMC9,Invasive breast carcinoma of no special type,9,144,135,Invasive breast carcinoma of no special type,human,APA
+300028,DataSet_415,human,RPL7,BT-549,ADGRL2,Invasive breast carcinoma of no special type,8,160,160,Invasive breast carcinoma of no special type,human,APA
+300598,DataSet_415,human,RPL7,BT-549,INTS11,Invasive breast carcinoma of no special type,8,67,56,Invasive breast carcinoma of no special type,human,APA
+300074,DataSet_415,human,RPL7,BT-549,ARHGEF9,Invasive breast carcinoma of no special type,8,176,160,Invasive breast carcinoma of no special type,human,APA
+300191,DataSet_415,human,RPL7,BT-549,CCDC82,Invasive breast carcinoma of no special type,7,161,161,Invasive breast carcinoma of no special type,human,APA
+300886,DataSet_415,human,RPL7,BT-549,PIGA,Invasive breast carcinoma of no special type,7,49,35,Invasive breast carcinoma of no special type,human,APA
+300928,DataSet_415,human,RPL7,BT-549,PPP1CA,Invasive breast carcinoma of no special type,7,35,35,Invasive breast carcinoma of no special type,human,APA
+300952,DataSet_415,human,RPL7,BT-549,PTK2,Invasive breast carcinoma of no special type,7,91,84,Invasive breast carcinoma of no special type,human,APA
+300379,DataSet_415,human,RPL7,BT-549,ENSG00000258034,Invasive breast carcinoma of no special type,6,0,0,Invasive breast carcinoma of no special type,human,APA
+300779,DataSet_415,human,RPL7,BT-549,MYEF2,Invasive breast carcinoma of no special type,6,36,30,Invasive breast carcinoma of no special type,human,APA
+300696,DataSet_415,human,RPL7,BT-549,MED13L,Invasive breast carcinoma of no special type,6,18,18,Invasive breast carcinoma of no special type,human,APA
+300674,DataSet_415,human,RPL7,BT-549,MAP2K1,Invasive breast carcinoma of no special type,6,6,6,Invasive breast carcinoma of no special type,human,APA
+300907,DataSet_415,human,RPL7,BT-549,PLSCR3,Invasive breast carcinoma of no special type,6,36,36,Invasive breast carcinoma of no special type,human,APA
+301117,DataSet_415,human,RPL7,BT-549,SPG7,Invasive breast carcinoma of no special type,6,78,78,Invasive breast carcinoma of no special type,human,APA
+300584,DataSet_415,human,RPL7,BT-549,IFITM1,Invasive breast carcinoma of no special type,6,58,58,Invasive breast carcinoma of no special type,human,APA
+301206,DataSet_415,human,RPL7,BT-549,TMEM256-PLSCR3,Invasive breast carcinoma of no special type,6,0,0,Invasive breast carcinoma of no special type,human,APA
+300443,DataSet_415,human,RPL7,BT-549,ERAP1,Invasive breast carcinoma of no special type,6,0,0,Invasive breast carcinoma of no special type,human,APA
+300435,DataSet_415,human,RPL7,BT-549,ENSG00000288681,Invasive breast carcinoma of no special type,6,6,6,Invasive breast carcinoma of no special type,human,APA
+300388,DataSet_415,human,RPL7,BT-549,ENSG00000260570,Invasive breast carcinoma of no special type,6,0,0,Invasive breast carcinoma of no special type,human,APA
+300642,DataSet_415,human,RPL7,BT-549,LGMN,Invasive breast carcinoma of no special type,6,26,26,Invasive breast carcinoma of no special type,human,APA
+300110,DataSet_415,human,RPL7,BT-549,ATXN2L,Invasive breast carcinoma of no special type,6,36,36,Invasive breast carcinoma of no special type,human,APA
+300069,DataSet_415,human,RPL7,BT-549,AREL1,Invasive breast carcinoma of no special type,6,25,20,Invasive breast carcinoma of no special type,human,APA
+300314,DataSet_415,human,RPL7,BT-549,DMTF1,Invasive breast carcinoma of no special type,6,31,31,Invasive breast carcinoma of no special type,human,APA
+301024,DataSet_415,human,RPL7,BT-549,RPUSD3,Invasive breast carcinoma of no special type,5,26,16,Invasive breast carcinoma of no special type,human,APA
+300732,DataSet_415,human,RPL7,BT-549,MKRN1,Invasive breast carcinoma of no special type,5,24,12,Invasive breast carcinoma of no special type,human,APA
+300778,DataSet_415,human,RPL7,BT-549,MYADM,Invasive breast carcinoma of no special type,5,50,20,Invasive breast carcinoma of no special type,human,APA
+300325,DataSet_415,human,RPL7,BT-549,DST,Invasive breast carcinoma of no special type,5,55,33,Invasive breast carcinoma of no special type,human,APA
+300847,DataSet_415,human,RPL7,BT-549,OXR1,Invasive breast carcinoma of no special type,5,40,40,Invasive breast carcinoma of no special type,human,APA
+300054,DataSet_415,human,RPL7,BT-549,ANKHD1,Invasive breast carcinoma of no special type,5,28,24,Invasive breast carcinoma of no special type,human,APA
+301049,DataSet_415,human,RPL7,BT-549,SERAC1,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+300648,DataSet_415,human,RPL7,BT-549,LMBRD1,Invasive breast carcinoma of no special type,5,65,65,Invasive breast carcinoma of no special type,human,APA
+301161,DataSet_415,human,RPL7,BT-549,SZT2,Invasive breast carcinoma of no special type,5,10,10,Invasive breast carcinoma of no special type,human,APA
+301164,DataSet_415,human,RPL7,BT-549,TACC2,Invasive breast carcinoma of no special type,5,75,75,Invasive breast carcinoma of no special type,human,APA
+301204,DataSet_415,human,RPL7,BT-549,TMEM243,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+301247,DataSet_415,human,RPL7,BT-549,TWF2,Invasive breast carcinoma of no special type,5,20,20,Invasive breast carcinoma of no special type,human,APA
+301287,DataSet_415,human,RPL7,BT-549,WDR20,Invasive breast carcinoma of no special type,5,35,0,Invasive breast carcinoma of no special type,human,APA
+301303,DataSet_415,human,RPL7,BT-549,YIF1B,Invasive breast carcinoma of no special type,5,35,35,Invasive breast carcinoma of no special type,human,APA
+300131,DataSet_415,human,RPL7,BT-549,BCOR,Invasive breast carcinoma of no special type,5,60,55,Invasive breast carcinoma of no special type,human,APA
+300321,DataSet_415,human,RPL7,BT-549,DPF2,Invasive breast carcinoma of no special type,5,20,20,Invasive breast carcinoma of no special type,human,APA
+301330,DataSet_415,human,RPL7,BT-549,ZNF415,Invasive breast carcinoma of no special type,5,35,25,Invasive breast carcinoma of no special type,human,APA
+300296,DataSet_415,human,RPL7,BT-549,DDX41,Invasive breast carcinoma of no special type,5,5,5,Invasive breast carcinoma of no special type,human,APA
+300475,DataSet_415,human,RPL7,BT-549,FCHSD1,Invasive breast carcinoma of no special type,5,5,5,Invasive breast carcinoma of no special type,human,APA
+300241,DataSet_415,human,RPL7,BT-549,CLN5,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+300312,DataSet_415,human,RPL7,BT-549,DLG1,Invasive breast carcinoma of no special type,5,185,185,Invasive breast carcinoma of no special type,human,APA
+300480,DataSet_415,human,RPL7,BT-549,FHL2,Invasive breast carcinoma of no special type,5,40,40,Invasive breast carcinoma of no special type,human,APA
+300415,DataSet_415,human,RPL7,BT-549,ENSG00000283761,Invasive breast carcinoma of no special type,4,8,8,Invasive breast carcinoma of no special type,human,APA
+300295,DataSet_415,human,RPL7,BT-549,DDX3X,Invasive breast carcinoma of no special type,4,84,80,Invasive breast carcinoma of no special type,human,APA
+300942,DataSet_415,human,RPL7,BT-549,PRXL2B,Invasive breast carcinoma of no special type,4,24,24,Invasive breast carcinoma of no special type,human,APA
+300988,DataSet_415,human,RPL7,BT-549,RBMX,Invasive breast carcinoma of no special type,4,2,2,Invasive breast carcinoma of no special type,human,APA
+301004,DataSet_415,human,RPL7,BT-549,RIPK1,Invasive breast carcinoma of no special type,4,8,8,Invasive breast carcinoma of no special type,human,APA
+301008,DataSet_415,human,RPL7,BT-549,RNASEH2C,Invasive breast carcinoma of no special type,4,0,0,Invasive breast carcinoma of no special type,human,APA
+301030,DataSet_415,human,RPL7,BT-549,RXYLT1,Invasive breast carcinoma of no special type,4,4,4,Invasive breast carcinoma of no special type,human,APA
+301033,DataSet_415,human,RPL7,BT-549,SAP30BP,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+301106,DataSet_415,human,RPL7,BT-549,SOD2,Invasive breast carcinoma of no special type,4,18,18,Invasive breast carcinoma of no special type,human,APA
+301080,DataSet_415,human,RPL7,BT-549,SLC4A2,Invasive breast carcinoma of no special type,4,16,16,Invasive breast carcinoma of no special type,human,APA
+300895,DataSet_415,human,RPL7,BT-549,PITPNM1,Invasive breast carcinoma of no special type,4,15,6,Invasive breast carcinoma of no special type,human,APA
+300046,DataSet_415,human,RPL7,BT-549,ALKBH6,Invasive breast carcinoma of no special type,4,28,16,Invasive breast carcinoma of no special type,human,APA
+301120,DataSet_415,human,RPL7,BT-549,SPIN2B,Invasive breast carcinoma of no special type,4,19,16,Invasive breast carcinoma of no special type,human,APA
+300378,DataSet_415,human,RPL7,BT-549,ENSG00000257524,Invasive breast carcinoma of no special type,4,12,8,Invasive breast carcinoma of no special type,human,APA
+300368,DataSet_415,human,RPL7,BT-549,ENSG00000248101,Invasive breast carcinoma of no special type,4,0,0,Invasive breast carcinoma of no special type,human,APA
+300039,DataSet_415,human,RPL7,BT-549,AIP,Invasive breast carcinoma of no special type,4,36,28,Invasive breast carcinoma of no special type,human,APA
+300367,DataSet_415,human,RPL7,BT-549,ENSG00000244151,Invasive breast carcinoma of no special type,4,0,0,Invasive breast carcinoma of no special type,human,APA
+300035,DataSet_415,human,RPL7,BT-549,AGPS,Invasive breast carcinoma of no special type,4,24,24,Invasive breast carcinoma of no special type,human,APA
+300343,DataSet_415,human,RPL7,BT-549,EIF3B,Invasive breast carcinoma of no special type,4,0,0,Invasive breast carcinoma of no special type,human,APA
+300328,DataSet_415,human,RPL7,BT-549,DXO,Invasive breast carcinoma of no special type,4,16,16,Invasive breast carcinoma of no special type,human,APA
+300103,DataSet_415,human,RPL7,BT-549,ATM,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+300597,DataSet_415,human,RPL7,BT-549,INTS10,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+300581,DataSet_415,human,RPL7,BT-549,HYI,Invasive breast carcinoma of no special type,4,0,0,Invasive breast carcinoma of no special type,human,APA
+300275,DataSet_415,human,RPL7,BT-549,CUL2,Invasive breast carcinoma of no special type,4,0,0,Invasive breast carcinoma of no special type,human,APA
+300611,DataSet_415,human,RPL7,BT-549,KAT5,Invasive breast carcinoma of no special type,4,24,0,Invasive breast carcinoma of no special type,human,APA
+300626,DataSet_415,human,RPL7,BT-549,KLHL2,Invasive breast carcinoma of no special type,4,20,20,Invasive breast carcinoma of no special type,human,APA
+300632,DataSet_415,human,RPL7,BT-549,KRT8,Invasive breast carcinoma of no special type,4,17,15,Invasive breast carcinoma of no special type,human,APA
+300650,DataSet_415,human,RPL7,BT-549,LOX,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+300126,DataSet_415,human,RPL7,BT-549,BCKDK,Invasive breast carcinoma of no special type,4,12,8,Invasive breast carcinoma of no special type,human,APA
+300699,DataSet_415,human,RPL7,BT-549,MED22,Invasive breast carcinoma of no special type,4,32,16,Invasive breast carcinoma of no special type,human,APA
+300711,DataSet_415,human,RPL7,BT-549,MFSD10,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+300714,DataSet_415,human,RPL7,BT-549,MFSD14A,Invasive breast carcinoma of no special type,4,4,4,Invasive breast carcinoma of no special type,human,APA
+300737,DataSet_415,human,RPL7,BT-549,MMEL1,Invasive breast carcinoma of no special type,4,0,0,Invasive breast carcinoma of no special type,human,APA
+300104,DataSet_415,human,RPL7,BT-549,ATP11C,Invasive breast carcinoma of no special type,4,8,8,Invasive breast carcinoma of no special type,human,APA
+300786,DataSet_415,human,RPL7,BT-549,NAGK,Invasive breast carcinoma of no special type,4,28,28,Invasive breast carcinoma of no special type,human,APA
+300792,DataSet_415,human,RPL7,BT-549,NCAPD3,Invasive breast carcinoma of no special type,4,20,20,Invasive breast carcinoma of no special type,human,APA
+300810,DataSet_415,human,RPL7,BT-549,NIF3L1,Invasive breast carcinoma of no special type,4,24,24,Invasive breast carcinoma of no special type,human,APA
+300819,DataSet_415,human,RPL7,BT-549,NOL8,Invasive breast carcinoma of no special type,4,26,15,Invasive breast carcinoma of no special type,human,APA
+300852,DataSet_415,human,RPL7,BT-549,PALLD,Invasive breast carcinoma of no special type,4,8,8,Invasive breast carcinoma of no special type,human,APA
+300865,DataSet_415,human,RPL7,BT-549,PCNX1,Invasive breast carcinoma of no special type,4,16,16,Invasive breast carcinoma of no special type,human,APA
+300430,DataSet_415,human,RPL7,BT-549,ENSG00000288550,Invasive breast carcinoma of no special type,15,0,0,Invasive breast carcinoma of no special type,human,APA
+300264,DataSet_415,human,RPL7,BT-549,CRELD1,Invasive breast carcinoma of no special type,15,195,195,Invasive breast carcinoma of no special type,human,APA
+300695,DataSet_415,human,RPL7,BT-549,MED12,Invasive breast carcinoma of no special type,12,120,120,Invasive breast carcinoma of no special type,human,APA
+300184,DataSet_415,human,RPL7,BT-549,CAST,Invasive breast carcinoma of no special type,12,0,0,Invasive breast carcinoma of no special type,human,APA
+300881,DataSet_415,human,RPL7,BT-549,PHGDH,Invasive breast carcinoma of no special type,10,60,54,Invasive breast carcinoma of no special type,human,APA
+300967,DataSet_415,human,RPL7,BT-549,RAB18,Invasive breast carcinoma of no special type,10,130,100,Invasive breast carcinoma of no special type,human,APA
+300672,DataSet_415,human,RPL7,BT-549,MAMLD1,Invasive breast carcinoma of no special type,10,34,16,Invasive breast carcinoma of no special type,human,APA
+300047,DataSet_415,human,RPL7,BT-549,ALS2,Invasive breast carcinoma of no special type,10,228,96,Invasive breast carcinoma of no special type,human,APA
+300237,DataSet_415,human,RPL7,BT-549,CLIP4,Invasive breast carcinoma of no special type,10,150,130,Invasive breast carcinoma of no special type,human,APA
+297124,DataSet_411,human,SAMHD1,T47D,HNRNPUL2-BSCL2,Invasive breast carcinoma of no special type,9,0,0,Invasive breast carcinoma of no special type,human,APA
+296757,DataSet_411,human,SAMHD1,T47D,BIVM-ERCC5,Invasive breast carcinoma of no special type,9,18,18,Invasive breast carcinoma of no special type,human,APA
+297010,DataSet_411,human,SAMHD1,T47D,ERCC5,Invasive breast carcinoma of no special type,9,18,18,Invasive breast carcinoma of no special type,human,APA
+296763,DataSet_411,human,SAMHD1,T47D,BSCL2,Invasive breast carcinoma of no special type,9,117,117,Invasive breast carcinoma of no special type,human,APA
+297486,DataSet_411,human,SAMHD1,T47D,SERPINB6,Invasive breast carcinoma of no special type,8,96,96,Invasive breast carcinoma of no special type,human,APA
+297496,DataSet_411,human,SAMHD1,T47D,SHKBP1,Invasive breast carcinoma of no special type,8,80,72,Invasive breast carcinoma of no special type,human,APA
+297290,DataSet_411,human,SAMHD1,T47D,NEDD4L,Invasive breast carcinoma of no special type,8,192,192,Invasive breast carcinoma of no special type,human,APA
+297177,DataSet_411,human,SAMHD1,T47D,KLHL24,Invasive breast carcinoma of no special type,8,88,0,Invasive breast carcinoma of no special type,human,APA
+296735,DataSet_411,human,SAMHD1,T47D,ATF7IP,Invasive breast carcinoma of no special type,8,144,0,Invasive breast carcinoma of no special type,human,APA
+296797,DataSet_411,human,SAMHD1,T47D,CCDC82,Invasive breast carcinoma of no special type,8,161,161,Invasive breast carcinoma of no special type,human,APA
+297568,DataSet_411,human,SAMHD1,T47D,TAF1C,Invasive breast carcinoma of no special type,8,48,35,Invasive breast carcinoma of no special type,human,APA
+297690,DataSet_411,human,SAMHD1,T47D,WT1,Invasive breast carcinoma of no special type,7,56,56,Invasive breast carcinoma of no special type,human,APA
+297048,DataSet_411,human,SAMHD1,T47D,FKRP,Invasive breast carcinoma of no special type,7,90,0,Invasive breast carcinoma of no special type,human,APA
+297149,DataSet_411,human,SAMHD1,T47D,ITGA7,Invasive breast carcinoma of no special type,6,48,48,Invasive breast carcinoma of no special type,human,APA
+296776,DataSet_411,human,SAMHD1,T47D,C6orf136,Invasive breast carcinoma of no special type,6,33,43,Invasive breast carcinoma of no special type,human,APA
+297718,DataSet_411,human,SAMHD1,T47D,ZNF195,Invasive breast carcinoma of no special type,6,66,0,Invasive breast carcinoma of no special type,human,APA
+297415,DataSet_411,human,SAMHD1,T47D,RABGGTA,Invasive breast carcinoma of no special type,6,24,24,Invasive breast carcinoma of no special type,human,APA
+297045,DataSet_411,human,SAMHD1,T47D,FHL2,Invasive breast carcinoma of no special type,5,40,40,Invasive breast carcinoma of no special type,human,APA
+296944,DataSet_411,human,SAMHD1,T47D,ENSG00000259007,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+296900,DataSet_411,human,SAMHD1,T47D,DTX2,Invasive breast carcinoma of no special type,5,25,25,Invasive breast carcinoma of no special type,human,APA
+297086,DataSet_411,human,SAMHD1,T47D,GNG2,Invasive breast carcinoma of no special type,5,40,40,Invasive breast carcinoma of no special type,human,APA
+296934,DataSet_411,human,SAMHD1,T47D,ENSG00000248710,Invasive breast carcinoma of no special type,5,5,2,Invasive breast carcinoma of no special type,human,APA
+296938,DataSet_411,human,SAMHD1,T47D,ENSG00000256028,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+297185,DataSet_411,human,SAMHD1,T47D,LETMD1,Invasive breast carcinoma of no special type,5,45,40,Invasive breast carcinoma of no special type,human,APA
+296954,DataSet_411,human,SAMHD1,T47D,ENSG00000261611,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+296974,DataSet_411,human,SAMHD1,T47D,ENSG00000272851,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+297279,DataSet_411,human,SAMHD1,T47D,NARF,Invasive breast carcinoma of no special type,5,25,20,Invasive breast carcinoma of no special type,human,APA
+297171,DataSet_411,human,SAMHD1,T47D,KIF1A,Invasive breast carcinoma of no special type,5,70,70,Invasive breast carcinoma of no special type,human,APA
+297306,DataSet_411,human,SAMHD1,T47D,NR2F1-AS1,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+297299,DataSet_411,human,SAMHD1,T47D,NOD1,Invasive breast carcinoma of no special type,5,10,4,Invasive breast carcinoma of no special type,human,APA
+296673,DataSet_411,human,SAMHD1,T47D,ABCB9,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+297495,DataSet_411,human,SAMHD1,T47D,SH3YL1,Invasive breast carcinoma of no special type,5,35,35,Invasive breast carcinoma of no special type,human,APA
+297720,DataSet_411,human,SAMHD1,T47D,ZNF23,Invasive breast carcinoma of no special type,5,30,25,Invasive breast carcinoma of no special type,human,APA
+297347,DataSet_411,human,SAMHD1,T47D,PDE4DIP,Invasive breast carcinoma of no special type,5,60,15,Invasive breast carcinoma of no special type,human,APA
+297348,DataSet_411,human,SAMHD1,T47D,PDLIM5,Invasive breast carcinoma of no special type,5,30,30,Invasive breast carcinoma of no special type,human,APA
+297382,DataSet_411,human,SAMHD1,T47D,PNMA2,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+297668,DataSet_411,human,SAMHD1,T47D,USP19,Invasive breast carcinoma of no special type,5,25,25,Invasive breast carcinoma of no special type,human,APA
+296802,DataSet_411,human,SAMHD1,T47D,CCNYL1,Invasive breast carcinoma of no special type,5,15,15,Invasive breast carcinoma of no special type,human,APA
+297470,DataSet_411,human,SAMHD1,T47D,S100PBP,Invasive breast carcinoma of no special type,5,16,8,Invasive breast carcinoma of no special type,human,APA
+297319,DataSet_411,human,SAMHD1,T47D,OGFOD2,Invasive breast carcinoma of no special type,5,50,8,Invasive breast carcinoma of no special type,human,APA
+297544,DataSet_411,human,SAMHD1,T47D,SPOCK3,Invasive breast carcinoma of no special type,4,48,48,Invasive breast carcinoma of no special type,human,APA
+297675,DataSet_411,human,SAMHD1,T47D,UVRAG,Invasive breast carcinoma of no special type,4,20,20,Invasive breast carcinoma of no special type,human,APA
+297176,DataSet_411,human,SAMHD1,T47D,KLHDC9,Invasive breast carcinoma of no special type,4,5,3,Invasive breast carcinoma of no special type,human,APA
+297617,DataSet_411,human,SAMHD1,T47D,TMEM254,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+297586,DataSet_411,human,SAMHD1,T47D,TCTN1,Invasive breast carcinoma of no special type,4,52,8,Invasive breast carcinoma of no special type,human,APA
+297553,DataSet_411,human,SAMHD1,T47D,STAU2,Invasive breast carcinoma of no special type,4,16,16,Invasive breast carcinoma of no special type,human,APA
+297204,DataSet_411,human,SAMHD1,T47D,LRRC49,Invasive breast carcinoma of no special type,4,24,24,Invasive breast carcinoma of no special type,human,APA
+297317,DataSet_411,human,SAMHD1,T47D,OCEL1,Invasive breast carcinoma of no special type,4,20,20,Invasive breast carcinoma of no special type,human,APA
+297218,DataSet_411,human,SAMHD1,T47D,MAPKAP1,Invasive breast carcinoma of no special type,4,28,28,Invasive breast carcinoma of no special type,human,APA
+297233,DataSet_411,human,SAMHD1,T47D,METTL8,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+297264,DataSet_411,human,SAMHD1,T47D,MTFR1L,Invasive breast carcinoma of no special type,4,0,0,Invasive breast carcinoma of no special type,human,APA
+297285,DataSet_411,human,SAMHD1,T47D,NDRG2,Invasive breast carcinoma of no special type,4,105,51,Invasive breast carcinoma of no special type,human,APA
+297465,DataSet_411,human,SAMHD1,T47D,RRAS2,Invasive breast carcinoma of no special type,4,32,28,Invasive breast carcinoma of no special type,human,APA
+297421,DataSet_411,human,SAMHD1,T47D,RARS2,Invasive breast carcinoma of no special type,4,76,76,Invasive breast carcinoma of no special type,human,APA
+297127,DataSet_411,human,SAMHD1,T47D,HOXA11-AS,Invasive breast carcinoma of no special type,4,0,0,Invasive breast carcinoma of no special type,human,APA
+297321,DataSet_411,human,SAMHD1,T47D,OLMALINC,Invasive breast carcinoma of no special type,4,0,0,Invasive breast carcinoma of no special type,human,APA
+297330,DataSet_411,human,SAMHD1,T47D,PAAF1,Invasive breast carcinoma of no special type,4,28,28,Invasive breast carcinoma of no special type,human,APA
+297731,DataSet_411,human,SAMHD1,T47D,ZNF517,Invasive breast carcinoma of no special type,4,12,9,Invasive breast carcinoma of no special type,human,APA
+296827,DataSet_411,human,SAMHD1,T47D,CNEP1R1,Invasive breast carcinoma of no special type,4,16,16,Invasive breast carcinoma of no special type,human,APA
+297011,DataSet_411,human,SAMHD1,T47D,ERLEC1,Invasive breast carcinoma of no special type,4,60,60,Invasive breast carcinoma of no special type,human,APA
+296855,DataSet_411,human,SAMHD1,T47D,CXXC5,Invasive breast carcinoma of no special type,4,44,2,Invasive breast carcinoma of no special type,human,APA
+296769,DataSet_411,human,SAMHD1,T47D,C1R,Invasive breast carcinoma of no special type,4,16,12,Invasive breast carcinoma of no special type,human,APA
+296875,DataSet_411,human,SAMHD1,T47D,DHDDS,Invasive breast carcinoma of no special type,4,20,20,Invasive breast carcinoma of no special type,human,APA
+296895,DataSet_411,human,SAMHD1,T47D,DPF1,Invasive breast carcinoma of no special type,4,36,36,Invasive breast carcinoma of no special type,human,APA
+296745,DataSet_411,human,SAMHD1,T47D,AZI2,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+296979,DataSet_411,human,SAMHD1,T47D,ENSG00000278020,Invasive breast carcinoma of no special type,4,0,0,Invasive breast carcinoma of no special type,human,APA
+296814,DataSet_411,human,SAMHD1,T47D,CERS5,Invasive breast carcinoma of no special type,4,16,16,Invasive breast carcinoma of no special type,human,APA
+296739,DataSet_411,human,SAMHD1,T47D,ATM,Invasive breast carcinoma of no special type,4,12,12,Invasive breast carcinoma of no special type,human,APA
+296715,DataSet_411,human,SAMHD1,T47D,APBB1,Invasive breast carcinoma of no special type,4,44,40,Invasive breast carcinoma of no special type,human,APA
+296694,DataSet_411,human,SAMHD1,T47D,AKAP8,Invasive breast carcinoma of no special type,4,11,6,Invasive breast carcinoma of no special type,human,APA
+297087,DataSet_411,human,SAMHD1,T47D,GOLGA3,Invasive breast carcinoma of no special type,4,28,28,Invasive breast carcinoma of no special type,human,APA
+296736,DataSet_411,human,SAMHD1,T47D,ATG16L2,Invasive breast carcinoma of no special type,3,12,12,Invasive breast carcinoma of no special type,human,APA
+296733,DataSet_411,human,SAMHD1,T47D,ASCC1,Invasive breast carcinoma of no special type,3,27,27,Invasive breast carcinoma of no special type,human,APA
+296731,DataSet_411,human,SAMHD1,T47D,ASAH1,Invasive breast carcinoma of no special type,3,34,34,Invasive breast carcinoma of no special type,human,APA
+296725,DataSet_411,human,SAMHD1,T47D,ARMC5,Invasive breast carcinoma of no special type,3,12,12,Invasive breast carcinoma of no special type,human,APA
+296748,DataSet_411,human,SAMHD1,T47D,B4GALT4,Invasive breast carcinoma of no special type,3,9,9,Invasive breast carcinoma of no special type,human,APA
+296758,DataSet_411,human,SAMHD1,T47D,BLOC1S6,Invasive breast carcinoma of no special type,3,27,24,Invasive breast carcinoma of no special type,human,APA
+296679,DataSet_411,human,SAMHD1,T47D,ACACB,Invasive breast carcinoma of no special type,3,6,6,Invasive breast carcinoma of no special type,human,APA
+296771,DataSet_411,human,SAMHD1,T47D,C1orf50,Invasive breast carcinoma of no special type,3,3,3,Invasive breast carcinoma of no special type,human,APA
+296772,DataSet_411,human,SAMHD1,T47D,C2CD5,Invasive breast carcinoma of no special type,3,21,18,Invasive breast carcinoma of no special type,human,APA
+296774,DataSet_411,human,SAMHD1,T47D,C3orf18,Invasive breast carcinoma of no special type,3,15,15,Invasive breast carcinoma of no special type,human,APA
+297049,DataSet_411,human,SAMHD1,T47D,FKTN,Invasive breast carcinoma of no special type,3,3,3,Invasive breast carcinoma of no special type,human,APA
+296818,DataSet_411,human,SAMHD1,T47D,CHST10,Invasive breast carcinoma of no special type,3,18,0,Invasive breast carcinoma of no special type,human,APA
+296919,DataSet_411,human,SAMHD1,T47D,ENO3,Invasive breast carcinoma of no special type,3,31,2,Invasive breast carcinoma of no special type,human,APA
+297085,DataSet_411,human,SAMHD1,T47D,GNB5,Invasive breast carcinoma of no special type,3,9,9,Invasive breast carcinoma of no special type,human,APA
+297064,DataSet_411,human,SAMHD1,T47D,GARS1-DT,Invasive breast carcinoma of no special type,3,0,0,Invasive breast carcinoma of no special type,human,APA
+296675,DataSet_411,human,SAMHD1,T47D,ABCF3,Invasive breast carcinoma of no special type,3,8,1,Invasive breast carcinoma of no special type,human,APA
+297047,DataSet_411,human,SAMHD1,T47D,FKBP1B,Invasive breast carcinoma of no special type,3,7,7,Invasive breast carcinoma of no special type,human,APA
+297034,DataSet_411,human,SAMHD1,T47D,FAN1,Invasive breast carcinoma of no special type,3,39,18,Invasive breast carcinoma of no special type,human,APA
+297000,DataSet_411,human,SAMHD1,T47D,ENSG00000289346,Invasive breast carcinoma of no special type,3,1,0,Invasive breast carcinoma of no special type,human,APA
+296983,DataSet_411,human,SAMHD1,T47D,ENSG00000283580,Invasive breast carcinoma of no special type,3,0,0,Invasive breast carcinoma of no special type,human,APA
+296878,DataSet_411,human,SAMHD1,T47D,DHX16,Invasive breast carcinoma of no special type,3,0,0,Invasive breast carcinoma of no special type,human,APA
+296864,DataSet_411,human,SAMHD1,T47D,DCDC2B,Invasive breast carcinoma of no special type,3,3,0,Invasive breast carcinoma of no special type,human,APA
+296859,DataSet_411,human,SAMHD1,T47D,CYP2J2,Invasive breast carcinoma of no special type,3,3,3,Invasive breast carcinoma of no special type,human,APA
+297097,DataSet_411,human,SAMHD1,T47D,GSDMB,Invasive breast carcinoma of no special type,3,18,18,Invasive breast carcinoma of no special type,human,APA
+296822,DataSet_411,human,SAMHD1,T47D,CLIP1,Invasive breast carcinoma of no special type,3,21,21,Invasive breast carcinoma of no special type,human,APA
+297201,DataSet_411,human,SAMHD1,T47D,LRP8,Invasive breast carcinoma of no special type,16,224,224,Invasive breast carcinoma of no special type,human,APA
+296871,DataSet_411,human,SAMHD1,T47D,DENND2B,Invasive breast carcinoma of no special type,13,273,0,Invasive breast carcinoma of no special type,human,APA
+297450,DataSet_411,human,SAMHD1,T47D,RNU1-125P,Invasive breast carcinoma of no special type,11,0,0,Invasive breast carcinoma of no special type,human,APA
+297140,DataSet_411,human,SAMHD1,T47D,IL32,Invasive breast carcinoma of no special type,11,316,297,Invasive breast carcinoma of no special type,human,APA
+264698,DataSet_379,human,TRIM25,BT-549,PHLDB2,Invasive breast carcinoma of no special type,9,63,63,Invasive breast carcinoma of no special type,human,APA
+264844,DataSet_379,human,TRIM25,BT-549,SBF2-AS1,Invasive breast carcinoma of no special type,9,0,0,Invasive breast carcinoma of no special type,human,APA
+264275,DataSet_379,human,TRIM25,BT-549,ENSG00000285130,Invasive breast carcinoma of no special type,9,9,9,Invasive breast carcinoma of no special type,human,APA
+268364,DataSet_382,human,TRIM25,MCF7,SCARB2,Invasive breast carcinoma of no special type,9,0,0,Invasive breast carcinoma of no special type,human,APA
+263898,DataSet_379,human,TRIM25,BT-549,ADGRL2,Invasive breast carcinoma of no special type,9,180,180,Invasive breast carcinoma of no special type,human,APA
+264986,DataSet_379,human,TRIM25,BT-549,TJP2,Invasive breast carcinoma of no special type,9,88,84,Invasive breast carcinoma of no special type,human,APA
+264124,DataSet_379,human,TRIM25,BT-549,CTNNB1,Invasive breast carcinoma of no special type,9,320,312,Invasive breast carcinoma of no special type,human,APA
+264843,DataSet_379,human,TRIM25,BT-549,SBF2,Invasive breast carcinoma of no special type,9,0,0,Invasive breast carcinoma of no special type,human,APA
+268053,DataSet_382,human,TRIM25,MCF7,MACROH2A1,Invasive breast carcinoma of no special type,8,40,40,Invasive breast carcinoma of no special type,human,APA
+266495,DataSet_381,human,TRIM25,T47D,CIZ1,Invasive breast carcinoma of no special type,8,88,72,Invasive breast carcinoma of no special type,human,APA
+264744,DataSet_379,human,TRIM25,BT-549,PRKD2,Invasive breast carcinoma of no special type,8,40,40,Invasive breast carcinoma of no special type,human,APA
+264427,DataSet_379,human,TRIM25,BT-549,INO80B-WBP1,Invasive breast carcinoma of no special type,8,0,0,Invasive breast carcinoma of no special type,human,APA
+264371,DataSet_379,human,TRIM25,BT-549,GNAI1,Invasive breast carcinoma of no special type,8,136,136,Invasive breast carcinoma of no special type,human,APA
+267197,DataSet_381,human,TRIM25,T47D,SBF2-AS1,Invasive breast carcinoma of no special type,8,0,0,Invasive breast carcinoma of no special type,human,APA
+267196,DataSet_381,human,TRIM25,T47D,SBF2,Invasive breast carcinoma of no special type,8,0,0,Invasive breast carcinoma of no special type,human,APA
+265089,DataSet_379,human,TRIM25,BT-549,WBP1,Invasive breast carcinoma of no special type,8,32,18,Invasive breast carcinoma of no special type,human,APA
+264005,DataSet_379,human,TRIM25,BT-549,BSCL2,Invasive breast carcinoma of no special type,7,92,92,Invasive breast carcinoma of no special type,human,APA
+263908,DataSet_379,human,TRIM25,BT-549,AHDC1,Invasive breast carcinoma of no special type,7,6,0,Invasive breast carcinoma of no special type,human,APA
+268223,DataSet_382,human,TRIM25,MCF7,PIGA,Invasive breast carcinoma of no special type,7,49,35,Invasive breast carcinoma of no special type,human,APA
+264286,DataSet_379,human,TRIM25,BT-549,ENSG00000288681,Invasive breast carcinoma of no special type,7,7,7,Invasive breast carcinoma of no special type,human,APA
+267789,DataSet_382,human,TRIM25,MCF7,ENSG00000258959,Invasive breast carcinoma of no special type,7,0,0,Invasive breast carcinoma of no special type,human,APA
+266541,DataSet_381,human,TRIM25,T47D,DCTN1,Invasive breast carcinoma of no special type,7,63,63,Invasive breast carcinoma of no special type,human,APA
+268061,DataSet_382,human,TRIM25,MCF7,MANEA,Invasive breast carcinoma of no special type,7,28,28,Invasive breast carcinoma of no special type,human,APA
+264410,DataSet_379,human,TRIM25,BT-549,HNRNPUL2-BSCL2,Invasive breast carcinoma of no special type,7,0,0,Invasive breast carcinoma of no special type,human,APA
+264419,DataSet_379,human,TRIM25,BT-549,IFITM1,Invasive breast carcinoma of no special type,7,66,66,Invasive breast carcinoma of no special type,human,APA
+263894,DataSet_379,human,TRIM25,BT-549,ADAM17,Invasive breast carcinoma of no special type,7,7,7,Invasive breast carcinoma of no special type,human,APA
+267959,DataSet_382,human,TRIM25,MCF7,IFITM2,Invasive breast carcinoma of no special type,7,66,63,Invasive breast carcinoma of no special type,human,APA
+264041,DataSet_379,human,TRIM25,BT-549,CCM2,Invasive breast carcinoma of no special type,7,42,42,Invasive breast carcinoma of no special type,human,APA
+268042,DataSet_382,human,TRIM25,MCF7,LRBA,Invasive breast carcinoma of no special type,7,49,49,Invasive breast carcinoma of no special type,human,APA
+264515,DataSet_379,human,TRIM25,BT-549,MAP2K1,Invasive breast carcinoma of no special type,7,7,7,Invasive breast carcinoma of no special type,human,APA
+266819,DataSet_381,human,TRIM25,T47D,INTS11,Invasive breast carcinoma of no special type,7,56,56,Invasive breast carcinoma of no special type,human,APA
+266488,DataSet_381,human,TRIM25,T47D,CHCHD7,Invasive breast carcinoma of no special type,7,35,35,Invasive breast carcinoma of no special type,human,APA
+267746,DataSet_382,human,TRIM25,MCF7,DYNC1H1,Invasive breast carcinoma of no special type,7,21,21,Invasive breast carcinoma of no special type,human,APA
+267783,DataSet_382,human,TRIM25,MCF7,ENSG00000256028,Invasive breast carcinoma of no special type,6,0,0,Invasive breast carcinoma of no special type,human,APA
+267505,DataSet_382,human,TRIM25,MCF7,ABI2,Invasive breast carcinoma of no special type,6,48,42,Invasive breast carcinoma of no special type,human,APA
+264490,DataSet_379,human,TRIM25,BT-549,LMBRD1,Invasive breast carcinoma of no special type,6,78,78,Invasive breast carcinoma of no special type,human,APA
+264378,DataSet_379,human,TRIM25,BT-549,GPR108,Invasive breast carcinoma of no special type,6,24,21,Invasive breast carcinoma of no special type,human,APA
+267517,DataSet_382,human,TRIM25,MCF7,AGAP3,Invasive breast carcinoma of no special type,6,24,24,Invasive breast carcinoma of no special type,human,APA
+267786,DataSet_382,human,TRIM25,MCF7,ENSG00000256950,Invasive breast carcinoma of no special type,6,0,0,Invasive breast carcinoma of no special type,human,APA
+266458,DataSet_381,human,TRIM25,T47D,CCPG1,Invasive breast carcinoma of no special type,6,31,22,Invasive breast carcinoma of no special type,human,APA
+267552,DataSet_382,human,TRIM25,MCF7,ARL6IP4,Invasive breast carcinoma of no special type,6,57,54,Invasive breast carcinoma of no special type,human,APA
+266449,DataSet_381,human,TRIM25,T47D,CC2D1A,Invasive breast carcinoma of no special type,6,24,24,Invasive breast carcinoma of no special type,human,APA
+264539,DataSet_379,human,TRIM25,BT-549,MGAT1,Invasive breast carcinoma of no special type,6,0,0,Invasive breast carcinoma of no special type,human,APA
+266388,DataSet_381,human,TRIM25,T47D,ASCC1,Invasive breast carcinoma of no special type,6,54,54,Invasive breast carcinoma of no special type,human,APA
+266759,DataSet_381,human,TRIM25,T47D,GOLGA3,Invasive breast carcinoma of no special type,6,66,34,Invasive breast carcinoma of no special type,human,APA
+268249,DataSet_382,human,TRIM25,MCF7,PON2,Invasive breast carcinoma of no special type,6,24,24,Invasive breast carcinoma of no special type,human,APA
+264133,DataSet_379,human,TRIM25,BT-549,CZIB,Invasive breast carcinoma of no special type,6,1,1,Invasive breast carcinoma of no special type,human,APA
+267070,DataSet_381,human,TRIM25,T47D,PHLDB1,Invasive breast carcinoma of no special type,6,26,20,Invasive breast carcinoma of no special type,human,APA
+263914,DataSet_379,human,TRIM25,BT-549,ALG5,Invasive breast carcinoma of no special type,6,48,48,Invasive breast carcinoma of no special type,human,APA
+267111,DataSet_381,human,TRIM25,T47D,PRCP,Invasive breast carcinoma of no special type,6,102,102,Invasive breast carcinoma of no special type,human,APA
+266978,DataSet_381,human,TRIM25,T47D,MYO5A,Invasive breast carcinoma of no special type,6,60,60,Invasive breast carcinoma of no special type,human,APA
+268566,DataSet_382,human,TRIM25,MCF7,TSEN15,Invasive breast carcinoma of no special type,6,24,24,Invasive breast carcinoma of no special type,human,APA
+268532,DataSet_382,human,TRIM25,MCF7,TMEM254,Invasive breast carcinoma of no special type,6,18,18,Invasive breast carcinoma of no special type,human,APA
+266326,DataSet_381,human,TRIM25,T47D,ABI2,Invasive breast carcinoma of no special type,6,48,42,Invasive breast carcinoma of no special type,human,APA
+263881,DataSet_379,human,TRIM25,BT-549,ABI2,Invasive breast carcinoma of no special type,6,48,42,Invasive breast carcinoma of no special type,human,APA
+264816,DataSet_379,human,TRIM25,BT-549,RNH1,Invasive breast carcinoma of no special type,6,54,54,Invasive breast carcinoma of no special type,human,APA
+264740,DataSet_379,human,TRIM25,BT-549,PRCP,Invasive breast carcinoma of no special type,6,102,102,Invasive breast carcinoma of no special type,human,APA
+264710,DataSet_379,human,TRIM25,BT-549,PLAGL1,Invasive breast carcinoma of no special type,6,63,0,Invasive breast carcinoma of no special type,human,APA
+267870,DataSet_382,human,TRIM25,MCF7,FERMT2,Invasive breast carcinoma of no special type,6,36,36,Invasive breast carcinoma of no special type,human,APA
+266560,DataSet_381,human,TRIM25,T47D,DNAAF4-CCPG1,Invasive breast carcinoma of no special type,6,0,0,Invasive breast carcinoma of no special type,human,APA
+268277,DataSet_382,human,TRIM25,MCF7,PSMD9,Invasive breast carcinoma of no special type,6,18,18,Invasive breast carcinoma of no special type,human,APA
+265007,DataSet_379,human,TRIM25,BT-549,TMEM51,Invasive breast carcinoma of no special type,5,30,25,Invasive breast carcinoma of no special type,human,APA
+267826,DataSet_382,human,TRIM25,MCF7,ENSG00000286128,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+264973,DataSet_379,human,TRIM25,BT-549,TCF4,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+267958,DataSet_382,human,TRIM25,MCF7,IFITM1,Invasive breast carcinoma of no special type,5,48,48,Invasive breast carcinoma of no special type,human,APA
+267834,DataSet_382,human,TRIM25,MCF7,ENSG00000288681,Invasive breast carcinoma of no special type,5,5,5,Invasive breast carcinoma of no special type,human,APA
+266519,DataSet_381,human,TRIM25,T47D,CREBZF,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+267820,DataSet_382,human,TRIM25,MCF7,ENSG00000285016,Invasive breast carcinoma of no special type,5,0,0,Invasive breast carcinoma of no special type,human,APA
+267222,DataSet_381,human,TRIM25,T47D,SLC11A2,Invasive breast carcinoma of no special type,5,55,30,Invasive breast carcinoma of no special type,human,APA
+267018,DataSet_381,human,TRIM25,T47D,NTHL1,Invasive breast carcinoma of no special type,5,25,25,Invasive breast carcinoma of no special type,human,APA
+267074,DataSet_381,human,TRIM25,T47D,PIK3CA,Invasive breast carcinoma of no special type,5,5,5,Invasive breast carcinoma of no special type,human,APA
+266996,DataSet_381,human,TRIM25,T47D,NEPRO,Invasive breast carcinoma of no special type,5,13,4,Invasive breast carcinoma of no special type,human,APA
+266966,DataSet_381,human,TRIM25,T47D,MTO1,Invasive breast carcinoma of no special type,5,40,40,Invasive breast carcinoma of no special type,human,APA
+266965,DataSet_381,human,TRIM25,T47D,MTHFR,Invasive breast carcinoma of no special type,5,35,35,Invasive breast carcinoma of no special type,human,APA
+266908,DataSet_381,human,TRIM25,T47D,MED17,Invasive breast carcinoma of no special type,5,15,15,Invasive breast carcinoma of no special type,human,APA
+266801,DataSet_381,human,TRIM25,T47D,HOOK2,Invasive breast carcinoma of no special type,5,19,1,Invasive breast carcinoma of no special type,human,APA
+267277,DataSet_381,human,TRIM25,T47D,STK25,Invasive breast carcinoma of no special type,5,35,35,Invasive breast carcinoma of no special type,human,APA
+267423,DataSet_381,human,TRIM25,T47D,USP8,Invasive breast carcinoma of no special type,5,18,0,Invasive breast carcinoma of no special type,human,APA
+266693,DataSet_381,human,TRIM25,T47D,FAH,Invasive breast carcinoma of no special type,5,15,15,Invasive breast carcinoma of no special type,human,APA
+266683,DataSet_381,human,TRIM25,T47D,ERC1,Invasive breast carcinoma of no special type,5,25,25,Invasive breast carcinoma of no special type,human,APA
+267324,DataSet_381,human,TRIM25,T47D,TJP2,Invasive breast carcinoma of no special type,5,40,40,Invasive breast carcinoma of no special type,human,APA
+266656,DataSet_381,human,TRIM25,T47D,ENSG00000285130,Invasive breast carcinoma of no special type,5,5,5,Invasive breast carcinoma of no special type,human,APA
+266653,DataSet_381,human,TRIM25,T47D,ENSG00000284057,Invasive breast carcinoma of no special type,5,5,5,Invasive breast carcinoma of no special type,human,APA
+267409,DataSet_381,human,TRIM25,T47D,UIMC1,Invasive breast carcinoma of no special type,5,20,20,Invasive breast carcinoma of no special type,human,APA
+267413,DataSet_381,human,TRIM25,T47D,URGCP,Invasive breast carcinoma of no special type,5,35,0,Invasive breast carcinoma of no special type,human,APA
+264960,DataSet_379,human,TRIM25,BT-549,TAF5,Invasive breast carcinoma of no special type,5,10,10,Invasive breast carcinoma of no special type,human,APA
+267066,DataSet_381,human,TRIM25,T47D,PHF1,Invasive breast carcinoma of no special type,5,10,10,Invasive breast carcinoma of no special type,human,APA
+264070,DataSet_379,human,TRIM25,BT-549,CHCHD7,Invasive breast carcinoma of no special type,5,25,25,Invasive breast carcinoma of no special type,human,APA
+264442,DataSet_379,human,TRIM25,BT-549,IRF3,Invasive breast carcinoma of no special type,5,70,65,Invasive breast carcinoma of no special type,human,APA
+264114,DataSet_379,human,TRIM25,BT-549,CPT2,Invasive breast carcinoma of no special type,5,30,30,Invasive breast carcinoma of no special type,human,APA
+268188,DataSet_382,human,TRIM25,MCF7,ORC6,Invasive breast carcinoma of no special type,5,10,10,Invasive breast carcinoma of no special type,human,APA
+264138,DataSet_379,human,TRIM25,BT-549,DCTN1,Invasive breast carcinoma of no special type,5,45,45,Invasive breast carcinoma of no special type,human,APA
+268145,DataSet_382,human,TRIM25,MCF7,NFIB,Invasive breast carcinoma of no special type,5,75,75,Invasive breast carcinoma of no special type,human,APA
+268118,DataSet_382,human,TRIM25,MCF7,MYO19,Invasive breast carcinoma of no special type,5,6,2,Invasive breast carcinoma of no special type,human,APA
+268117,DataSet_382,human,TRIM25,MCF7,MYD88,Invasive breast carcinoma of no special type,5,35,35,Invasive breast carcinoma of no special type,human,APA
+264065,DataSet_379,human,TRIM25,BT-549,CEP120,Invasive breast carcinoma of no special type,5,35,35,Invasive breast carcinoma of no special type,human,APA
+264554,DataSet_379,human,TRIM25,BT-549,MLLT10,Invasive breast carcinoma of no special type,5,20,20,Invasive breast carcinoma of no special type,human,APA
+264395,DataSet_379,human,TRIM25,BT-549,HDAC8,Invasive breast carcinoma of no special type,5,55,55,Invasive breast carcinoma of no special type,human,APA
+264571,DataSet_379,human,TRIM25,BT-549,MRPL48,Invasive breast carcinoma of no special type,5,25,25,Invasive breast carcinoma of no special type,human,APA
+264590,DataSet_379,human,TRIM25,BT-549,NABP1,Invasive breast carcinoma of no special type,5,50,50,Invasive breast carcinoma of no special type,human,APA

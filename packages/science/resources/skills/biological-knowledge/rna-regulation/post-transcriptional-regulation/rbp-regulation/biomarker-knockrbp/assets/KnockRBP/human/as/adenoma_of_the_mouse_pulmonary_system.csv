@@ -1,0 +1,26 @@
+Index,DataSetID,species,RBPSYMBOL,CELLLINE,Genesymbol,Disease,DEAS,ORF_AS,LOF_AS,_disease,_species,_type
+41482,DataSet_543,human,ZRANB1,LM2,AURKB,Adenoma of the mouse pulmonary system,1,1,0,Adenoma of the mouse pulmonary system,human,AS
+41495,DataSet_543,human,ZRANB1,LM2,PHF6,Adenoma of the mouse pulmonary system,1,1,0,Adenoma of the mouse pulmonary system,human,AS
+41505,DataSet_543,human,ZRANB1,LM2,TSNAXIP1,Adenoma of the mouse pulmonary system,1,0,0,Adenoma of the mouse pulmonary system,human,AS
+41504,DataSet_543,human,ZRANB1,LM2,TAF1C,Adenoma of the mouse pulmonary system,1,1,0,Adenoma of the mouse pulmonary system,human,AS
+41503,DataSet_543,human,ZRANB1,LM2,SUN1,Adenoma of the mouse pulmonary system,1,1,0,Adenoma of the mouse pulmonary system,human,AS
+41502,DataSet_543,human,ZRANB1,LM2,SNORD86,Adenoma of the mouse pulmonary system,1,0,0,Adenoma of the mouse pulmonary system,human,AS
+41501,DataSet_543,human,ZRANB1,LM2,SMUG1,Adenoma of the mouse pulmonary system,1,1,0,Adenoma of the mouse pulmonary system,human,AS
+41500,DataSet_543,human,ZRANB1,LM2,RBM6,Adenoma of the mouse pulmonary system,1,0,0,Adenoma of the mouse pulmonary system,human,AS
+41499,DataSet_543,human,ZRANB1,LM2,RBM5-AS1,Adenoma of the mouse pulmonary system,1,0,0,Adenoma of the mouse pulmonary system,human,AS
+41498,DataSet_543,human,ZRANB1,LM2,RBM5,Adenoma of the mouse pulmonary system,1,1,0,Adenoma of the mouse pulmonary system,human,AS
+41497,DataSet_543,human,ZRANB1,LM2,PXN,Adenoma of the mouse pulmonary system,1,1,0,Adenoma of the mouse pulmonary system,human,AS
+41496,DataSet_543,human,ZRANB1,LM2,PSAP,Adenoma of the mouse pulmonary system,1,1,0,Adenoma of the mouse pulmonary system,human,AS
+41494,DataSet_543,human,ZRANB1,LM2,NOP56,Adenoma of the mouse pulmonary system,1,1,0,Adenoma of the mouse pulmonary system,human,AS
+41483,DataSet_543,human,ZRANB1,LM2,BAX,Adenoma of the mouse pulmonary system,1,1,0,Adenoma of the mouse pulmonary system,human,AS
+41493,DataSet_543,human,ZRANB1,LM2,NCBP3,Adenoma of the mouse pulmonary system,1,1,0,Adenoma of the mouse pulmonary system,human,AS
+41492,DataSet_543,human,ZRANB1,LM2,NAP1L1,Adenoma of the mouse pulmonary system,1,1,0,Adenoma of the mouse pulmonary system,human,AS
+41491,DataSet_543,human,ZRANB1,LM2,MOV10,Adenoma of the mouse pulmonary system,1,1,0,Adenoma of the mouse pulmonary system,human,AS
+41490,DataSet_543,human,ZRANB1,LM2,HNRNPA1,Adenoma of the mouse pulmonary system,1,1,0,Adenoma of the mouse pulmonary system,human,AS
+41489,DataSet_543,human,ZRANB1,LM2,EWSR1,Adenoma of the mouse pulmonary system,1,1,0,Adenoma of the mouse pulmonary system,human,AS
+41488,DataSet_543,human,ZRANB1,LM2,DEK,Adenoma of the mouse pulmonary system,1,1,0,Adenoma of the mouse pulmonary system,human,AS
+41487,DataSet_543,human,ZRANB1,LM2,CUTA,Adenoma of the mouse pulmonary system,1,1,0,Adenoma of the mouse pulmonary system,human,AS
+41486,DataSet_543,human,ZRANB1,LM2,CREBZF,Adenoma of the mouse pulmonary system,1,0,0,Adenoma of the mouse pulmonary system,human,AS
+41485,DataSet_543,human,ZRANB1,LM2,CENPT,Adenoma of the mouse pulmonary system,1,1,0,Adenoma of the mouse pulmonary system,human,AS
+41484,DataSet_543,human,ZRANB1,LM2,CENPI,Adenoma of the mouse pulmonary system,1,0,0,Adenoma of the mouse pulmonary system,human,AS
+41506,DataSet_543,human,ZRANB1,LM2,TTC9C,Adenoma of the mouse pulmonary system,1,1,0,Adenoma of the mouse pulmonary system,human,AS

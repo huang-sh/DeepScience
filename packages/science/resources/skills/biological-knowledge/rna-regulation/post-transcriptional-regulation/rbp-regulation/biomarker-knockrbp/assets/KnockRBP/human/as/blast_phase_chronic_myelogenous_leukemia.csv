@@ -1,0 +1,9 @@
+Index,DataSetID,species,RBPSYMBOL,CELLLINE,Genesymbol,Disease,DEAS,ORF_AS,LOF_AS,_disease,_species,_type
+29180,DataSet_482,human,ATXN2,MEG-01,DALRD3,Blast phase chronic myelogenous leukemia,1,1,0,Blast phase chronic myelogenous leukemia,human,AS
+29181,DataSet_482,human,ATXN2,MEG-01,KLHL9,Blast phase chronic myelogenous leukemia,1,0,0,Blast phase chronic myelogenous leukemia,human,AS
+29182,DataSet_482,human,ATXN2,MEG-01,METTL3,Blast phase chronic myelogenous leukemia,1,1,0,Blast phase chronic myelogenous leukemia,human,AS
+29183,DataSet_482,human,ATXN2,MEG-01,TOX4,Blast phase chronic myelogenous leukemia,1,0,0,Blast phase chronic myelogenous leukemia,human,AS
+29184,DataSet_482,human,ATXN2,MEG-01,WDR6,Blast phase chronic myelogenous leukemia,1,0,0,Blast phase chronic myelogenous leukemia,human,AS
+29185,DataSet_483,human,ATXN2,MEG-01,GAS5,Blast phase chronic myelogenous leukemia,1,0,0,Blast phase chronic myelogenous leukemia,human,AS
+29186,DataSet_483,human,ATXN2,MEG-01,MZT2B,Blast phase chronic myelogenous leukemia,1,0,0,Blast phase chronic myelogenous leukemia,human,AS
+29187,DataSet_483,human,ATXN2,MEG-01,SMPD4,Blast phase chronic myelogenous leukemia,1,0,0,Blast phase chronic myelogenous leukemia,human,AS

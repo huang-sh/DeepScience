@@ -1,0 +1,19 @@
+Index,DataSetID,species,RBPSYMBOL,CELLLINE,Genesymbol,Disease,DEAS,ORF_AS,LOF_AS,_disease,_species,_type
+48864,DataSet_64,human,PSIP1,KMS-11,KCTD20,Plasma cell myeloma,4,0,0,Plasma cell myeloma,human,AS
+48873,DataSet_64,human,PSIP1,KMS-11,TSC1,Plasma cell myeloma,2,2,0,Plasma cell myeloma,human,AS
+48859,DataSet_64,human,PSIP1,KMS-11,CDK5RAP2,Plasma cell myeloma,1,0,0,Plasma cell myeloma,human,AS
+48869,DataSet_64,human,PSIP1,KMS-11,PPP2R5C,Plasma cell myeloma,1,0,0,Plasma cell myeloma,human,AS
+48875,DataSet_64,human,PSIP1,KMS-11,U2AF1L4,Plasma cell myeloma,1,1,0,Plasma cell myeloma,human,AS
+48874,DataSet_64,human,PSIP1,KMS-11,TYMP,Plasma cell myeloma,1,1,0,Plasma cell myeloma,human,AS
+48872,DataSet_64,human,PSIP1,KMS-11,TMEM218,Plasma cell myeloma,1,1,0,Plasma cell myeloma,human,AS
+48871,DataSet_64,human,PSIP1,KMS-11,TCERG1,Plasma cell myeloma,1,1,0,Plasma cell myeloma,human,AS
+48870,DataSet_64,human,PSIP1,KMS-11,SUZ12P1,Plasma cell myeloma,1,0,0,Plasma cell myeloma,human,AS
+48868,DataSet_64,human,PSIP1,KMS-11,OTUD4,Plasma cell myeloma,1,1,0,Plasma cell myeloma,human,AS
+48860,DataSet_64,human,PSIP1,KMS-11,DDX3X,Plasma cell myeloma,1,1,0,Plasma cell myeloma,human,AS
+48867,DataSet_64,human,PSIP1,KMS-11,OGT,Plasma cell myeloma,1,1,0,Plasma cell myeloma,human,AS
+48866,DataSet_64,human,PSIP1,KMS-11,LMO4,Plasma cell myeloma,1,1,0,Plasma cell myeloma,human,AS
+48865,DataSet_64,human,PSIP1,KMS-11,LINC00680,Plasma cell myeloma,1,0,0,Plasma cell myeloma,human,AS
+48863,DataSet_64,human,PSIP1,KMS-11,GLYCTK-AS1,Plasma cell myeloma,1,0,0,Plasma cell myeloma,human,AS
+48862,DataSet_64,human,PSIP1,KMS-11,GLYCTK,Plasma cell myeloma,1,1,0,Plasma cell myeloma,human,AS
+48861,DataSet_64,human,PSIP1,KMS-11,ENSG00000267120,Plasma cell myeloma,1,0,0,Plasma cell myeloma,human,AS
+48876,DataSet_64,human,PSIP1,KMS-11,USP21,Plasma cell myeloma,1,1,0,Plasma cell myeloma,human,AS

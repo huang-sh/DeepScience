@@ -1,0 +1,40 @@
+{
+  "name": "@shying/deepscience",
+  "version": "0.0.1",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huang-sh/DeepScience.git",
+    "directory": "packages/server"
+  },
+  "homepage": "https://github.com/huang-sh/DeepScience#readme",
+  "bugs": {
+    "url": "https://github.com/huang-sh/DeepScience/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "deepscience": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "npm run build --workspace @deepscience/frontend && tsgo -p tsconfig.json && shx rm -rf dist/public && shx mkdir -p dist/public && shx cp -r ../frontend/dist/* dist/public/ && chmod +x dist/cli.js",
+    "test": "TSX_TSCONFIG_PATH=../../tsconfig.json node --import tsx --test test/**/*.test.ts"
+  },
+  "dependencies": {
+    "@shying/ds-science": "*",
+    "@earendil-works/pi-agent-core": "^0.80.6",
+    "@earendil-works/pi-ai": "^0.80.6",
+    "@earendil-works/pi-coding-agent": "^0.80.6",
+    "@earendil-works/pi-tui": "0.80.6",
+    "hono": "4.7.11",
+    "@hono/node-server": "1.14.1",
+    "yaml": "2.9.0"
+  }
+}

@@ -1,0 +1,478 @@
+snoDB_id	Symbol	Site	Type	rRNA	Pos snoRNABase	References	Status
+snoDB0488	SNORD27	Am27	Nm	18S	27	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0572	SNORD27	Am27	Nm	18S	27	snoDB predicted	validated
+snoDB0958	SNORA50C	Ψ34	Ψ	18S	34	snoRNABase | snoRNA Atlas	validated
+snoDB0974	SNORA50A	Ψ34	Ψ	18S	34	snoRNABase | snoRNA Atlas	validated
+snoDB0055	SNORA55	Ψ36	Ψ	18S	36	snoRNABase | snoRNA Atlas	validated
+snoDB0382	SNORA69	Ψ36	Ψ	18S	36	snoRNABase	validated
+snoDB0119	SNORA75	Ψ93	Ψ	18S	93	snoRNABase | snoRNA Atlas	validated
+snoDB0197	SNORA75B	Ψ93	Ψ	18S	93	snoRNA Atlas	validated
+snoDB0882	SNORD57	Am99	Nm	18S	99	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0040	SNORA36B	Ψ105	Ψ	18S	105	snoRNABase	validated
+snoDB0383	SNORA36A	Ψ105	Ψ	18S	105	snoRNABase	validated
+snoDB0958	SNORA50C	Ψ105	Ψ	18S	105	snoRNABase | snoRNA Atlas	validated
+snoDB0974	SNORA50A	Ψ105	Ψ	18S	105	snoRNABase | snoRNA Atlas	validated
+snoDB0047	SNORA80E	Ψ109	Ψ	18S	109	snoRNABase | snoRNA Atlas	validated
+snoDB0134	SNORA80B	Ψ109	Ψ	18S	109	snoRNABase | snoRNA Atlas	validated
+snoDB0305	SNORA80D	Ψ109	Ψ	18S	109	snoRNA Atlas	validated
+snoDB0797	SNORA80C	Ψ109	Ψ	18S	109	snoRNA Atlas	validated
+snoDB0947	SNORA80A	Ψ109	Ψ	18S	109	snoRNABase | snoRNA Atlas	validated
+snoDB1043	SNORA87	Ψ109	Ψ	18S	109	snoRNA Atlas	validated
+snoDB0849	SNORD42B	Um116	Nm	18S	116	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0851	SNORD42A	Um116	Nm	18S	116	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0063	SNORA66	Ψ119	Ψ	18S	119	snoRNABase | snoRNA Atlas	validated
+snoDB0850	SNORD4A	Um121	Nm	18S	121	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0852	SNORD4B	Um121	Nm	18S	121	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB1127		Um121	Nm	18S	121	snoRNA Atlas	validated
+snoDB0059	SNORD45C	Am159	Nm	18S	159	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0060	SNORD45A	Am159	Nm	18S	159	snoRNABase | Krogh N. et al.	validated
+snoDB0061	SNORD45B	Am159	Nm	18S	159	snoRNA Atlas	validated
+snoDB0511	SNORD115	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0711	SNORD115-1	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0712	SNORD115-2	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0713	SNORD115-3	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0714	SNORD115-4	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0715	SNORD115-5	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0716	SNORD115-6	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0717	SNORD115-7	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0718	SNORD115-8	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0719	SNORD115-9	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0720	SNORD115-10	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0721	SNORD115-11	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0722	SNORD115-12	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0723	SNORD115-13	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0724	SNORD115-14	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0725	SNORD115-15	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0726	SNORD115-16	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0730	SNORD115-20	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0731	SNORD115-21	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0732	SNORD115-22	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0734	SNORD115-24	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0735	SNORD115-25	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0736	SNORD115-26	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0737	SNORD115-27	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0738	SNORD115-28	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0739	SNORD115-29	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0740	SNORD115-30	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0741	SNORD115-31	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0742	SNORD115-32	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0743	SNORD115-33	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0744	SNORD115-34	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0745	SNORD115-35	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0746	SNORD115-36	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0748	SNORD115-38	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0749	SNORD115-39	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0750	SNORD115-40	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0751	SNORD115-41	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0752	SNORD115-42	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0753	SNORD115-43	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0754	SNORD115-44	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0756	SNORD115-46	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0757	SNORD115-47	Am159	Nm	18S	159	snoDB predicted	validated
+snoDB0991	SNORD44	Am166	Nm	18S	166	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0060	SNORD45A	Um172	Nm	18S	172	snoRNABase | Krogh N. et al.	validated
+snoDB0061	SNORD45B	Um172	Nm	18S	172	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0059	SNORD45C	Cm174	Nm	18S	174	snoRNA Atlas | Krogh N. et al.	validated
+snoDB0084	SNORA10B	Ψ210	Ψ	18S	210	snoRNA Atlas	validated
+snoDB0776	SNORA10	Ψ210	Ψ	18S	210	snoRNABase | snoRNA Atlas	validated
+snoDB0586	SNORA31	Ψ218	Ψ	18S	218	snoRNABase | snoRNA Atlas	validated
+snoDB0384	SNORA56	Ψ296	Ψ	18S	296	snoRNA Atlas	validated
+snoDB0877	SNORA71B	Ψ406	Ψ	18S	406	snoRNABase | snoRNA Atlas	validated
+snoDB0890	SNORA60	Ψ406	Ψ	18S	406	snoRNA Atlas	validated
+snoDB0892	SNORA71A	Ψ406	Ψ	18S	406	snoRNABase | snoRNA Atlas	validated
+snoDB0893	SNORA71C	Ψ406	Ψ	18S	406	snoRNABase | snoRNA Atlas	validated
+snoDB0894	SNORA71D	Ψ406	Ψ	18S	406	snoRNABase | snoRNA Atlas	validated
+snoDB0795	SNORD68	Um428	Nm	18S	428	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0279	SNORD100	Gm436	Nm	18S	436	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0139	SNORD14	Cm462	Nm	18S	462	Krogh N. et al.	validated
+snoDB0453	SNORD14A	Cm462	Nm	18S	462	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0454	SNORD14B	Cm462	Nm	18S	462	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0474	SNORD14E	Cm462	Nm	18S	462	snoRNA Atlas | Krogh N. et al.	validated
+snoDB0475	SNORD14D	Cm462	Nm	18S	462	snoRNA Atlas | Krogh N. et al.	validated
+snoDB0476	SNORD14C	Cm462	Nm	18S	462	snoRNA Atlas | Krogh N. et al.	validated
+snoDB0933	SNORD83A	Am468	Nm	18S	468	snoRNA Atlas | Krogh N. et al. | Kehr S. et al.	validated
+snoDB0934	SNORD83B	Am468	Nm	18S	468	snoRNA Atlas | Krogh N. et al. | Kehr S. et al.	validated
+snoDB0702	SNORD16	Am484	Nm	18S	484	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0108	SNORD11B	Gm509	Nm	18S	509	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0109	SNORD11	Gm509	Nm	18S	509	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0111	SNORD70B	Am512	Nm	18S	512	snoRNA Atlas | Krogh N. et al.	validated
+snoDB0107	SNORD70	Am512	Nm	18S	512	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0102	SNORD56L7	Cm517	Nm	18S	517	Krogh N. et al.	validated
+snoDB0595	SNORD56B	Cm517	Nm	18S	517	Krogh N. et al.	validated
+snoDB0881	SNORD56	Cm517	Nm	18S	517	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB1087	SNORD140	Cm517	Nm	18S	517	snoDB predicted	validated
+snoDB0047	SNORA80E	Ψ572	Ψ	18S	572	snoRNABase | snoRNA Atlas	validated
+snoDB0134	SNORA80B	Ψ572	Ψ	18S	572	snoRNABase | snoRNA Atlas	validated
+snoDB0797	SNORA80C	Ψ572	Ψ	18S	572	snoRNA Atlas	validated
+snoDB0947	SNORA80A	Ψ572	Ψ	18S	572	snoRNABase | snoRNA Atlas	validated
+snoDB0342	SNORD93	Am576	Nm	18S	576	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0440	SNORD62A	Am590	Nm	18S	590	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0441	SNORD62B	Am590	Nm	18S	590	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0977	SNORD103A	Gm601	Nm	18S	601	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0978	SNORD103B	Gm601	Nm	18S	601	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0979	SNORD103C	Gm601	Nm	18S	601	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0206	SNORA24	Ψ609	Ψ	18S	609	snoRNABase	validated
+snoDB0310	SNORD65C	Um627	Nm	18S	627	snoRNA Atlas	validated
+snoDB0394	SNORD65B	Um627	Nm	18S	627	snoRNA Atlas	validated
+snoDB0811	SNORD65	Um627	Nm	18S	627	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0416	SNORD54	Gm644	Nm	18S	644	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0801	SNORA46	Ψ649	Ψ	18S	649	snoRNABase | snoRNA Atlas	validated
+snoDB0286	SNORA20	Ψ651	Ψ	18S	651	snoRNABase	validated
+snoDB0446	SNORD36B	Am668	Nm	18S	668	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0447	SNORD36A	Am668	Nm	18S	668	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0583	SNORD36	Am668	Nm	18S	668	Krogh N. et al.	validated
+snoDB0031	SNORA14B	Ψ681	Ψ	18S	681	snoRNA Atlas	validated
+snoDB0055	SNORA55	Ψ681	Ψ	18S	681	snoRNA Atlas | Kehr S. et al.	validated
+snoDB0329	SNORA14A	Ψ681	Ψ	18S	681	snoRNA Atlas	validated
+snoDB0960	SNORA50B	Ψ681	Ψ	18S	681	snoRNA Atlas	validated
+snoDB0149	SNORD19	Gm683	Nm	18S	683	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0150	SNORD19C	Gm683	Nm	18S	683	snoRNA Atlas | Krogh N. et al.	validated
+snoDB0160	SNORD19B	Gm683	Nm	18S	683	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0955	SNORD136	Gm683	Nm	18S	683	snoRNA Atlas | Krogh N. et al.	validated
+snoDB0073	SNORA44	Ψ686	Ψ	18S	686	snoRNABase | snoRNA Atlas	validated
+snoDB0243	SNORD138	Cm797	Nm	18S	797	snoRNA Atlas | Krogh N. et al. | Kehr S. et al.	validated
+snoDB0916	SNORD105	Um799	Nm	18S	799	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0917	SNORD105B	Um799	Nm	18S	799	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0332	SNORA25B	Ψ801	Ψ	18S	801	snoRNA Atlas	validated
+snoDB0461	SNORA25	Ψ801	Ψ	18S	801	snoRNABase | snoRNA Atlas	validated
+snoDB0045	SNORA77	Ψ814	Ψ	18S	814	snoRNABase	validated
+snoDB0461	SNORA25	Ψ814	Ψ	18S	814	snoRNABase	validated
+snoDB0937	SNORA77B	Ψ814	Ψ	18S	814	snoRNA Atlas	validated
+snoDB0605	SNORA28	Ψ815	Ψ	18S	815	snoRNABase | snoRNA Atlas	validated
+snoDB0073	SNORA44	Ψ822	Ψ	18S	822	snoRNABase | snoRNA Atlas	validated
+snoDB0206	SNORA24	Ψ863	Ψ	18S	863	snoRNABase	validated
+snoDB0605	SNORA28	Ψ866	Ψ	18S	866	snoRNABase | snoRNA Atlas	validated
+snoDB0515	SNORD98	Gm867	Nm	18S	867	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0072	SNORA61	Ψ918	Ψ	18S	918	snoRNA Atlas | Kehr S. et al.	validated
+snoDB0325	SNORA22	Ψ918	Ψ	18S	918	snoRNA Atlas	validated
+snoDB0327	SNORA22C	Ψ918	Ψ	18S	918	snoRNA Atlas	validated
+snoDB0031	SNORA14B	Ψ966	Ψ	18S	966	snoRNABase | snoRNA Atlas	validated
+snoDB0329	SNORA14A	Ψ966	Ψ	18S	966	snoRNABase | snoRNA Atlas	validated
+snoDB1140		Ψ966	Nm	18S	966	snoRNA Atlas	validated
+snoDB0499	SNORA57	Ψ1004	Ψ	18S	1004	snoRNABase	validated
+snoDB0890	SNORA60	Ψ1004	Ψ	18S	1004	snoRNABase	validated
+snoDB0561	SNORD59A	Am1031	Nm	18S	1031	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB1058	SNORD59B	Am1031	Nm	18S	1031	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0499	SNORA57	Ψ1046	Ψ	18S	1046	snoRNA Atlas	validated
+snoDB0464	SNORA8	Ψ1056	Ψ	18S	1056	snoRNABase | snoRNA Atlas	validated
+snoDB0464	SNORA8	Ψ1081	Ψ	18S	1081	snoRNABase | snoRNA Atlas	validated
+snoDB0100	SNORA40B	Ψ1174	Ψ	18S	1174	snoRNA Atlas	validated
+snoDB0288	SNORA40C	Ψ1174	Ψ	18S	1174	snoRNA Atlas	validated
+snoDB0467	SNORA40	Ψ1174	Ψ	18S	1174	snoRNABase | snoRNA Atlas	validated
+snoDB0034	SNORA70H	Ψ1232	Ψ	18S	1232	snoRNA Atlas	validated
+snoDB0135	SNORA70B	Ψ1232	Ψ	18S	1232	snoRNA Atlas	validated
+snoDB0260	SNORA70J	Ψ1232	Ψ	18S	1232	snoRNA Atlas	validated
+snoDB0372	SNORA70	Ψ1232	Ψ	18S	1232	snoRNA Atlas	validated
+snoDB0497	SNORA70E	Ψ1232	Ψ	18S	1232	snoRNA Atlas	validated
+snoDB0316	SNORA5A	Ψ1238	Ψ	18S	1238	snoRNABase | snoRNA Atlas	validated
+snoDB0317	SNORA5C	Ψ1238	Ψ	18S	1238	snoRNABase | snoRNA Atlas	validated
+snoDB0318	SNORA5B	Ψ1238	Ψ	18S	1238	snoRNABase | snoRNA Atlas	validated
+snoDB0040	SNORA36B	Ψ1244	Ψ	18S	1244	snoRNABase | snoRNA Atlas	validated
+snoDB0136	SNORA36C	Ψ1244	Ψ	18S	1244	snoRNABase | snoRNA Atlas	validated
+snoDB0383	SNORA36A	Ψ1244	Ψ	18S	1244	snoRNABase | snoRNA Atlas	validated
+snoDB0246	SNORA13	Ψ1248	Ψ	18S	1248	snoRNABase | snoRNA Atlas	validated
+snoDB0175	SNORD66	Cm1272	Nm	18S	1272	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0878	SNORD110	Um1288	Nm	18S	1288	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB1082	SNORA117	Um1288	Ψ	18S	1288	snoRNA Atlas	validated
+snoDB0782	SNORD33	Ψm1326	Nm	18S	1326	Krogh N. et al.	validated
+snoDB0919	SNORD33	Ψm1326	Nm	18S	1326	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB1113		Ψm1326	Nm	18S	1326	snoRNA Atlas	validated
+snoDB0285	SNORD32B	Gm1328	Nm	18S	1328	snoRNA Atlas | Krogh N. et al.	validated
+snoDB0918	SNORD32A	Gm1328	Nm	18S	1328	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0184	SNORA4	Ψ1347	Ψ	18S	1347	snoRNABase | snoRNA Atlas	validated
+snoDB0322	SNORA15	Ψ1367	Ψ	18S	1367	snoRNABase	validated
+snoDB0374	SNORD30	Am1383	Nm	18S	1383	Kehr S. et al.	validated
+snoDB0485	SNORD30	Am1383	Nm	18S	1383	Krogh N. et al. | Kehr S. et al.	validated
+snoDB0561	SNORD59A	Am1383	Nm	18S	1383	snoDB predicted	validated
+snoDB1058	SNORD59B	Am1383	Nm	18S	1383	snoDB predicted	validated
+snoDB0487	SNORD28	Cm1391	Nm	18S	1391	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0939	SNORD125	Cm1440	Nm	18S	1440	snoRNA Atlas	validated
+snoDB0377	SNORD61	Um1442	Nm	18S	1442	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB1185		Um1442	Nm	18S	1442	snoRNA Atlas	validated
+snoDB0837	SNORA67	Ψ1445	Ψ	18S	1445	snoRNABase	validated
+snoDB0592	SNORD127	Gm1447	Nm	18S	1447	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0490	SNORD25	Gm1490	Nm	18S	1490	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0316	SNORA5A	Ψ1625	Ψ	18S	1625	snoRNABase | snoRNA Atlas	validated
+snoDB0317	SNORA5C	Ψ1625	Ψ	18S	1625	snoRNABase | snoRNA Atlas	validated
+snoDB0110	SNORA41	Ψ1643	Ψ	18S	1643	snoRNABase	validated
+snoDB0977	SNORD103A	Um1668	Nm	18S	1668	Krogh N. et al.	validated
+snoDB0978	SNORD103B	Um1668	Nm	18S	1668	Krogh N. et al.	validated
+snoDB0121	SNORD82	Am1678	Nm	18S	1678	snoRNABase | Krogh N. et al.	validated
+snoDB0135	SNORA70B	Ψ1692	Ψ	18S	1692	snoRNABase	validated
+snoDB0138	SNORA70F	Ψ1692	Ψ	18S	1692	snoRNABase	validated
+snoDB0372	SNORA70	Ψ1692	Ψ	18S	1692	snoRNABase	validated
+snoDB0442	SNORA70C	Ψ1692	Ψ	18S	1692	snoRNABase	validated
+snoDB0497	SNORA70E	Ψ1692	Ψ	18S	1692	snoRNABase	validated
+snoDB0544	SNORA70G	Ψ1692	Ψ	18S	1692	snoRNABase	validated
+snoDB0802	SNORA70D	Ψ1692	Ψ	18S	1692	snoRNABase	validated
+snoDB0935	SNORD43	Cm1703	Nm	18S	1703	snoRNABase | Krogh N. et al.	validated
+snoDB0120	SNORD20	Um1804	Nm	18S	1804	snoRNABase | Krogh N. et al.	validated
+snoDB0489	SNORD26	Am389	Nm	28S	389	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0053	SNORD81	Am391	Nm	28S	391	snoDB predicted	validated
+snoDB0343	SNORD81	Am391	Nm	28S	391	snoDB predicted	validated
+snoDB0986	SNORD81	Am391	Nm	28S	391	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0062	SNORD21	Gm1303	Nm	28S	1303	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0602	SNORD126	Am1310	Nm	28S	1310	snoRNA Atlas	validated
+snoDB0081	SNORD18	Am1313	Nm	28S	1313	Krogh N. et al.	validated
+snoDB0701	SNORD18C	Am1313	Nm	28S	1313	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0703	SNORD18A	Am1313	Nm	28S	1313	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0770	SNORD18	Am1313	Nm	28S	1313	Krogh N. et al.	validated
+snoDB0961	SNORD18B	Am1313	Nm	28S	1313	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0855	SNORD104	Cm1327	Nm	28S	1327	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0180	SNORD2	Gm1509	Nm	28S	1509	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0285	SNORD32B	Am1511	Nm	28S	1511	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0604	SNORD51L1	Am1511	Nm	28S	1511	snoDB predicted	validated
+snoDB0918	SNORD32A	Am1511	Nm	28S	1511	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0957	SNORD51	Am1511	Nm	28S	1511	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0353	SNORD77L1	Am1521	Nm	28S	1521	Krogh N. et al.	validated
+snoDB0404	SNORD77B	Am1521	Nm	28S	1521	snoRNA Atlas | Krogh N. et al.	validated
+snoDB0696	SNORD77L3	Am1521	Nm	28S	1521	Krogh N. et al.	validated
+snoDB0988	SNORD80	Am1521	Nm	28S	1521	snoRNABase | Krogh N. et al.	validated
+snoDB0993	SNORD77	Am1521	Nm	28S	1521	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0188	SNORA7A	Ψ1569	Ψ	28S	1569	snoRNABase | snoRNA Atlas	validated
+snoDB0194	SNORA7B	Ψ1569	Ψ	28S	1569	snoRNABase | snoRNA Atlas	validated
+snoDB0988	SNORD80	Gm1612	Nm	28S	1612	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0384	SNORA56	Ψ1664	Ψ	28S	1664	snoRNABase	validated
+snoDB0319	SNORA9	Ψ1670	Ψ	28S	1670	snoRNABase	validated
+snoDB0480	SNORA52	Ψ1731	Ψ	28S	1731	snoRNABase | snoRNA Atlas	validated
+snoDB0210	SNORD73A	Gm1747	Nm	28S	1747	Krogh N. et al.	validated
+snoDB0245	SNORA47	Ψ1766	Ψ	28S	1766	snoRNABase	validated
+snoDB0319	SNORA9	Ψ1768	Ψ	28S	1768	snoRNA Atlas	validated
+snoDB0558	SNORA9B	Ψ1768	Ψ	28S	1768	snoRNA Atlas	validated
+snoDB0319	SNORA9	Ψ1769	Ψ	28S	1769	snoRNABase	validated
+snoDB0188	SNORA7A	Ψ1779	Ψ	28S	1779	snoRNABase	validated
+snoDB0194	SNORA7B	Ψ1779	Ψ	28S	1779	snoRNABase	validated
+snoDB0462	SNORA32	Ψ1847	Ψ	28S	1847	snoRNABase | snoRNA Atlas	validated
+snoDB0064	SNORA51L8	Ψ1849	Ψ	28S	1849	Kehr S. et al.	validated
+snoDB0066	SNORA51L9	Ψ1849	Ψ	28S	1849	Kehr S. et al.	validated
+snoDB0128	SNORA51	Ψ1849	Ψ	28S	1849	Kehr S. et al.	validated
+snoDB0133	SNORA51L10	Ψ1849	Ψ	28S	1849	Kehr S. et al.	validated
+snoDB0213	SNORA51	Ψ1849	Ψ	28S	1849	Kehr S. et al.	validated
+snoDB0219	SNORA51L5	Ψ1849	Ψ	28S	1849	Kehr S. et al.	validated
+snoDB0247	SNORA51	Ψ1849	Ψ	28S	1849	Kehr S. et al.	validated
+snoDB0314	SNORA51L6	Ψ1849	Ψ	28S	1849	Kehr S. et al.	validated
+snoDB0335	SNORA51L7	Ψ1849	Ψ	28S	1849	Kehr S. et al.	validated
+snoDB0398	SNORA51L11	Ψ1849	Ψ	28S	1849	Kehr S. et al.	validated
+snoDB0879	SNORA51	Ψ1849	Ψ	28S	1849	snoRNA Atlas | Kehr S. et al.	validated
+snoDB1925	SNORA51	Ψ1849	Ψ	28S	1849	Kehr S. et al.	validated
+snoDB0051	SNORD38A	Am1858	Nm	28S	1858	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0191	SNORD38C	Am1858	Nm	28S	1858	snoRNA Atlas	validated
+snoDB0420	SNORD38D	Am1858	Nm	28S	1858	snoRNA Atlas	validated
+snoDB0967	SNORD38B	Am1858	Nm	28S	1858	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0297	SNORD48	Cm1868	Nm	28S	1868	Krogh N. et al.	validated
+snoDB1253		Cm1868	Nm	28S	1868	snoRNA Atlas	validated
+snoDB0445	SNORD24	Cm2338	Nm	28S	2338	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB1195		Cm2338	Nm	28S	2338	snoRNA Atlas	validated
+snoDB1999	snoU13	Cm2338	Nm	28S	2338	snoDB predicted	validated
+snoDB0994	SNORD76	Am2350	Nm	28S	2350	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0445	SNORD24	Cm2352	Nm	28S	2352	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0795	SNORD68	Am2388	Nm	28S	2388	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB1011	SNORD143	Um2402	Nm	28S	2402	snoRNA Atlas | Krogh N. et al.	validated
+snoDB1012	SNORD144	Um2402	Nm	28S	2402	snoRNA Atlas | Krogh N. et al.	validated
+snoDB1624	snoU13	Um2402	Nm	28S	2402	snoDB predicted	validated
+snoDB1804	snoU13	Um2402	Nm	28S	2402	snoDB predicted	validated
+snoDB0465	SNORD5	Cm2409	Nm	28S	2409	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0460	SNORD6	Gm2411	Nm	28S	2411	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0072	SNORA61	Ψ2495	Ψ	28S	2495	snoRNABase	validated
+snoDB0293	SNORA38	Ψ2619	Ψ	28S	2619	snoRNA Atlas	validated
+snoDB0833	SNORA38B	Ψ2619	Ψ	28S	2619	snoRNA Atlas	validated
+snoDB0071	SNORD99	Am2774	Nm	28S	2774	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0049	SNORD55	Cm2791	Nm	28S	2791	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0137	SNORD39	Cm2791	Nm	28S	2791	snoDB predicted	validated
+snoDB0211	SNORD39	Cm2791	Nm	28S	2791	snoDB predicted	validated
+snoDB0468	SNORD39	Cm2791	Nm	28S	2791	snoDB predicted	validated
+snoDB0255	SNORD95	Am2802	Nm	28S	2802	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0427	SNORD95L1	Am2802	Nm	28S	2802	Krogh N. et al.	validated
+snoDB0255	SNORD95	Cm2811	Nm	28S	2811	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0920	SNORD34	Um2824	Nm	28S	2824	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB1078	SNORD175	Um2824	Nm	28S	2824	snoDB predicted	validated
+snoDB0554	SNORA49	Ψ2826	Ψ	28S	2826	snoRNA Atlas	validated
+snoDB0554	SNORA49	Ψ2830	Ψ	28S	2830	snoRNA Atlas	validated
+snoDB0304	SNORD50B	Cm2848	Nm	28S	2848	snoRNA Atlas | Krogh N. et al.	validated
+snoDB1021	SNORD50A	Cm2848	Nm	28S	2848	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0304	SNORD50B	Gm2863	Nm	28S	2863	snoRNA Atlas | Krogh N. et al.	validated
+snoDB1021	SNORD50A	Gm2863	Nm	28S	2863	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0143	SNORA6	Ψ3616	Ψ	28S	3616	snoRNABase | snoRNA Atlas	validated
+snoDB0522	SNORA19	Ψ3618	Ψ	28S	3618	snoRNABase | snoRNA Atlas	validated
+snoDB0569		Cm3680	Nm	28S	3680	Krogh N. et al.	validated
+snoDB0913	SNORD88B	Cm3680	Nm	28S	3680	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0914	SNORD88A	Cm3680	Nm	28S	3680	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0915	SNORD88C	Cm3680	Nm	28S	3680	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB1240		Cm3680	Nm	28S	3680	snoRNA Atlas	validated
+snoDB0571	SNORA27	Ψ3694	Ψ	28S	3694	snoRNABase | snoRNA Atlas	validated
+snoDB0903	SNORD37	Am3697	Nm	28S	3697	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0446	SNORD36B	Am3703	Nm	28S	3703	snoRNA Atlas	validated
+snoDB0448	SNORD36C	Am3703	Nm	28S	3703	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0522	SNORA19	Ψ3709	Ψ	28S	3709	snoRNABase | snoRNA Atlas	validated
+snoDB0586	SNORA31	Ψ3713	Ψ	28S	3713	snoRNABase | snoRNA Atlas	validated
+snoDB0419	SNORD87	Gm3723	Nm	28S	3723	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0498	SNORA23	Ψ3737	Ψ	28S	3737	snoRNABase | snoRNA Atlas	validated
+snoDB0050	SNORD46	Am3739	Nm	28S	3739	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0266		Am3739	Nm	28S	3739	snoDB predicted	validated
+snoDB0341		Am3739	Nm	28S	3739	Krogh N. et al.	validated
+snoDB0253	SNORA74B	Ψ3741	Ψ	28S	3741	snoRNABase | snoRNA Atlas	validated
+snoDB0257	SNORA74A	Ψ3741	Ψ	28S	3741	snoRNABase | snoRNA Atlas	validated
+snoDB0253	SNORA74B	Ψ3743	Ψ	28S	3743	snoRNABase	validated
+snoDB0257	SNORA74A	Ψ3743	Ψ	28S	3743	snoRNABase	validated
+snoDB0477	SNORD15A	Am3764	Nm	28S	3764	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0478	SNORD15B	Am3764	Nm	28S	3764	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0477	SNORD15A	Gm3771	Nm	28S	3771	Krogh N. et al.	validated
+snoDB0836	SNORD10	Cm3787	Nm	28S	3787	snoRNABase | Krogh N. et al.	validated
+snoDB0226	SNORD123	Ψm3797	Nm	28S	3797	snoDB predicted	validated
+snoDB0345	SNORA48B	Ψm3797	Ψ	28S	3797	snoRNA Atlas	validated
+snoDB0835	SNORA48	Ψm3797	Ψ	28S	3797	snoRNABase | snoRNA Atlas	validated
+snoDB0896	SNORD17	Ψm3797	Nm	28S	3797	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0481	SNORA54	Ψ3801	Ψ	28S	3801	snoRNABase	validated
+snoDB0485	SNORD30	Am3804	Nm	28S	3804	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0561	SNORD59A	Am3804	Nm	28S	3804	snoDB predicted	validated
+snoDB1058	SNORD59B	Am3804	Nm	28S	3804	snoDB predicted	validated
+snoDB0989	SNORD79	Am3809	Nm	28S	3809	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0198	SNORD74L7	Cm3820	Nm	28S	3820	snoDB predicted	validated
+snoDB0548		Cm3820	Nm	28S	3820	snoDB predicted	validated
+snoDB0942	SNORD74B	Cm3820	Nm	28S	3820	snoDB predicted	validated
+snoDB0996	SNORD74	Cm3820	Nm	28S	3820	snoRNABase | Krogh N. et al.	validated
+snoDB0158	SNORA58	Ψ3823	Ψ	28S	3823	snoRNABase	validated
+snoDB0144	SNORA62	Ψ3830	Ψ	28S	3830	snoRNABase	validated
+snoDB0144	SNORA62	Ψ3832	Ψ	28S	3832	snoRNABase	validated
+snoDB0464	SNORA8	Ψ3832	Ψ	28S	3832	snoRNABase	validated
+snoDB0089	SNORD92	Am3846	Nm	28S	3846	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB1891	snoU13	Am3846	Nm	28S	3846	snoDB predicted	validated
+snoDB1946	snoU13	Am3846	Nm	28S	3846	snoDB predicted	validated
+snoDB0090	SNORD53	Cm3848	Nm	28S	3848	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0091	SNORD53B	Cm3848	Nm	28S	3848	snoRNA Atlas | Krogh N. et al.	validated
+snoDB0432	SNORA84	Ψ3863	Ψ	28S	3863	snoRNA Atlas | Kehr S. et al.	validated
+snoDB0987	SNORD47	Cm3866	Nm	28S	3866	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0900	SNORD12C	Gm3878	Nm	28S	3878	snoRNA Atlas	validated
+snoDB0901	SNORD12B	Gm3878	Nm	28S	3878	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0902	SNORD12	Gm3878	Nm	28S	3878	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0501	SNORA3A	Ψ3899	Ψ	28S	3899	snoRNABase	validated
+snoDB0502	SNORA3B	Ψ3899	Ψ	28S	3899	snoRNABase	validated
+snoDB0298	SNORD52	Um3904	Nm	28S	3904	snoRNABase | Krogh N. et al.	validated
+snoDB0790	SNORD111B	Gm3923	Nm	28S	3923	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0791	SNORD111	Gm3923	Nm	28S	3923	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0501	SNORA3A	Ψ3938	Ψ	28S	3938	snoRNABase | snoRNA Atlas	validated
+snoDB0570	SNORD102	Gm4020	Nm	28S	4020	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0995	SNORD75	Cm4032	Nm	28S	4032	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0580	SNORD31B	Gm4166	Nm	28S	4166	snoRNA Atlas | Krogh N. et al.	validated
+snoDB1049	SNORD31	Gm4166	Nm	28S	4166	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0868	SNORD58C	Um4197	Nm	28S	4197	snoRNABase	validated
+snoDB0868	SNORD58C	Gm4198	Nm	28S	4198	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0869	SNORD58A	Gm4198	Nm	28S	4198	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0870	SNORD58B	Gm4198	Nm	28S	4198	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0537	SNORA2A	Ψ4263	Ψ	28S	4263	snoRNABase | snoRNA Atlas	validated
+snoDB0538	SNORA2B	Ψ4263	Ψ	28S	4263	snoRNABase | snoRNA Atlas	validated
+snoDB0058		Ψ4266	Ψ	28S	4266	Kehr S. et al.	validated
+snoDB0218		Ψ4266	Ψ	28S	4266	Kehr S. et al.	validated
+snoDB0360		Ψ4266	Ψ	28S	4266	Kehr S. et al.	validated
+snoDB0778	SNORA78	Ψ4266	Ψ	28S	4266	snoRNA Atlas | Kehr S. et al.	validated
+snoDB0780		Ψ4266	Ψ	28S	4266	Kehr S. et al.	validated
+snoDB0539	SNORA2C	Ψ4269	Ψ	28S	4269	snoRNABase | snoRNA Atlas	validated
+snoDB0599	SNORD41L1	Um4276	Nm	28S	4276	snoDB predicted	validated
+snoDB0923	SNORD41	Um4276	Nm	28S	4276	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB1074	SNORD135	Um4276	Nm	28S	4276	snoRNA Atlas | Krogh N. et al.	validated
+snoDB0537	SNORA2A	Ψ4282	Ψ	28S	4282	snoRNABase | snoRNA Atlas	validated
+snoDB0538	SNORA2B	Ψ4282	Ψ	28S	4282	snoRNABase | snoRNA Atlas	validated
+snoDB0539	SNORA2C	Ψ4282	Ψ	28S	4282	snoRNABase | snoRNA Atlas	validated
+snoDB0498	SNORA23	Ψ4331	Ψ	28S	4331	snoRNABase	validated
+snoDB0778	SNORA78	Ψ4331	Ψ	28S	4331	snoRNABase | snoRNA Atlas	validated
+snoDB0962	SNORD60	Gm4340	Nm	28S	4340	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0842	SNORD1C	Gm4362	Nm	28S	4362	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0843	SNORD1B	Gm4362	Nm	28S	4362	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0844	SNORD1A	Gm4362	Nm	28S	4362	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB1731	snoU13	Gm4362	Nm	28S	4362	snoDB predicted	validated
+snoDB0431	SNORA65	Ψ4373	Ψ	28S	4373	snoRNABase | snoRNA Atlas	validated
+snoDB0076	SNORA63C	Ψ4390	Ψ	28S	4390	snoRNA Atlas	validated
+snoDB0183	SNORA63	Ψ4390	Ψ	28S	4390	snoRNABase | snoRNA Atlas	validated
+snoDB0904	SNORA68	Ψ4393	Ψ	28S	4393	snoRNABase | snoRNA Atlas	validated
+snoDB0820	SNORA21	Ψ4401	Ψ	28S	4401	snoRNABase | snoRNA Atlas	validated
+snoDB0966	SNORA16A	Ψ4412	Ψ	28S	4412	snoRNABase | snoRNA Atlas	validated
+snoDB0005	SCARNA21B	Cm4426	Nm	28S	4426	snoRNA Atlas	validated
+snoDB0809	SNORD49B	Cm4426	Nm	28S	4426	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0810	SNORD49A	Cm4426	Nm	28S	4426	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0838	SCARNA21	Cm4426	Nm	28S	4426	snoRNA Atlas	validated
+snoDB0431	SNORA65	Ψ4427	Ψ	28S	4427	snoRNABase | snoRNA Atlas	validated
+snoDB0401	SNORA1B	Ψ4441	Ψ	28S	4441	snoRNA Atlas	validated
+snoDB0463	SNORA1	Ψ4441	Ψ	28S	4441	snoRNABase | snoRNA Atlas	validated
+snoDB0151	SNORD69	Gm4464	Nm	28S	4464	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0440	SNORD62A	Um4468	Nm	28S	4468	Krogh N. et al.	validated
+snoDB0441	SNORD62B	Um4468	Nm	28S	4468	Krogh N. et al.	validated
+snoDB0820	SNORA21	Ψ4470	Ψ	28S	4470	snoRNABase	validated
+snoDB0084	SNORA10B	Ψ4491	Ψ	28S	4491	snoRNA Atlas	validated
+snoDB0776	SNORA10	Ψ4491	Ψ	28S	4491	snoRNABase | snoRNA Atlas	validated
+snoDB1050	SNORD29	Am4493	Nm	28S	4493	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0921	SNORD35A	Cm4506	Nm	28S	4506	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0922	SNORD35B	Cm4506	Nm	28S	4506	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0216	SNORA26	Ψ4522	Ψ	28S	4522	snoRNABase	validated
+snoDB0571	SNORA27	Ψ4522	Ψ	28S	4522	snoRNABase | snoRNA Atlas	validated
+snoDB0261	SNORD63B	Am4541	Nm	28S	4541	snoRNA Atlas | Krogh N. et al.	validated
+snoDB0262	SNORD63	Am4541	Nm	28S	4541	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0467	SNORA40	Ψ4546	Ψ	28S	4546	snoRNABase	validated
+snoDB0511	SNORD115	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0711	SNORD115-1	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0712	SNORD115-2	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0713	SNORD115-3	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0714	SNORD115-4	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0715	SNORD115-5	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0716	SNORD115-6	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0717	SNORD115-7	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0718	SNORD115-8	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0719	SNORD115-9	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0720	SNORD115-10	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0721	SNORD115-11	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0722	SNORD115-12	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0723	SNORD115-13	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0724	SNORD115-14	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0725	SNORD115-15	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0726	SNORD115-16	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0730	SNORD115-20	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0731	SNORD115-21	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0732	SNORD115-22	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0734	SNORD115-24	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0735	SNORD115-25	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0736	SNORD115-26	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0737	SNORD115-27	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0738	SNORD115-28	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0739	SNORD115-29	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0740	SNORD115-30	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0741	SNORD115-31	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0742	SNORD115-32	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0743	SNORD115-33	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0744	SNORD115-34	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0745	SNORD115-35	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0746	SNORD115-36	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0748	SNORD115-38	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0749	SNORD115-39	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0750	SNORD115-40	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0751	SNORD115-41	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0752	SNORD115-42	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0753	SNORD115-43	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0754	SNORD115-44	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB0756	SNORD115-46	Am4560	Nm	28S	4560	snoDB predicted	validated
+snoDB1080	SNORD119	Am4560	Nm	28S	4560	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0853	SNORD91B	Gm4588	Nm	28S	4588	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0854	SNORD91A	Gm4588	Nm	28S	4588	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0235	SNORD72	Um4590	Nm	28S	4590	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0096	SNORD78L2	Gm4593	Nm	28S	4593	snoRNA Atlas | Krogh N. et al.	validated
+snoDB0990	SNORD78	Gm4593	Nm	28S	4593	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0968	SNORA17A	Ψ4598	Ψ	28S	4598	snoRNABase	validated
+snoDB0182	SNORA81	Ψ4606	Ψ	28S	4606	snoRNABase | snoRNA Atlas	validated
+snoDB0443	SNORD121B	Gm4607	Nm	28S	4607	snoRNABase | Krogh N. et al.	validated
+snoDB0444	SNORD121A	Gm4607	Nm	28S	4607	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0469		Gm4607	Nm	28S	4607	snoDB predicted	validated
+snoDB0433	SNORA30B	Ψ4643	Ψ	28S	4643	snoRNA Atlas	validated
+snoDB0784	SNORA30	Ψ4643	Ψ	28S	4643	snoRNABase | snoRNA Atlas	validated
+snoDB0862	SNORA37	Ψ4643	Ψ	28S	4643	snoRNABase | snoRNA Atlas	validated
+snoDB0968	SNORA17A	Ψ4659	Ψ	28S	4659	snoRNABase | snoRNA Atlas	validated
+snoDB0960	SNORA50B	Ψ4937	Ψ	28S	4937	snoRNA Atlas	validated
+snoDB0968	SNORA17A	Ψ4937	Ψ	28S	4937	snoRNABase | snoRNA Atlas	validated
+snoDB0280	SNORA33	Ψ4966	Ψ	28S	4966	snoRNABase | snoRNA Atlas	validated
+snoDB0325	SNORA22	Ψ4966	Ψ	28S	4966	snoRNABase	validated
+snoDB0321	SNORA22B	Ψ4975	Ψ	28S	4975	snoRNA Atlas	validated
+snoDB0325	SNORA22	Ψ4975	Ψ	28S	4975	snoRNABase	validated
+snoDB0777	SNORA64	Ψ4975	Ψ	28S	4975	snoRNABase | snoRNA Atlas	validated
+snoDB0803	SNORD71	Um14	Nm	5.8S	14	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0403	SNORA72	Ψ55	Ψ	5.8S	55	snoRNABase | snoRNA Atlas	validated
+snoDB0382	SNORA69	Ψ69	Ψ	5.8S	69	snoRNABase | snoRNA Atlas	validated
+snoDB0254	SNORD96A	Gm75	Nm	5.8S	75	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0381	SNORD96B	Gm75	Nm	5.8S	75	snoRNABase | snoRNA Atlas | Krogh N. et al.	validated
+snoDB0523	SNORD60L1	Gm75	Nm	5.8S	75	snoDB predicted	validated

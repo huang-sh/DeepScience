@@ -1,0 +1,25 @@
+Index,DataSetID,species,RBPSYMBOL,CELLLINE,Genesymbol,Disease,DEAS,ORF_AS,LOF_AS,_disease,_species,_type
+16169,DataSet_317,human,FASTK,H9,ANXA2,Sezary syndrome,1,1,0,Sezary syndrome,human,AS
+16170,DataSet_317,human,FASTK,H9,ATP2A2,Sezary syndrome,1,1,0,Sezary syndrome,human,AS
+16191,DataSet_317,human,FASTK,H9,TP73-AS1,Sezary syndrome,1,0,0,Sezary syndrome,human,AS
+16190,DataSet_317,human,FASTK,H9,TCEA2,Sezary syndrome,1,0,0,Sezary syndrome,human,AS
+16189,DataSet_317,human,FASTK,H9,TAF1D,Sezary syndrome,1,1,0,Sezary syndrome,human,AS
+16188,DataSet_317,human,FASTK,H9,SNORA40,Sezary syndrome,1,0,0,Sezary syndrome,human,AS
+16187,DataSet_317,human,FASTK,H9,SCARB1,Sezary syndrome,1,1,0,Sezary syndrome,human,AS
+16186,DataSet_317,human,FASTK,H9,SAMD4B,Sezary syndrome,1,1,0,Sezary syndrome,human,AS
+16185,DataSet_317,human,FASTK,H9,RPS24,Sezary syndrome,1,1,0,Sezary syndrome,human,AS
+16184,DataSet_317,human,FASTK,H9,RNF123,Sezary syndrome,1,1,0,Sezary syndrome,human,AS
+16183,DataSet_317,human,FASTK,H9,RBMX,Sezary syndrome,1,1,0,Sezary syndrome,human,AS
+16182,DataSet_317,human,FASTK,H9,PKP4,Sezary syndrome,1,1,0,Sezary syndrome,human,AS
+16181,DataSet_317,human,FASTK,H9,PIGQ,Sezary syndrome,1,1,0,Sezary syndrome,human,AS
+16180,DataSet_317,human,FASTK,H9,MIR3064,Sezary syndrome,1,0,0,Sezary syndrome,human,AS
+16179,DataSet_317,human,FASTK,H9,LRRC24,Sezary syndrome,1,0,0,Sezary syndrome,human,AS
+16178,DataSet_317,human,FASTK,H9,GOLGA8B,Sezary syndrome,1,1,0,Sezary syndrome,human,AS
+16177,DataSet_317,human,FASTK,H9,GMPPB,Sezary syndrome,1,0,0,Sezary syndrome,human,AS
+16176,DataSet_317,human,FASTK,H9,GLG1,Sezary syndrome,1,1,0,Sezary syndrome,human,AS
+16175,DataSet_317,human,FASTK,H9,ENSG00000282907,Sezary syndrome,1,0,0,Sezary syndrome,human,AS
+16174,DataSet_317,human,FASTK,H9,EIF4A2,Sezary syndrome,1,1,0,Sezary syndrome,human,AS
+16173,DataSet_317,human,FASTK,H9,DDX5,Sezary syndrome,1,1,0,Sezary syndrome,human,AS
+16172,DataSet_317,human,FASTK,H9,CD46,Sezary syndrome,1,1,0,Sezary syndrome,human,AS
+16171,DataSet_317,human,FASTK,H9,C8orf82,Sezary syndrome,1,1,0,Sezary syndrome,human,AS
+16192,DataSet_317,human,FASTK,H9,TSSC2,Sezary syndrome,1,0,0,Sezary syndrome,human,AS

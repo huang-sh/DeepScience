@@ -1,0 +1,63 @@
+{
+	"name": "deepscience-monorepo",
+	"version": "0.0.1",
+	"private": true,
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/huang-sh/DeepScience.git"
+	},
+	"workspaces": [
+		"packages/frontend",
+		"packages/science",
+		"packages/server",
+		"vendor/pi/packages/ai",
+		"vendor/pi/packages/agent",
+		"vendor/pi/packages/coding-agent",
+		"vendor/pi/packages/tui",
+		"vendor/pi/packages/orchestrator"
+	],
+	"scripts": {
+		"dev": "node scripts/dev.mjs",
+		"dev:api": "tsx packages/server/src/index.ts",
+		"dev:web": "npm run dev --workspace @deepscience/frontend -- --port 5175",
+		"cli": "tsx packages/server/src/cli.ts",
+		"check": "npm run check:pi-source && npm run check:format && tsgo --noEmit && npm run typecheck --workspace @deepscience/frontend",
+		"check:pi-source": "node scripts/check-pi-source.mjs",
+		"check:format": "biome check --error-on-warnings packages/science/src/index.ts packages/science/src/permission packages/science/src/tools/basic.ts packages/science/src/tools/index.ts packages/science/src/tools/provenance.ts packages/science/test packages/server scripts/dev.mjs packages/frontend/src",
+		"build:frontend": "npm run build --workspace @deepscience/frontend",
+		"build:pi": "npm run build --workspace @earendil-works/pi-tui && tsgo -p vendor/pi/packages/ai/tsconfig.build.json && npm run build --workspace @earendil-works/pi-agent-core && npm run build --workspace @earendil-works/pi-coding-agent && npm run build --workspace @earendil-works/pi-orchestrator",
+		"build": "npm run build:pi && npm run build --workspace @shying/ds-science && npm run build --workspace @shying/deepscience",
+		"skills:organize": "node --import tsx scripts/organize-skills.ts",
+		"skills:validate": "node --import tsx scripts/validate-skills.ts",
+		"resources:sync": "node scripts/sync-resource-tree.mjs",
+		"resources:validate": "python3 packages/science/resources/skills/experimental-data/scripts/catalog.py validate && python3 packages/science/resources/skills/biological-knowledge/scripts/catalog.py validate && python3 packages/science/resources/skills/literature/scripts/catalog.py validate",
+		"test": "npm test --workspace @deepscience/frontend && npm test --workspace @shying/deepscience",
+		"test:pi": "npm test --workspace @earendil-works/pi-tui && npm test --workspace @earendil-works/pi-ai && npm test --workspace @earendil-works/pi-agent-core && npm test --workspace @earendil-works/pi-coding-agent",
+		"prepublishOnly": "npm run build && npm run check",
+		"publish:packages": "npm run prepublishOnly && node scripts/publish.mjs",
+		"publish:dry": "npm run prepublishOnly && node scripts/publish.mjs --dry-run",
+		"prepare": "husky"
+	},
+	"devDependencies": {
+		"@anthropic-ai/sandbox-runtime": "0.0.26",
+		"@biomejs/biome": "2.3.5",
+		"@types/node": "22.19.19",
+		"@typescript/native-preview": "7.0.0-dev.20260120.1",
+		"esbuild": "0.28.1",
+		"husky": "9.1.7",
+		"jiti": "2.7.0",
+		"shx": "0.4.0",
+		"tsx": "4.22.1",
+		"typescript": "5.9.3"
+	},
+	"engines": {
+		"node": ">=22.19.0"
+	},
+	"overrides": {
+		"rimraf": "6.1.2",
+		"gaxios": {
+			"rimraf": "6.1.2"
+		}
+	}
+}

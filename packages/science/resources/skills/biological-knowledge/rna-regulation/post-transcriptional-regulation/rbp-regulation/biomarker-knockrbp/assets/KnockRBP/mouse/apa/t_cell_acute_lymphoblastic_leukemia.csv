@@ -1,0 +1,5 @@
+Index,DataSetID,species,RBPSYMBOL,CELLLINE,Genesymbol,Disease,DEAPA,ORF_APA,LOF_APA,_disease,_species,_type
+160798,DataSet_232,mouse,Matr3,Jurkat,EPS15L1,T-cell acute lymphoblastic leukemia,1,6,4,T-cell acute lymphoblastic leukemia,mouse,APA
+160799,DataSet_232,mouse,Matr3,Jurkat,FARP1,T-cell acute lymphoblastic leukemia,1,3,0,T-cell acute lymphoblastic leukemia,mouse,APA
+160800,DataSet_232,mouse,Matr3,Jurkat,GUCY1A2,T-cell acute lymphoblastic leukemia,1,0,0,T-cell acute lymphoblastic leukemia,mouse,APA
+160801,DataSet_232,mouse,Matr3,Jurkat,STK24,T-cell acute lymphoblastic leukemia,1,0,0,T-cell acute lymphoblastic leukemia,mouse,APA

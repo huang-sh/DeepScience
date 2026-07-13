@@ -1,0 +1,4 @@
+[submodule "vendor/pi"]
+	path = vendor/pi
+	url = git@github.com:huang-sh/pi.git
+	branch = main
