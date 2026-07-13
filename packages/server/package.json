@@ -25,7 +25,7 @@
   },
   "scripts": {
     "build": "npm run build --workspace @deepscience/frontend && tsgo -p tsconfig.json && shx rm -rf dist/public && shx mkdir -p dist/public && shx cp -r ../frontend/dist/* dist/public/ && chmod +x dist/cli.js",
-    "test": "TSX_TSCONFIG_PATH=../../tsconfig.json node --import tsx --test test/**/*.test.ts"
+    "test": "BIGMODEL_API_KEY=deepscience-test-placeholder TSX_TSCONFIG_PATH=../../tsconfig.json node --import tsx --test test/**/*.test.ts"
   },
   "dependencies": {
     "@shying/ds-science": "*",
