@@ -32,6 +32,7 @@
 		"skills:validate": "node --import tsx scripts/validate-skills.ts",
 		"resources:sync": "node scripts/sync-resource-tree.mjs",
 		"resources:validate": "python3 packages/science/resources/skills/experimental-data/scripts/catalog.py validate && python3 packages/science/resources/skills/biological-knowledge/scripts/catalog.py validate && python3 packages/science/resources/skills/literature/scripts/catalog.py validate",
+		"pretest": "npm run build --workspace @shying/ds-science",
 		"test": "npm test --workspace @deepscience/frontend && npm test --workspace @shying/deepscience",
 		"test:pi": "npm test --workspace @earendil-works/pi-tui && npm test --workspace @earendil-works/pi-ai && npm test --workspace @earendil-works/pi-agent-core && npm test --workspace @earendil-works/pi-coding-agent",
 		"prepublishOnly": "npm run build && npm run check",
