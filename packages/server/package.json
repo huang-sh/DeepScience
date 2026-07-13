@@ -21,7 +21,7 @@
     "dist"
   ],
   "bin": {
-    "deepscience": "./dist/cli.js"
+    "deepscience": "dist/cli.js"
   },
   "scripts": {
     "build": "npm run build --workspace @deepscience/frontend && tsgo -p tsconfig.json && shx rm -rf dist/public && shx mkdir -p dist/public && shx cp -r ../frontend/dist/* dist/public/ && chmod +x dist/cli.js",
