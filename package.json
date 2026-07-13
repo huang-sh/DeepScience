@@ -55,6 +55,7 @@
 		"node": ">=22.19.0"
 	},
 	"overrides": {
+		"es-module-lexer": "2.3.0",
 		"rimraf": "6.1.2",
 		"gaxios": {
 			"rimraf": "6.1.2"
