@@ -163,6 +163,14 @@ deepscience web
 
 The WebUI is available at <http://localhost:3000>, and the launch directory becomes the initial Workspace.
 
+You can explicitly select both the port and initial Workspace from any directory:
+
+```bash
+deepscience web --port 8080 --workspace /path/to/research-project
+```
+
+`--project` is accepted as an alias for `--workspace`. Without `--port`, DeepScience uses the `PORT` environment variable and falls back to `3000`.
+
 ## Model configuration
 
 After starting the WebUI, open **Settings → Model**, select a Provider, configure an API key or subscription login, and choose the default model.

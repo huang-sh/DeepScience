@@ -14,7 +14,26 @@ describe("DeepScience CLI arguments", () => {
 	it("parses the WebUI command", () => {
 		const parsed = parseCliArgs(["web"], "/project");
 		assert.equal(parsed.command, "web");
-		assert.throws(() => parseCliArgs(["web", "extra"]), /does not accept additional arguments/);
+		assert.equal(parsed.project, "/project");
+		assert.equal(parsed.port, undefined);
+	});
+
+	it("parses WebUI port and Workspace options", () => {
+		const parsed = parseCliArgs(["web", "--port", "8080", "--workspace", "./research"], "/project");
+		assert.equal(parsed.command, "web");
+		assert.equal(parsed.port, 8080);
+		assert.equal(parsed.project, "./research");
+
+		const alias = parseCliArgs(["web", "--project", "/data/project"]);
+		assert.equal(alias.project, "/data/project");
+	});
+
+	it("validates WebUI-only arguments", () => {
+		assert.throws(() => parseCliArgs(["web", "--port", "0"]), /Invalid port/);
+		assert.throws(() => parseCliArgs(["web", "--port", "65536"]), /Invalid port/);
+		assert.throws(() => parseCliArgs(["web", "--port", "abc"]), /Invalid port/);
+		assert.throws(() => parseCliArgs(["web", "extra"]), /Unexpected web argument/);
+		assert.throws(() => parseCliArgs(["web", "--agent", "biology"]), /Unknown web option/);
 	});
 
 	it("tracks an explicitly selected thinking level", () => {

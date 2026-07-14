@@ -14,6 +14,7 @@ export interface CliOptions {
 	thinking: ThinkingLevel;
 	thinkingSpecified: boolean;
 	project: string;
+	port?: number;
 	session?: string;
 	prompt?: string;
 }
@@ -41,8 +42,37 @@ export function parseCliArgs(args: string[], cwd = process.cwd()): CliOptions {
 		project: cwd,
 	};
 	if (args[0] === "web") {
-		if (args.length > 1) throw new Error("deepscience web does not accept additional arguments");
 		options.command = "web";
+		for (let index = 1; index < args.length; index++) {
+			const arg = args[index];
+			switch (arg) {
+				case "-h":
+				case "--help":
+					options.help = true;
+					break;
+				case "-v":
+				case "--version":
+					options.version = true;
+					break;
+				case "--port": {
+					const value = readValue(args, index, arg);
+					const port = Number(value);
+					if (!Number.isInteger(port) || port < 1 || port > 65_535) {
+						throw new Error(`Invalid port: ${value}. Expected an integer from 1 to 65535`);
+					}
+					options.port = port;
+					index++;
+					break;
+				}
+				case "--workspace":
+				case "--project":
+					options.project = readValue(args, index, arg);
+					index++;
+					break;
+				default:
+					throw new Error(arg.startsWith("-") ? `Unknown web option: ${arg}` : `Unexpected web argument: ${arg}`);
+			}
+		}
 		return options;
 	}
 	const prompt: string[] = [];

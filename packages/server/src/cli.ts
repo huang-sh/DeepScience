@@ -1,12 +1,13 @@
 #!/usr/bin/env node
 
 import { spawn } from "node:child_process";
-import { access } from "node:fs/promises";
+import { access, stat } from "node:fs/promises";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { listAgents } from "@shying/ds-science";
 import { parseCliArgs } from "./cli-args.ts";
 import { runTui } from "./cli-tui.ts";
+import { assertPortAvailable } from "./port-availability.ts";
 import { readPreferences } from "./preferences.ts";
 import {
 	createSession,
@@ -19,13 +20,13 @@ import {
 } from "./session.ts";
 import type { SessionInfo } from "./session-store.ts";
 
-const VERSION = "0.0.1";
+const VERSION = "0.0.2";
 
 const HELP = `DeepScience CLI ${VERSION}
 
 Usage:
   deepscience                         Open the interactive TUI
-  deepscience web                     Start the API and WebUI
+  deepscience web [options]           Start the API and WebUI
   deepscience "task"                  Open the TUI and run a task
   deepscience -p "task"               Run once and print the final result
 
@@ -43,10 +44,24 @@ Options:
   -h, --help                          Show help
   -v, --version                       Show version
 
+Web options:
+      --port <number>                 HTTP port (default: PORT or 3000)
+      --workspace <path>              Initial Workspace (default: current directory)
+      --project <path>                Alias for --workspace
+
 TUI commands: /help, /status, /clear, /stop, /exit`;
 
-async function runWeb(): Promise<void> {
-	const initialWorkspace = process.cwd();
+async function runWeb(options: ReturnType<typeof parseCliArgs>): Promise<void> {
+	const initialWorkspace = resolve(options.project);
+	const port = options.port ?? Number(process.env.PORT ?? 3000);
+	if (!Number.isInteger(port) || port < 1 || port > 65_535) {
+		throw new Error(`Invalid PORT value: ${process.env.PORT}. Expected an integer from 1 to 65535`);
+	}
+	const workspaceInfo = await stat(initialWorkspace).catch(() => {
+		throw new Error(`Workspace does not exist: ${initialWorkspace}`);
+	});
+	if (!workspaceInfo.isDirectory()) throw new Error(`Workspace is not a directory: ${initialWorkspace}`);
+	await assertPortAvailable(port);
 	const packageRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 	const serverEntry = join(packageRoot, "dist", "index.js");
 	try {
@@ -60,6 +75,7 @@ async function runWeb(): Promise<void> {
 			stdio: "inherit",
 			env: {
 				...process.env,
+				PORT: String(port),
 				DEEPSCIENCE_INITIAL_WORKSPACE: initialWorkspace,
 				DEEPSCIENCE_WEB_ROOT: "dist/public",
 			},
@@ -139,16 +155,16 @@ async function resolveSession(options: ReturnType<typeof parseCliArgs>): Promise
 
 async function main(): Promise<void> {
 	const options = parseCliArgs(process.argv.slice(2));
-	if (options.command === "web") {
-		await runWeb();
-		return;
-	}
 	if (options.help) {
 		console.log(HELP);
 		return;
 	}
 	if (options.version) {
 		console.log(VERSION);
+		return;
+	}
+	if (options.command === "web") {
+		await runWeb(options);
 		return;
 	}
 	if (options.listAgents) {

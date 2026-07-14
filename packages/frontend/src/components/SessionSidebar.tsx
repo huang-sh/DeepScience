@@ -496,8 +496,12 @@ function TasksTab() {
     <>
       <div class="archive-search">
         <button
+          type="button"
           class="archive-search__btn archive-search__btn--primary"
-          onClick={() => newChat()}
+          onClick={() => {
+			newChat()
+			requestAnimationFrame(() => document.querySelector<HTMLTextAreaElement>("#landing-input")?.focus())
+		  }}
         >
           + New task
         </button>

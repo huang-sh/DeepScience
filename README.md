@@ -163,6 +163,14 @@ deepscience web
 
 WebUI 地址为 <http://localhost:3000>，启动目录会成为初始 Workspace。
 
+也可以在任意目录显式指定端口和初始 Workspace：
+
+```bash
+deepscience web --port 8080 --workspace /path/to/research-project
+```
+
+`--project` 可作为 `--workspace` 的别名。未指定 `--port` 时会使用 `PORT` 环境变量，若也未设置则使用 `3000`。
+
 ## 配置模型
 
 启动 WebUI 后进入 **Settings → Model**，选择 Provider 并配置 API Key 或订阅登录，然后选择默认模型。
