@@ -41,6 +41,12 @@ The resource library includes:
 
 When a database provides both local data and a remote service, DeepScience prefers local data when it can satisfy the task and queries the remote API when necessary.
 
+### Connectors
+
+DeepScience uses MCP Connectors to access external tools and services. Add a local-command or remote-HTTP Connector from **Settings → Connectors**. Configuration is stored in `~/.deepscience/mcp.json` and shared by every Workspace.
+
+Connectors are lazy by default. The Agent receives one lightweight `mcp` gateway and searches, describes, and calls remote tools only when the task requires them, rather than keeping every Connector tool in the model context. DeepScience also recognizes `~/.config/mcp/mcp.json`, project `.mcp.json`, and `.pi/mcp.json`. MCP runtime support is provided by [`pi-mcp-adapter`](https://github.com/nicobailon/pi-mcp-adapter).
+
 ### Projects and session workspaces
 
 - Create or open any local research directory as a Project.

@@ -2,6 +2,13 @@ import { evaluate, getAgentConfig, listAgents, type Ruleset } from "@shying/ds-s
 import type { Hono } from "hono";
 import { stream } from "hono/streaming";
 import { serveArtifactContentFromRoot } from "./artifacts.ts";
+import {
+	type ConnectorDefinition,
+	deleteConnector,
+	readConnectorCatalog,
+	saveConnector,
+	testConnector,
+} from "./connectors.ts";
 import { readPreferences, savePreferences } from "./preferences.ts";
 import { enrichProviderOAuthStatus, providerOAuth } from "./provider-oauth.ts";
 import { loadResourceCatalog, serveResourceFile } from "./resources.ts";
@@ -109,7 +116,7 @@ export function registerSDKRoutes(app: Hono) {
 	app.get("/api/capabilities", (c) =>
 		c.json({
 			brand: "DeepScience",
-			version: "0.0.1",
+			version: "0.0.2",
 			runtime: {
 				agent: "pi-coding-agent",
 				model: "pi-ai",
@@ -129,7 +136,7 @@ export function registerSDKRoutes(app: Hono) {
 				managedBilling: false,
 				wallet: false,
 				providerOAuth: true,
-				mcpManagement: false,
+				mcpManagement: true,
 				pty: false,
 				lsp: false,
 				formatter: false,
@@ -149,6 +156,56 @@ export function registerSDKRoutes(app: Hono) {
 			},
 		}),
 	);
+
+	app.get("/api/connectors", async (c) => {
+		try {
+			return c.json(await readConnectorCatalog());
+		} catch (error) {
+			return handleSessionError(c, error);
+		}
+	});
+
+	app.put("/api/connectors/:name", async (c) => {
+		try {
+			const body = await c.req.json<ConnectorDefinition>().catch(() => undefined);
+			if (!body) return c.json(apiError("Connector definition is required", "VALIDATION_ERROR"), 422);
+			await saveConnector(c.req.param("name"), body);
+			return c.json(await readConnectorCatalog());
+		} catch (error) {
+			return c.json(
+				apiError(error instanceof Error ? error.message : "Unable to save Connector", "VALIDATION_ERROR"),
+				422,
+			);
+		}
+	});
+
+	app.post("/api/connectors/test", async (c) => {
+		try {
+			const project = await resolveWorkspaceInstance(
+				c.req.query("directory") ?? process.env.DEEPSCIENCE_INITIAL_WORKSPACE,
+			);
+			const body = await c.req.json<{ name?: string; definition?: ConnectorDefinition }>().catch(() => undefined);
+			if (!body?.name || !body.definition) {
+				return c.json(apiError("Connector name and definition are required", "VALIDATION_ERROR"), 422);
+			}
+			return c.json(await testConnector(project.directory, body.name, body.definition));
+		} catch (error) {
+			return c.json(
+				apiError(error instanceof Error ? error.message : "Connector test failed", "CONNECTOR_TEST_FAILED"),
+				422,
+			);
+		}
+	});
+
+	app.delete("/api/connectors/:name", async (c) => {
+		try {
+			const deleted = await deleteConnector(c.req.param("name"));
+			if (!deleted) return c.json(apiError("Connector not found", "NOT_FOUND"), 404);
+			return c.json(await readConnectorCatalog());
+		} catch (error) {
+			return handleSessionError(c, error);
+		}
+	});
 
 	app.get("/api/preferences", async (c) => c.json(await readPreferences()));
 

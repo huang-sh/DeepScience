@@ -392,10 +392,13 @@ async function buildAgentForSession(
 	});
 	const runtime = await createDeepScienceCodingRuntime({
 		agent,
-		cwd: workspace?.directory ?? process.cwd(),
+		// Pi extensions discover project-scoped configuration from cwd. The
+		// actual DeepScience tools retain their separately bound Session workspace.
+		cwd: workspace?.projectDirectory ?? workspace?.worktree ?? workspace?.directory ?? process.cwd(),
 		sessionID: sessionId ?? `ephemeral_${randomUUID()}`,
 		systemPrompt,
 		extensionFactories: capabilityRuntime.extensionFactories,
+		extensionPaths: capabilityRuntime.extensionPaths,
 		appendSystemPrompt: capabilityRuntime.appendSystemPrompt,
 		createToolProvenance: (toolName) => createProvenance(sessionId ?? "unknown", toolName),
 	});

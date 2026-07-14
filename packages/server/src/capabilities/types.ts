@@ -17,7 +17,8 @@ export interface DeepScienceCapability {
 }
 
 export interface CapabilityContribution {
-	extension: ExtensionFactory;
+	extension?: ExtensionFactory;
+	extensionPaths?: string[];
 	appendSystemPrompt?: string;
 }
 

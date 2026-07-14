@@ -13,12 +13,12 @@
       // default theme. Kept in sync with store.ts (THEME_KEY / THEMES).
       (function () {
         try {
-          var valid = ["teal", "light"];
+          var valid = ["teal", "light", "open-science"];
           var t = localStorage.getItem("ds-theme");
           if (!t || valid.indexOf(t) === -1) t = "light";
           var el = document.documentElement;
           el.setAttribute("data-theme", t);
-          el.setAttribute("data-color-scheme", t === "light" ? "light" : "dark");
+          el.setAttribute("data-color-scheme", t === "teal" ? "dark" : "light");
         } catch (e) {}
       })();
     </script>

@@ -29,6 +29,7 @@ describe("DeepScience capability contract", () => {
 		assert.strictEqual(body.features.projectWorkspaces, true);
 		assert.strictEqual(body.features.gitWorktrees, true);
 		assert.strictEqual(body.features.providerOAuth, true);
+		assert.strictEqual(body.features.mcpManagement, true);
 		assert.strictEqual(body.features.pty, false);
 		assert.strictEqual(body.settings.capabilities, true);
 		assert.strictEqual(body.settings.skills, true);

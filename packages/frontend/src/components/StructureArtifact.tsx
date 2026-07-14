@@ -1,7 +1,7 @@
 import { Show, createEffect, createSignal, onCleanup } from "solid-js";
 import * as $3Dmol from "3dmol";
 import type { AtomSelectionSpec, AtomSpec, GLViewer, Label } from "3dmol";
-import { theme } from "../store";
+import { theme, themeColorScheme } from "../store";
 import { describeStructureAtom, type StructureAtomDetails, type StructureFormat } from "../structure";
 
 function atomSelection(atom: AtomSpec): AtomSelectionSpec {
@@ -50,6 +50,7 @@ export default function StructureArtifact(props: {
 		const data = props.data;
 		const format = props.format;
 		const activeTheme = theme();
+		const isLightTheme = themeColorScheme(activeTheme) === "light";
 		let disposed = false;
 		let viewer: GLViewer | undefined;
 		let observer: ResizeObserver | undefined;
@@ -66,7 +67,7 @@ export default function StructureArtifact(props: {
 				if (disposed || !container) return;
 				container.replaceChildren();
 				viewer = $3Dmol.createViewer(container, {
-					backgroundColor: activeTheme === "light" ? "white" : "#131923",
+					backgroundColor: isLightTheme ? "white" : "#131923",
 				});
 				viewer.addModel(data, format);
 				applyBaseStyle(viewer, format);
@@ -79,8 +80,8 @@ export default function StructureArtifact(props: {
 						hoverLabel = target.addLabel(atomLabel(atom), {
 							position: { x: atom.x ?? 0, y: atom.y ?? 0, z: atom.z ?? 0 },
 							fontSize: 12,
-							fontColor: activeTheme === "light" ? "#18212f" : "#f8fafc",
-							backgroundColor: activeTheme === "light" ? "#f8fafc" : "#18212f",
+							fontColor: isLightTheme ? "#18212f" : "#f8fafc",
+							backgroundColor: isLightTheme ? "#f8fafc" : "#18212f",
 							backgroundOpacity: 0.9,
 							borderColor: "#0d9488",
 							borderThickness: 1,

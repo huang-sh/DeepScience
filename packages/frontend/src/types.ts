@@ -356,6 +356,50 @@ export interface TraceEntry {
 
 export type ConnectionState = "connecting" | "connected" | "disconnected";
 
+export interface ConnectorSummary {
+	name: string;
+	transport: "stdio" | "http";
+	command?: string;
+	args?: string[];
+	url?: string;
+	lifecycle: "lazy" | "eager" | "keep-alive";
+	auth: "none" | "bearer" | "oauth";
+	hasEnvironment: boolean;
+	hasHeaders: boolean;
+}
+
+export interface ConnectorCatalog {
+	configPath: string;
+	exists: boolean;
+	connectors: ConnectorSummary[];
+	diagnostics: Array<{ level: "info" | "warning"; message: string }>;
+}
+
+export interface ConnectorDefinition {
+	command?: string;
+	args?: string[];
+	env?: Record<string, string>;
+	cwd?: string;
+	url?: string;
+	headers?: Record<string, string>;
+	auth?: "bearer" | "oauth" | false;
+	bearerTokenEnv?: string;
+	lifecycle?: "lazy" | "eager" | "keep-alive";
+	idleTimeout?: number;
+	requestTimeoutMs?: number;
+	exposeResources?: boolean;
+	excludeTools?: string[];
+	debug?: boolean;
+}
+
+export interface ConnectorTestResult {
+	ok: true;
+	server: { name?: string; version?: string };
+	toolCount: number;
+	resourceCount: number;
+	durationMs: number;
+}
+
 /* — Server capabilities (from GET /api/capabilities) — */
 
 export interface CapabilityFeatures {

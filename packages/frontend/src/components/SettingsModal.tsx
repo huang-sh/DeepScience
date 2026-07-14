@@ -14,10 +14,12 @@ import {
   setTheme,
   THEMES,
   capabilities,
+  featureEnabled,
   settingsPanelVisible,
   refreshModels,
+  workspaceSelection,
 } from "../store"
-import type { ConnectionState, ProviderCredentialStatus, ProviderOAuthJob } from "../types"
+import type { ConnectionState, ConnectorCatalog, ConnectorDefinition, ConnectorTestResult, ProviderCredentialStatus, ProviderOAuthJob } from "../types"
 
 const CONN_META: Record<ConnectionState, { color: string; label: string; desc: string }> = {
   connecting: { color: "var(--ds-amber)", label: "Connecting", desc: "Establishing a link to the DeepScience server…" },
@@ -55,6 +57,8 @@ function RailIcon(props: { name: string }) {
       return (<svg {...common}><circle cx="8" cy="8" r="6" /><path d="M8 2a6 6 0 0 1 0 12Z" fill="currentColor" stroke="none" /></svg>)
     case "connection":
       return (<svg {...common}><path d="M2 6.2c3.6-3.4 8.4-3.4 12 0" /><path d="M4.4 8.7c2.4-2.2 4.8-2.2 7.2 0" /><path d="M6.7 11.1c1-0.9 1.6-0.9 2.6 0" /><circle cx="8" cy="13.4" r="0.9" fill="currentColor" stroke="none" /></svg>)
+    case "connectors":
+      return (<svg {...common}><path d="M6.2 5.1 4.7 3.6a2.1 2.1 0 0 0-3 3l2.1 2.1a2.1 2.1 0 0 0 3 0l.8-.8" /><path d="m9.8 10.9 1.5 1.5a2.1 2.1 0 0 0 3-3l-2.1-2.1a2.1 2.1 0 0 0-3 0l-.8.8" /><path d="m5.7 10.3 4.6-4.6" /></svg>)
     case "about":
       return (<svg {...common}><circle cx="8" cy="8" r="6" /><path d="M8 7.2v3.3" /><circle cx="8" cy="5" r="0.85" fill="currentColor" stroke="none" /></svg>)
     default:
@@ -544,6 +548,247 @@ function ConnectionPanel() {
   )
 }
 
+function ConnectorsPanel() {
+  const [catalog, setCatalog] = createSignal<ConnectorCatalog | null>(null)
+  const [loading, setLoading] = createSignal(true)
+  const [saving, setSaving] = createSignal(false)
+  const [testing, setTesting] = createSignal(false)
+  const [showForm, setShowForm] = createSignal(false)
+  const [name, setName] = createSignal("")
+  const [transport, setTransport] = createSignal<"stdio" | "http">("stdio")
+  const [target, setTarget] = createSignal("")
+  const [args, setArgs] = createSignal("")
+  const [environment, setEnvironment] = createSignal("")
+  const [cwd, setCwd] = createSignal("")
+  const [headers, setHeaders] = createSignal("")
+  const [auth, setAuth] = createSignal<"auto" | "none" | "bearer" | "oauth">("auto")
+  const [bearerTokenEnv, setBearerTokenEnv] = createSignal("")
+  const [lifecycle, setLifecycle] = createSignal<"lazy" | "eager" | "keep-alive">("lazy")
+  const [idleTimeout, setIdleTimeout] = createSignal("10")
+  const [requestTimeout, setRequestTimeout] = createSignal("30000")
+  const [excludeTools, setExcludeTools] = createSignal("")
+  const [exposeResources, setExposeResources] = createSignal(true)
+  const [debug, setDebug] = createSignal(false)
+  const [testResult, setTestResult] = createSignal<ConnectorTestResult | null>(null)
+  const [error, setError] = createSignal("")
+  const [notice, setNotice] = createSignal("")
+
+  const directory = () => workspaceSelection()?.directory ?? ""
+  const load = async () => {
+    setLoading(true)
+    setError("")
+    try {
+      setCatalog(await api.fetchConnectors())
+    } catch (cause) {
+      setError(cause instanceof Error ? cause.message : String(cause))
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  onMount(() => void load())
+
+  const parseRecord = (value: string, label: string): Record<string, string> | undefined => {
+    const result: Record<string, string> = {}
+    for (const rawLine of value.split(/\r?\n/)) {
+      const line = rawLine.trim()
+      if (!line || line.startsWith("#")) continue
+      const separator = line.indexOf("=")
+      if (separator <= 0) {
+        setError(`${label} must use one KEY=VALUE entry per line.`)
+        return undefined
+      }
+      result[line.slice(0, separator).trim()] = line.slice(separator + 1).trim()
+    }
+    return result
+  }
+
+  const buildDefinition = (): ConnectorDefinition | undefined => {
+    setError("")
+    const env = parseRecord(environment(), "Environment")
+    if (!env) return undefined
+    const parsedHeaders = parseRecord(headers(), "Headers")
+    if (!parsedHeaders) return undefined
+    const timeout = Number(requestTimeout())
+    const idle = Number(idleTimeout())
+    if (!Number.isFinite(timeout) || timeout <= 0) {
+      setError("Request timeout must be a positive number of milliseconds.")
+      return undefined
+    }
+    if (!Number.isFinite(idle) || idle < 0) {
+      setError("Idle timeout must be zero or a positive number of minutes.")
+      return undefined
+    }
+    const definition: ConnectorDefinition = {
+      lifecycle: lifecycle(),
+      idleTimeout: idle,
+      requestTimeoutMs: timeout,
+      exposeResources: exposeResources(),
+      excludeTools: excludeTools().split(/\r?\n/).map((value) => value.trim()).filter(Boolean),
+      debug: debug(),
+    }
+    if (transport() === "stdio") {
+      definition.command = target().trim()
+      definition.args = args().split(/\r?\n/).map((value) => value.trim()).filter(Boolean)
+      if (Object.keys(env).length > 0) definition.env = env
+      if (cwd().trim()) definition.cwd = cwd().trim()
+    } else {
+      definition.url = target().trim()
+      if (Object.keys(parsedHeaders).length > 0) definition.headers = parsedHeaders
+      if (auth() === "none") definition.auth = false
+      if (auth() === "oauth") definition.auth = "oauth"
+      if (auth() === "bearer") {
+        definition.auth = "bearer"
+        definition.bearerTokenEnv = bearerTokenEnv().trim()
+      }
+    }
+    return definition
+  }
+
+  const resetForm = () => {
+    setName(""); setTarget(""); setArgs(""); setEnvironment(""); setCwd(""); setHeaders("")
+    setAuth("auto"); setBearerTokenEnv(""); setLifecycle("lazy"); setIdleTimeout("10")
+    setRequestTimeout("30000"); setExcludeTools(""); setExposeResources(true); setDebug(false); setTestResult(null)
+  }
+
+  const test = async () => {
+    setNotice("")
+    setTestResult(null)
+    const definition = buildDefinition()
+    if (!definition || !name().trim() || !target().trim()) return
+    setTesting(true)
+    try {
+      setTestResult(await api.testConnector(directory(), name().trim(), definition))
+    } catch (cause) {
+      setError(cause instanceof Error ? cause.message : String(cause))
+    } finally {
+      setTesting(false)
+    }
+  }
+
+  const add = async () => {
+    setNotice("")
+    const definition = buildDefinition()
+    if (!definition) return
+    setSaving(true)
+    try {
+      setCatalog(await api.saveConnector(name().trim(), definition))
+      resetForm()
+      setShowForm(false)
+      setNotice("Connector saved. New Sessions will discover it on demand.")
+    } catch (cause) {
+      setError(cause instanceof Error ? cause.message : String(cause))
+    } finally {
+      setSaving(false)
+    }
+  }
+
+  const remove = async (connectorName: string) => {
+    setError("")
+    setNotice("")
+    try {
+      setCatalog(await api.deleteConnector(connectorName))
+      setNotice(`${connectorName} removed. Existing running Sessions are unchanged.`)
+    } catch (cause) {
+      setError(cause instanceof Error ? cause.message : String(cause))
+    }
+  }
+
+  return (
+    <div class="settings-panel">
+      <p class="settings-panel__hint">Global MCP connectors shared by every DeepScience Workspace. They remain disconnected until the Agent selects the lazy <code>mcp</code> tool.</p>
+      <Show when={error()}><div class="settings-message is-error">{error()}</div></Show>
+      <Show when={notice()}><div class="settings-message is-success">{notice()}</div></Show>
+      <Show when={catalog()} keyed>
+        {(value) => (
+          <div class="connector-config-meta">
+            <span>{value.connectors.length} configured</span>
+            <code>{value.configPath}</code>
+          </div>
+        )}
+      </Show>
+      <Show when={!showForm()}>
+        <button class="connector-add-trigger" onClick={() => setShowForm(true)}>+ Add server</button>
+      </Show>
+      <Show when={showForm()}>
+        <div class="connector-form">
+          <div class="connector-form__header">
+            <div>
+              <div class="connector-form__title">Add server</div>
+              <div class="connector-form__subtitle">Configure a local stdio process or remote MCP endpoint.</div>
+            </div>
+            <button class="connector-card__remove" onClick={() => { resetForm(); setShowForm(false) }}>Cancel</button>
+          </div>
+          <div class="connector-field">
+            <label>Name</label>
+            <input value={name()} onInput={(event) => setName(event.currentTarget.value)} placeholder="e.g. filesystem" />
+          </div>
+          <div class="connector-field">
+            <label>Transport</label>
+            <select value={transport()} onChange={(event) => { setTransport(event.currentTarget.value as "stdio" | "http"); setTestResult(null) }}>
+              <option value="stdio">Local command (stdio)</option>
+              <option value="http">Remote URL (Streamable HTTP / SSE)</option>
+            </select>
+          </div>
+          <Show when={transport() === "stdio"} fallback={
+            <>
+              <div class="connector-field"><label>URL</label><input value={target()} onInput={(event) => setTarget(event.currentTarget.value)} placeholder="https://example.com/mcp" /></div>
+              <div class="connector-field"><label>Headers</label><textarea value={headers()} onInput={(event) => setHeaders(event.currentTarget.value)} placeholder={'X-API-Key=${MCP_API_KEY}\nX-Workspace=research'} /><small>One KEY=VALUE header per line. Environment references are supported.</small></div>
+              <div class="connector-form__row connector-form__row--three">
+                <div class="connector-field"><label>Authentication</label><select value={auth()} onChange={(event) => setAuth(event.currentTarget.value as "auto" | "none" | "bearer" | "oauth")}><option value="auto">Auto detect</option><option value="none">None</option><option value="bearer">Bearer token</option><option value="oauth">OAuth</option></select></div>
+                <Show when={auth() === "bearer"}><div class="connector-field connector-field--wide"><label>Token environment variable</label><input value={bearerTokenEnv()} onInput={(event) => setBearerTokenEnv(event.currentTarget.value)} placeholder="MCP_ACCESS_TOKEN" /></div></Show>
+              </div>
+            </>
+          }>
+            <div class="connector-field"><label>Command</label><input value={target()} onInput={(event) => setTarget(event.currentTarget.value)} placeholder="npx" /></div>
+            <div class="connector-field"><label>Arguments</label><textarea value={args()} onInput={(event) => setArgs(event.currentTarget.value)} placeholder={'-y\n@modelcontextprotocol/server-filesystem\n/path/to/project'} /><small>One argument per line; spaces inside one line remain part of that argument.</small></div>
+            <div class="connector-field"><label>Environment</label><textarea value={environment()} onInput={(event) => setEnvironment(event.currentTarget.value)} placeholder={'API_KEY=${MY_API_KEY}\nLOG_LEVEL=info'} /><small>One KEY=VALUE per line, merged into the server process environment.</small></div>
+            <div class="connector-field"><label>Working directory</label><input value={cwd()} onInput={(event) => setCwd(event.currentTarget.value)} placeholder="Project root by default" /></div>
+          </Show>
+          <details class="connector-advanced">
+            <summary>Lifecycle and advanced settings</summary>
+            <div class="connector-form__row connector-form__row--three">
+              <div class="connector-field"><label>Lifecycle</label><select value={lifecycle()} onChange={(event) => setLifecycle(event.currentTarget.value as "lazy" | "eager" | "keep-alive")}><option value="lazy">Lazy</option><option value="eager">Eager</option><option value="keep-alive">Keep alive</option></select></div>
+              <div class="connector-field"><label>Idle timeout (minutes)</label><input type="number" min="0" value={idleTimeout()} onInput={(event) => setIdleTimeout(event.currentTarget.value)} /></div>
+              <div class="connector-field"><label>Request timeout (ms)</label><input type="number" min="1" value={requestTimeout()} onInput={(event) => setRequestTimeout(event.currentTarget.value)} /></div>
+            </div>
+            <div class="connector-field"><label>Excluded tools</label><textarea value={excludeTools()} onInput={(event) => setExcludeTools(event.currentTarget.value)} placeholder={'dangerous_tool\nserver_prefixed_tool'} /><small>One original or prefixed tool name per line.</small></div>
+            <label class="connector-check"><input type="checkbox" checked={exposeResources()} onChange={(event) => setExposeResources(event.currentTarget.checked)} /><span>Expose MCP resources to the Agent</span></label>
+            <label class="connector-check"><input type="checkbox" checked={debug()} onChange={(event) => setDebug(event.currentTarget.checked)} /><span>Show server stderr for debugging</span></label>
+          </details>
+          <Show when={testResult()} keyed>{(result) => <div class="connector-test-result"><strong>Connection successful</strong><span>{result.server.name ?? "MCP server"}{result.server.version ? ` · v${result.server.version}` : ""}</span><span>{result.toolCount} tools · {result.resourceCount} resources · {result.durationMs} ms</span></div>}</Show>
+          <div class="connector-form__actions">
+            <button class="connector-test" disabled={testing() || saving() || !name().trim() || !target().trim()} onClick={() => void test()}>{testing() ? "Testing…" : "Test connection"}</button>
+            <button class="provider-key-save" disabled={saving() || testing() || !name().trim() || !target().trim() || (auth() === "bearer" && !bearerTokenEnv().trim())} onClick={() => void add()}>{saving() ? "Saving…" : "Save server"}</button>
+          </div>
+        </div>
+      </Show>
+      <Show when={!loading()} fallback={<div class="settings-empty">Loading Connectors…</div>}>
+        <Show when={(catalog()?.connectors.length ?? 0) > 0} fallback={<div class="settings-empty">No project Connectors configured.</div>}>
+          <div class="connector-list">
+            <For each={catalog()?.connectors ?? []}>
+              {(connector) => (
+                <div class="connector-card">
+                  <span class="connector-card__dot" />
+                  <div class="connector-card__body">
+                    <div class="connector-card__title">
+                      <strong>{connector.name}</strong>
+                      <span>{connector.lifecycle === "lazy" ? "On demand" : connector.lifecycle}</span>
+                    </div>
+                    <code>{connector.url ?? [connector.command, ...(connector.args ?? [])].filter(Boolean).join(" ")}</code>
+                  </div>
+                  <button class="connector-card__remove" onClick={() => void remove(connector.name)}>Remove</button>
+                </div>
+              )}
+            </For>
+          </div>
+        </Show>
+      </Show>
+      <details class="connector-help"><summary>How does this work?</summary><p>Local servers run as child processes. Remote servers use Streamable HTTP with legacy SSE fallback. DeepScience exposes their tools through one lazy <code>mcp</code> gateway; a configured server is not connected until the Agent needs it. Configuration is stored globally in <code>~/.deepscience/mcp.json</code>; new or restarted Sessions pick up changes.</p></details>
+    </div>
+  )
+}
+
 function AboutPanel() {
   return (
     <div class="settings-panel">
@@ -564,7 +809,7 @@ function AboutPanel() {
 
 /* ── Registry ────────────────────────────────────────────────────────── */
 
-type PanelId = "agent" | "model" | "appearance" | "connection" | "about"
+type PanelId = "agent" | "model" | "connectors" | "appearance" | "connection" | "about"
 type SectionId = "workspace" | "system"
 
 const SECTIONS: { id: SectionId; label: string }[] = [
@@ -575,6 +820,7 @@ const SECTIONS: { id: SectionId; label: string }[] = [
 const PANELS: { id: PanelId; title: string; icon: string; section: SectionId }[] = [
   { id: "agent", title: "Agent", icon: "agent", section: "workspace" },
   { id: "model", title: "Model", icon: "model", section: "workspace" },
+  { id: "connectors", title: "Connectors", icon: "connectors", section: "workspace" },
   { id: "appearance", title: "Appearance", icon: "appearance", section: "system" },
   { id: "connection", title: "Connection", icon: "connection", section: "system" },
   { id: "about", title: "About", icon: "about", section: "system" },
@@ -584,6 +830,7 @@ function visiblePanels(): PanelId[] {
   return PANELS
     .filter((p) => {
       if (p.id === "appearance") return settingsPanelVisible("general")
+      if (p.id === "connectors") return featureEnabled("mcpManagement")
       return true
     })
     .map((p) => p.id)
@@ -681,6 +928,7 @@ export default function SettingsModal() {
               <Switch fallback={<div />}>
                 <Match when={current() === "agent"}><AgentPanel /></Match>
                 <Match when={current() === "model"}><ModelPanel /></Match>
+                <Match when={current() === "connectors"}><ConnectorsPanel /></Match>
                 <Match when={current() === "appearance"}><AppearancePanel /></Match>
                 <Match when={current() === "connection"}><ConnectionPanel /></Match>
                 <Match when={current() === "about"}><AboutPanel /></Match>

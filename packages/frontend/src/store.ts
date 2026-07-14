@@ -871,7 +871,7 @@ const [settingsOpen, setSettingsOpen] = createSignal(false);
 
 /* ── Theme ──────────────────────────────────────────────────────── */
 
-export type ThemeId = "teal" | "light";
+export type ThemeId = "teal" | "light" | "open-science";
 
 export interface ThemeMeta {
 	id: ThemeId;
@@ -880,21 +880,33 @@ export interface ThemeMeta {
 	accent: string;
 	/** Surface/base colour — shown as the swatch chip background. */
 	surface: string;
+	colorScheme: "light" | "dark";
 }
 
 export const THEMES: ThemeMeta[] = [
-	{ id: "teal", name: "Abyss Teal", accent: "#4fd1c5", surface: "#0b0f17" },
-	{ id: "light", name: "Daylight", accent: "#0d9488", surface: "#f6f7f9" },
+	{ id: "teal", name: "Abyss Teal", accent: "#4fd1c5", surface: "#0b0f17", colorScheme: "dark" },
+	{ id: "light", name: "Daylight", accent: "#0d9488", surface: "#f6f7f9", colorScheme: "light" },
+	{
+		id: "open-science",
+		name: "Warm Laboratory",
+		accent: "#c35f45",
+		surface: "#fcfcf9",
+		colorScheme: "light",
+	},
 ];
 
 const THEME_KEY = "ds-theme";
 const VALID_THEMES = new Set<ThemeId>(THEMES.map((t) => t.id));
 
+export function themeColorScheme(id: ThemeId): "light" | "dark" {
+	return THEMES.find((candidate) => candidate.id === id)?.colorScheme ?? "light";
+}
+
 function applyTheme(id: ThemeId): void {
 	if (typeof document === "undefined") return;
 	const el = document.documentElement;
 	el.setAttribute("data-theme", id);
-	el.setAttribute("data-color-scheme", id === "light" ? "light" : "dark");
+	el.setAttribute("data-color-scheme", themeColorScheme(id));
 }
 
 function initialTheme(): ThemeId {

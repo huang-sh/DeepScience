@@ -8,6 +8,9 @@
 import type {
 	AgentInfo,
 	Capabilities,
+	ConnectorCatalog,
+	ConnectorDefinition,
+	ConnectorTestResult,
 	DeepSciencePreferences,
 	HistoryMessage,
 	ModelRef,
@@ -109,6 +112,29 @@ export function fetchModels(): Promise<Record<string, ModelRef[]>> {
 
 export function fetchProviders(): Promise<ProviderCredentialResponse> {
 	return getJSON("/api/providers");
+}
+
+export function fetchConnectors(): Promise<ConnectorCatalog> {
+	return getJSON<ConnectorCatalog>("/api/connectors");
+}
+
+export function saveConnector(name: string, definition: ConnectorDefinition): Promise<ConnectorCatalog> {
+	return requestJSON<ConnectorCatalog>(`/api/connectors/${encodeURIComponent(name)}`, definition, "PUT");
+}
+
+export function deleteConnector(name: string): Promise<ConnectorCatalog> {
+	return requestJSON<ConnectorCatalog>(`/api/connectors/${encodeURIComponent(name)}`, undefined, "DELETE");
+}
+
+export function testConnector(
+	directory: string,
+	name: string,
+	definition: ConnectorDefinition,
+): Promise<ConnectorTestResult> {
+	return postJSON<ConnectorTestResult>(`/api/connectors/test?directory=${encodeURIComponent(directory)}`, {
+		name,
+		definition,
+	});
 }
 
 export function saveProviderApiKey(provider: string, apiKey: string): Promise<ProviderCredentialResponse> {

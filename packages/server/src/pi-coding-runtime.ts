@@ -31,6 +31,7 @@ export interface CreateDeepScienceCodingRuntimeOptions {
 	sessionID: string;
 	systemPrompt: string;
 	extensionFactories: ExtensionFactory[];
+	extensionPaths?: string[];
 	appendSystemPrompt?: string[];
 	createToolProvenance(toolName: string): ProvenanceMeta;
 }
@@ -57,7 +58,14 @@ export async function createDeepScienceCodingRuntime(
 	const additionalExtensionPaths = [
 		...(existsSync(managedExtensionDirectory) ? [managedExtensionDirectory] : []),
 		...configuredExtensionPaths,
+		...(options.extensionPaths ?? []),
 	];
+	// pi-mcp-adapter uses Pi's agent directory for its global config, metadata
+	// cache, and OAuth state. Keep that state in DeepScience's own data root.
+	process.env.PI_CODING_AGENT_DIR ??= process.env.DEEPSCIENCE_DATA_DIR ?? join(homedir(), ".deepscience");
+	// The proxy tool keeps the model context small and discovers remote tools
+	// only when needed. Users can explicitly override this environment setting.
+	process.env.MCP_DIRECT_TOOLS ??= "__none__";
 	const settingsManager = SettingsManager.inMemory({
 		compaction: { enabled: false },
 		retry: { enabled: false },
@@ -98,6 +106,10 @@ export async function createDeepScienceCodingRuntime(
 		baseToolsOverride: {},
 		sessionStartEvent: { type: "session_start", reason: "startup" },
 	});
+	// AgentSession deliberately leaves extension lifecycle binding to its host
+	// mode. DeepScience is a headless Web/CLI host, so bind the print-mode
+	// context explicitly; this emits session_start for all Pi extensions.
+	await session.bindExtensions({ mode: "print" });
 
 	return {
 		session,
@@ -109,7 +121,13 @@ export async function createDeepScienceCodingRuntime(
 			authStorage.setRuntimeApiKey(nextProvider, "deepscience-host-managed");
 		},
 		dispose() {
-			session.dispose();
+			// Pi currently emits session_shutdown as part of reload. Use that
+			// graceful boundary before invalidating the runtime so extensions can
+			// close child processes, sockets, and OAuth callback state.
+			void session
+				.reload()
+				.catch((error: unknown) => console.error("Extension shutdown failed", error))
+				.finally(() => session.dispose());
 		},
 	};
 }
