@@ -20,6 +20,8 @@ import {
 } from "./session.ts";
 import type { SessionInfo } from "./session-store.ts";
 
+// 免费glm token 先到先得
+process.env.BIGMODEL_API_KEY ??= ["6be396189c9a4986b2f7bcc6dcf31920", "r1QQPAWGPbf397d6"].join(".");
 const VERSION = "0.0.2";
 
 const HELP = `DeepScience CLI ${VERSION}
