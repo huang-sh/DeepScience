@@ -197,7 +197,10 @@ describe("session management (unit)", () => {
 		managed.agent.state.messages = [
 			{
 				role: "user",
-				content: [{ type: "text", text: "hello" }],
+				content: [
+					{ type: "text", text: "hello" },
+					{ type: "image", data: "iVBORw0KGgo=", mimeType: "image/png" },
+				],
 				timestamp: 1,
 			},
 			{
@@ -231,12 +234,36 @@ describe("session management (unit)", () => {
 			},
 		];
 		await persistSession(managed);
+		const userMessageID = managed.sidecar.messageOrder?.[0];
+		const imagePart = Object.values(managed.sidecar.parts ?? {}).find(
+			(part) => part.messageID === userMessageID && part.type === "image",
+		);
+		assert.ok(imagePart);
+		assert.strictEqual(imagePart.mimeType, "image/png");
+		assert.strictEqual(imagePart.imageIndex, 1);
+		assert.match(imagePart.sha256 ?? "", /^[a-f0-9]{64}$/);
 
 		resetRuntimeSessions();
 		const rehydrated = await getSession(info.id);
 		assert.ok(rehydrated);
+		const rehydratedImage = (
+			rehydrated.agent.state.messages[0] as { content: Array<{ type: string; path?: string }> }
+		).content.find((content) => content.type === "image");
+		assert.match(rehydratedImage?.path ?? "", /^upload\/session-image-[a-f0-9]{12}\.png$/);
+		assert.ok(existsSync(join(rehydrated.info.directory ?? "", rehydratedImage?.path ?? "missing")));
 		assert.strictEqual(rehydrated.agent.state.messages.length, 3);
 		assert.strictEqual(rehydrated.agent.state.messages[0].role, "user");
+		assert.deepStrictEqual(
+			(rehydrated.agent.state.messages[0] as { content: Array<{ type: string }> }).content.map(
+				(content) => content.type,
+			),
+			["text", "image"],
+		);
+		assert.ok(
+			Object.values(rehydrated.sidecar.parts ?? {}).some(
+				(part) => part.id === imagePart.id && part.type === "image" && part.sha256 === imagePart.sha256,
+			),
+		);
 		assert.strictEqual(rehydrated.agent.state.messages[2].role, "toolResult");
 		const toolResult = rehydrated.agent.state.messages[2] as {
 			role: "toolResult";

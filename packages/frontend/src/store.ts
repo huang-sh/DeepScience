@@ -20,6 +20,7 @@ import type {
 	HistoryPart,
 	MessagePart,
 	ModelRef,
+	PromptImage,
 	SessionInfo,
 	SettingsPanelSupport,
 	SSEEvent,
@@ -98,6 +99,7 @@ const [composerStatus, setComposerStatus] = createSignal("");
 
 const [selectedModel, setSelectedModelSignal] = createSignal<ModelRef | null>(null);
 let preferredModel: ModelRef | null = null;
+const [visionModel, setVisionModelSignal] = createSignal<ModelRef | null>(null);
 const [selectedThinkingLevel, setSelectedThinkingLevelSignal] = createSignal<ThinkingLevel>("medium");
 let preferredThinkingLevel: ThinkingLevel = "medium";
 
@@ -196,6 +198,15 @@ export async function init(): Promise<void> {
 			const initialModel = storedModel ?? all[0] ?? null;
 			setSelectedModelSignal(initialModel);
 			preferredModel = initialModel;
+			const configuredVisionModel = preferences.visionModel
+				? all.find(
+						(model) =>
+							model.provider === preferences.visionModel?.provider &&
+							model.id === preferences.visionModel.id &&
+							model.vision === true,
+					)
+				: undefined;
+			setVisionModelSignal(configuredVisionModel ?? null);
 			const initialThinkingLevel: ThinkingLevel = initialModel?.thinkingLevels?.includes("medium")
 				? "medium"
 				: "off";
@@ -210,6 +221,20 @@ export async function init(): Promise<void> {
 		setConnState("disconnected");
 		setComposerStatus("Connection failed");
 	}
+}
+
+export function setVisionModel(model: ModelRef | null): void {
+	setVisionModelSignal(model);
+}
+
+export function effectiveVisionModel(): ModelRef | null {
+	return visionModel() ?? (selectedModel()?.vision === true ? selectedModel() : null);
+}
+
+export function imageInputUnavailableMessage(): string {
+	const current = selectedModel();
+	const label = current?.name ?? "The current model";
+	return `${label} does not support image input. Choose an image-capable model or configure Vision Model in Settings → Model.`;
 }
 
 function setSelectedAgent(name: string): void {
@@ -319,14 +344,23 @@ async function ensureSession(): Promise<SessionInfo> {
 
 /* ── Sending messages ───────────────────────────────────────────── */
 
-export async function sendMessage(text: string): Promise<void> {
+export async function sendMessage(text: string, images: PromptImage[] = []): Promise<void> {
 	const trimmed = text.trim();
-	if (!trimmed || streaming()) return;
+	if ((!trimmed && images.length === 0) || streaming()) return;
 
 	const userMsg: ChatMessage = {
 		id: nextId(),
 		role: "user",
-		parts: [{ kind: "text", text: trimmed }],
+		parts: [
+			...(trimmed ? [{ kind: "text" as const, text: trimmed }] : []),
+			...images.map((image, index) => ({
+				kind: "image" as const,
+				id: `prompt_image_${Date.now()}_${index}`,
+				data: image.data,
+				mimeType: image.mimeType,
+				name: image.name,
+			})),
+		],
 		timestamp: Date.now(),
 	};
 
@@ -357,6 +391,7 @@ export async function sendMessage(text: string): Promise<void> {
 	const controller = api.streamMessage(
 		currentSession.id,
 		trimmed,
+		images,
 		(event) => handleSSE(currentSession.id, assistantId, event),
 		(err) => pushError(currentSession.id, assistantId, err),
 		() => finishStreaming(currentSession.id, assistantId),
@@ -796,8 +831,21 @@ export async function loadSession(id: string): Promise<void> {
 			const timestamp = msg.info?.time?.created ?? Date.now();
 			if (role === "user") {
 				const parts = (msg.parts ?? [])
-					.filter((part) => part.type === "text" && Boolean(part.text))
-					.map((part) => ({ kind: "text" as const, id: part.id, text: part.text ?? "" }));
+					.map((part) => {
+						if (part.type === "text" && part.text) {
+							return { kind: "text" as const, id: part.id, text: part.text };
+						}
+						if (part.type === "image" && part.data && part.mimeType) {
+							return {
+								kind: "image" as const,
+								id: part.id ?? `hist_image_${i}`,
+								data: part.data,
+								mimeType: part.mimeType,
+							};
+						}
+						return undefined;
+					})
+					.filter((part): part is NonNullable<typeof part> => part !== undefined);
 				if (parts.length > 0)
 					chatMsgs.push({ id: msg.info?.id ?? `hist_user_${i}`, role: "user", parts, timestamp });
 				activeAssistant = undefined;
@@ -1063,6 +1111,7 @@ export {
 	setSelectedAgent,
 	selectedModel,
 	setSelectedModel,
+	visionModel,
 	selectedThinkingLevel,
 	setSelectedThinkingLevel,
 	session,

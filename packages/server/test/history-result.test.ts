@@ -64,6 +64,42 @@ describe("tool result history", () => {
 		}
 	});
 
+	it("returns a stable persisted Part ID for user images", async () => {
+		const info = await createSession("research");
+		try {
+			const managed = await getSession(info.id);
+			assert.ok(managed);
+			managed.agent.state.messages = [
+				{
+					role: "user",
+					content: [
+						{ type: "text", text: "Inspect this" },
+						{ type: "image", data: "aGVsbG8=", mimeType: "image/png" },
+					],
+					timestamp: Date.now(),
+				},
+			];
+			await persistSession(managed);
+			const expected = Object.values(managed.sidecar.parts ?? {}).find((part) => part.type === "image")?.id;
+			assert.ok(expected);
+
+			const app = new Hono();
+			registerSDKRoutes(app);
+			const first = (await (await app.request(`/session/${info.id}/message`)).json()) as Array<{
+				parts: Array<{ id: string; type: string }>;
+			}>;
+			assert.strictEqual(first[0].parts.find((part) => part.type === "image")?.id, expected);
+
+			resetRuntimeSessions();
+			const second = (await (await app.request(`/session/${info.id}/message`)).json()) as Array<{
+				parts: Array<{ id: string; type: string }>;
+			}>;
+			assert.strictEqual(second[0].parts.find((part) => part.type === "image")?.id, expected);
+		} finally {
+			await deleteSession(info.id);
+		}
+	});
+
 	it("preserves Pi thinking blocks and separates process text from the final answer", async () => {
 		const info = await createSession("research");
 		try {

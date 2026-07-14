@@ -6,7 +6,14 @@ import type { ModelRef } from "./session-store.ts";
 export interface DeepSciencePreferences {
 	defaultAgent?: string;
 	defaultModel?: ModelRef;
+	visionModel?: ModelRef;
 	updatedAt?: number;
+}
+
+export interface DeepSciencePreferencePatch {
+	defaultAgent?: string;
+	defaultModel?: ModelRef;
+	visionModel?: ModelRef | null;
 }
 
 let writeQueue = Promise.resolve();
@@ -38,6 +45,7 @@ export async function readPreferences(): Promise<DeepSciencePreferences> {
 			defaultAgent:
 				typeof input.defaultAgent === "string" && input.defaultAgent.length > 0 ? input.defaultAgent : undefined,
 			defaultModel: validModel(input.defaultModel) ? input.defaultModel : undefined,
+			visionModel: validModel(input.visionModel) ? input.visionModel : undefined,
 			updatedAt: typeof input.updatedAt === "number" ? input.updatedAt : undefined,
 		};
 	} catch (error) {
@@ -49,9 +57,7 @@ export async function readPreferences(): Promise<DeepSciencePreferences> {
 	}
 }
 
-export async function savePreferences(
-	patch: Pick<DeepSciencePreferences, "defaultAgent" | "defaultModel">,
-): Promise<DeepSciencePreferences> {
+export async function savePreferences(patch: DeepSciencePreferencePatch): Promise<DeepSciencePreferences> {
 	let saved: DeepSciencePreferences = {};
 	const write = writeQueue.then(async () => {
 		const current = await readPreferences();
@@ -61,6 +67,8 @@ export async function savePreferences(
 		};
 		if (patch.defaultAgent !== undefined) next.defaultAgent = patch.defaultAgent;
 		if (patch.defaultModel !== undefined) next.defaultModel = patch.defaultModel;
+		if (patch.visionModel === null) delete next.visionModel;
+		else if (patch.visionModel !== undefined) next.visionModel = patch.visionModel;
 		const target = preferencesPath();
 		const temporary = `${target}.tmp-${process.pid}-${Date.now()}`;
 		await mkdir(dirname(target), { recursive: true, mode: 0o700 });

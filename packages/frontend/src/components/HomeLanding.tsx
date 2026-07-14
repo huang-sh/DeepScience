@@ -1,6 +1,8 @@
 import { createSignal, For } from "solid-js"
-import { sendMessage, streaming, connState } from "../store"
+import { sendMessage, streaming, connState, effectiveVisionModel, imageInputUnavailableMessage } from "../store"
 import ComposerSwitchers from "./ComposerSwitchers"
+import { clipboardImageFiles, loadComposerImages, type ComposerImage } from "../image-input"
+import { ImageAttachmentTray, ImageUploadButton } from "./ImageInput"
 
 const SUGGESTIONS = [
   "Explain the role of TP53 in cancer pathways",
@@ -12,15 +14,40 @@ const SUGGESTIONS = [
 
 export default function HomeLanding() {
   const [draft, setDraft] = createSignal("")
+  const [images, setImages] = createSignal<ComposerImage[]>([])
+  const [imageError, setImageError] = createSignal("")
 
-  const canSend = () => draft().trim().length > 0 && !streaming() && connState() === "connected"
+  const canSend = () => (draft().trim().length > 0 || images().length > 0) && !streaming() && connState() === "connected"
 
   const submit = () => {
     if (!canSend()) return
+	if (images().length > 0 && !effectiveVisionModel()) {
+		setImageError(imageInputUnavailableMessage())
+		return
+	}
     const value = draft()
+	const attached = images().map(({ data, mimeType, name }) => ({ data, mimeType, name }))
     setDraft("")
-    void sendMessage(value)
+	setImages([])
+	setImageError("")
+    void sendMessage(value, attached)
   }
+
+  const addImages = async (files: File[]) => {
+	if (files.length === 0) return
+	if (!effectiveVisionModel()) {
+		setImageError(imageInputUnavailableMessage())
+		return
+	}
+	const loaded = await loadComposerImages(files, images())
+	if (loaded.images.length > 0) setImages((current) => [...current, ...loaded.images])
+	setImageError(loaded.errors.join(" "))
+  }
+
+  const onPaste = (event: ClipboardEvent) => {
+	const files = clipboardImageFiles(event)
+	if (files.length > 0) void addImages(files)
+	}
 
   const onKeyDown = (e: KeyboardEvent) => {
     if (e.key === "Enter" && !e.shiftKey) {
@@ -54,12 +81,17 @@ export default function HomeLanding() {
             value={draft()}
             onInput={(e) => setDraft(e.currentTarget.value)}
             onKeyDown={onKeyDown}
+			onPaste={onPaste}
             aria-label="Research task prompt"
           />
+		  <ImageAttachmentTray images={images()} error={imageError()} disabled={streaming()} onRemove={(id) => setImages((current) => current.filter((image) => image.id !== id))} />
         </div>
 
         <div class="home-prompt__footer">
-          <ComposerSwitchers />
+		  <div class="home-prompt__controls">
+			<ImageUploadButton disabled={streaming() || connState() !== "connected" || images().length >= 4} onFiles={(files) => void addImages(files)} />
+			<ComposerSwitchers />
+		  </div>
 
           <button
             class="home-prompt__send"

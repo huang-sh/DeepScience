@@ -18,7 +18,14 @@ export interface ModelRef {
 	id: string;
 	name: string;
 	reasoning?: boolean;
+	vision?: boolean;
 	thinkingLevels?: ThinkingLevel[];
+}
+
+export interface PromptImage {
+	data: string;
+	mimeType: string;
+	name?: string;
 }
 
 export type ThinkingLevel = "off" | "minimal" | "low" | "medium" | "high" | "xhigh" | "max";
@@ -74,6 +81,7 @@ export interface ProviderOAuthJob {
 export interface DeepSciencePreferences {
 	defaultAgent?: string;
 	defaultModel?: ModelRef;
+	visionModel?: ModelRef;
 	updatedAt?: number;
 }
 
@@ -332,7 +340,15 @@ export interface ThinkingPart {
 	streaming?: boolean;
 }
 
-export type MessagePart = ToolCallPart | TextPart | ThinkingPart;
+export interface ImagePart {
+	kind: "image";
+	id: string;
+	data: string;
+	mimeType: string;
+	name?: string;
+}
+
+export type MessagePart = ToolCallPart | TextPart | ThinkingPart | ImagePart;
 
 export interface ChatMessage {
 	id: string;
@@ -450,6 +466,8 @@ export interface HistoryPart {
 	id?: string;
 	type: string;
 	text?: string;
+	data?: string;
+	mimeType?: string;
 	phase?: "process" | "final";
 	redacted?: boolean;
 	tool?: string;

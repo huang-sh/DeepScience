@@ -13,13 +13,16 @@ const MAX_SESSION_ID_LEN = 128;
 const MAX_MESSAGE_ID_LEN = 128;
 const MAX_PART_ID_LEN = 128;
 const MAX_SNAPSHOT_ID_LEN = 128;
-const MAX_RECORD_BYTES = 16 * 1024 * 1024;
+// Image prompts are retained in Pi transcripts so resumed sessions preserve
+// their visual context. Keep a bounded but sufficiently large local record.
+const MAX_RECORD_BYTES = 64 * 1024 * 1024;
 
 export interface ModelRef {
 	provider: string;
 	id: string;
 	name: string;
 	reasoning?: boolean;
+	vision?: boolean;
 	thinkingLevels?: ThinkingLevel[];
 }
 
@@ -119,7 +122,7 @@ export interface DurableMessage {
 export interface DurablePart {
 	id: string;
 	messageID: string;
-	type: "text" | "thinking" | "tool";
+	type: "text" | "thinking" | "tool" | "image";
 	text?: string;
 	phase?: "process" | "final";
 	redacted?: boolean;
@@ -130,6 +133,13 @@ export interface DurablePart {
 	content?: unknown[];
 	details?: unknown;
 	output?: string;
+	mimeType?: string;
+	sha256?: string;
+	name?: string;
+	/** Path relative to the Session Workspace, normally below upload/. */
+	path?: string;
+	/** Zero-based position in the source message content array. */
+	imageIndex?: number;
 	synthetic: boolean;
 }
 

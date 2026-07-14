@@ -1,5 +1,6 @@
 import type { ExtensionFactory } from "@earendil-works/pi-coding-agent";
 import { connectorsCapability } from "./connectors.ts";
+import { imageReaderCapability } from "./image-reader.ts";
 import { runtimeEnvironmentCapability } from "./runtime-environment.ts";
 import { scientificResourcesCapability } from "./scientific-resources.ts";
 import { skillLibraryCapability } from "./skill-library.ts";
@@ -8,6 +9,7 @@ import { workspaceCapability } from "./workspace.ts";
 
 const BUILTIN_CAPABILITIES: readonly DeepScienceCapability[] = [
 	workspaceCapability,
+	imageReaderCapability,
 	runtimeEnvironmentCapability,
 	skillLibraryCapability,
 	scientificResourcesCapability,
@@ -33,6 +35,7 @@ export async function createCapabilityRuntime(context: CapabilityContext): Promi
 	};
 }
 
+export { IMAGE_READER_CAPABILITY_ID } from "./image-reader.ts";
 export { RUNTIME_ENVIRONMENT_CAPABILITY_ID } from "./runtime-environment.ts";
 export { SCIENTIFIC_RESOURCES_CAPABILITY_ID } from "./scientific-resources.ts";
 export { SKILL_LIBRARY_CAPABILITY_ID } from "./skill-library.ts";
@@ -44,4 +47,6 @@ export {
 	getCapabilityState,
 	getLoadedCapabilityEntries,
 	markCapabilityEntryLoaded,
+	type ReadImageRequest,
+	type ReadImageResult,
 } from "./types.ts";

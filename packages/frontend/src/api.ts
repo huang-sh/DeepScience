@@ -14,6 +14,7 @@ import type {
 	DeepSciencePreferences,
 	HistoryMessage,
 	ModelRef,
+	PromptImage,
 	ProviderCredentialResponse,
 	ProviderOAuthJob,
 	ResourceCatalogResponse,
@@ -114,6 +115,14 @@ export function fetchProviders(): Promise<ProviderCredentialResponse> {
 	return getJSON("/api/providers");
 }
 
+export function refreshProviderModels(provider: string): Promise<{
+	ok: boolean;
+	models: ModelRef[];
+	warning?: string;
+}> {
+	return postJSON(`/api/providers/${encodeURIComponent(provider)}/models/refresh`);
+}
+
 export function fetchConnectors(): Promise<ConnectorCatalog> {
 	return getJSON<ConnectorCatalog>("/api/connectors");
 }
@@ -186,7 +195,7 @@ export function fetchPreferences(): Promise<DeepSciencePreferences> {
 }
 
 export function updatePreferences(
-	patch: Pick<DeepSciencePreferences, "defaultAgent" | "defaultModel">,
+	patch: Pick<DeepSciencePreferences, "defaultAgent" | "defaultModel"> & { visionModel?: ModelRef | null },
 ): Promise<DeepSciencePreferences> {
 	return requestJSON<DeepSciencePreferences>("/api/preferences", patch, "PUT");
 }
@@ -335,6 +344,7 @@ export function refreshSkillCatalog(): Promise<{
 export function streamMessage(
 	sessionId: string,
 	message: string,
+	images: PromptImage[],
 	onEvent: (event: SSEEvent) => void,
 	onError: (err: Error) => void,
 	onDone: () => void,
@@ -346,7 +356,7 @@ export function streamMessage(
 			const res = await fetch(`${BASE}/session/${sessionId}/message`, {
 				method: "POST",
 				headers: { "Content-Type": "application/json" },
-				body: JSON.stringify({ message }),
+				body: JSON.stringify({ message, images }),
 				signal: controller.signal,
 			});
 

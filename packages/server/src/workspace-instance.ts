@@ -147,6 +147,7 @@ export async function createSessionWorkspace(options: {
 			});
 		}
 	}
+	await mkdir(join(directory, "upload"), { recursive: true, mode: 0o700 });
 	return { ...project, directory: await realpath(directory), projectDirectory: project.directory };
 }
 
@@ -157,6 +158,7 @@ export async function openSessionWorkspace(options: {
 	const project = await resolveWorkspaceInstance(options.projectDirectory);
 	await ensureLocalWorkspaceMetadata(project);
 	const directory = await canonicalDirectory(sessionWorkspacePath(project.directory, options.sessionID));
+	await mkdir(join(directory, "upload"), { recursive: true, mode: 0o700 });
 	return { ...project, directory, projectDirectory: project.directory };
 }
 

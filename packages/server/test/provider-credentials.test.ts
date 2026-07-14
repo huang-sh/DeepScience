@@ -112,7 +112,7 @@ describe("DeepScience provider credentials", () => {
 		assert.equal(bigmodel.name, "BigModel");
 		assert.equal(bigmodel.configured, false);
 		assert.equal(bigmodel.envVariable, "BIGMODEL_API_KEY");
-		assert.equal(bigmodel.modelCount, 5);
+		assert.equal(bigmodel.modelCount, 9);
 		assert.equal(bigmodel.manageable, true);
 
 		const secret = "test-bigmodel-key-never-return";
@@ -130,7 +130,17 @@ describe("DeepScience provider credentials", () => {
 		>;
 		assert.deepEqual(
 			models.bigmodel?.map((model) => model.id),
-			["glm-5.2", "glm-5", "glm-5.1", "glm-4.7", "glm-4.7-flash"],
+			[
+				"glm-5.2",
+				"glm-5",
+				"glm-5.1",
+				"glm-5v-turbo",
+				"glm-4.7",
+				"glm-4.7-flash",
+				"glm-4.6v",
+				"glm-4.6v-flash",
+				"glm-4.5v",
+			],
 		);
 		assert.ok(models.bigmodel?.every((model) => model.provider === "bigmodel"));
 

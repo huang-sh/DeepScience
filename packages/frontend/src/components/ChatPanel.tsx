@@ -11,12 +11,16 @@ import {
 	openWorkspaceFile,
 	forkSession,
 	activeSessionId,
+	effectiveVisionModel,
+	imageInputUnavailableMessage,
 } from "../store"
 import Markdown from "./Markdown"
 import ResultRenderer from "./ResultRenderer"
 import ComposerSwitchers from "./ComposerSwitchers"
 import type { ChatMessage, MessagePart } from "../types"
 import { toolStatusLabel } from "../presentation/tool-presenters"
+import { clipboardImageFiles, loadComposerImages, type ComposerImage } from "../image-input"
+import { ImageAttachmentTray, ImageUploadButton } from "./ImageInput"
 
 export { toolStatusLabel } from "../presentation/tool-presenters"
 
@@ -24,6 +28,8 @@ export default function ChatPanel() {
   let canvasRef: HTMLDivElement | undefined
   let scrollFrame: number | undefined
   const [draft, setDraft] = createSignal("")
+  const [images, setImages] = createSignal<ComposerImage[]>([])
+  const [imageError, setImageError] = createSignal("")
   const [autoScroll, setAutoScroll] = createSignal(true)
 
   createEffect(() => {
@@ -48,15 +54,38 @@ export default function ChatPanel() {
     setAutoScroll(atBottom)
   }
 
-  const canSend = () => draft().trim().length > 0 && !streaming() && connState() === "connected"
+  const canSend = () => (draft().trim().length > 0 || images().length > 0) && !streaming() && connState() === "connected"
 	const latestAssistantId = () => messages().findLast((message) => message.role === "assistant")?.id
 
   const submit = () => {
     if (!canSend()) return
+	if (images().length > 0 && !effectiveVisionModel()) {
+		setImageError(imageInputUnavailableMessage())
+		return
+	}
     const value = draft()
+	const attached = images().map(({ data, mimeType, name }) => ({ data, mimeType, name }))
     setDraft("")
-    void sendMessage(value)
+	setImages([])
+	setImageError("")
+    void sendMessage(value, attached)
   }
+
+  const addImages = async (files: File[]) => {
+	if (files.length === 0) return
+	if (!effectiveVisionModel()) {
+		setImageError(imageInputUnavailableMessage())
+		return
+	}
+	const loaded = await loadComposerImages(files, images())
+	if (loaded.images.length > 0) setImages((current) => [...current, ...loaded.images])
+	setImageError(loaded.errors.join(" "))
+  }
+
+  const onPaste = (event: ClipboardEvent) => {
+	const files = clipboardImageFiles(event)
+	if (files.length > 0) void addImages(files)
+	}
 
   const onKeyDown = (e: KeyboardEvent) => {
     if (e.key === "Enter" && !e.shiftKey) {
@@ -85,7 +114,9 @@ export default function ChatPanel() {
           </Show>
         </div>
         <div class="composer-dock__shell">
+		  <ImageAttachmentTray images={images()} error={imageError()} disabled={streaming()} onRemove={(id) => setImages((current) => current.filter((image) => image.id !== id))} />
           <div class="composer-dock__editor">
+			<ImageUploadButton disabled={streaming() || connState() !== "connected" || images().length >= 4} onFiles={(files) => void addImages(files)} />
             <textarea
               class="composer-dock__textarea"
               placeholder="Ask about proteins, genes, pathways, literature..."
@@ -98,6 +129,7 @@ export default function ChatPanel() {
                 e.currentTarget.style.height = `${Math.min(e.currentTarget.scrollHeight, 160)}px`
               }}
               onKeyDown={onKeyDown}
+			  onPaste={onPaste}
               aria-label="Message input"
             />
             <Show
@@ -214,11 +246,11 @@ function LiveRunPlaceholder() {
 			<section class="execution-steps is-expanded is-running" aria-label="Agent is starting">
 				<div class="execution-steps__trigger execution-steps__trigger--static">
 					<span class="tool-card__spinner" />
-					<span class="execution-steps__label">Preparing research workflow…</span>
+					<span class="execution-steps__label">Preparing your request…</span>
 					<span class="execution-steps__live"><span />Live</span>
 				</div>
 				<div class="execution-steps__content">
-					<div class="live-step"><span class="live-step__pulse" />Connecting to the agent and planning the next step</div>
+					<div class="live-step"><span class="live-step__pulse" />Connecting to the agent…</div>
 				</div>
 			</section>
 		</div>
@@ -398,6 +430,14 @@ function PartView(props: { part: MessagePart }) {
 		  </Show>
 		)}
       </Match>
+	  <Match when={props.part.kind === "image" ? props.part : undefined}>
+		{(image) => (
+		  <figure class="message-image">
+			<img src={`data:${image().mimeType};base64,${image().data}`} alt={image().name ?? "Attached image"} />
+			<Show when={image().name}><figcaption>{image().name}</figcaption></Show>
+		  </figure>
+		)}
+	  </Match>
 	  <Match when={props.part.kind === "thinking" ? props.part : undefined}>
 		{(thinking) => <ThinkingBlock part={thinking()} />}
 	  </Match>

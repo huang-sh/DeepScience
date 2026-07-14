@@ -9,6 +9,8 @@ import {
   models,
   selectedModel,
   setSelectedModel,
+  visionModel,
+  setVisionModel,
   connState,
   theme,
   setTheme,
@@ -19,7 +21,7 @@ import {
   refreshModels,
   workspaceSelection,
 } from "../store"
-import type { ConnectionState, ConnectorCatalog, ConnectorDefinition, ConnectorTestResult, ProviderCredentialStatus, ProviderOAuthJob } from "../types"
+import type { ConnectionState, ConnectorCatalog, ConnectorDefinition, ConnectorTestResult, ModelRef, ProviderCredentialStatus, ProviderOAuthJob } from "../types"
 
 const CONN_META: Record<ConnectionState, { color: string; label: string; desc: string }> = {
   connecting: { color: "var(--ds-amber)", label: "Connecting", desc: "Establishing a link to the DeepScience server…" },
@@ -53,6 +55,8 @@ function RailIcon(props: { name: string }) {
       return (<svg {...common}><circle cx="8" cy="5.5" r="2.6" /><path d="M3 13.5c0-2.8 2.2-4.5 5-4.5s5 1.7 5 4.5" /></svg>)
     case "model":
       return (<svg {...common}><rect x="4.5" y="4.5" width="7" height="7" rx="1.6" /><rect x="6.6" y="6.6" width="2.8" height="2.8" rx="0.5" /><path d="M8 2v1.5M8 12.5V14M2 8h1.5M12.5 8H14M3.4 3.4l1 1M11.6 11.6l1 1M12.6 3.4l-1 1M4.4 11.6l-1 1" /></svg>)
+    case "vision":
+      return (<svg {...common}><path d="M1.5 8s2.4-4 6.5-4 6.5 4 6.5 4-2.4 4-6.5 4S1.5 8 1.5 8Z" /><circle cx="8" cy="8" r="2" /></svg>)
     case "appearance":
       return (<svg {...common}><circle cx="8" cy="8" r="6" /><path d="M8 2a6 6 0 0 1 0 12Z" fill="currentColor" stroke="none" /></svg>)
     case "connection":
@@ -106,12 +110,13 @@ function AgentPanel() {
   )
 }
 
-function ModelPanel() {
+function ModelPanel(props: { vision?: boolean } = {}) {
   const [providers, setProviders] = createSignal<ProviderCredentialStatus[]>([])
   const [provider, setProvider] = createSignal<string | null>(null)
   const [apiKey, setApiKey] = createSignal("")
   const [loading, setLoading] = createSignal(true)
   const [saving, setSaving] = createSignal(false)
+  const [modelRefreshing, setModelRefreshing] = createSignal(false)
   const [oauthBusy, setOAuthBusy] = createSignal(false)
   const [oauthJob, setOAuthJob] = createSignal<ProviderOAuthJob | null>(null)
   const [oauthInput, setOAuthInput] = createSignal("")
@@ -134,7 +139,8 @@ function ModelPanel() {
   }
   const providerModels = () => {
     const selected = provider()
-    return selected ? models()[selected] ?? [] : []
+    const available = selected ? models()[selected] ?? [] : []
+    return props.vision ? available.filter((model) => model.vision) : available
   }
   const sortedProviders = createMemo(() =>
     [...providers()].sort((left, right) =>
@@ -265,8 +271,9 @@ function ModelPanel() {
       const payload = await api.saveProviderApiKey(selected.id, apiKey())
       setProviders(payload.providers)
       setApiKey("")
+      const discovery = await api.refreshProviderModels(selected.id)
       await refreshModels()
-      setNotice(`${selected.name} API key saved.`)
+      setNotice(discovery.ok ? `${selected.name} API key saved and models refreshed.` : `${selected.name} API key saved. Using the verified model catalog because discovery was unavailable.`)
     } catch (cause) {
       setError(cause instanceof Error ? cause.message : String(cause))
     } finally {
@@ -293,7 +300,11 @@ function ModelPanel() {
     }
   }
 
-  onMount(() => void loadProviders())
+  onMount(() => {
+    void loadProviders().catch((cause) => {
+      setError(cause instanceof Error ? cause.message : String(cause))
+    })
+  })
   onCleanup(stopOAuthPolling)
 
   const chooseProvider = (id: string | null) => {
@@ -306,17 +317,61 @@ function ModelPanel() {
     setNotice("")
   }
 
+  const refreshCatalog = async () => {
+    const selected = selectedProvider()
+    if (!selected?.configured) return
+    setModelRefreshing(true)
+    setError("")
+    setNotice("")
+    try {
+      const discovery = await api.refreshProviderModels(selected.id)
+      await refreshModels()
+      setNotice(
+        discovery.ok
+          ? `${selected.name} model catalog refreshed.`
+          : `Using the verified ${selected.name} model catalog. ${discovery.warning ?? "Remote discovery is unavailable."}`,
+      )
+    } catch (cause) {
+      setError(cause instanceof Error ? cause.message : String(cause))
+    } finally {
+      setModelRefreshing(false)
+    }
+  }
+
+  const chooseModel = async (model: ModelRef) => {
+    if (!props.vision) {
+      setSelectedModel(model)
+      return
+    }
+    setSaving(true)
+    setError("")
+    setNotice("")
+    try {
+      const preferences = await api.updatePreferences({ visionModel: model })
+      setVisionModel(preferences.visionModel ?? null)
+      setNotice(`Vision Model set to ${model.name}.`)
+    } catch (cause) {
+      setError(cause instanceof Error ? cause.message : String(cause))
+    } finally {
+      setSaving(false)
+    }
+  }
+
   return (
     <div class="settings-panel">
       <p class="settings-panel__hint">
         {provider()
-          ? "Configure this provider, then choose one of its available models. API keys are stored by the DeepScience server and are never returned to the browser."
-          : "Configure model providers here. Only providers with working authentication are shown in the composer model selector."}
+          ? props.vision
+            ? "Authenticate this provider, then choose one of its image-capable models. Provider credentials are stored by the DeepScience server and are never returned to the browser."
+            : "Configure this provider, then choose one of its available models. API keys are stored by the DeepScience server and are never returned to the browser."
+          : props.vision
+            ? "Configure a provider for image input. Authentication is shared securely per provider, while the Vision Model selection remains independent from the main Model."
+            : "Configure model providers here. Only providers with working authentication are shown in the composer model selector."}
       </p>
-      <Show when={selectedModel()} keyed>
+      <Show when={props.vision ? visionModel() : selectedModel()} keyed>
         {(m) => (
           <div class="modal-current">
-            <span class="modal-current__name">{m.name}</span>
+            <span class="modal-current__name">{props.vision ? `Vision · ${m.name}` : m.name}</span>
             <span class="modal-current__desc">{m.provider} · {m.id}</span>
           </div>
         )}
@@ -330,7 +385,7 @@ function ModelPanel() {
               <For each={sortedProviders()}>
                 {(item) => (
                   <button
-                    class={`modal-agent-card ${selectedModel()?.provider === item.id ? "is-active" : ""}`}
+                    class={`modal-agent-card ${(props.vision ? visionModel()?.provider : selectedModel()?.provider) === item.id ? "is-active" : ""}`}
                     onClick={() => chooseProvider(item.id)}
                   >
                     <span class="provider-card__top">
@@ -365,9 +420,20 @@ function ModelPanel() {
                         <div class="provider-detail__name">{item.name}</div>
                         <div class="provider-detail__id">{item.id}</div>
                       </div>
-                      <span class={`provider-status ${item.configured ? "is-configured" : ""}`}>
-                        {item.configured ? "Configured" : "Not configured"}
-                      </span>
+                      <div class="provider-key-row">
+                        <span class={`provider-status ${item.configured ? "is-configured" : ""}`}>
+                          {item.configured ? "Configured" : "Not configured"}
+                        </span>
+                        <Show when={item.configured}>
+                          <button
+                            class="provider-key-remove"
+                            disabled={modelRefreshing()}
+                            onClick={() => void refreshCatalog()}
+                          >
+                            {modelRefreshing() ? "Refreshing…" : "Refresh models"}
+                          </button>
+                        </Show>
+                      </div>
                     </div>
                     <Show when={item.oauthSupported}>
                       <label class="provider-key-label">Subscription login · {item.oauthName}</label>
@@ -479,17 +545,20 @@ function ModelPanel() {
                   <Show when={error()}><div class="settings-message is-error">{error()}</div></Show>
                   <Show when={notice()}><div class="settings-message is-success">{notice()}</div></Show>
                   <Show when={item.configured}>
-                    <div class="modal-model-group-label">{providerName()} · {providerModels().length} models</div>
+                    <div class="modal-model-group-label">{providerName()} · {providerModels().length} {props.vision ? "vision models" : "models"}</div>
                     <For each={providerModels()}>
                       {(m) => (
                         <button
-                          class={`modal-model-item ${isActiveModel(providerName(), m.id) ? "is-active" : ""}`}
-						  onClick={() => setSelectedModel({ ...m, provider: providerName() })}
+                          class={`modal-model-item ${props.vision ? visionModel()?.provider === providerName() && visionModel()?.id === m.id ? "is-active" : "" : isActiveModel(providerName(), m.id) ? "is-active" : ""}`}
+						  onClick={() => void chooseModel({ ...m, provider: providerName() })}
                         >
                           {m.name}
                         </button>
                       )}
                     </For>
+                    <Show when={props.vision && providerModels().length === 0}>
+                      <div class="settings-empty">This provider currently exposes no image-capable models.</div>
+                    </Show>
                   </Show>
                 </>
               )}
@@ -498,6 +567,76 @@ function ModelPanel() {
         )}
       </Show>
       <Show when={!provider() && error()}><div class="settings-message is-error">{error()}</div></Show>
+    </div>
+  )
+}
+
+function VisionModelPanel() {
+  const [saving, setSaving] = createSignal(false)
+  const [error, setError] = createSignal("")
+  const [notice, setNotice] = createSignal("")
+
+  const effective = createMemo(() => {
+    const manual = visionModel()
+    if (manual) return manual
+    const current = selectedModel()
+    return current?.vision ? current : null
+  })
+
+  const useAutomatic = async () => {
+    setSaving(true)
+    setError("")
+    setNotice("")
+    try {
+      const preferences = await api.updatePreferences({ visionModel: null })
+      setVisionModel(preferences.visionModel ?? null)
+      const automatic = selectedModel()?.vision ? selectedModel() : null
+      setNotice(
+        automatic
+          ? `Vision Model now follows the current model: ${automatic.name}.`
+          : "Automatic mode is selected, but the current model does not support image input.",
+      )
+    } catch (cause) {
+      setError(cause instanceof Error ? cause.message : String(cause))
+    } finally {
+      setSaving(false)
+    }
+  }
+
+  return (
+    <div class="settings-panel">
+      <p class="settings-panel__hint">
+        Choose the model used for image input. Automatic mode follows the current Model only when it supports images.
+      </p>
+      <div class="modal-current">
+        <span class="modal-current__name">{effective()?.name ?? "No Vision Model available"}</span>
+        <span class="modal-current__desc">
+          {visionModel()
+            ? `Manual · ${effective()?.provider} · ${effective()?.id}`
+            : effective()
+              ? `Automatic · current Model · ${effective()?.provider}`
+              : "Automatic · current Model does not support images"}
+        </span>
+      </div>
+      <div class="vision-model-setting">
+        <div class="vision-model-setting__copy">
+          <span class="vision-model-setting__title">Automatic selection</span>
+          <span class="vision-model-setting__description">
+            Follow the current Model whenever it supports image input. Otherwise choose and authenticate a provider below.
+          </span>
+        </div>
+        <button
+          class="provider-key-save"
+          disabled={saving() || !visionModel()}
+          onClick={() => void useAutomatic()}
+        >
+          {visionModel() ? "Use automatic" : "Automatic enabled"}
+        </button>
+      </div>
+      <Show when={error()}><div class="settings-message is-error">{error()}</div></Show>
+      <Show when={notice()}><div class="settings-message is-success">{notice()}</div></Show>
+      <div class="modal-model-group-label">Vision provider authentication and models</div>
+      <ModelPanel vision />
     </div>
   )
 }
@@ -809,7 +948,7 @@ function AboutPanel() {
 
 /* ── Registry ────────────────────────────────────────────────────────── */
 
-type PanelId = "agent" | "model" | "connectors" | "appearance" | "connection" | "about"
+type PanelId = "agent" | "model" | "vision-model" | "connectors" | "appearance" | "connection" | "about"
 type SectionId = "workspace" | "system"
 
 const SECTIONS: { id: SectionId; label: string }[] = [
@@ -820,6 +959,7 @@ const SECTIONS: { id: SectionId; label: string }[] = [
 const PANELS: { id: PanelId; title: string; icon: string; section: SectionId }[] = [
   { id: "agent", title: "Agent", icon: "agent", section: "workspace" },
   { id: "model", title: "Model", icon: "model", section: "workspace" },
+  { id: "vision-model", title: "Vision Model", icon: "vision", section: "workspace" },
   { id: "connectors", title: "Connectors", icon: "connectors", section: "workspace" },
   { id: "appearance", title: "Appearance", icon: "appearance", section: "system" },
   { id: "connection", title: "Connection", icon: "connection", section: "system" },
@@ -928,6 +1068,7 @@ export default function SettingsModal() {
               <Switch fallback={<div />}>
                 <Match when={current() === "agent"}><AgentPanel /></Match>
                 <Match when={current() === "model"}><ModelPanel /></Match>
+                <Match when={current() === "vision-model"}><VisionModelPanel /></Match>
                 <Match when={current() === "connectors"}><ConnectorsPanel /></Match>
                 <Match when={current() === "appearance"}><AppearancePanel /></Match>
                 <Match when={current() === "connection"}><ConnectionPanel /></Match>

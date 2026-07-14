@@ -1,6 +1,6 @@
 import assert from "node:assert";
 import { execFile } from "node:child_process";
-import { mkdir, mkdtemp, readFile, realpath, rm, writeFile } from "node:fs/promises";
+import { mkdir, mkdtemp, readFile, realpath, rm, stat, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { after, before, describe, it } from "node:test";
@@ -112,6 +112,7 @@ describe("workspace instances", () => {
 		const created = await createSessionWorkspace({ projectDirectory: project, sessionID });
 		const bound = join(project, ".deepscience", "workspace", sessionID);
 		assert.strictEqual(created.directory, bound);
+		assert.ok((await stat(join(bound, "upload"))).isDirectory());
 		await writeFile(join(created.directory, "result.csv"), "gene,score\nTP53,1\n");
 
 		const opened = await openSessionWorkspace({

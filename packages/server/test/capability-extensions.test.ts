@@ -6,6 +6,15 @@ import { describe, it } from "node:test";
 import { createSession, getSession, initializeSessionStore } from "../src/session.ts";
 
 describe("DeepScience capability extensions", () => {
+	it("exposes read_image to text Agents through the capability runtime", async () => {
+		const root = mkdtempSync(join(tmpdir(), "ds-image-capability-"));
+		initializeSessionStore({ rootDir: join(root, "data") });
+		const info = await createSession("research", undefined, root);
+		const managed = await getSession(info.id);
+		assert.ok(managed?.agent.state.tools.some((tool) => tool.name === "read_image"));
+		assert.match(managed?.agent.state.systemPrompt ?? "", /Session Image Reading/);
+	});
+
 	it("loads a new Pi extension without changing the session assembly", async () => {
 		const root = mkdtempSync(join(tmpdir(), "ds-capability-extension-"));
 		const extensionPath = join(root, "sample-extension.ts");

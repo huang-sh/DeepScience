@@ -10,6 +10,7 @@ import {
 	testConnector,
 } from "./connectors.ts";
 import { readPreferences, savePreferences } from "./preferences.ts";
+import { normalizePromptImages, PromptImageValidationError } from "./prompt-images.ts";
 import { enrichProviderOAuthStatus, providerOAuth } from "./provider-oauth.ts";
 import { loadResourceCatalog, serveResourceFile } from "./resources.ts";
 import { normalizeToolResultContent, summarizeToolResultContent } from "./result.ts";
@@ -38,6 +39,7 @@ import {
 	listSessions,
 	ModelConfigurationError,
 	NotFoundError,
+	refreshProviderModels,
 	releaseSessionPrompt,
 	reserveSessionPrompt,
 	revertSession,
@@ -211,10 +213,17 @@ export function registerSDKRoutes(app: Hono) {
 
 	app.put("/api/preferences", async (c) => {
 		const body = await c.req
-			.json<{ defaultAgent?: string; defaultModel?: { provider?: string; id?: string } }>()
+			.json<{
+				defaultAgent?: string;
+				defaultModel?: { provider?: string; id?: string };
+				visionModel?: { provider?: string; id?: string } | null;
+			}>()
 			.catch(() => undefined);
-		if (!body || (!body.defaultAgent && !body.defaultModel)) {
-			return c.json(apiError("A default agent or model is required", "VALIDATION_ERROR"), 422);
+		if (
+			!body ||
+			(body.defaultAgent === undefined && body.defaultModel === undefined && body.visionModel === undefined)
+		) {
+			return c.json(apiError("An agent or model preference is required", "VALIDATION_ERROR"), 422);
 		}
 
 		let defaultAgent: string | undefined;
@@ -226,17 +235,37 @@ export function registerSDKRoutes(app: Hono) {
 			defaultAgent = body.defaultAgent;
 		}
 
-		let defaultModel: { provider: string; id: string; name: string } | undefined;
+		let defaultModel: { provider: string; id: string; name: string; vision?: boolean } | undefined;
 		if (body.defaultModel) {
 			const models = await listAvailableModels();
 			const matched = models.find(
 				(model) => model.provider === body.defaultModel?.provider && model.id === body.defaultModel.id,
 			);
 			if (!matched) return c.json(apiError("Unknown or unavailable model", "VALIDATION_ERROR"), 422);
-			defaultModel = { provider: matched.provider, id: matched.id, name: matched.name };
+			defaultModel = {
+				provider: matched.provider,
+				id: matched.id,
+				name: matched.name,
+				vision: matched.vision === true,
+			};
 		}
 
-		return c.json(await savePreferences({ defaultAgent, defaultModel }));
+		let visionModel: { provider: string; id: string; name: string; vision: true } | null | undefined;
+		if (body.visionModel === null) {
+			visionModel = null;
+		} else if (body.visionModel !== undefined) {
+			const models = await listAvailableModels();
+			const matched = models.find(
+				(model) => model.provider === body.visionModel?.provider && model.id === body.visionModel.id,
+			);
+			if (!matched) return c.json(apiError("Unknown or unavailable vision model", "VALIDATION_ERROR"), 422);
+			if (!matched.vision) {
+				return c.json(apiError("The selected model does not support image input", "VALIDATION_ERROR"), 422);
+			}
+			visionModel = { provider: matched.provider, id: matched.id, name: matched.name, vision: true };
+		}
+
+		return c.json(await savePreferences({ defaultAgent, defaultModel, visionModel }));
 	});
 
 	app.get("/api/providers", async (c) => c.json({ providers: await listProviderStatuses() }));
@@ -258,6 +287,22 @@ export function registerSDKRoutes(app: Hono) {
 			return c.json({ ok: true, providers: await listProviderStatuses() });
 		} catch (error) {
 			return handleSessionError(c, error);
+		}
+	});
+
+	app.post("/api/providers/:provider/models/refresh", async (c) => {
+		const provider = c.req.param("provider");
+		try {
+			return c.json({ ok: true, models: await refreshProviderModels(provider) });
+		} catch (error) {
+			// Discovery is additive: retain the provider's last-known capability
+			// catalog and report a non-fatal warning to the settings UI.
+			const available = (await listAvailableModels()).filter((model) => model.provider === provider);
+			return c.json({
+				ok: false,
+				models: available,
+				warning: error instanceof Error ? error.message : "Model discovery failed",
+			});
 		}
 	});
 
@@ -677,16 +722,34 @@ export function registerSDKRoutes(app: Hono) {
 				const content =
 					typeof msg.content === "string" ? [{ type: "text" as const, text: msg.content }] : msg.content;
 				const parts = (content ?? [])
-					.filter((c) => c.type === "text")
-					.map((c, partIndex) => {
-						const partId = findPartId(sidecar, msgId, "text", partIndex);
-						return {
-							id: partId,
-							type: "text",
-							text: (c as { text?: string }).text ?? "",
-							synthetic: sidecar.parts?.[partId]?.synthetic ?? false,
-						};
-					});
+					.map((c, contentIndex) => {
+						if (c.type === "text") {
+							const textIndex = content.slice(0, contentIndex).filter((block) => block.type === "text").length;
+							const partId = findPartId(sidecar, msgId, "text", textIndex);
+							return {
+								id: partId,
+								type: "text",
+								text: (c as { text?: string }).text ?? "",
+								synthetic: sidecar.parts?.[partId]?.synthetic ?? false,
+							};
+						}
+						if (c.type === "image") {
+							const image = c as { data?: string; mimeType?: string; name?: string; path?: string };
+							const imageIndex = contentIndex;
+							const partId = findPartId(sidecar, msgId, "image", 0, imageIndex);
+							return {
+								id: partId,
+								type: "image",
+								data: image.data ?? "",
+								mimeType: image.mimeType ?? "application/octet-stream",
+								name: image.name ?? sidecar.parts?.[partId]?.name,
+								path: image.path ?? sidecar.parts?.[partId]?.path,
+								synthetic: false,
+							};
+						}
+						return null;
+					})
+					.filter((part) => part !== null);
 				result.push({
 					info: {
 						id: msgId,
@@ -784,9 +847,26 @@ export function registerSDKRoutes(app: Hono) {
 
 	app.post("/session/:id/message", async (c) => {
 		const id = c.req.param("id");
-		const body = await c.req.json<{ message?: string; agent?: string; model?: { provider: string; id: string } }>();
+		const body = await c.req.json<{
+			message?: string;
+			images?: unknown;
+			agent?: string;
+			model?: { provider: string; id: string };
+		}>();
 		const managed = await getSession(id);
 		if (!managed) return c.json(apiError("Session not found", "NOT_FOUND"), 404);
+		let images: ReturnType<typeof normalizePromptImages>;
+		try {
+			images = normalizePromptImages(body.images);
+		} catch (error) {
+			if (error instanceof PromptImageValidationError) {
+				return c.json(apiError(error.message, "INVALID_IMAGE"), 422);
+			}
+			throw error;
+		}
+		if (!(body.message ?? "").trim() && images.length === 0) {
+			return c.json(apiError("A message or image is required", "VALIDATION_ERROR"), 422);
+		}
 		const reservation = reserveSessionPrompt(managed);
 		if (!reservation) return c.json(apiError("Session is busy", "BUSY"), 409);
 
@@ -803,6 +883,7 @@ export function registerSDKRoutes(app: Hono) {
 			try {
 				const result = await runSessionPrompt(id, body.message ?? "", {
 					reservation,
+					images,
 					onEvent: async (event) => {
 						await s.write(sseFormat(event));
 					},
@@ -822,12 +903,24 @@ export function registerSDKRoutes(app: Hono) {
 
 	app.post("/session/:id/prompt_async", async (c) => {
 		const id = c.req.param("id");
-		const body = await c.req.json<{ message?: string }>();
+		const body = await c.req.json<{ message?: string; images?: unknown }>();
 		const managed = await getSession(id);
 		if (!managed) return c.json(apiError("Session not found", "NOT_FOUND"), 404);
+		let images: ReturnType<typeof normalizePromptImages>;
+		try {
+			images = normalizePromptImages(body.images);
+		} catch (error) {
+			if (error instanceof PromptImageValidationError) {
+				return c.json(apiError(error.message, "INVALID_IMAGE"), 422);
+			}
+			throw error;
+		}
+		if (!(body.message ?? "").trim() && images.length === 0) {
+			return c.json(apiError("A message or image is required", "VALIDATION_ERROR"), 422);
+		}
 		const reservation = reserveSessionPrompt(managed);
 		if (!reservation) return c.json(apiError("Session is busy", "BUSY"), 409);
-		runSessionPrompt(id, body.message ?? "", { reservation }).catch((error) => {
+		runSessionPrompt(id, body.message ?? "", { reservation, images }).catch((error) => {
 			console.error("[async prompt]", error);
 			releaseSessionPrompt(id, reservation);
 		});
@@ -1161,11 +1254,15 @@ function isSkillVisibleForRuleset(skill: SkillCatalogEntry, ruleset: Ruleset): b
 function findPartId(
 	sidecar: SessionSidecar,
 	messageID: string,
-	type: "text" | "thinking" | "tool",
+	type: "text" | "thinking" | "tool" | "image",
 	index: number,
+	imageIndex?: number,
 ): string {
 	const part = Object.values(sidecar.parts ?? {}).filter(
-		(candidate) => candidate.messageID === messageID && candidate.type === type,
+		(candidate) =>
+			candidate.messageID === messageID &&
+			candidate.type === type &&
+			(type !== "image" || imageIndex === undefined || candidate.imageIndex === imageIndex),
 	)[index];
 	return part?.id ?? `part_${messageID}_${type}_${index}`;
 }
