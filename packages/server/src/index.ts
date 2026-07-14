@@ -69,7 +69,18 @@ console.log(
 	`Resources available: ${resourceSkillStats.total} top-level Skills, ${resourcePackageCount} database packages`,
 );
 
-serve({ fetch: app.fetch, port, hostname }, (info) => {
+const server = serve({ fetch: app.fetch, port, hostname }, (info) => {
 	console.log(`Server running at http://${info.address}:${info.port}`);
 	console.log(`DeepScience UI: http://localhost:${info.port}`);
+});
+
+server.on("error", (error: NodeJS.ErrnoException) => {
+	if (error.code === "EADDRINUSE") {
+		console.error(
+			`deepscience: Port ${port} is already in use. Start with another port, for example --port ${port + 1}.`,
+		);
+	} else {
+		console.error(`deepscience: Failed to listen on ${hostname}:${port}: ${error.message}`);
+	}
+	process.exit(1);
 });

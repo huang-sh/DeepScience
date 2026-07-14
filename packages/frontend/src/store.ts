@@ -41,7 +41,7 @@ function nextId(): string {
 
 const FALLBACK_CAPABILITIES: Capabilities = {
 	brand: "DeepScience",
-	version: "0.0.1",
+	version: "0.0.2",
 	features: {
 		sessions: true,
 		agents: true,
@@ -682,17 +682,28 @@ export async function abortStream(updateUi = true): Promise<void> {
 
 export function newChat(): void {
 	cacheActiveSessionView();
-	setSession(null);
-	setActiveSessionId(null);
-	setMessages([]);
-	setTimeline([]);
-	setStreaming(false);
-	setSelectedAgentSignal(preferredAgent);
-	setSelectedModelSignal(preferredModel);
-	setSelectedThinkingLevelSignal(preferredThinkingLevel);
-	setComposerStatus("Ready");
-	closeArtifact();
-	closeWorkspaceFile();
+	try {
+		batch(() => {
+			setSession(null);
+			setActiveSessionId(null);
+			setMessages([]);
+			setTimeline([]);
+			setStreaming(false);
+			setSelectedAgentSignal(preferredAgent);
+			setSelectedModelSignal(preferredModel);
+			setSelectedThinkingLevelSignal(preferredThinkingLevel);
+			setComposerStatus("Ready");
+			closeArtifact();
+			closeWorkspaceFile();
+			setActiveView("workspace");
+			setActiveLeftTab("tasks");
+		});
+	} catch (error) {
+		// Translation/password-manager extensions can move injected frame nodes
+		// while Solid is replacing the current transcript. The state reset above
+		// is already complete; do not let that external DOM race cancel New task.
+		if (!(error instanceof DOMException && error.name === "NotFoundError")) throw error;
+	}
 }
 
 export async function refreshWorkspaceProjects(): Promise<void> {
